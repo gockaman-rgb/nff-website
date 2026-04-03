@@ -68,7 +68,10 @@ img { max-width: 100%; display: block; }
 
 /* --- Hero --- */
 .hero {
-  padding: 120px 24px 80px;
+  min-height: 100vh;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  padding: 80px 24px 60px;
   text-align: center;
   background: linear-gradient(160deg, #002395 0%, #0a0f2c 50%, #ED2939 100%);
   position: relative;
