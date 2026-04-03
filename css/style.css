@@ -81,7 +81,16 @@ img { max-width: 100%; display: block; }
   background: linear-gradient(to bottom, transparent, #0a0f2c);
   pointer-events: none;
 }
-.hero-flag { font-size: 48px; margin-bottom: 16px; }
+.hero-mascot {
+  width: 120px; height: 120px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 4px 20px rgba(0,0,0,0.3));
+  animation: float 3s ease-in-out infinite;
+}
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
 .hero h1 {
   font-size: clamp(40px, 7vw, 72px);
   font-weight: 900; letter-spacing: -2.5px;
@@ -188,6 +197,11 @@ img { max-width: 100%; display: block; }
 }
 
 /* --- Story --- */
+.story-mascot {
+  width: 80px; height: 80px; margin: 0 auto 16px;
+  display: block;
+  filter: drop-shadow(0 2px 12px rgba(0,0,0,0.2));
+}
 .story { max-width: 600px; margin: 0 auto; text-align: center; }
 .story p {
   font-size: 17px; color: rgba(255,255,255,0.6);
