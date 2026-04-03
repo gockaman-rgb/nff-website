@@ -143,8 +143,8 @@ img { max-width: 100%; display: block; }
 }
 .feature-card {
   --accent: #3B82F6;
-  background: linear-gradient(145deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%);
-  border: 1px solid rgba(255,255,255,0.06);
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
   border-radius: 16px; padding: 28px 20px;
   text-align: center;
   transition: transform 0.25s, border-color 0.25s, box-shadow 0.25s;
@@ -152,35 +152,36 @@ img { max-width: 100%; display: block; }
   overflow: hidden;
 }
 .feature-card::before {
-  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px;
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
   background: var(--accent);
   opacity: 0; transition: opacity 0.25s;
 }
 .feature-card:hover {
   transform: translateY(-4px);
-  border-color: color-mix(in srgb, var(--accent) 30%, transparent);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.2), 0 0 0 1px color-mix(in srgb, var(--accent) 15%, transparent);
+  background: rgba(255,255,255,0.08);
+  border-color: rgba(255,255,255,0.18);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.3);
 }
 .feature-card:hover::before { opacity: 1; }
 .feature-icon-wrap {
-  width: 52px; height: 52px; border-radius: 14px;
-  background: color-mix(in srgb, var(--accent) 15%, transparent);
+  width: 56px; height: 56px; border-radius: 14px;
+  background: rgba(255,255,255,0.08);
   color: var(--accent);
   display: inline-flex; align-items: center; justify-content: center;
   margin-bottom: 16px;
   transition: background 0.25s;
 }
 .feature-card:hover .feature-icon-wrap {
-  background: color-mix(in srgb, var(--accent) 22%, transparent);
+  background: rgba(255,255,255,0.12);
 }
-.feature-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 8px; }
-.feature-card p { font-size: 13px; color: rgba(255,255,255,0.45); line-height: 1.55; margin-bottom: 12px; }
+.feature-card h3 { font-size: 15px; font-weight: 700; margin-bottom: 8px; color: #fff; }
+.feature-card p { font-size: 13px; color: rgba(255,255,255,0.55); line-height: 1.55; margin-bottom: 12px; }
 .feature-tag {
   display: inline-block; font-size: 10px; font-weight: 600;
   text-transform: uppercase; letter-spacing: 0.8px;
-  color: var(--accent); opacity: 0.8;
-  background: color-mix(in srgb, var(--accent) 10%, transparent);
-  padding: 3px 10px; border-radius: 6px;
+  color: var(--accent);
+  background: rgba(255,255,255,0.06);
+  padding: 4px 10px; border-radius: 6px;
 }
 
 /* --- Story --- */
