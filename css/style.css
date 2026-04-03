@@ -84,9 +84,6 @@ img { max-width: 100%; display: block; }
 .hero-mascot {
   width: 140px; height: 140px;
   margin-bottom: 20px;
-  background: radial-gradient(circle, rgba(255,255,255,0.15) 40%, transparent 70%);
-  border-radius: 50%;
-  padding: 10px;
   filter: drop-shadow(0 4px 20px rgba(0,0,0,0.3));
   animation: float 3s ease-in-out infinite;
 }
