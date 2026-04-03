@@ -117,7 +117,7 @@ img { max-width: 100%; display: block; }
 }
 
 /* --- Section base --- */
-.section { padding: 80px 24px; max-width: 1120px; margin: 0 auto; }
+.section { padding: 60px 24px; max-width: 1120px; margin: 0 auto; }
 .section-title {
   font-size: clamp(26px, 4vw, 36px);
   font-weight: 800; letter-spacing: -0.8px;
