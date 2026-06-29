@@ -515,6 +515,59 @@ img { max-width: 100%; display: block; }
 .module-related a { font-size: 13px; font-weight: 600; color: var(--text-secondary); border: 1px solid var(--border); border-radius: 999px; padding: 9px 18px; transition: color 0.2s, border-color 0.2s, background 0.2s; }
 .module-related a:hover { color: var(--text); border-color: var(--border-strong); background: var(--surface-hover); }
 
+/* ============================================
+   QCM tool (examen civique blanc)
+   ============================================ */
+.qcm { --accent: #3B82F6; max-width: 680px; margin: 0 auto; }
+.qcm-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 18px; padding: 30px 28px; box-shadow: var(--shadow-card);
+}
+.qcm-bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 8px; }
+.qcm-progress { font-size: 13px; font-weight: 600; color: var(--text-secondary); }
+.qcm-timer { font-size: 15px; font-weight: 800; color: var(--accent); font-variant-numeric: tabular-nums; letter-spacing: 0.5px; }
+.qcm-timer.low { color: var(--accent-red); }
+.qcm-track { height: 6px; border-radius: 99px; background: var(--chip-bg); overflow: hidden; margin-bottom: 24px; }
+.qcm-fill { height: 100%; background: var(--accent); width: 0%; transition: width 0.3s; }
+.qcm-q { font-size: 19px; font-weight: 700; line-height: 1.45; color: var(--text); margin-bottom: 20px; }
+.qcm-opt {
+  display: block; width: 100%; text-align: left;
+  padding: 15px 18px; border: 1.5px solid var(--border); border-radius: 12px;
+  margin-bottom: 11px; background: var(--surface); color: var(--text);
+  font-size: 15px; font-family: inherit; cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+.qcm-opt:hover { border-color: var(--accent); }
+.qcm-opt.selected { border-color: var(--accent); background: var(--chip-bg); font-weight: 600; }
+.qcm-opt.correct { border-color: #10B981; background: rgba(16,185,129,0.12); }
+.qcm-opt.wrong { border-color: var(--accent-red); background: rgba(237,41,57,0.10); }
+.qcm-nav { display: flex; justify-content: space-between; gap: 12px; margin-top: 22px; }
+.qcm-btn {
+  display: inline-flex; align-items: center; gap: 8px; justify-content: center;
+  padding: 12px 22px; border-radius: 11px; font-size: 15px; font-weight: 700;
+  font-family: inherit; cursor: pointer; border: 1px solid var(--border);
+  background: var(--surface); color: var(--text); transition: opacity 0.2s, transform 0.15s;
+}
+.qcm-btn:hover { transform: translateY(-1px); }
+.qcm-btn.primary { background: var(--accent); color: #fff; border-color: transparent; }
+.qcm-btn.primary:hover { opacity: 0.92; }
+.qcm-btn:disabled { opacity: 0.4; cursor: default; transform: none; }
+.qcm-result { text-align: center; }
+.qcm-score { font-size: 56px; font-weight: 900; letter-spacing: -2px; line-height: 1; margin-bottom: 6px; }
+.qcm-score.pass { color: #10B981; }
+.qcm-score.fail { color: var(--accent-red); }
+.qcm-verdict { font-size: 18px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+.qcm-sub { font-size: 14px; color: var(--text-secondary); margin-bottom: 24px; }
+.qcm-review { text-align: left; margin-top: 28px; }
+.qcm-review h3 { font-size: 16px; font-weight: 700; color: var(--text); margin-bottom: 14px; }
+.qcm-rev-item { border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; margin-bottom: 12px; background: var(--surface); }
+.qcm-rev-q { font-size: 15px; font-weight: 600; color: var(--text); margin-bottom: 8px; }
+.qcm-rev-line { font-size: 14px; line-height: 1.6; margin-bottom: 3px; }
+.qcm-rev-ok { color: #0a8f5b; }
+.qcm-rev-ko { color: var(--accent-red); }
+.qcm-rev-exp { font-size: 13px; color: var(--text-secondary); line-height: 1.6; margin-top: 8px; }
+@media (prefers-color-scheme: dark) { .qcm-rev-ok { color: #34d399; } }
+
 /* --- Footer --- */
 .footer {
   border-top: 1px solid var(--border);
