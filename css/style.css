@@ -527,7 +527,11 @@ img { max-width: 100%; display: block; }
 .footer-social a { color: var(--text-muted); display: inline-flex; transition: color 0.2s, transform 0.2s; }
 .footer-social a:hover { color: var(--accent-red); transform: translateY(-2px); }
 .footer-social svg { width: 22px; height: 22px; }
+.footer-sources { font-size: 11px; color: var(--text-muted); margin-bottom: 10px; line-height: 1.7; max-width: 640px; margin-left: auto; margin-right: auto; }
+.footer-sources a { color: var(--text-secondary); text-decoration: underline; }
+.footer-sources a:hover { color: var(--text); }
 .footer-copy { font-size: 12px; color: var(--text-muted); }
+.updated-note { font-size: 13px; color: var(--text-muted); }
 
 /* --- Legal pages --- */
 .legal { max-width: 680px; margin: 0 auto; padding: 100px 24px 40px; }
