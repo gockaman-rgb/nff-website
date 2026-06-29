@@ -433,6 +433,88 @@ img { max-width: 100%; display: block; }
 .article-table tbody tr:nth-child(even) td { background: var(--bg-subtle); }
 .article-body td em, .article-table td em { font-style: normal; font-weight: 600; color: var(--text); }
 
+/* ============================================
+   Module feature pages (/fonctionnalites/*)
+   Per-page accent set via .module-page { --accent }
+   ============================================ */
+.module-page { --accent: #3B82F6; }
+
+.module-hero {
+  text-align: center;
+  padding: 128px 24px 52px;
+  background: linear-gradient(180deg, var(--bg-subtle) 0%, var(--bg) 78%);
+}
+.module-back {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 13px; color: var(--text-muted); margin-bottom: 22px;
+  transition: color 0.2s;
+}
+.module-back:hover { color: var(--text); }
+.module-icon {
+  width: 74px; height: 74px; border-radius: 20px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--chip-bg); color: var(--accent);
+  margin-bottom: 20px; box-shadow: var(--shadow-card);
+}
+.module-eyebrow {
+  display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: 1.5px;
+  text-transform: uppercase; color: var(--accent); margin-bottom: 12px;
+}
+.module-hero h1 {
+  font-size: clamp(32px, 5vw, 52px); font-weight: 900; letter-spacing: -1.5px;
+  line-height: 1.06; margin-bottom: 16px; color: var(--text);
+}
+.module-lead {
+  font-size: clamp(16px, 2vw, 19px); color: var(--text-secondary);
+  max-width: 640px; margin: 0 auto 28px; line-height: 1.7;
+}
+.module-chips { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 30px; }
+.module-chip {
+  font-size: 13px; font-weight: 600; color: var(--text);
+  background: var(--surface); border: 1px solid var(--border);
+  padding: 8px 16px; border-radius: 999px; box-shadow: var(--shadow-card);
+}
+.module-chip b { color: var(--accent); font-weight: 800; }
+
+/* Stats band */
+.module-stats {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 22px; max-width: 880px; margin: 0 auto; text-align: center;
+}
+.module-stat .num { font-size: clamp(30px, 4vw, 44px); font-weight: 900; color: var(--accent); letter-spacing: -1px; line-height: 1; }
+.module-stat .lbl { font-size: 14px; color: var(--text-secondary); margin-top: 8px; line-height: 1.4; }
+
+/* Capability cards */
+.module-features {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+  gap: 20px; max-width: 1000px; margin: 0 auto;
+}
+.module-feature {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: 16px; padding: 26px 24px; box-shadow: var(--shadow-card);
+  transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+}
+.module-feature:hover { transform: translateY(-3px); box-shadow: var(--shadow-card-hover); border-color: var(--border-strong); }
+.module-feature .mf-icon {
+  width: 44px; height: 44px; border-radius: 12px; background: var(--chip-bg); color: var(--accent);
+  display: inline-flex; align-items: center; justify-content: center; margin-bottom: 14px;
+}
+.module-feature h3 { font-size: 17px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+.module-feature p { font-size: 14px; color: var(--text-secondary); line-height: 1.65; }
+.module-feature .mf-tag { display: inline-block; margin-top: 12px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--accent); }
+
+/* How it works */
+.module-steps { max-width: 720px; margin: 0 auto; display: grid; gap: 20px; }
+.module-step { display: flex; gap: 18px; align-items: flex-start; text-align: left; }
+.module-step .n { flex-shrink: 0; width: 38px; height: 38px; border-radius: 50%; background: var(--accent); color: #0a0f2c; font-weight: 800; display: flex; align-items: center; justify-content: center; }
+.module-step h3 { font-size: 16px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+.module-step p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+
+/* Related modules */
+.module-related { display: flex; flex-wrap: wrap; gap: 12px; justify-content: center; }
+.module-related a { font-size: 13px; font-weight: 600; color: var(--text-secondary); border: 1px solid var(--border); border-radius: 999px; padding: 9px 18px; transition: color 0.2s, border-color 0.2s, background 0.2s; }
+.module-related a:hover { color: var(--text); border-color: var(--border-strong); background: var(--surface-hover); }
+
 /* --- Footer --- */
 .footer {
   border-top: 1px solid var(--border);
