@@ -345,6 +345,22 @@ img { max-width: 100%; display: block; }
 }
 .cta-banner .cta-btn:hover { box-shadow: 0 10px 32px rgba(0,0,0,0.26); }
 
+/* --- Blog hero flag --- */
+.blog-hero-flag {
+  display: block;
+  max-width: 440px;
+  margin: 0 auto 4px;
+}
+.blog-hero-flag img {
+  width: 100%; height: auto;
+  filter: drop-shadow(0 12px 30px rgba(10,15,44,0.16));
+  animation: float 4s ease-in-out infinite;
+}
+@media (max-width: 600px) { .blog-hero-flag { max-width: 320px; } }
+@media (prefers-color-scheme: dark) {
+  .blog-hero-flag img { filter: drop-shadow(0 12px 34px rgba(0,0,0,0.55)); }
+}
+
 /* --- Blog grid --- */
 .blog-grid {
   display: grid;
