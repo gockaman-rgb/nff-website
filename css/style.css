@@ -578,6 +578,16 @@ img { max-width: 100%; display: block; }
 .jo-row .jo-meta { font-size: 13px; color: var(--text-secondary); }
 .jo-row .jo-go { font-size: 13px; font-weight: 700; color: var(--accent); white-space: nowrap; }
 @media (max-width: 560px) { .jo-row { flex-wrap: wrap; } .jo-row .jo-go { width: 100%; } }
+/* ANEF-first card + privacy note (decree tool) */
+.jo-anef { max-width: 640px; margin: 0 auto; padding: 24px 24px 22px; border: 2px solid var(--accent); border-radius: 16px; background: var(--surface); box-shadow: var(--shadow-card); }
+.jo-anef-badge { display: inline-block; font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #fff; background: var(--accent); padding: 4px 10px; border-radius: 999px; margin-bottom: 12px; }
+.jo-anef h2 { font-size: 21px; margin: 0 0 10px; color: var(--text); }
+.jo-anef > p { color: var(--text-secondary); font-size: 15px; line-height: 1.7; margin: 0 0 16px; }
+.jo-anef-btn { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; font-size: 15px; color: #fff; background: var(--accent); padding: 12px 22px; border-radius: 12px; text-decoration: none; transition: filter 0.15s, transform 0.15s; }
+.jo-anef-btn:hover { filter: brightness(1.07); transform: translateY(-1px); }
+.jo-anef-sub { font-size: 13px !important; margin: 14px 0 0 !important; }
+.jo-note { max-width: 640px; margin: 18px auto 0; padding: 16px 18px; border: 1px dashed var(--border); border-radius: 12px; background: var(--surface); font-size: 13.5px; line-height: 1.65; color: var(--text-secondary); }
+.jo-note strong { color: var(--text); }
 
 /* --- Footer --- */
 .footer {
