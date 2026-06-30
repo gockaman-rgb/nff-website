@@ -20,6 +20,8 @@ import xml.etree.ElementTree as ET
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data", "decrees.json")
 PAGE = os.path.join(ROOT, "outils", "decret-naturalisation.html")
+SITEMAP = os.path.join(ROOT, "sitemap.xml")
+PAGE_URL = "https://naturalisationfrancefacile.fr/outils/decret-naturalisation.html"
 INDEX = "https://echanges.dila.gouv.fr/OPENDATA/JORF/"
 UA = {"User-Agent": "naturalisationfrancefacile-decret-bot/1.0 (+https://naturalisationfrancefacile.fr)"}
 MAX_ARCHIVES_PER_RUN = 90   # safety cap; last_archive advances so the next run continues
@@ -70,7 +72,7 @@ def parse_archive(blob):
     return found
 
 
-def regenerate_page(decrees):
+def regenerate_page(decrees, content_date_iso):
     html = open(PAGE, encoding="utf-8").read()
     by_year = {}
     for d in decrees:
@@ -91,7 +93,7 @@ def regenerate_page(decrees):
         html, flags=re.S)
     if n != 1:
         sys.exit("ERROR: DECREES:START/END markers not found exactly once in the page")
-    today = fr_date(datetime.date.today().isoformat())
+    today = fr_date(content_date_iso)
     new_html = re.sub(
         r'(<p class="updated-note">)Mis &agrave; jour le[^<]*(</p>)',
         lambda m: f'{m.group(1)}Mis &agrave; jour le {today} &middot; {len(decrees)} d&eacute;crets r&eacute;f&eacute;renc&eacute;s{m.group(2)}',
@@ -99,8 +101,44 @@ def regenerate_page(decrees):
     open(PAGE, "w", encoding="utf-8").write(new_html)
 
 
+def regenerate_schema(decrees, content_date_iso):
+    """Regenerate the ItemList + WebPage JSON-LD (between SCHEMA markers). Never includes person names."""
+    html = open(PAGE, encoding="utf-8").read()
+    items = [{"@type": "ListItem", "position": i, "url": d["url"],
+              "name": f'Décret de naturalisation – JO du {d["jo_date"]}'}
+             for i, d in enumerate(decrees, 1)]
+    itemlist = {"@context": "https://schema.org", "@type": "ItemList",
+                "name": "Décrets de naturalisation publiés au Journal Officiel",
+                "itemListOrder": "https://schema.org/ItemListOrderDescending",
+                "numberOfItems": len(decrees), "itemListElement": items}
+    webpage = {"@context": "https://schema.org", "@type": "WebPage", "@id": PAGE_URL, "url": PAGE_URL,
+               "name": "Décret de naturalisation au Journal Officiel 2026", "inLanguage": "fr-FR",
+               "datePublished": "2026-06-29", "dateModified": content_date_iso,
+               "isPartOf": {"@type": "WebSite", "name": "Naturalisation France Facile",
+                            "url": "https://naturalisationfrancefacile.fr/"},
+               "about": {"@type": "Thing", "name": "Décret de naturalisation"}}
+    block = ('  <script type="application/ld+json">\n  ' + json.dumps(itemlist, ensure_ascii=False)
+             + '\n  </script>\n  <script type="application/ld+json">\n  ' + json.dumps(webpage, ensure_ascii=False)
+             + '\n  </script>')
+    new_html, n = re.subn(r"(<!-- SCHEMA:START -->).*?(<!-- SCHEMA:END -->)",
+                          lambda m: m.group(1) + "\n" + block + "\n  " + m.group(2), html, flags=re.S)
+    if n != 1:
+        sys.exit("ERROR: SCHEMA:START/END markers not found exactly once in the page")
+    open(PAGE, "w", encoding="utf-8").write(new_html)
+
+
+def update_sitemap(content_date_iso):
+    if not os.path.exists(SITEMAP):
+        return
+    xml = open(SITEMAP, encoding="utf-8").read()
+    new_xml, n = re.subn(r"(<loc>" + re.escape(PAGE_URL) + r"</loc>\s*<lastmod>)[^<]+(</lastmod>)",
+                         lambda m: m.group(1) + content_date_iso + m.group(2), xml, count=1)
+    if n == 1:
+        open(SITEMAP, "w", encoding="utf-8").write(new_xml)
+
+
 def main():
-    db = json.load(open(DATA, encoding="utf-8")) if os.path.exists(DATA) else {"last_archive": "", "decrees": []}
+    db = json.load(open(DATA, encoding="utf-8")) if os.path.exists(DATA) else {"last_archive": "", "decrees": [], "content_date": ""}
     seen = {d["jorftext_id"] for d in db["decrees"]}
     archives = list_archives()
     todo = [a for a in archives if a > db.get("last_archive", "")][:MAX_ARCHIVES_PER_RUN]
@@ -124,10 +162,16 @@ def main():
                 })
                 added += 1
         db["last_archive"] = a
+    # The "last updated" date only advances when a decree was actually added,
+    # so no-op runs don't churn the page / sitemap / dateModified every day.
+    if added > 0 or not db.get("content_date"):
+        db["content_date"] = datetime.date.today().isoformat()
     db["decrees"].sort(key=lambda d: (d["jo_date_iso"], d["decret_date_iso"], d["jorftext_id"]), reverse=True)
     json.dump(db, open(DATA, "w", encoding="utf-8"), ensure_ascii=False, indent=2)
-    regenerate_page(db["decrees"])
-    print(f"processed {len(todo)} archive(s); added {added} new decree(s); total {len(db['decrees'])}; last_archive={db['last_archive']}")
+    regenerate_page(db["decrees"], db["content_date"])
+    regenerate_schema(db["decrees"], db["content_date"])
+    update_sitemap(db["content_date"])
+    print(f"processed {len(todo)} archive(s); added {added} new decree(s); total {len(db['decrees'])}; content_date={db['content_date']}; last_archive={db['last_archive']}")
 
 
 if __name__ == "__main__":

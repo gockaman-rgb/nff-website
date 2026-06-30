@@ -588,6 +588,9 @@ img { max-width: 100%; display: block; }
 .jo-anef-sub { font-size: 13px !important; margin: 14px 0 0 !important; }
 .jo-note { max-width: 640px; margin: 18px auto 0; padding: 16px 18px; border: 1px dashed var(--border); border-radius: 12px; background: var(--surface); font-size: 13.5px; line-height: 1.65; color: var(--text-secondary); }
 .jo-note strong { color: var(--text); }
+.jo-guide { max-width: 680px; margin: 6px auto 0; }
+.jo-guide h3 { font-size: 17px; color: var(--text); margin: 24px 0 6px; }
+.jo-guide p { color: var(--text-secondary); font-size: 15px; line-height: 1.7; margin: 0; }
 
 /* --- Footer --- */
 .footer {
