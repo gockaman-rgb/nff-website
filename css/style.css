@@ -568,6 +568,17 @@ img { max-width: 100%; display: block; }
 .qcm-rev-exp { font-size: 13px; color: var(--text-secondary); line-height: 1.6; margin-top: 8px; }
 @media (prefers-color-scheme: dark) { .qcm-rev-ok { color: #34d399; } }
 
+/* --- JO decree directory --- */
+.jo-list { max-width: 640px; margin: 0 auto; }
+.jo-year { font-size: 13px; font-weight: 800; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 1.2px; margin: 26px 0 12px; }
+.jo-row { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 15px 18px; border: 1px solid var(--border); border-radius: 12px; margin-bottom: 9px; background: var(--surface); box-shadow: var(--shadow-card); transition: border-color 0.15s, transform 0.15s; }
+.jo-row:hover { border-color: var(--accent); transform: translateX(3px); }
+.jo-row .jo-when { display: flex; flex-direction: column; gap: 2px; }
+.jo-row .jo-date { font-weight: 700; color: var(--text); font-size: 15px; }
+.jo-row .jo-meta { font-size: 13px; color: var(--text-secondary); }
+.jo-row .jo-go { font-size: 13px; font-weight: 700; color: var(--accent); white-space: nowrap; }
+@media (max-width: 560px) { .jo-row { flex-wrap: wrap; } .jo-row .jo-go { width: 100%; } }
+
 /* --- Footer --- */
 .footer {
   border-top: 1px solid var(--border);
