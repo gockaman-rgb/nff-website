@@ -15,7 +15,7 @@ Naturalisation France Facile est une application iOS gratuite qui aide les candi
 ## 🔗 Liens
 
 - **Site web** : [naturalisationfrancefacile.fr](https://naturalisationfrancefacile.fr)
-- **App Store** : [Télécharger gratuitement](https://apps.apple.com/app/id6761140087)
+- **App Store** : [Télécharger gratuitement](https://apps.apple.com/fr/app/naturalisation-france-facile/id6761140087)
 - **Blog** : [Guides et conseils naturalisation](https://naturalisationfrancefacile.fr/blog/)
 - **Contact** : contact@naturalisationfrancefacile.fr
 
@@ -34,7 +34,7 @@ Naturalisation France Facile est une application iOS gratuite qui aide les candi
 
 Gratuit sur l'App Store · iOS 16+
 
-[![Télécharger sur l'App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/app/id6761140087)
+[![Télécharger sur l'App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/fr/app/naturalisation-france-facile/id6761140087)
 
 ---
 
