@@ -1,6 +1,22 @@
 {
-  "last_archive": "JORF_20260708-002947.tar.gz",
+  "last_archive": "JORF_20260709-002743.tar.gz",
   "decrees": [
+    {
+      "jorftext_id": "JORFTEXT000054399923",
+      "jo_date": "9 juillet 2026",
+      "decret_date": "7 juillet 2026",
+      "jo_date_iso": "2026-07-09",
+      "decret_date_iso": "2026-07-07",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054399923"
+    },
+    {
+      "jorftext_id": "JORFTEXT000054399920",
+      "jo_date": "9 juillet 2026",
+      "decret_date": "6 juillet 2026",
+      "jo_date_iso": "2026-07-09",
+      "decret_date_iso": "2026-07-06",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054399920"
+    },
     {
       "jorftext_id": "JORFTEXT000054387081",
       "jo_date": "4 juillet 2026",
@@ -458,5 +474,5 @@
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048815602"
     }
   ],
-  "content_date": "2026-07-04"
+  "content_date": "2026-07-09"
 }
