@@ -1,0 +1,87 @@
+# Naturalisation France Facile
+
+> Guide independant et gratuit sur la naturalisation francaise : conditions, constitution du dossier, delais, examen civique, entretien d'assimilation, suivi du dossier sur l'ANEF et publication des decrets au Journal officiel. Edite par Augusto Grone. Site independant, non affilie a l'administration francaise. Informations a titre indicatif, sans valeur de conseil juridique.
+
+## Attribution et conditions de reutilisation
+
+Citer comme : Naturalisation France Facile — https://naturalisationfrancefacile.fr
+
+Les contenus de ce site sont proteges. Toute reprise, meme partielle, doit mentionner
+la source et inclure un lien vers la page d'origine. Conditions completes :
+https://naturalisationfrancefacile.fr/mentions-legales.html
+
+Chaque article expose ces informations en donnees structurees schema.org
+(champs creditText, copyrightHolder et license).
+
+## Donnees originales
+
+- [Annuaire des decrets de naturalisation au Journal officiel](https://naturalisationfrancefacile.fr/outils/decret-naturalisation.html): base des decrets publies au JORF, actualisee automatiquement. Source primaire produite par ce site.
+
+## Sources officielles utilisees
+
+- Service-Public.gouv.fr — https://www.service-public.gouv.fr/particuliers/vosdroits/F2213
+- Legifrance — https://www.legifrance.gouv.fr
+- Ministere de l'Interieur — https://www.interieur.gouv.fr
+- ANEF — https://administration-etrangers-en-france.interieur.gouv.fr
+
+## Guides
+
+- [Ajournement ou refus de naturalisation : que faire ?](https://naturalisationfrancefacile.fr/blog/ajournement-vs-refus-naturalisation.html): Ajournement, refus, irrecevabilité : ce que chaque décision signifie vraiment, le délai de 2 mois pour contester et la marche à suivre, recours après recours.
+- [Niveau B2 pour la naturalisation : comment y arriver](https://naturalisationfrancefacile.fr/blog/atteindre-niveau-b2-naturalisation.html): Auto-évaluez votre niveau, suivez un plan de travail A2→B2 ou B1→B2, et sachez combien de mois prévoir avant de passer le TCF IRN ou le DELF B2.
+- [La cérémonie de naturalisation : que se passe-t-il le jour J ?](https://naturalisationfrancefacile.fr/blog/ceremonie-naturalisation-que-se-passe-t-il.html): Découvrez le déroulement de la cérémonie de naturalisation : convocation, Marseillaise, remise du décret, documents à apporter et droits obtenus après la cérémonie.
+- [Conditions de naturalisation 2026 : les 7 critères](https://naturalisationfrancefacile.fr/blog/conditions-naturalisation-francaise.html): Résidence de 5 ans, titre de séjour, ressources, casier vierge, français B2 depuis 2026 : les 7 conditions à remplir, avec les cas de réduction à 2 ans.
+- [Coût de la naturalisation 2026 : 600 à 800 € au total](https://naturalisationfrancefacile.fr/blog/cout-naturalisation-francaise-2026.html): Le détail poste par poste : timbre fiscal 255 €, TCF IRN 200-280 € ou DELF B2 130-170 €, examen civique 60-80 €, traductions. Et comment réduire la facture.
+- [Délai de naturalisation 2026 : 12 à 18 mois en moyenne](https://naturalisationfrancefacile.fr/blog/delais-naturalisation-2026.html): Le délai réel étape par étape (dépôt, instruction, enquête, décret), les écarts entre préfectures et ce que vous pouvez faire quand le délai légal est dépassé.
+- [Documents pour la naturalisation 2026 : la liste complète](https://naturalisationfrancefacile.fr/blog/documents-naturalisation.html): La liste à jour des pièces à fournir pour votre dossier de naturalisation, ce qui doit être traduit ou apostillé, et les pièces qui font le plus rejeter un dossier.
+- [Comment préparer son entretien de naturalisation en préfecture](https://naturalisationfrancefacile.fr/blog/entretien-naturalisation-prefectures.html): Guide complet pour préparer votre entretien de naturalisation en préfecture : déroulement, questions fréquentes, erreurs à éviter et conseils pratiques pour réussir.
+- [Les 10 erreurs à éviter dans son dossier de naturalisation](https://naturalisationfrancefacile.fr/blog/erreurs-dossier-naturalisation.html): Découvrez les 10 erreurs les plus fréquentes qui entraînent un refus ou un retard de votre dossier de naturalisation française, et comment les éviter.
+- [Examen civique 2026 : 40 questions, 80 % de réussite](https://naturalisationfrancefacile.fr/blog/examen-civique-naturalisation-2026.html): Le QCM obligatoire depuis 2026 : format, seuil de réussite, thématiques au programme, coût, inscription et la méthode pour le préparer sans y passer des mois.
+- [Naturalisation française 2026 : le guide en 8 étapes](https://naturalisationfrancefacile.fr/blog/guide-complet-naturalisation-2026.html): De l'éligibilité à la cérémonie : les 8 étapes de la naturalisation, les délais à chaque phase, le budget à prévoir et les pièges qui font rejeter un dossier.
+- [Timbre fiscal naturalisation : de 55 € à 255 € au 1er mai 2026](https://naturalisationfrancefacile.fr/blog/hausse-timbre-fiscal-naturalisation-mai-2026.html): Le timbre fiscal pour la naturalisation française passe de 55 € à 255 € au 1er mai 2026. Découvrez ce qui change, pourquoi cette hausse et comment préparer votre dossier.
+- [Naturalisation 2026 : tout ce qui change (B2, examen civique, 255 €)](https://naturalisationfrancefacile.fr/blog/naturalisation-2026-nouvelles-regles.html): Naturalisation 2026 : niveau B2 obligatoire, examen civique (QCM 40 questions) et timbre fiscal à 255 €. Le point complet et à jour sur les nouvelles règles.
+- [Naturalisation par mariage 2026 : conditions et délais](https://naturalisationfrancefacile.fr/blog/naturalisation-par-mariage-2026.html): 4 ans de mariage, niveau B2, examen civique : les conditions réelles de la déclaration par mariage en 2026, les pièces à fournir et ce qui la distingue du décret.
+- [Pourquoi devenir français ? 9 avantages concrets (2026)](https://naturalisationfrancefacile.fr/blog/pourquoi-devenir-francais-avantages.html): Pourquoi devenir français ? Droit de vote, passeport puissant, libre circulation dans l'UE, fin du titre de séjour : les vrais avantages de la nationalité française en 2026 (et les idées reçues).
+- [Préparer le TCF IRN ou le DELF B2 pour la naturalisation](https://naturalisationfrancefacile.fr/blog/preparation-tcf-delf-naturalisation.html): Format des épreuves, inscription, tarifs et différences entre TCF IRN et DELF B2, avec un plan de préparation concret pour viser le niveau exigé depuis 2026.
+- [Entretien de naturalisation : les questions posées](https://naturalisationfrancefacile.fr/blog/questions-entretien-naturalisation.html): Motivation, histoire de France, institutions, valeurs de la République, vie quotidienne : les questions réellement posées en préfecture et comment y répondre.
+- [Examen civique : les 12 questions de mise en situation](https://naturalisationfrancefacile.fr/blog/questions-mise-en-situation-examen-civique-naturalisation.html): L'examen civique contient 12 questions de mise en situation que peu de candidats anticipent. Voici ce qu'elles testent et comment y répondre correctement.
+- [Naturalisation sans réponse : que faire à chaque étape](https://naturalisationfrancefacile.fr/blog/relance-naturalisation-que-faire-sans-reponse.html): Pas de nouvelles de votre dossier de naturalisation ? Voici exactement quand relancer, comment rédiger vos courriers et à qui les envoyer, étape par étape.
+- [S'entraîner à l'entretien de naturalisation : méthode](https://naturalisationfrancefacile.fr/blog/sentrainer-entretien-naturalisation.html): Exercices seul ou en duo, questions pièges, checklist du jour J et erreurs fatales : une méthode concrète pour arriver préparé à l'entretien en préfecture.
+- [Statuts ANEF naturalisation : que signifie chaque statut ?](https://naturalisationfrancefacile.fr/blog/statuts-anef-naturalisation.html): Statut ANEF « en cours d'instruction », examen des pièces, contrôle, décret : décodage clair de chaque statut de votre dossier de naturalisation et délais indicatifs.
+- [ANEF mon compte : suivre son dossier de naturalisation](https://naturalisationfrancefacile.fr/blog/suivre-dossier-naturalisation-anef.html): Se connecter à l'ANEF, lire le statut de votre dossier de naturalisation et savoir quoi faire à chaque étape : compte bloqué, dossier sans mouvement, décision.
+- [TCF IRN ou DELF B2 : lequel choisir en 2026 ?](https://naturalisationfrancefacile.fr/blog/tcf-irn-ou-delf-b2-lequel-choisir.html): Format, durée, coût, validité : le comparatif complet des deux examens acceptés pour la naturalisation, et lequel correspond le mieux à votre profil.
+
+## Outils
+
+- [Décret de naturalisation au JO 2026 : liste & vérifier votre nom](https://naturalisationfrancefacile.fr/outils/decret-naturalisation.html): Votre décret de naturalisation est-il publié au Journal Officiel ? Liste des décrets 2026, vérification via l'ANEF et lien direct vers Légifrance.
+- [Test examen civique gratuit en ligne — 10 questions difficiles](https://naturalisationfrancefacile.fr/outils/examen-civique.html): Test blanc gratuit de l'examen civique de naturalisation : les 10 questions les plus difficiles (dates clés, mises en situation pièges), avec score et correction détaillée. À jour 2026.
+
+## Glossaire
+
+- [AGDREF : définition et rôle dans votre dossier étranger](https://naturalisationfrancefacile.fr/glossaire/agdref.html): AGDREF (Application de Gestion des Dossiers des Ressortissants Étrangers en France) : définition claire dans le cadre de la naturalisation française.
+- [ANEF : c'est quoi ? Définition et rôle pour la naturalisation](https://naturalisationfrancefacile.fr/glossaire/anef.html): ANEF (Administration Numérique des Étrangers en France) : définition claire dans le cadre de la naturalisation française. L'ANEF est la plateforme en ligne.
+- [CNF : Certificat de Nationalité Française — définition](https://naturalisationfrancefacile.fr/glossaire/cnf.html): CNF (Certificat de Nationalité Française) : définition claire dans le cadre de la naturalisation française. Le CNF est un document délivré par la justice.
+- [DELF B2 : définition et utilité pour la naturalisation](https://naturalisationfrancefacile.fr/glossaire/delf-b2.html): DELF B2 (Diplôme d'Études en Langue Française — niveau B2) : définition claire dans le cadre de la naturalisation française. Le DELF B2 est un diplôme.
+- [Entretien d'assimilation : définition et déroulé](https://naturalisationfrancefacile.fr/glossaire/entretien-assimilation.html): Entretien d'assimilation (Entretien d'assimilation en préfecture) : définition claire dans le cadre de la naturalisation française. L'entretien.
+- [Examen civique : définition et contenu de l'épreuve](https://naturalisationfrancefacile.fr/glossaire/examen-civique.html): Examen civique (Examen civique de naturalisation) : définition claire dans le cadre de la naturalisation française. Depuis le 1ᵉʳ janvier 2026, l'examen.
+- [JORF : Journal Officiel — définition et naturalisation](https://naturalisationfrancefacile.fr/glossaire/jorf.html): JORF (Journal Officiel de la République Française) : définition claire dans le cadre de la naturalisation française. Le JORF (souvent appelé « Journal.
+- [NAT, EFF, REI : que signifient ces codes de décret ?](https://naturalisationfrancefacile.fr/glossaire/nat-eff-rei.html): NAT · EFF · REI (Catégories des décrets de naturalisation) : définition claire dans le cadre de la naturalisation française. Dans les décrets publiés au.
+- [RAPO : définition du recours après refus de naturalisation](https://naturalisationfrancefacile.fr/glossaire/rapo.html): RAPO (Recours Administratif Préalable Obligatoire) : définition claire dans le cadre de la naturalisation française. Le RAPO est le recours que vous devez.
+- [SCEC : Service Central d'État Civil — définition](https://naturalisationfrancefacile.fr/glossaire/scec.html): SCEC (Service Central d'État Civil) : définition claire dans le cadre de la naturalisation française. Le SCEC, situé à Nantes, établit et conserve les actes.
+- [SDANF : la sous-direction qui traite votre naturalisation](https://naturalisationfrancefacile.fr/glossaire/sdanf.html): SDANF (Sous-Direction de l'Accès à la Nationalité Française) : définition claire dans le cadre de la naturalisation française. La SDANF est le service du.
+- [TCF IRN : définition du test de français pour la nationalité](https://naturalisationfrancefacile.fr/glossaire/tcf-irn.html): TCF IRN (Test de Connaissance du Français — Intégration, Résidence, Nationalité) : définition claire dans le cadre de la naturalisation française. Le TCF.
+- [Timbre fiscal naturalisation : définition et montant](https://naturalisationfrancefacile.fr/glossaire/timbre-fiscal.html): Timbre fiscal (Timbre fiscal de naturalisation) : définition claire dans le cadre de la naturalisation française. La demande de naturalisation est soumise à.
+
+## L'application
+
+- [Documents naturalisation 2026 : checklist des pièces](https://naturalisationfrancefacile.fr/fonctionnalites/checklist-documents.html): Checklist personnalisée des documents de naturalisation 2026 : utilité de chaque pièce, comment l'obtenir, délais, validité, liens officiels. App iOS gratuite.
+- [Examen civique naturalisation 2026 : QCM d'entraînement](https://naturalisationfrancefacile.fr/fonctionnalites/examen-civique.html): Préparez l'examen civique de naturalisation 2026 avec l'app gratuite iOS : 258 questions QCM, 100 mises en situation et 30 pièges pour viser les 80 %.
+- [Entretien de naturalisation : simulation et questions](https://naturalisationfrancefacile.fr/fonctionnalites/simulation-entretien.html): Préparez l'entretien de naturalisation (assimilation) : 70 questions, une simulation de 100 questions et une correction par IA. App gratuite iOS.
+- [Relance et recours naturalisation : modèles et délais](https://naturalisationfrancefacile.fr/fonctionnalites/suivi-relance.html): Dossier de naturalisation sans réponse ou refusé ? Relancez et préparez votre recours : 25+ modèles de lettres et alerte du délai de 2 mois. App iOS gratuite.
+- [Préparation TCF IRN et DELF B2 naturalisation - App](https://naturalisationfrancefacile.fr/fonctionnalites/tcf-delf-b2.html): Préparez le TCF IRN et le DELF B2 exigés pour la naturalisation : +750 exercices sur les 4 épreuves, corrections IA et examens blancs. App iOS gratuite.
+
+## Pages de reference
+
+- [Accueil](https://naturalisationfrancefacile.fr/)
+- [Foire aux questions](https://naturalisationfrancefacile.fr/faq.html)
+- [A propos et methode editoriale](https://naturalisationfrancefacile.fr/a-propos.html)
+- [Mentions legales](https://naturalisationfrancefacile.fr/mentions-legales.html)
