@@ -21,7 +21,11 @@
   <meta property="og:url" content="https://naturalisationfrancefacile.fr/" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="fr_FR" />
-  <meta name="twitter:card" content="summary" />
+  <meta property="og:image" content="https://naturalisationfrancefacile.fr/img/og/default.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:image" content="https://naturalisationfrancefacile.fr/img/og/default.png" />
   <link rel="stylesheet" href="/css/style.css?v=14" />
   <script type="application/ld+json">
   {
@@ -131,7 +135,7 @@
       <a href="/#fonctionnalites">Fonctionnalit&eacute;s</a>
       <a href="/outils/examen-civique.html">Examen civique</a>
       <a href="/outils/">Outils</a>
-      <a href="/#faq">FAQ</a>
+      <a href="/faq.html">FAQ</a>
       <a href="/blog/">Blog</a>
       <a href="https://apps.apple.com/fr/app/naturalisation-france-facile/id6761140087" class="nav-cta" target="_blank">T&eacute;l&eacute;charger</a>
     </div>
@@ -140,7 +144,10 @@
 
 <!-- Hero -->
 <header class="hero">
-  <img src="/img/nff-fee.png" alt="Marianne — mascotte Naturalisation France Facile" class="hero-mascot" width="120" height="120" />
+  <picture>
+    <source srcset="/img/nff-fee-240.webp" type="image/webp" />
+    <img src="/img/nff-fee-240.png" alt="Marianne — mascotte Naturalisation France Facile" class="hero-mascot" width="120" height="120" fetchpriority="high" decoding="async" />
+  </picture>
   <h1>Devenez<br><span>Fran&ccedil;ais.</span></h1>
   <p class="hero-sub">Tout ce qu'il faut pour r&eacute;ussir votre naturalisation.<br>Examen civique, DELF B2, TCF IRN, simulation d'entretien en pr&eacute;fecture, checklist documents et suivi de progression.</p>
   <a class="cta-btn" href="https://apps.apple.com/fr/app/naturalisation-france-facile/id6761140087" target="_blank">
@@ -223,7 +230,10 @@
 <!-- Notre histoire -->
 <section class="section">
   <div class="story">
-    <img src="/img/nff-fee.png" alt="Marianne" class="story-mascot" width="80" height="80" />
+    <picture>
+      <source srcset="/img/nff-fee-240.webp" type="image/webp" />
+      <img src="/img/nff-fee-240.png" alt="Marianne" class="story-mascot" width="80" height="80" loading="lazy" decoding="async" />
+    </picture>
     <h2 class="section-title">Notre histoire</h2>
     <p>&#127987; Je suis la petite f&eacute;e de la naturalisation fran&ccedil;aise.</p>
     <p style="margin-top:16px">Ma mission ? Que vous arriviez en pr&eacute;fecture <strong>pr&ecirc;t(e) et confiant(e)</strong>, sans mauvaise surprise.</p>
@@ -309,7 +319,7 @@
 
 <!-- Footer -->
 <footer class="footer">
-  <div class="footer-links">
+  <div class="footer-links"><a href="/faq.html">FAQ</a>
     <a href="/blog/">Blog</a>
     <a href="/glossaire/">Glossaire</a>
     <a href="/a-propos.html">&Agrave; propos</a>
