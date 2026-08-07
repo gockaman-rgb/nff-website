@@ -157,7 +157,8 @@ TERMS = {
              "Oui, il n'y a pas de limite au nombre de tentatives. Chaque passage est payant, d'o&ugrave; l'int&eacute;r&ecirc;t de se situer avec un test blanc avant de s'inscrire."),
         ],
         "links": [("/blog/tcf-irn-ou-delf-b2-lequel-choisir.html", "TCF IRN ou DELF B2 : lequel choisir"),
-                  ("/blog/preparation-tcf-delf-naturalisation.html", "Pr&eacute;parer le TCF IRN ou le DELF B2")],
+                  ("/blog/preparation-tcf-delf-naturalisation.html", "Pr&eacute;parer le TCF IRN ou le DELF B2"),
+                  ("https://delf-tcf-tef.fr/tcf-irn/", "S'entra&icirc;ner au TCF IRN sur delf-tcf-tef.fr, notre site d&eacute;di&eacute; aux examens")],
         "related": ["delf-b2", "examen-civique"],
     },
     "delf-b2": {
@@ -188,7 +189,8 @@ TERMS = {
              "Oui : un dipl&ocirc;me d'un niveau sup&eacute;rieur atteste a fortiori du niveau B2 exig&eacute;."),
         ],
         "links": [("/blog/atteindre-niveau-b2-naturalisation.html", "Atteindre le niveau B2"),
-                  ("/blog/tcf-irn-ou-delf-b2-lequel-choisir.html", "TCF IRN ou DELF B2")],
+                  ("/blog/tcf-irn-ou-delf-b2-lequel-choisir.html", "TCF IRN ou DELF B2"),
+                  ("https://delf-tcf-tef.fr/delf-b2/", "Pr&eacute;parer le DELF B2 sur delf-tcf-tef.fr, notre site d&eacute;di&eacute; aux examens")],
         "related": ["tcf-irn", "examen-civique"],
     },
     "timbre-fiscal": {
@@ -482,7 +484,11 @@ def render_main(slug, t):
 
     parts.append("  <h2>Pour aller plus loin</h2>")
     parts.append("  <ul>")
-    parts += [f'    <li><a href="{href}">{label}</a></li>' for href, label in t["links"]]
+    parts += [
+        f'    <li><a href="{href}"{" target=_BLANK_ rel=_NOOPENER_" if href.startswith("http") else ""}>{label}</a></li>'.replace(
+            '_BLANK_', '"_blank"').replace('_NOOPENER_', '"noopener"').replace('target= ', 'target=')
+        for href, label in t["links"]
+    ]
     parts.append("  </ul>")
 
     related = " ".join(
