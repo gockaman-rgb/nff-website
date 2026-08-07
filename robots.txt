@@ -1,3 +1,92 @@
 User-agent: *
 Allow: /
+
+# ---------------------------------------------------------------------------
+# Robots d'IA
+#
+# Politique : on autorise les robots qui affichent un lien cliquable vers la
+# source, et on refuse ceux qui ne servent qu'a constituer un corpus
+# d'entrainement sans jamais renvoyer de trafic ni citer l'origine.
+#
+# Conditions de reutilisation des contenus :
+# https://naturalisationfrancefacile.fr/mentions-legales.html
+# ---------------------------------------------------------------------------
+
+# --- Autorises : recherche et citation avec lien ---
+
+# OpenAI — index de recherche utilise par ChatGPT Search (affiche les sources)
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI — consultation declenchee par un utilisateur
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic — index de recherche utilise pour citer les sources
+User-agent: Claude-SearchBot
+Allow: /
+
+# Anthropic — consultation declenchee par un utilisateur
+User-agent: Claude-User
+Allow: /
+
+# Perplexity — cite systematiquement ses sources avec un lien
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Google — controle l'usage dans Gemini et les AI Overviews.
+# Sans effet sur le classement dans Google Search.
+User-agent: Google-Extended
+Allow: /
+
+# Apple — ordre important : le token le plus specifique doit venir en premier,
+# sinon un parseur qui retient la premiere correspondance ferait matcher
+# "Applebot-Extended" sur le groupe "Applebot".
+
+# Apple — reserve a l'entrainement des modeles : refuse
+User-agent: Applebot-Extended
+Disallow: /
+
+# Apple — recherche Siri et Spotlight : autorise
+User-agent: Applebot
+Allow: /
+
+# --- Refuses : collecte pour entrainement, sans citation ni trafic retour ---
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: meta-externalagent
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
 Sitemap: https://naturalisationfrancefacile.fr/sitemap.xml
