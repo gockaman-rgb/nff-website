@@ -690,3 +690,16 @@ img { max-width: 100%; display: block; }
 @media (prefers-color-scheme: dark) { .qcm-opts li.ok { color: #34d399; } }
 :root[data-theme="dark"] .qcm-opts li.ok { color: #34d399; }
 :root[data-theme="light"] .qcm-opts li.ok { color: #0a8f5b; }
+
+/* ── Page d'accueil : paragraphe d'introduction ────────────────────── */
+.home-intro {
+  max-width: 720px;
+  margin: 0 auto 40px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  text-align: center;
+}
+.home-intro strong { color: var(--text); }
+.home-intro a { color: var(--accent-blue); text-decoration: none; }
+.home-intro a:hover { text-decoration: underline; }
