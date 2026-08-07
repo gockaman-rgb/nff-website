@@ -89,8 +89,12 @@ def read_article(slug):
                 mod = o.get("dateModified", "")[:10]
     if not pub:
         sys.exit(f"datePublished manquante : {slug}")
+    body = re.sub(r"<script.*?</script>|<nav.*?</nav>|<footer.*?</footer>", "", s, flags=re.S)
+    words = len(re.sub(r"<[^>]+>", " ", body).split())
     return {
         "slug": slug, "title": title, "desc": desc,
+        "words": words,
+        "minutes": max(2, round(words / 220)),  # 220 mots/min, lecture courante
         "pub": datetime.date.fromisoformat(pub),
         "mod": datetime.date.fromisoformat(mod or pub),
     }
@@ -105,14 +109,17 @@ def esc(text):
 
 
 def card(a, section_label):
+    """Le tag de categorie n'est pas repete sur la carte : le titre de
+    section juste au-dessus le dit deja. A la place, l'information qui
+    manque quand on arbitre entre 28 guides : la duree de lecture."""
     is_new = (TODAY - a["pub"]).days <= NEW_DAYS
     cls = "blog-card is-new" if is_new else "blog-card"
     badge = '<span class="blog-card-badge">Nouveau</span>' if is_new else ""
     return f"""      <a href="/blog/{a['slug']}.html" class="{cls}">
-        <span class="blog-card-tag">{section_label}</span>{badge}
+        {badge}
         <h3>{esc(a['title'])}</h3>
         <p>{esc(a['desc'])}</p>
-        <span class="blog-card-meta"><time datetime="{a['mod'].isoformat()}">Mis &agrave; jour le {fr_date(a['mod'])}</time></span>
+        <span class="blog-card-meta">{a['minutes']}&nbsp;min de lecture &middot; <time datetime="{a['mod'].isoformat()}">mis &agrave; jour le {fr_date(a['mod'])}</time></span>
         <span class="blog-card-link">Lire l'article &rarr;</span>
       </a>"""
 
@@ -140,11 +147,11 @@ def main():
     nav = " ".join(
         '<a href="#%s">%s</a>' % (key, strip_num(label)) for key, label, _, _ in SECTIONS
     )
-    for key, label, sub, slugs in SECTIONS:
+    for num, (key, label, sub, slugs) in enumerate(SECTIONS, 1):
         short = strip_num(label)
         cards = "\n".join(card(articles[s], short) for s in slugs)
         body.append(f"""  <section class="blog-section" id="{key}">
-    <h2 class="blog-section-title">{label}</h2>
+    <h2 class="blog-section-title"><span class="blog-step">{num}</span>{short}</h2>
     <p class="blog-section-sub">{sub}</p>
     <div class="blog-grid">
 {cards}
@@ -221,7 +228,7 @@ def main():
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="{BASE}/img/og/default.png" />
-  <link rel="stylesheet" href="/css/style.css?v=21" />
+  <link rel="stylesheet" href="/css/style.css?v=23" />
 {ld(blog_ld)}{ld(itemlist_ld)}{ld(breadcrumb_ld)}</head>
 <body>
 
@@ -241,6 +248,7 @@ def main():
     <span class="blog-card-tag">Commencer ici</span>
     <h2>{esc(pillar['title'])}</h2>
     <p>{esc(pillar['desc'])}</p>
+    <span class="blog-card-meta">{pillar['minutes']}&nbsp;min de lecture &middot; <time datetime="{pillar['mod'].isoformat()}">mis &agrave; jour le {fr_date(pillar['mod'])}</time></span>
     <span class="blog-card-link">Lire le guide complet &rarr;</span>
   </a>
 </section>

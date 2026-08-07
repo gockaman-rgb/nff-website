@@ -545,7 +545,7 @@ def render(slug, a):
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="{BASE}/img/og/{a["og_img"]}" />
-  <link rel="stylesheet" href="/css/style.css?v=21" />
+  <link rel="stylesheet" href="/css/style.css?v=23" />
 {ld(article_ld)}{ld(breadcrumb_ld)}{ld(faq_ld)}</head>
 <body>
 
