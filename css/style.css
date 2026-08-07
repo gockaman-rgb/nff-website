@@ -322,7 +322,7 @@ img { max-width: 100%; display: block; }
   font-size: 14px; color: var(--text-secondary); line-height: 1.7;
 }
 .faq-a a { color: var(--link); }
-.faq-item.open .faq-a { max-height: 300px; padding-top: 14px; }
+.faq-item.open .faq-a { max-height: 700px; padding-top: 14px; }
 
 /* --- CTA Banner (signature gradient — same in both themes) --- */
 .cta-banner {
