@@ -92,6 +92,45 @@ ARTICLES = {
 <p>Pas m&eacute;caniquement. L'administration appr&eacute;cie la nature des faits, leur anciennet&eacute; et leur gravit&eacute;. Une contravention ancienne et une condamnation r&eacute;cente pour des faits graves ne pr&eacute;sentent &eacute;videmment pas le m&ecirc;me poids.</p>
 
 <p>Ce qui, en revanche, nuit &agrave; coup s&ucirc;r&nbsp;: <strong>l'omission</strong>. Une d&eacute;claration incompl&egrave;te d&eacute;couverte en cours d'instruction p&egrave;se plus lourd que le fait lui-m&ecirc;me. Si votre situation est complexe, faites-la examiner par un avocat avant de d&eacute;poser plut&ocirc;t que de tenter votre chance.</p>
+
+<h2>Combien de temps faut-il pour l'obtenir&nbsp;?</h2>
+
+<p>C'est la variable qui d&eacute;termine tout votre calendrier, et elle &eacute;chappe compl&egrave;tement &agrave; l'administration fran&ccedil;aise. Les d&eacute;lais varient &eacute;norm&eacute;ment selon le pays&nbsp;: quelques jours l&agrave; o&ugrave; la demande est enti&egrave;rement d&eacute;mat&eacute;rialis&eacute;e, plusieurs mois l&agrave; o&ugrave; elle suppose un passage physique ou une proc&eacute;dure consulaire.</p>
+
+<p>Trois questions &agrave; poser avant de lancer la d&eacute;marche&nbsp;:</p>
+
+<ul>
+  <li><strong>La demande peut-elle se faire &agrave; distance&nbsp;?</strong> Certains pays exigent une pr&eacute;sence sur place ou une procuration notari&eacute;e, ce qui change radicalement le calendrier.</li>
+  <li><strong>Le consulat en France peut-il s'en charger&nbsp;?</strong> Beaucoup de consulats transmettent la demande &agrave; leur administration centrale. C'est souvent plus lent, mais cela &eacute;vite un voyage.</li>
+  <li><strong>L'apostille se pose-t-elle dans le pays d'origine&nbsp;?</strong> Presque toujours oui &mdash; et c'est une &eacute;tape suppl&eacute;mentaire &agrave; anticiper, pas &agrave; d&eacute;couvrir apr&egrave;s coup.</li>
+</ul>
+
+<p>La cons&eacute;quence pratique est contre-intuitive&nbsp;: c'est souvent la pi&egrave;ce qu'il faut demander <strong>en premier</strong>, alors qu'on la traite en dernier parce qu'elle para&icirc;t secondaire.</p>
+
+<h2>Les situations particuli&egrave;res</h2>
+
+<h3>R&eacute;fugi&eacute;s et apatrides</h3>
+
+<p>Si vous &ecirc;tes r&eacute;fugi&eacute; ou apatride, vous ne pouvez pas, par d&eacute;finition, solliciter les autorit&eacute;s du pays que vous avez fui. C'est l'<strong>OFPRA</strong> qui &eacute;tablit les documents tenant lieu d'&eacute;tat civil, et votre statut est pris en compte pour cette pi&egrave;ce comme pour les autres. Ne tentez surtout pas de contacter votre consulat d'origine&nbsp;: cela peut &ecirc;tre interpr&eacute;t&eacute; comme une reprise de contact avec les autorit&eacute;s dont vous demandiez protection.</p>
+
+<h3>Pays sans administration fonctionnelle</h3>
+
+<p>Guerre, effondrement de l'&Eacute;tat civil, archives d&eacute;truites&nbsp;: l'administration fran&ccedil;aise conna&icirc;t ces situations. La bonne r&eacute;ponse n'est jamais de laisser la case vide, mais de <strong>documenter l'impossibilit&eacute;</strong> &mdash; attestation consulaire, courrier de refus, preuve des d&eacute;marches entreprises. Un dossier qui explique une absence se traite&nbsp;; un dossier silencieux repart en demande de compl&eacute;ment.</p>
+
+<h3>Plusieurs pays de r&eacute;sidence</h3>
+
+<p>Une question revient souvent&nbsp;: &agrave; partir de combien de temps un s&eacute;jour compte-t-il comme une r&eacute;sidence&nbsp;? Il n'y a pas de seuil officiel unique. Le crit&egrave;re retenu est celui de la <strong>r&eacute;sidence</strong> et non du passage&nbsp;: des vacances ou une mission de quelques semaines ne cr&eacute;ent pas d'obligation, un s&eacute;jour de plusieurs mois avec adresse et activit&eacute; sur place, oui. Dans le doute, fournissez le document&nbsp;: un extrait de trop ne p&eacute;nalise jamais un dossier.</p>
+
+<h2>Et si le document arrive apr&egrave;s le d&eacute;p&ocirc;t&nbsp;?</h2>
+
+<p>Ce n'est pas ind&eacute;passable, mais cela co&ucirc;te du temps. Deux strat&eacute;gies&nbsp;:</p>
+
+<ol>
+  <li><strong>Attendre et d&eacute;poser complet.</strong> Recommand&eacute; dans la plupart des cas&nbsp;: c'est le d&eacute;p&ocirc;t d'un dossier complet qui d&eacute;clenche le r&eacute;c&eacute;piss&eacute; de compl&eacute;tude, lequel fait courir le d&eacute;lai l&eacute;gal d'instruction. Un dossier incomplet ne fait pas d&eacute;marrer le compteur.</li>
+  <li><strong>D&eacute;poser en signalant la pi&egrave;ce en cours.</strong> Justifiable si votre certificat de langue ou votre titre de s&eacute;jour approche de sa limite. Joignez la preuve de la d&eacute;marche engag&eacute;e aupr&egrave;s de l'autorit&eacute; &eacute;trang&egrave;re.</li>
+</ol>
+
+<p>Dans les deux cas, gardez en t&ecirc;te la <a href="/blog/delais-naturalisation-par-prefecture.html">m&eacute;canique des d&eacute;lais</a>&nbsp;: chaque aller-retour pour une pi&egrave;ce manquante co&ucirc;te plusieurs semaines, entre l'envoi de la demande, votre r&eacute;ponse et le r&eacute;examen.</p>
 """,
     "faq": [
         ("L'extrait de casier judiciaire pour la naturalisation doit-il dater de moins de 3 mois ou de 6 mois ?",
@@ -104,6 +143,12 @@ ARTICLES = {
          "Tous ceux où vous avez résidé avant la France, pas seulement votre pays de nationalité. Si un pays ne délivre pas ce document, joignez une attestation motivée de l'autorité consulaire plutôt que de laisser un vide."),
         ("Faut-il traduire et apostiller l'extrait de casier judiciaire ?",
          "Oui pour la traduction : un document en langue étrangère doit être traduit par un traducteur agréé, et c'est l'original de la traduction qui est demandé. Selon le pays, s'y ajoute une apostille (États parties à la convention de La Haye) ou une légalisation consulaire. Faites apostiller avant de faire traduire."),
+        ("Je suis réfugié : comment obtenir un casier judiciaire de mon pays d'origine ?",
+         "Vous n'avez pas à le demander, et vous ne devez surtout pas contacter le consulat du pays que vous avez fui : c'est l'OFPRA qui établit les documents tenant lieu d'état civil pour les réfugiés et apatrides. Votre statut est pris en compte pour cette pièce comme pour les autres."),
+        ("Mon pays ne délivre pas ce document, que faire ?",
+         "Ne laissez pas la case vide : documentez l'impossibilité. Une attestation de l'autorité consulaire, un courrier de refus ou la preuve des démarches entreprises permettent à l'administration de traiter votre dossier. Un dossier qui explique une absence avance ; un dossier silencieux repart en demande de complément."),
+        ("Combien de temps prévoir pour obtenir l'extrait ?",
+         "Cela dépend entièrement du pays : de quelques jours quand la demande est dématérialisée à plusieurs mois quand elle suppose une présence sur place ou une procédure consulaire, sans compter l'apostille. C'est souvent la pièce à demander en premier, alors qu'on la traite en dernier parce qu'elle paraît secondaire."),
     ],
     "links": [
         ("/blog/documents-naturalisation.html", "La liste compl&egrave;te des documents du dossier"),
@@ -176,6 +221,35 @@ ARTICLES = {
 <h2>&Agrave; partir de quand s'inqui&eacute;ter</h2>
 
 <p>Un dossier sans mouvement pendant plusieurs mois est <strong>banal</strong>. Le vrai signal d'alerte, c'est le d&eacute;passement du d&eacute;lai l&eacute;gal &mdash; 18&nbsp;mois, ou 12 selon votre situation &mdash; &agrave; compter du r&eacute;c&eacute;piss&eacute; de compl&eacute;tude. C'est &agrave; ce moment-l&agrave; qu'une relance &eacute;crite, puis un recours, prennent tout leur sens.</p>
+
+<h2>Si votre situation change entre l'entretien et la d&eacute;cision</h2>
+
+<p>C'est le point le plus souvent n&eacute;glig&eacute;, et celui qui co&ucirc;te le plus cher. Votre dossier a &eacute;t&eacute; instruit sur une photographie de votre situation&nbsp;; si elle bouge pendant les mois d'attente, l'administration doit le savoir. Un dossier qui ne refl&egrave;te plus la r&eacute;alit&eacute; au moment de la d&eacute;cision est un dossier fragile.</p>
+
+<ul>
+  <li><strong>D&eacute;m&eacute;nagement</strong> &mdash; &agrave; signaler imm&eacute;diatement. C'est la premi&egrave;re cause de courrier jamais re&ccedil;u, et donc de d&eacute;cision notifi&eacute;e dans le vide, d&eacute;lai de recours compris.</li>
+  <li><strong>Perte d'emploi</strong> &mdash; &agrave; signaler, m&ecirc;me si l'annonce est inconfortable. Une situation d&eacute;grad&eacute;e d&eacute;couverte par l'administration p&egrave;se plus lourd qu'une situation d&eacute;grad&eacute;e annonc&eacute;e et document&eacute;e. Voir <a href="/blog/ressources-revenus-naturalisation.html">ce que la pr&eacute;fecture regarde en mati&egrave;re de ressources</a>.</li>
+  <li><strong>Mariage, divorce, naissance</strong> &mdash; toute modification de l'&eacute;tat civil est &agrave; signaler avec les actes correspondants. Une naissance peut ouvrir l'effet collectif pour l'enfant, encore faut-il qu'il soit connu du dossier.</li>
+  <li><strong>Titre de s&eacute;jour qui expire</strong> &mdash; renouvelez-le normalement. Une demande de naturalisation en cours ne vous dispense pas d'&ecirc;tre en s&eacute;jour r&eacute;gulier, et une rupture de r&eacute;gularit&eacute; peut faire basculer le dossier en irrecevabilit&eacute;.</li>
+  <li><strong>Condamnation ou proc&eacute;dure en cours</strong> &mdash; l'administration le verra au bulletin n&deg;&nbsp;2. La d&eacute;couvrir par elle-m&ecirc;me est toujours pire que l'apprendre de vous.</li>
+</ul>
+
+<h2>Comment chaque d&eacute;cision vous parvient</h2>
+
+<p>Les canaux diff&egrave;rent selon l'issue, et savoir lequel surveiller &eacute;vite bien des angoisses&nbsp;:</p>
+
+<ul>
+  <li><strong>Favorable</strong> &mdash; il n'y a g&eacute;n&eacute;ralement pas de courrier annon&ccedil;ant &laquo;&nbsp;c'est accept&eacute;&nbsp;&raquo;. Ce que vous verrez, c'est la parution de votre d&eacute;cret. Depuis f&eacute;vrier 2023, l'espace ANEF signale automatiquement cette publication&nbsp;; vous pouvez aussi la v&eacute;rifier dans l'<a href="/outils/decret-naturalisation.html">annuaire des d&eacute;crets publi&eacute;s au Journal officiel</a>. La pr&eacute;fecture vous convoque ensuite &agrave; la <a href="/blog/ceremonie-naturalisation-que-se-passe-t-il.html">c&eacute;r&eacute;monie d'accueil</a>.</li>
+  <li><strong>Ajournement, refus, irrecevabilit&eacute;</strong> &mdash; ces d&eacute;cisions sont <strong>notifi&eacute;es</strong>, par courrier ou via le t&eacute;l&eacute;service. La date de notification est capitale&nbsp;: c'est elle, et non la date de la d&eacute;cision, qui fait courir vos deux mois de recours. Notez-la d&egrave;s r&eacute;ception.</li>
+</ul>
+
+<p>Cette asym&eacute;trie explique un malentendu fr&eacute;quent&nbsp;: l'absence de courrier n'est pas un mauvais signe. Une d&eacute;cision d&eacute;favorable, elle, se manifeste toujours par un &eacute;crit motiv&eacute;.</p>
+
+<h2>Le compte rendu d'entretien&nbsp;: peut-on le consulter&nbsp;?</h2>
+
+<p>Vous ne le recevez pas spontan&eacute;ment. En revanche, en cas de d&eacute;cision d&eacute;favorable, il devient un &eacute;l&eacute;ment utile pour comprendre ce qui a p&eacute;ch&eacute; et construire un <a href="/glossaire/rapo.html">RAPO</a> qui r&eacute;pond aux vrais motifs plut&ocirc;t qu'&agrave; des motifs suppos&eacute;s. Les documents administratifs vous concernant peuvent faire l'objet d'une demande de communication&nbsp;; c'est une d&eacute;marche &agrave; envisager si les motifs notifi&eacute;s vous paraissent flous.</p>
+
+<p>En pratique, la d&eacute;cision motiv&eacute;e que vous recevez suffit le plus souvent&nbsp;: c'est elle qu'il faut r&eacute;futer point par point, pi&egrave;ces &agrave; l'appui.</p>
 """,
     "faq": [
         ("Combien de temps entre l'entretien de naturalisation et la réponse ?",
@@ -188,6 +262,12 @@ ARTICLES = {
          "L'avis du préfet n'est pas la décision finale : c'est le ministère qui décide, même s'il suit généralement la recommandation locale. En cas de refus ou d'ajournement, vous disposez de 2 mois à compter de la notification pour former un RAPO."),
         ("Faut-il relancer la préfecture après l'entretien ?",
          "Pas avant l'expiration du délai légal : une relance prématurée n'a aucun effet. Passé 18 mois (ou 12 selon votre situation) à compter du récépissé de complétude, une relance écrite est légitime et utile."),
+        ("Je déménage pendant l'instruction, dois-je le signaler ?",
+         "Oui, immédiatement. C'est la première cause de courrier jamais reçu — donc de décision notifiée dans le vide, délai de recours compris. Signalez aussi toute perte d'emploi, tout changement d'état civil et tout renouvellement de titre de séjour : un dossier qui ne reflète plus votre situation réelle au moment de la décision est un dossier fragile."),
+        ("Comment vais-je savoir que ma naturalisation est acceptée ?",
+         "Il n'y a généralement pas de courrier annonçant l'acceptation : ce que vous verrez, c'est la parution de votre décret. L'espace ANEF signale automatiquement cette publication depuis février 2023. À l'inverse, un ajournement, un refus ou une irrecevabilité sont toujours notifiés par écrit et motivés."),
+        ("Mon titre de séjour expire pendant l'instruction, que faire ?",
+         "Renouvelez-le normalement. Une demande de naturalisation en cours ne dispense pas d'être en séjour régulier, et une rupture de régularité peut faire basculer le dossier en irrecevabilité."),
     ],
     "links": [
         ("/blog/entretien-naturalisation-prefectures.html", "L'entretien en pr&eacute;fecture&nbsp;: comment il se d&eacute;roule"),
@@ -260,6 +340,49 @@ ARTICLES = {
   <li><strong>Ne comparez pas avec les forums.</strong> Les d&eacute;lais qu'on y lit m&eacute;langent des points de d&eacute;part diff&eacute;rents et sur-repr&eacute;sentent les cas extr&ecirc;mes, dans les deux sens.</li>
   <li><strong>Avant cette date&nbsp;: patientez.</strong> Apr&egrave;s&nbsp;: <a href="/blog/relance-naturalisation-que-faire-sans-reponse.html">relancez par &eacute;crit</a>, puis envisagez un recours.</li>
 </ol>
+
+<h2>Un exemple chiffr&eacute;</h2>
+
+<p>Prenons un dossier d&eacute;pos&eacute; en ligne le 10&nbsp;mars, avec un r&eacute;c&eacute;piss&eacute; de compl&eacute;tude d&eacute;livr&eacute; le 2&nbsp;juin apr&egrave;s deux demandes de pi&egrave;ces compl&eacute;mentaires, pour une personne install&eacute;e en France depuis sept ans&nbsp;:</p>
+
+<ul>
+  <li>Le compteur l&eacute;gal d&eacute;marre le <strong>2&nbsp;juin</strong>, pas le 10&nbsp;mars. Les presque trois mois pass&eacute;s &agrave; compl&eacute;ter le dossier ne comptent pas.</li>
+  <li>La personne r&eacute;side en France depuis moins de dix ans&nbsp;: le d&eacute;lai est de <strong>18&nbsp;mois</strong>, soit une &eacute;ch&eacute;ance au <strong>2&nbsp;d&eacute;cembre de l'ann&eacute;e suivante</strong>.</li>
+  <li>Avant cette date, le silence de l'administration est parfaitement r&eacute;gulier, quelle que soit la dur&eacute;e d&eacute;j&agrave; &eacute;coul&eacute;e.</li>
+</ul>
+
+<p>Ce calcul explique la plupart des &eacute;carts ressentis entre voisins&nbsp;: deux personnes qui &laquo;&nbsp;ont d&eacute;pos&eacute; en m&ecirc;me temps&nbsp;&raquo; peuvent avoir des r&eacute;c&eacute;piss&eacute;s espac&eacute;s de six mois.</p>
+
+<h2>Ce qui remet le compteur en arri&egrave;re</h2>
+
+<p>Trois m&eacute;canismes rallongent le d&eacute;lai r&eacute;el sans que personne ne vous pr&eacute;vienne&nbsp;:</p>
+
+<ol>
+  <li><strong>Le dossier incomplet.</strong> Tant que la compl&eacute;tude n'est pas constat&eacute;e, le d&eacute;lai l&eacute;gal ne court pas. C'est la raison la plus fr&eacute;quente d'une attente qui para&icirc;t interminable&nbsp;: elle n'a pas encore commenc&eacute;.</li>
+  <li><strong>Les demandes de pi&egrave;ces compl&eacute;mentaires.</strong> Chacune ajoute le temps de l'envoi, le v&ocirc;tre pour obtenir la pi&egrave;ce &mdash; parfois des mois s'il s'agit d'un <a href="/blog/casier-judiciaire-naturalisation.html">document &eacute;tranger &agrave; faire apostiller et traduire</a> &mdash; puis celui du r&eacute;examen.</li>
+  <li><strong>Les pi&egrave;ces qui expirent.</strong> Une attestation de langue valable deux ans, un acte d'&eacute;tat civil de moins de trois mois&nbsp;: si l'instruction s'&eacute;ternise, ces documents peuvent devoir &ecirc;tre refaits, et le co&ucirc;t comme le d&eacute;lai repartent.</li>
+</ol>
+
+<h2>Ce qui ne sert &agrave; rien</h2>
+
+<p>Autant le dire franchement, parce que ces r&eacute;flexes co&ucirc;tent du temps et de l'&eacute;nergie sans rien produire&nbsp;:</p>
+
+<ul>
+  <li><strong>Relancer toutes les deux semaines.</strong> Les relances rapproch&eacute;es ne remontent pas la file&nbsp;: elles ajoutent du courrier &agrave; traiter au service qui instruit votre dossier. Un courrier tous les deux &agrave; trois mois, argument&eacute; et r&eacute;f&eacute;renc&eacute;, p&egrave;se infiniment plus.</li>
+  <li><strong>D&eacute;poser un second dossier.</strong> Cela ne cr&eacute;e pas une seconde chance, mais un doublon qui brouille l'instruction du premier.</li>
+  <li><strong>Comparer avec les forums.</strong> Les t&eacute;moignages m&eacute;langent des points de d&eacute;part diff&eacute;rents &mdash; cr&eacute;ation de compte, d&eacute;p&ocirc;t, r&eacute;c&eacute;piss&eacute; &mdash; et sur-repr&eacute;sentent les cas extr&ecirc;mes dans les deux sens. On y lit rarement &laquo;&nbsp;tout s'est pass&eacute; normalement&nbsp;&raquo;.</li>
+</ul>
+
+<h2>Quand le d&eacute;lai l&eacute;gal est d&eacute;pass&eacute;</h2>
+
+<p>L&agrave;, votre position change compl&egrave;tement. L'absence de r&eacute;ponse au-del&agrave; du d&eacute;lai n'est plus une simple lenteur&nbsp;: elle devient contestable.</p>
+
+<ol>
+  <li><strong>Une relance &eacute;crite</strong> au service naturalisations, en lettre recommand&eacute;e avec accus&eacute; de r&eacute;ception, rappelant la date de votre r&eacute;c&eacute;piss&eacute; de compl&eacute;tude et le d&eacute;lai applicable.</li>
+  <li><strong>Sans r&eacute;ponse</strong>, la voie contentieuse s'ouvre. Le tribunal administratif de Nantes est comp&eacute;tent pour les affaires de nationalit&eacute;, quel que soit votre lieu de r&eacute;sidence.</li>
+</ol>
+
+<p>Notre guide sur <a href="/blog/relance-naturalisation-que-faire-sans-reponse.html">la relance sans r&eacute;ponse</a> d&eacute;taille le contenu et le destinataire de chaque courrier selon l'&eacute;tape.</p>
 """,
     "faq": [
         ("Quel est le délai légal de traitement d'une demande de naturalisation ?",
@@ -272,6 +395,10 @@ ARTICLES = {
          "Non. La préfecture compétente est celle de votre résidence habituelle, et l'administration vérifie que le centre de vos intérêts s'y trouve. Déménager pour accélérer une demande risque au contraire de la ralentir."),
         ("À partir de quand puis-je relancer ?",
          "Une fois le délai légal dépassé, calculé depuis votre récépissé de complétude. Avant cette date, une relance n'a aucun effet sur l'instruction."),
+        ("Pourquoi mon voisin a-t-il eu sa réponse avant moi alors qu'on a déposé en même temps ?",
+         "Parce que le compteur ne part pas du dépôt mais du récépissé de complétude. Deux personnes qui ont « déposé en même temps » peuvent avoir des récépissés espacés de plusieurs mois si l'une a eu des demandes de pièces complémentaires. S'y ajoute le délai réduit à 12 mois pour qui réside en France depuis plus de dix ans."),
+        ("Les relances fréquentes accélèrent-elles le traitement ?",
+         "Non. Les relances rapprochées ne remontent pas la file : elles ajoutent du courrier à traiter au service qui instruit votre dossier. Un courrier tous les deux à trois mois, argumenté et référencé, est plus efficace. Déposer un second dossier est également contre-productif : cela crée un doublon qui brouille l'instruction du premier."),
     ],
     "links": [
         ("/blog/delais-naturalisation-2026.html", "Les d&eacute;lais &eacute;tape par &eacute;tape"),
@@ -347,6 +474,40 @@ ARTICLES = {
 <h2>Un mot sur la francisation du nom</h2>
 
 <p>Il est possible de demander la <strong>francisation</strong> de son nom ou de ses pr&eacute;noms, mais cette demande se formule <strong>pendant la proc&eacute;dure de naturalisation</strong>, pas apr&egrave;s. Une fois le d&eacute;cret publi&eacute;, il faut passer par une proc&eacute;dure de changement de nom, plus lourde. Si l'orthographe de votre nom vous pose probl&egrave;me au quotidien, c'est avant le d&eacute;p&ocirc;t qu'il faut y penser.</p>
+
+<h2>Vos enfants mineurs&nbsp;: l'effet collectif</h2>
+
+<p>L'<strong>article 22-1 du Code civil</strong> pr&eacute;voit que l'enfant mineur dont l'un des deux parents acquiert la nationalit&eacute; fran&ccedil;aise devient fran&ccedil;ais <em>de plein droit</em>, &agrave; deux conditions cumulatives&nbsp;:</p>
+
+<ol>
+  <li>il a la <strong>m&ecirc;me r&eacute;sidence habituelle</strong> que ce parent &mdash; ou r&eacute;side alternativement avec lui en cas de s&eacute;paration ou de divorce&nbsp;;</li>
+  <li>son <strong>nom est mentionn&eacute; dans le d&eacute;cret</strong>.</li>
+</ol>
+
+<p>Cette seconde condition est celle qui pi&egrave;ge. Un enfant qui remplit parfaitement la condition de r&eacute;sidence mais qui n'a pas &eacute;t&eacute; d&eacute;clar&eacute; au moment du d&eacute;p&ocirc;t ne b&eacute;n&eacute;ficie pas de l'effet collectif. Le rattraper ensuite suppose une d&eacute;marche distincte, bien plus longue.</p>
+
+<p>Une fois le d&eacute;cret paru, <strong>v&eacute;rifiez que chacun de vos enfants y figure</strong>. C'est la mention <a href="/glossaire/nat-eff-rei.html">EFF</a> qui mat&eacute;rialise l'effet collectif. Demandez ensuite leur acte de naissance fran&ccedil;ais au SCEC, comme pour vous.</p>
+
+<h2>Moins de 25&nbsp;ans&nbsp;: une obligation que personne ne vous rappellera</h2>
+
+<p>Si vous acquerez la nationalit&eacute; fran&ccedil;aise avant vos 25&nbsp;ans, vous entrez dans les obligations du service national comme tout Fran&ccedil;ais&nbsp;:</p>
+
+<ul>
+  <li><strong>Le recensement citoyen</strong>, &agrave; faire en mairie dans les mois qui suivent l'acquisition.</li>
+  <li><strong>La Journ&eacute;e d&eacute;fense et citoyennet&eacute; (JDC)</strong>, &agrave; effectuer <strong>avant vos 25&nbsp;ans</strong>. Vous y &ecirc;tes convoqu&eacute; apr&egrave;s le recensement.</li>
+</ul>
+
+<p>Ce n'est pas une formalit&eacute; symbolique&nbsp;: l'<strong>attestation de participation</strong> est exig&eacute;e pour s'inscrire au permis de conduire, au baccalaur&eacute;at et aux concours de la fonction publique avant 25&nbsp;ans. Beaucoup de jeunes naturalis&eacute;s la d&eacute;couvrent le jour o&ugrave; on la leur demande, et se retrouvent bloqu&eacute;s. Apr&egrave;s 25&nbsp;ans, l'attestation n'est plus r&eacute;clam&eacute;e pour ces d&eacute;marches.</p>
+
+<h2>Ce que devient votre titre de s&eacute;jour</h2>
+
+<p>Il n'a plus d'objet. Vous n'avez ni &agrave; le renouveler, ni &agrave; payer la taxe correspondante&nbsp;: c'est une d&eacute;pense inutile que certains continuent d'engager par prudence.</p>
+
+<p>Conservez-le n&eacute;anmoins quelque temps&nbsp;: il porte votre <a href="/glossaire/agdref.html">num&eacute;ro AGDREF</a>, qui peut encore servir &agrave; identifier vos anciens dossiers aupr&egrave;s de l'administration. Pour justifier de votre identit&eacute; et de votre droit au s&eacute;jour, en revanche, c'est d&eacute;sormais votre carte nationale d'identit&eacute; qui fait foi.</p>
+
+<h2>Et votre conjoint &eacute;tranger&nbsp;?</h2>
+
+<p>Votre naturalisation ne lui transmet rien automatiquement&nbsp;: l'effet collectif ne concerne que les enfants mineurs. En revanche, elle lui ouvre une voie&nbsp;: la <a href="/blog/naturalisation-par-mariage-2026.html">d&eacute;claration de nationalit&eacute; &agrave; raison du mariage</a>, sous conditions de dur&eacute;e de mariage et de communaut&eacute; de vie. Le niveau B2 et l'examen civique s'appliquent l&agrave; aussi.</p>
 """,
     "faq": [
         ("Quelles démarches faire juste après la naturalisation ?",
@@ -359,6 +520,14 @@ ARTICLES = {
          "La France admet la double nationalité et ne vous demande pas d'y renoncer. En revanche, votre pays d'origine peut prévoir une perte automatique ou exiger une déclaration : renseignez-vous auprès de votre consulat, idéalement avant la naturalisation."),
         ("Peut-on franciser son nom après la naturalisation ?",
          "La demande de francisation du nom ou des prénoms se formule pendant la procédure de naturalisation. Après la publication du décret, il faut passer par une procédure de changement de nom, nettement plus lourde."),
+        ("Mes enfants mineurs deviennent-ils français en même temps que moi ?",
+         "Sous deux conditions cumulatives posées par l'article 22-1 du Code civil : l'enfant doit avoir la même résidence habituelle que vous — ou résider alternativement avec vous en cas de séparation — et son nom doit être mentionné dans le décret. C'est cette seconde condition qui piège : un enfant non déclaré au dépôt ne bénéficie pas de l'effet collectif, et le rattraper ensuite suppose une démarche distincte."),
+        ("J'ai moins de 25 ans : ai-je des obligations de service national ?",
+         "Oui. Vous devez faire le recensement citoyen en mairie dans les mois qui suivent l'acquisition, puis la Journée défense et citoyenneté avant vos 25 ans. L'attestation de participation est exigée pour s'inscrire au permis de conduire, au baccalauréat et aux concours de la fonction publique avant 25 ans."),
+        ("Mon conjoint étranger devient-il français aussi ?",
+         "Non, l'effet collectif ne concerne que les enfants mineurs. Votre conjoint peut en revanche engager une déclaration de nationalité à raison du mariage, sous conditions de durée de mariage et de communauté de vie — avec, là aussi, le niveau B2 et l'examen civique."),
+        ("Faut-il renouveler son titre de séjour après la naturalisation ?",
+         "Non, il n'a plus d'objet et la taxe de renouvellement serait une dépense inutile. Conservez-le tout de même quelque temps : il porte votre numéro AGDREF, utile pour identifier vos anciens dossiers."),
     ],
     "links": [
         ("/blog/ceremonie-naturalisation-que-se-passe-t-il.html", "La c&eacute;r&eacute;monie d'accueil&nbsp;: convocation et d&eacute;roulement"),
@@ -369,6 +538,8 @@ ARTICLES = {
         ("https://www.service-public.gouv.fr/particuliers/vosdroits/F1051", "Service-public.gouv.fr &mdash; Carte nationale d'identit&eacute;"),
         ("https://www.service-public.gouv.fr/particuliers/vosdroits/F334", "Service-public.gouv.fr &mdash; Double nationalit&eacute; (F334)"),
         ("https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047096231", "D&eacute;cret n&deg;&nbsp;93-1362, article 51 &mdash; prise d'effet des d&eacute;crets"),
+        ("https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006419939", "Code civil, article 22-1 &mdash; effet collectif pour les enfants mineurs"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F871", "Service-public.gouv.fr &mdash; Journ&eacute;e d&eacute;fense et citoyennet&eacute; (F871)"),
     ],
     "cta": "Pr&eacute;parer la suite avec l'app",
 },
@@ -430,6 +601,46 @@ ARTICLES = {
 </ol>
 
 <p>Les ressources jug&eacute;es insuffisantes ou pr&eacute;caires figurent parmi les motifs d'<a href="/blog/ajournement-vs-refus-naturalisation.html">ajournement</a> les plus fr&eacute;quents. La bonne nouvelle, c'est que l'ajournement n'est pas un refus&nbsp;: c'est un report, et le temps impos&eacute; peut &ecirc;tre exactement celui qu'il faut pour consolider une situation.</p>
+
+<h2>Les pi&egrave;ces &agrave; fournir, selon votre situation</h2>
+
+<p>L'erreur la plus courante consiste &agrave; joindre trois bulletins de salaire et &agrave; s'arr&ecirc;ter l&agrave;. Ce que l'administration lit en priorit&eacute;, ce sont les <strong>avis d'imposition</strong>&nbsp;: ils couvrent une ann&eacute;e enti&egrave;re, ils sont infalsifiables et ils racontent une trajectoire.</p>
+
+<ul>
+  <li><strong>Salari&eacute;</strong> &mdash; contrat de travail, trois derniers bulletins de salaire, et surtout les <strong>trois derniers avis d'imposition</strong>.</li>
+  <li><strong>CDD ou int&eacute;rim</strong> &mdash; l'<em>ensemble</em> des contrats de la p&eacute;riode, pas seulement le dernier, plus les avis d'imposition. Une attestation de l'employeur ou de l'agence sur la r&eacute;gularit&eacute; des missions aide beaucoup.</li>
+  <li><strong>Ind&eacute;pendant ou auto-entrepreneur</strong> &mdash; avis d'imposition, attestation de vigilance URSSAF, d&eacute;clarations de chiffre d'affaires, bilans le cas &eacute;ch&eacute;ant, et un extrait d'immatriculation qui montre l'anciennet&eacute; de l'activit&eacute;.</li>
+  <li><strong>Retrait&eacute;</strong> &mdash; notification de pension et avis d'imposition. Une pension est une ressource stable par nature&nbsp;: c'est un bon dossier.</li>
+  <li><strong>Sans activit&eacute;</strong> &mdash; justificatifs d'indemnisation, et les pi&egrave;ces qui documentent la p&eacute;riode ant&eacute;rieure. C'est ici que la profondeur historique compte le plus.</li>
+</ul>
+
+<h2>Les ressources du foyer</h2>
+
+<p>Vous n'&ecirc;tes pas &eacute;valu&eacute; hors sol. L'administration appr&eacute;cie votre autonomie en tenant compte de la composition de votre foyer&nbsp;: un conjoint qui travaille, des charges partag&eacute;es, des enfants &agrave; charge.</p>
+
+<p>Concr&egrave;tement, un revenu modeste dans un foyer &agrave; deux salaires ne se lit pas comme le m&ecirc;me revenu supportant seul quatre personnes. Documentez donc la situation du foyer&nbsp;: avis d'imposition commun, justificatif de la situation du conjoint, composition familiale. Un parent au foyer ou un &eacute;tudiant s'appr&eacute;cie dans ce cadre, pas isol&eacute;ment.</p>
+
+<h2>Revenus per&ccedil;us &agrave; l'&eacute;tranger</h2>
+
+<p>Ils ne sont pas disqualifiants, mais ils appellent une vigilance particuli&egrave;re. Deux points comptent&nbsp;:</p>
+
+<ul>
+  <li><strong>Sont-ils d&eacute;clar&eacute;s en France&nbsp;?</strong> C'est la premi&egrave;re chose v&eacute;rifi&eacute;e. Des revenus &eacute;trangers absents de vos avis d'imposition fran&ccedil;ais posent un probl&egrave;me de coh&eacute;rence bien avant de poser un probl&egrave;me de montant.</li>
+  <li><strong>Que disent-ils de votre centre d'int&eacute;r&ecirc;ts&nbsp;?</strong> La naturalisation suppose que le centre de vos int&eacute;r&ecirc;ts mat&eacute;riels et familiaux se trouve en France. Une activit&eacute; principale &agrave; l'&eacute;tranger peut &ecirc;tre lue comme un indice contraire &mdash; c'est un enjeu de r&eacute;sidence autant que de ressources.</li>
+</ul>
+
+<h2>Quand d&eacute;poser, selon votre situation</h2>
+
+<p>Le choix du moment est la variable la plus sous-estim&eacute;e, alors qu'elle ne co&ucirc;te rien &agrave; ajuster&nbsp;:</p>
+
+<ul>
+  <li><strong>Vous venez de signer un CDI</strong> &mdash; laissez passer la p&eacute;riode d'essai. Un contrat confirm&eacute; vaut mieux qu'un contrat r&eacute;cent.</li>
+  <li><strong>Vous encha&icirc;nez les CDD</strong> &mdash; attendez d'avoir une s&eacute;quence lisible sur deux &agrave; trois ans plut&ocirc;t que de d&eacute;poser au milieu d'une p&eacute;riode trou&eacute;e.</li>
+  <li><strong>Vous venez de lancer une activit&eacute; ind&eacute;pendante</strong> &mdash; attendez d'avoir au moins deux exercices d&eacute;clar&eacute;s. Un premier exercice partiel ne d&eacute;montre rien.</li>
+  <li><strong>Vous &ecirc;tes sans emploi</strong> &mdash; si une reprise est envisageable &agrave; court terme, elle change la lecture du dossier. Rappelez-vous que le <a href="/blog/cout-naturalisation-francaise-2026.html">timbre fiscal de 255&nbsp;&euro;</a> n'est pas remboursable, et qu'un ajournement impose souvent deux ans d'attente&nbsp;: d&eacute;poser six mois plus tard co&ucirc;te moins cher que d&eacute;poser trop t&ocirc;t.</li>
+</ul>
+
+<p>Ce raisonnement vaut aussi pour les autres conditions&nbsp;: v&eacute;rifiez l'ensemble des <a href="/blog/conditions-naturalisation-francaise.html">crit&egrave;res d'&eacute;ligibilit&eacute;</a> avant d'engager les frais.</p>
 """,
     "faq": [
         ("Quel salaire minimum faut-il pour être naturalisé français ?",
@@ -442,6 +653,12 @@ ARTICLES = {
          "Percevoir des prestations auxquelles on a droit n'est pas une faute et ne disqualifie pas automatiquement. Ce qui est examiné, c'est la part qu'elles représentent dans vos ressources et leur caractère durable."),
         ("Comment justifier ses revenus quand on est auto-entrepreneur ?",
          "Par le volume de preuves, faute de bulletins de salaire : avis d'imposition sur plusieurs années, attestations URSSAF, déclarations de chiffre d'affaires et bilans le cas échéant. Une activité déclarée de longue date et fiscalement en règle constitue un bon dossier."),
+        ("Les revenus de mon conjoint sont-ils pris en compte ?",
+         "Oui. L'administration apprécie votre autonomie en tenant compte de la composition du foyer : un revenu modeste dans un foyer à deux salaires ne se lit pas comme le même revenu supportant seul quatre personnes. Documentez la situation du foyer, pas seulement la vôtre."),
+        ("Faut-il fournir des bulletins de salaire ou des avis d'imposition ?",
+         "Les deux, mais ce sont les avis d'imposition qui pèsent le plus : ils couvrent une année entière et racontent une trajectoire, là où trois bulletins de salaire ne montrent qu'un instantané. Prévoyez les trois derniers."),
+        ("Quand vaut-il mieux déposer sa demande ?",
+         "Après la période d'essai si vous venez de signer un CDI, après une séquence lisible de deux à trois ans si vous enchaînez les CDD, après au moins deux exercices déclarés si vous êtes indépendant. Le timbre fiscal de 255 € n'est pas remboursable et un ajournement impose souvent deux ans d'attente : déposer six mois plus tard coûte moins cher que déposer trop tôt."),
     ],
     "links": [
         ("/blog/conditions-naturalisation-francaise.html", "Les 7 conditions de la naturalisation"),
