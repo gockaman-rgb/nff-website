@@ -703,3 +703,23 @@ img { max-width: 100%; display: block; }
 .home-intro strong { color: var(--text); }
 .home-intro a { color: var(--accent-blue); text-decoration: none; }
 .home-intro a:hover { text-decoration: underline; }
+
+/* ── Articles : chapô et encadré de mise en avant ──────────────────── */
+/* specificite alignee sur .article-body p, qui gagnerait sinon */
+.article-body p.article-lede {
+  font-size: 18px;
+  line-height: 1.75;
+  color: var(--text);
+  border-left: 3px solid var(--accent-blue);
+  padding-left: 18px;
+  margin-bottom: 32px;
+}
+.article-body .callout {
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent-blue);
+  border-radius: 12px;
+  background: var(--surface);
+  padding: 16px 20px;
+  margin: 24px 0;
+}
+.article-body .callout p { margin: 0; font-size: 15px; line-height: 1.7; }
