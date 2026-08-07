@@ -621,3 +621,72 @@ img { max-width: 100%; display: block; }
 .four-oh-four { text-align: center; padding: 180px 24px 80px; }
 .four-oh-four h1 { font-size: 72px; font-weight: 900; margin-bottom: 12px; color: var(--text-muted); }
 .four-oh-four p { font-size: 17px; color: var(--text-secondary); margin-bottom: 28px; }
+
+/* ── Test blanc examen civique : corrections rampables ─────────────── */
+.qcm-themes { list-style: none; padding: 0; margin: 0 0 20px; }
+.qcm-themes li {
+  border-left: 3px solid var(--border);
+  padding: 10px 0 10px 16px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+.qcm-themes li strong { color: var(--text); }
+
+.qcm-answers { margin-top: 4px; }
+.qcm-answers details {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--surface);
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+.qcm-answers summary {
+  cursor: pointer;
+  padding: 16px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.5;
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+}
+.qcm-answers summary::-webkit-details-marker { display: none; }
+.qcm-answers summary::after {
+  content: "+";
+  margin-left: auto;
+  font-weight: 700;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+.qcm-answers details[open] summary::after { content: "\2013"; }
+.qcm-answers details[open] summary { border-bottom: 1px solid var(--border); }
+.qcm-num {
+  flex-shrink: 0;
+  width: 24px; height: 24px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-size: 12px; font-weight: 700;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.qcm-opts { list-style: none; padding: 16px 18px 0; margin: 0; }
+.qcm-opts li {
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 5px 0 5px 22px;
+  position: relative;
+  color: var(--text-secondary);
+}
+.qcm-opts li::before { content: "\2022"; position: absolute; left: 6px; }
+.qcm-opts li.ok { color: #0a8f5b; font-weight: 600; }
+.qcm-opts li.ok::before { content: "\2713"; left: 4px; }
+.qcm-good { padding: 12px 18px 0; margin: 0; font-size: 15px; color: var(--text); }
+.qcm-why { padding: 8px 18px 0; margin: 0; font-size: 14px; line-height: 1.7; color: var(--text-secondary); }
+.qcm-theme { padding: 12px 18px 18px; margin: 0; font-size: 13px; color: var(--text-secondary); opacity: 0.8; }
+@media (prefers-color-scheme: dark) { .qcm-opts li.ok { color: #34d399; } }
+:root[data-theme="dark"] .qcm-opts li.ok { color: #34d399; }
+:root[data-theme="light"] .qcm-opts li.ok { color: #0a8f5b; }
