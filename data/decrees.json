@@ -1,6 +1,14 @@
 {
-  "last_archive": "JORF_20260819-003035.tar.gz",
+  "last_archive": "JORF_20260820-002202.tar.gz",
   "decrees": [
+    {
+      "jorftext_id": "JORFTEXT000054717866",
+      "jo_date": "20 août 2026",
+      "decret_date": "14 août 2026",
+      "jo_date_iso": "2026-08-20",
+      "decret_date_iso": "2026-08-14",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054717866"
+    },
     {
       "jorftext_id": "JORFTEXT000054678595",
       "jo_date": "14 août 2026",
@@ -554,5 +562,5 @@
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048815602"
     }
   ],
-  "content_date": "2026-08-14"
+  "content_date": "2026-08-20"
 }
