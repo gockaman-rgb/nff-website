@@ -6,6 +6,19 @@ Les cinq premiers articles ont ete choisis sur les donnees Search Console
 deja sans satisfaire personne, ou bien n'apparait pas du tout alors que
 l'etape existe dans le parcours.
 
+Les cinq suivants (17 septembre 2026) couvrent les voies d'acces a la
+nationalite qui exigent aussi le niveau B2, a cote de la declaration par
+mariage deja traitee : reintegration, refugies, etudes en France,
+dispenses de stage, candidats de plus de 65 ans ; puis "naturalisation
+rapide", l'article de methode qui relie les cinq leviers a l'app. Chaque
+article porte sa date ("date" / "date_fr"), a defaut TODAY.
+
+Faits verifies (septembre 2026) : l'examen civique ne concerne que les
+procedures par decret (service-public F39426) ; les attestations de
+comparabilite ENIC-NARIC ne prouvent plus le B2 depuis le 1er janvier
+2026 ; la dispense de langue des plus de 60 ans a disparu le 1er avril
+2020 (decret 2019-1507).
+
     python3 scripts/build_articles.py
 """
 
@@ -154,6 +167,7 @@ ARTICLES = {
         ("/blog/documents-naturalisation.html", "La liste compl&egrave;te des documents du dossier"),
         ("/blog/erreurs-dossier-naturalisation.html", "Les erreurs qui font rejeter un dossier"),
         ("/blog/conditions-naturalisation-francaise.html", "Les 7 conditions de la naturalisation"),
+        ("/blog/naturalisation-refugie-2026.html", "R&eacute;fugi&eacute;s&nbsp;: l'&eacute;tat civil vient de l'OFPRA, pas du consulat"),
     ],
     "sources": [
         ("https://www.service-public.gouv.fr/particuliers/vosdroits/F2213", "Service-public.gouv.fr &mdash; Naturalisation fran&ccedil;aise par d&eacute;cret (F2213)"),
@@ -507,7 +521,7 @@ ARTICLES = {
 
 <h2>Et votre conjoint &eacute;tranger&nbsp;?</h2>
 
-<p>Votre naturalisation ne lui transmet rien automatiquement&nbsp;: l'effet collectif ne concerne que les enfants mineurs. En revanche, elle lui ouvre une voie&nbsp;: la <a href="/blog/naturalisation-par-mariage-2026.html">d&eacute;claration de nationalit&eacute; &agrave; raison du mariage</a>, sous conditions de dur&eacute;e de mariage et de communaut&eacute; de vie. Le niveau B2 et l'examen civique s'appliquent l&agrave; aussi.</p>
+<p>Votre naturalisation ne lui transmet rien automatiquement&nbsp;: l'effet collectif ne concerne que les enfants mineurs. En revanche, elle lui ouvre une voie&nbsp;: la <a href="/blog/naturalisation-par-mariage-2026.html">d&eacute;claration de nationalit&eacute; &agrave; raison du mariage</a>, sous conditions de dur&eacute;e de mariage et de communaut&eacute; de vie. Le niveau B2 s'applique l&agrave; aussi, mais pas l'examen civique, r&eacute;serv&eacute; aux proc&eacute;dures par d&eacute;cret.</p>
 """,
     "faq": [
         ("Quelles démarches faire juste après la naturalisation ?",
@@ -525,7 +539,7 @@ ARTICLES = {
         ("J'ai moins de 25 ans : ai-je des obligations de service national ?",
          "Oui. Vous devez faire le recensement citoyen en mairie dans les mois qui suivent l'acquisition, puis la Journée défense et citoyenneté avant vos 25 ans. L'attestation de participation est exigée pour s'inscrire au permis de conduire, au baccalauréat et aux concours de la fonction publique avant 25 ans."),
         ("Mon conjoint étranger devient-il français aussi ?",
-         "Non, l'effet collectif ne concerne que les enfants mineurs. Votre conjoint peut en revanche engager une déclaration de nationalité à raison du mariage, sous conditions de durée de mariage et de communauté de vie — avec, là aussi, le niveau B2 et l'examen civique."),
+         "Non, l'effet collectif ne concerne que les enfants mineurs. Votre conjoint peut en revanche engager une déclaration de nationalité à raison du mariage, sous conditions de durée de mariage et de communauté de vie — avec, là aussi, le niveau B2, mais sans examen civique, réservé aux procédures par décret."),
         ("Faut-il renouveler son titre de séjour après la naturalisation ?",
          "Non, il n'a plus d'objet et la taxe de renouvellement serait une dépense inutile. Conservez-le tout de même quelque temps : il porte votre numéro AGDREF, utile pour identifier vos anciens dossiers."),
     ],
@@ -664,12 +678,798 @@ ARTICLES = {
         ("/blog/conditions-naturalisation-francaise.html", "Les 7 conditions de la naturalisation"),
         ("/blog/documents-naturalisation.html", "La liste des pi&egrave;ces &agrave; fournir"),
         ("/blog/ajournement-vs-refus-naturalisation.html", "Ajournement ou refus&nbsp;: que faire"),
+        ("/blog/naturalisation-apres-etudes-en-france.html", "Jeunes dipl&ocirc;m&eacute;s&nbsp;: ce que la pr&eacute;fecture attend c&ocirc;t&eacute; emploi"),
+        ("/blog/naturalisation-refugie-2026.html", "R&eacute;fugi&eacute;s&nbsp;: ressources et prestations sociales"),
     ],
     "sources": [
         ("https://www.service-public.gouv.fr/particuliers/vosdroits/F2213", "Service-public.gouv.fr &mdash; Naturalisation par d&eacute;cret (F2213)"),
         ("https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006149926/", "Code civil &mdash; Acquisition de la nationalit&eacute; fran&ccedil;aise"),
     ],
     "cta": "Pr&eacute;parer mon dossier avec l'app",
+},
+# ═══════════════════════════════════════════════════════════════════════
+"reintegration-nationalite-francaise-2026": {
+    "title": "Réintégration nationalité française : décret ou déclaration ?",
+    "h1": "R&eacute;int&eacute;gration dans la nationalit&eacute; fran&ccedil;aise&nbsp;: par d&eacute;cret ou par d&eacute;claration&nbsp;?",
+    "desc": "Né en Algérie avant 1962 ou ancien Français ? Par décret, la réintégration exige B2 et examen civique, sans durée de résidence ; par déclaration, ni test ni examen.",
+    "og": "R&eacute;int&eacute;gration dans la nationalit&eacute; fran&ccedil;aise&nbsp;: les deux voies",
+    "tag": "Conditions",
+    "og_img": "default.png",
+    "date": "2026-09-17",
+    "date_fr": "17 septembre 2026",
+    "lede": "Redevenir fran&ccedil;ais n'est pas une naturalisation comme les autres. La loi pr&eacute;voit deux voies, aux exigences tr&egrave;s diff&eacute;rentes&nbsp;: la r&eacute;int&eacute;gration par d&eacute;cret, qui suit les r&egrave;gles de la naturalisation sans la condition de stage, et la r&eacute;int&eacute;gration par d&eacute;claration, r&eacute;serv&eacute;e &agrave; trois cas pr&eacute;cis. Voici comment savoir laquelle vous concerne, ce qu'on vous demandera en 2026, et le pi&egrave;ge du dossier&nbsp;: prouver une nationalit&eacute; perdue il y a parfois soixante ans.",
+    "body": """
+<h2>R&eacute;int&eacute;gration ou naturalisation&nbsp;: la diff&eacute;rence tient en une phrase</h2>
+
+<p>La naturalisation s'adresse &agrave; un &eacute;tranger qui n'a jamais &eacute;t&eacute; fran&ccedil;ais. La r&eacute;int&eacute;gration s'adresse &agrave; une personne qui <strong>a poss&eacute;d&eacute; la nationalit&eacute; fran&ccedil;aise et l'a perdue</strong>&nbsp;: c'est l'article 24 du Code civil, qui vise &laquo;&nbsp;les personnes qui &eacute;tablissent avoir poss&eacute;d&eacute; la qualit&eacute; de Fran&ccedil;ais&nbsp;&raquo;. Tout le dossier tourne autour de ce verbe, <em>&eacute;tablir</em>.</p>
+
+<p>Elle ne se confond pas non plus avec une nationalit&eacute; &laquo;&nbsp;par filiation&nbsp;&raquo;. Un enfant n&eacute; apr&egrave;s que ses parents ont perdu la nationalit&eacute; fran&ccedil;aise n'a lui-m&ecirc;me jamais &eacute;t&eacute; fran&ccedil;ais&nbsp;: il ne peut pas &ecirc;tre r&eacute;int&eacute;gr&eacute; dans une nationalit&eacute; qu'il n'a pas eue. Pour lui, ce sera la naturalisation par d&eacute;cret ou l'une des autres voies d'acc&egrave;s. La &laquo;&nbsp;r&eacute;int&eacute;gration par filiation&nbsp;&raquo;, souvent recherch&eacute;e, n'existe pas.</p>
+
+<div class="callout">
+  <p><strong>&Agrave; retenir&nbsp;:</strong> la r&eacute;int&eacute;gration suppose que <em>vous</em>, personnellement, ayez &eacute;t&eacute; fran&ccedil;ais &agrave; un moment de votre vie. Deux voies existent ensuite&nbsp;: par d&eacute;cret (la r&egrave;gle g&eacute;n&eacute;rale) ou par d&eacute;claration (trois cas de perte pr&eacute;cis).</p>
+</div>
+
+<h2>Le cas le plus fr&eacute;quent&nbsp;: &ecirc;tre n&eacute; en Alg&eacute;rie avant l'ind&eacute;pendance</h2>
+
+<p>C'est la situation qui g&eacute;n&egrave;re le plus de demandes, et le plus de confusion. Avant le 3 juillet 1962, l'Alg&eacute;rie &eacute;tait constitu&eacute;e de d&eacute;partements fran&ccedil;ais&nbsp;: les personnes qui y sont n&eacute;es &eacute;taient fran&ccedil;aises. Mais l'ordonnance n&deg;&nbsp;62-825 du 21 juillet 1962 a distingu&eacute; deux cat&eacute;gories.</p>
+
+<ul>
+  <li>Les personnes de <strong>statut civil de droit commun</strong> ont conserv&eacute; la nationalit&eacute; fran&ccedil;aise.</li>
+  <li>Les personnes de <strong>statut civil de droit local</strong>, c'est-&agrave;-dire l'immense majorit&eacute; de la population, l'ont perdue au 1<sup>er</sup> janvier 1963, sauf si elles ont souscrit en France une <strong>d&eacute;claration recognitive</strong> de nationalit&eacute; fran&ccedil;aise avant le 22 mars 1967.</li>
+</ul>
+
+<p>Les enfants n&eacute;s en France avant le 1<sup>er</sup> janvier 1963 de parents de statut local ont suivi la condition de leurs parents&nbsp;: sans d&eacute;claration recognitive, ils ont perdu la nationalit&eacute; fran&ccedil;aise avec eux. Ces personnes, n&eacute;es en Alg&eacute;rie ou en France avant 1963, ont donc bien &laquo;&nbsp;poss&eacute;d&eacute; la qualit&eacute; de Fran&ccedil;ais&nbsp;&raquo;&nbsp;: elles sont &eacute;ligibles &agrave; la r&eacute;int&eacute;gration par d&eacute;cret, &agrave; tout &acirc;ge.</p>
+
+<p>La r&eacute;ponse du minist&egrave;re de l'Int&eacute;rieur publi&eacute;e au Journal officiel le 3 juin 2025 le confirme, en ajoutant une limite&nbsp;: la r&eacute;int&eacute;gration &laquo;&nbsp;est soumise, pour le surplus, aux conditions et aux r&egrave;gles de la naturalisation&nbsp;&raquo;, dont la r&eacute;sidence en France. Une personne n&eacute;e en Alg&eacute;rie avant 1962 qui vit &agrave; l'&eacute;tranger ne peut pas &ecirc;tre r&eacute;int&eacute;gr&eacute;e tant qu'elle n'a pas &eacute;tabli sa r&eacute;sidence en France.</p>
+
+<h3>N&eacute; en France apr&egrave;s 1962 de parents n&eacute;s en Alg&eacute;rie&nbsp;? Vous &ecirc;tes probablement d&eacute;j&agrave; fran&ccedil;ais</h3>
+
+<p>C'est le point que beaucoup de familles ignorent. L'article 19-3 du Code civil rend fran&ccedil;ais l'enfant n&eacute; en France dont un parent y est lui-m&ecirc;me n&eacute;, et l'Alg&eacute;rie d'avant le 3 juillet 1962 compte comme la France. L'enfant n&eacute; en France depuis le 1<sup>er</sup> janvier 1963 d'un parent n&eacute; en Alg&eacute;rie avant l'ind&eacute;pendance est donc fran&ccedil;ais de naissance, quel qu'ait &eacute;t&eacute; le statut de ses parents et m&ecirc;me s'ils ont perdu la nationalit&eacute; fran&ccedil;aise. Inutile de demander une r&eacute;int&eacute;gration ou une naturalisation&nbsp;: la bonne d&eacute;marche est un <a href="/glossaire/cnf.html">certificat de nationalit&eacute; fran&ccedil;aise</a>, d&eacute;livr&eacute; par le tribunal judiciaire.</p>
+
+<h3>Et les autres anciens territoires&nbsp;?</h3>
+
+<p>Le raisonnement vaut, avec des textes propres &agrave; chaque cas, pour les personnes de statut local originaires des anciens territoires d'outre-mer devenus ind&eacute;pendants en 1960 (Afrique subsaharienne, Madagascar)&nbsp;: elles ont perdu la nationalit&eacute; fran&ccedil;aise lorsque la loi du nouvel &Eacute;tat la leur a conf&eacute;r&eacute;e, sauf domicile en France ou d&eacute;claration recognitive. En revanche, le Maroc et la Tunisie &eacute;taient des protectorats&nbsp;: leurs ressortissants n'ont jamais &eacute;t&eacute; fran&ccedil;ais, et la r&eacute;int&eacute;gration ne leur est pas ouverte sur ce fondement.</p>
+
+<h2>Voie n&deg;&nbsp;1&nbsp;: la r&eacute;int&eacute;gration par d&eacute;cret</h2>
+
+<p>L'article 24-1 tient en deux phrases&nbsp;: la r&eacute;int&eacute;gration par d&eacute;cret &laquo;&nbsp;peut &ecirc;tre obtenue &agrave; tout &acirc;ge et sans condition de stage. Elle est soumise, pour le surplus, aux conditions et aux r&egrave;gles de la naturalisation.&nbsp;&raquo;</p>
+
+<p>Concr&egrave;tement, vous &ecirc;tes dispens&eacute; de la <strong>dur&eacute;e de r&eacute;sidence de 5&nbsp;ans</strong> exig&eacute;e pour une naturalisation ordinaire. Tout le reste s'applique, y compris les exigences renforc&eacute;es depuis le 1<sup>er</sup> janvier 2026&nbsp;:</p>
+
+<ul>
+  <li><strong>R&eacute;sider en France</strong> au moment de la signature du d&eacute;cret, avec le centre de vos int&eacute;r&ecirc;ts mat&eacute;riels et familiaux en France, et un titre de s&eacute;jour en cours de validit&eacute; (sauf ressortissants europ&eacute;ens et suisses).</li>
+  <li><strong>Justifier du niveau B2</strong> de fran&ccedil;ais, &agrave; l'oral et &agrave; l'&eacute;crit, par un dipl&ocirc;me fran&ccedil;ais ou un test (TCF ou TEF de moins de 2&nbsp;ans).</li>
+  <li><strong>R&eacute;ussir l'examen civique</strong>&nbsp;: 40&nbsp;questions, 32&nbsp;bonnes r&eacute;ponses exig&eacute;es, dans un centre agr&eacute;&eacute;.</li>
+  <li><strong>Passer l'entretien</strong> d'assimilation en pr&eacute;fecture et signer la charte des droits et devoirs du citoyen.</li>
+  <li>Disposer de <strong>ressources stables et suffisantes</strong>, appr&eacute;ci&eacute;es sur 5&nbsp;ans, et n'avoir aucune condamnation incompatible (peine ferme de 6&nbsp;mois ou plus, atteinte aux int&eacute;r&ecirc;ts de la Nation).</li>
+</ul>
+
+<table class="article-table">
+  <thead><tr><th>Crit&egrave;re</th><th>R&eacute;int&eacute;gration par d&eacute;cret</th><th>Naturalisation par d&eacute;cret</th></tr></thead>
+  <tbody>
+    <tr><td>Dur&eacute;e de r&eacute;sidence (stage)</td><td><em>Aucune</em></td><td>5&nbsp;ans (2&nbsp;ans ou dispense dans certains cas)</td></tr>
+    <tr><td>R&eacute;sidence en France au moment du d&eacute;cret</td><td>Oui</td><td>Oui</td></tr>
+    <tr><td>Niveau de fran&ccedil;ais</td><td>B2</td><td>B2</td></tr>
+    <tr><td>Examen civique</td><td>Oui</td><td>Oui</td></tr>
+    <tr><td>Entretien en pr&eacute;fecture</td><td>Oui</td><td>Oui</td></tr>
+    <tr><td>Preuve d'une nationalit&eacute; fran&ccedil;aise ant&eacute;rieure</td><td><em>Oui, pi&egrave;ce centrale</em></td><td>Non</td></tr>
+    <tr><td>Timbre fiscal</td><td>255&nbsp;&euro;</td><td>255&nbsp;&euro;</td></tr>
+    <tr><td>D&eacute;lai l&eacute;gal de r&eacute;ponse</td><td>18&nbsp;mois (12&nbsp;mois apr&egrave;s 10&nbsp;ans de r&eacute;sidence)</td><td>18&nbsp;mois (12&nbsp;mois apr&egrave;s 10&nbsp;ans de r&eacute;sidence)</td></tr>
+  </tbody>
+</table>
+
+<p>La proc&eacute;dure est celle de la naturalisation&nbsp;: demande en ligne sur le t&eacute;l&eacute;service de l'<a href="/glossaire/anef.html">ANEF</a> (le formulaire s'intitule d'ailleurs &laquo;&nbsp;demande de naturalisation ou de r&eacute;int&eacute;gration&nbsp;&raquo;), ou cerfa n&deg;&nbsp;12753 d&eacute;pos&eacute; &agrave; la plateforme de naturalisation de votre domicile si le d&eacute;p&ocirc;t en ligne est impossible. Le d&eacute;cret est ensuite publi&eacute; au Journal officiel&nbsp;: dans notre <a href="/outils/decret-naturalisation.html">annuaire des d&eacute;crets</a>, les r&eacute;int&eacute;grations portent le code <a href="/glossaire/nat-eff-rei.html">REI</a>.</p>
+
+<h2>Voie n&deg;&nbsp;2&nbsp;: la r&eacute;int&eacute;gration par d&eacute;claration</h2>
+
+<p>L'article 24-2 r&eacute;serve cette voie, beaucoup plus l&eacute;g&egrave;re, &agrave; des situations pr&eacute;cises&nbsp;: vous avez perdu la nationalit&eacute; fran&ccedil;aise <strong>&agrave; la suite d'un mariage avec un &eacute;tranger</strong> (sous l'empire des anciennes lois), <strong>par acquisition volontaire d'une nationalit&eacute; &eacute;trang&egrave;re</strong> alors que vous r&eacute;sidiez &agrave; l'&eacute;tranger, ou &agrave; raison de l'exercice de certains mandats publics.</p>
+
+<p>Les conditions ne portent ni sur la langue ni sur les connaissances civiques&nbsp;: il faut avoir <strong>conserv&eacute; ou acquis des liens manifestes avec la France</strong> (culturels, professionnels, &eacute;conomiques ou familiaux), ne pas faire l'objet d'une expulsion ou d'une interdiction du territoire, &ecirc;tre en s&eacute;jour r&eacute;gulier si vous vivez en France, et ne pas avoir de condamnation incompatible.</p>
+
+<p>La d&eacute;claration se souscrit au <strong>tribunal judiciaire</strong> de votre domicile, ou au consulat si vous vivez &agrave; l'&eacute;tranger. L'administration a <strong>6&nbsp;mois</strong> &agrave; compter du r&eacute;c&eacute;piss&eacute; pour l'enregistrer ou refuser&nbsp;; pass&eacute; ce d&eacute;lai, le silence vaut enregistrement. La nationalit&eacute; prend effet &agrave; la date de souscription, et vos enfants mineurs qui vivent avec vous deviennent fran&ccedil;ais s'ils sont mentionn&eacute;s dans la d&eacute;claration.</p>
+
+<div class="callout">
+  <p><strong>Pas de test de langue, pas d'examen civique</strong> pour la r&eacute;int&eacute;gration par d&eacute;claration&nbsp;: ces deux &eacute;preuves ne concernent que les proc&eacute;dures par d&eacute;cret. Mais cette voie n'est ouverte qu'aux cas de perte cit&eacute;s par l'article 24-2. Une perte li&eacute;e &agrave; l'ind&eacute;pendance d'un territoire rel&egrave;ve du d&eacute;cret.</p>
+</div>
+
+<h2>Prouver que vous avez &eacute;t&eacute; fran&ccedil;ais&nbsp;: le nerf du dossier</h2>
+
+<p>La pi&egrave;ce qui d&eacute;cide de tout est celle qui &eacute;tablit votre nationalit&eacute; fran&ccedil;aise pass&eacute;e. Selon votre histoire, il s'agira de&nbsp;:</p>
+
+<ul>
+  <li>votre <strong>acte de naissance</strong> &eacute;tabli en Alg&eacute;rie avant le 3 juillet 1962, accompagn&eacute; des actes de naissance de vos parents, pour les personnes de statut local&nbsp;;</li>
+  <li>un ancien document fran&ccedil;ais &agrave; votre nom&nbsp;: <strong>livret de famille, carte d'identit&eacute;, livret militaire, carte d'&eacute;lecteur</strong> d'avant l'ind&eacute;pendance&nbsp;;</li>
+  <li>l'<strong>ampliation d'un d&eacute;cret</strong> de naturalisation ou de r&eacute;int&eacute;gration, une d&eacute;claration de nationalit&eacute; enregistr&eacute;e, un certificat de nationalit&eacute; fran&ccedil;aise ou un jugement, si vous aviez acquis la nationalit&eacute; par ces voies&nbsp;;</li>
+  <li>pour la voie par d&eacute;claration, un <strong>certificat des autorit&eacute;s du pays</strong> dont vous avez acquis la nationalit&eacute;, pr&eacute;cisant la date d'acquisition et la loi qui l'a permise.</li>
+</ul>
+
+<p>Les actes &eacute;tablis en Alg&eacute;rie avant 1962 s'obtiennent aupr&egrave;s de la commune alg&eacute;rienne de naissance et, selon les cas, aupr&egrave;s des Archives nationales d'outre-mer ou du <a href="/glossaire/scec.html">Service central d'&eacute;tat civil</a> de Nantes. Comptez plusieurs mois&nbsp;: c'est la premi&egrave;re d&eacute;marche &agrave; lancer, avant m&ecirc;me le test de langue. Chaque document &eacute;tranger doit &ecirc;tre traduit par un traducteur agr&eacute;&eacute;, et les actes d'&eacute;tat civil sont fournis en copie int&eacute;grale.</p>
+
+<h2>Le B2 et l'examen civique&nbsp;: ce que 2026 change pour les candidats &agrave; la r&eacute;int&eacute;gration</h2>
+
+<p>Beaucoup de candidats &agrave; la r&eacute;int&eacute;gration ont grandi avec le fran&ccedil;ais, parfois fait toute leur scolarit&eacute; en fran&ccedil;ais. Mais depuis le 1<sup>er</sup> janvier 2026, un dipl&ocirc;me &eacute;tranger, m&ecirc;me obtenu en fran&ccedil;ais, ne prouve plus le niveau&nbsp;: les attestations de comparabilit&eacute; ENIC-NARIC ne sont plus accept&eacute;es. Seuls comptent un <strong>dipl&ocirc;me fran&ccedil;ais</strong> (brevet, CAP, bac, dipl&ocirc;me du sup&eacute;rieur d&eacute;livr&eacute; au nom de l'&Eacute;tat), un <strong>DELF B2 ou DALF</strong>, ou une <strong>attestation TCF ou TEF</strong> de moins de deux ans. Parler fran&ccedil;ais ne suffit pas&nbsp;: il faut le certifier, &agrave; l'&eacute;crit comme &agrave; l'oral.</p>
+
+<p>L'examen civique est la seconde marche. 40&nbsp;questions, 45&nbsp;minutes, 32&nbsp;bonnes r&eacute;ponses exig&eacute;es&nbsp;: le seuil de 80&nbsp;% ne laisse que 8&nbsp;erreurs, et les 12&nbsp;questions de mise en situation surprennent les candidats qui ont r&eacute;vis&eacute; l'histoire mais pas la vie quotidienne (la&iuml;cit&eacute;, &eacute;galit&eacute; femmes-hommes, r&egrave;gles du vivre-ensemble).</p>
+
+<p>L'application <a href="https://apps.apple.com/fr/app/naturalisation-france-facile/id6761140087" target="_blank">Naturalisation France Facile</a> a &eacute;t&eacute; con&ccedil;ue pour ces deux &eacute;preuves&nbsp;: plus de 750&nbsp;exercices calibr&eacute;s B2 sur les 4&nbsp;&eacute;preuves du TCF IRN et du DELF B2, avec correction de vos productions &eacute;crites et orales et des examens blancs en conditions r&eacute;elles&nbsp;; 258&nbsp;questions d'examen civique sur les 5&nbsp;th&egrave;mes officiels, 100&nbsp;mises en situation et une explication apr&egrave;s chaque r&eacute;ponse. Le simulateur d'entretien vous pr&eacute;pare ensuite aux questions de la pr&eacute;fecture, et la checklist des pi&egrave;ces vous &eacute;vite d'oublier la preuve de nationalit&eacute; ant&eacute;rieure, absente des listes standard.</p>
+
+<h2>L'ordre des d&eacute;marches qui &eacute;vite de perdre un an</h2>
+
+<ol>
+  <li><strong>R&eacute;unissez d'abord la preuve de votre nationalit&eacute; pass&eacute;e.</strong> C'est la pi&egrave;ce la plus longue &agrave; obtenir, et sans elle le dossier est irrecevable.</li>
+  <li><strong>Identifiez votre voie.</strong> Perte par mariage, par acquisition volontaire ou par mandat public&nbsp;: d&eacute;claration au tribunal. Tout autre cas, dont l'ind&eacute;pendance d'un territoire&nbsp;: d&eacute;cret.</li>
+  <li><strong>Pour le d&eacute;cret, planifiez le B2 et l'examen civique.</strong> Une attestation TCF ou TEF n'est valable que 2&nbsp;ans&nbsp;: passez le test quand le reste du dossier est pr&ecirc;t, pas deux ans avant.</li>
+  <li><strong>D&eacute;posez en ligne</strong>, avec le timbre fiscal de 255&nbsp;&euro;, puis suivez l'instruction sur votre espace ANEF.</li>
+  <li><strong>Pr&eacute;parez l'entretien.</strong> Pour une r&eacute;int&eacute;gration, l'agent s'int&eacute;ressera &agrave; votre parcours, aux circonstances de la perte et &agrave; vos liens actuels avec la France.</li>
+</ol>
+""",
+    "faq": [
+        ("Qu'est-ce que la réintégration dans la nationalité française ?",
+         "C'est la procédure qui permet à une personne qui a possédé puis perdu la nationalité française de la retrouver (article 24 du Code civil). Elle se fait par décret, aux conditions de la naturalisation mais sans durée minimale de résidence, ou par déclaration dans trois cas de perte précis : mariage avec un étranger, acquisition volontaire d'une nationalité étrangère, exercice de certains mandats publics."),
+        ("Je suis né en Algérie avant 1962 : puis-je être réintégré dans la nationalité française ?",
+         "Oui, si vous étiez de statut civil de droit local et avez perdu la nationalité française au 1er janvier 1963 faute de déclaration recognitive : vous avez possédé la qualité de Français. La réintégration par décret est possible à tout âge et sans condition de stage, mais elle exige de résider en France, de justifier du niveau B2 et de réussir l'examen civique."),
+        ("Je suis né en France après 1962 de parents nés en Algérie : dois-je demander la réintégration ?",
+         "Non. En application de l'article 19-3 du Code civil, l'enfant né en France depuis le 1er janvier 1963 d'un parent né en Algérie avant le 3 juillet 1962 est français de naissance, quel que soit le statut de ses parents. Demandez un certificat de nationalité française au tribunal judiciaire, pas une réintégration."),
+        ("Peut-on être réintégré en résidant à l'étranger ?",
+         "Par décret, non : la réintégration suit les règles de la naturalisation, qui exigent de résider en France au moment de la signature du décret (réponse ministérielle du 3 juin 2025). Seules quelques situations assimilées à une résidence en France font exception, comme une activité exercée pour le compte de l'État français, la résidence à Monaco ou le service dans l'armée française. La réintégration par déclaration, elle, peut être souscrite au consulat."),
+        ("Faut-il passer le test de français et l'examen civique pour être réintégré ?",
+         "Pour la réintégration par décret, oui : niveau B2 à l'écrit et à l'oral, et réussite de l'examen civique, comme pour toute naturalisation depuis le 1er janvier 2026. Pour la réintégration par déclaration, non : ni test de langue ni examen civique."),
+        ("Combien coûte la réintégration et combien de temps dure-t-elle ?",
+         "Par décret : un timbre fiscal de 255 € (127,50 € en Guyane), plus le coût du test de langue et de l'examen civique ; l'administration a 18 mois pour répondre à partir du récépissé, ramenés à 12 mois si vous résidez en France depuis au moins 10 ans, prolongeables une fois de 3 mois. Par déclaration : décision dans les 6 mois du récépissé, le silence valant enregistrement."),
+        ("Quelle différence entre réintégration et naturalisation ?",
+         "Une seule condition disparaît : la durée minimale de résidence en France, 5 ans en règle générale. Tout le reste est identique : résidence en France, titre de séjour, B2, examen civique, entretien, ressources, moralité. S'y ajoute la preuve que vous avez été français."),
+        ("Mes enfants deviennent-ils français avec moi ?",
+         "Oui. La réintégration par décret ou par déclaration produit effet à l'égard de vos enfants de moins de 18 ans qui résident habituellement avec vous, à condition qu'ils soient mentionnés dans le décret ou la déclaration (article 24-3 du Code civil)."),
+    ],
+    "links": [
+        ("/blog/conditions-naturalisation-francaise.html", "Les conditions de la naturalisation, auxquelles renvoie la r&eacute;int&eacute;gration"),
+        ("/blog/tcf-irn-ou-delf-b2-lequel-choisir.html", "TCF IRN ou DELF B2&nbsp;: lequel choisir pour prouver le B2"),
+        ("/blog/examen-civique-naturalisation-2026.html", "L'examen civique&nbsp;: format, seuil et m&eacute;thode"),
+        ("/blog/naturalisation-apres-65-ans.html", "Naturalisation apr&egrave;s 65&nbsp;ans&nbsp;: la d&eacute;claration sans test"),
+        ("/outils/decret-naturalisation.html", "V&eacute;rifier la publication de votre d&eacute;cret (code REI)"),
+    ],
+    "sources": [
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F2214", "Service-public.gouv.fr &mdash; R&eacute;int&eacute;gration dans la nationalit&eacute; fran&ccedil;aise par d&eacute;cret (F2214)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F3071", "Service-public.gouv.fr &mdash; R&eacute;int&eacute;gration par d&eacute;claration (F3071)"),
+        ("https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006149957/", "Code civil &mdash; Articles 24 &agrave; 24-3 (r&eacute;int&eacute;gration)"),
+        ("https://questions.assemblee-nationale.fr/q17/17-2579QE.htm", "Assembl&eacute;e nationale &mdash; R&eacute;ponse minist&eacute;rielle du 3 juin 2025 sur les Alg&eacute;riens n&eacute;s avant le 3 juillet 1962"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F39426", "Service-public.gouv.fr &mdash; Examen civique&nbsp;: proc&eacute;dures concern&eacute;es (F39426)"),
+    ],
+    "cta": "Pr&eacute;parer le B2 et l'examen civique avec l'app",
+},
+# ═══════════════════════════════════════════════════════════════════════
+"naturalisation-refugie-2026": {
+    "title": "Naturalisation d'un réfugié : conditions, B2 et délais (2026)",
+    "h1": "Naturalisation des r&eacute;fugi&eacute;s&nbsp;: sans condition de stage, mais pas sans conditions",
+    "desc": "Réfugié, vous pouvez déposer sans attendre 5 ans. Mais B2, examen civique et ressources stables restent exigés, et la protection subsidiaire n'a pas cette dispense.",
+    "og": "Naturalisation des r&eacute;fugi&eacute;s en 2026&nbsp;: ce qui est vraiment exig&eacute;",
+    "tag": "Conditions",
+    "og_img": "default.png",
+    "date": "2026-09-17",
+    "date_fr": "17 septembre 2026",
+    "lede": "La Convention de Gen&egrave;ve demande aux &Eacute;tats de faciliter la naturalisation des r&eacute;fugi&eacute;s, et le droit fran&ccedil;ais le fait sur un point pr&eacute;cis&nbsp;: aucune dur&eacute;e minimale de r&eacute;sidence n'est exig&eacute;e. Sur tout le reste, un r&eacute;fugi&eacute; est un candidat comme les autres, et depuis 2026 les autres marches (niveau B2, examen civique, ressources appr&eacute;ci&eacute;es sur cinq ans) sont plus hautes. Voici ce qui vous est demand&eacute;, ce qui ne l'est pas, et l'ordre dans lequel avancer.",
+    "body": """
+<h2>La dispense de stage&nbsp;: ce qu'elle veut dire, et ce qu'elle ne veut pas dire</h2>
+
+<p>L'article 21-19 du Code civil permet de naturaliser &laquo;&nbsp;sans condition de stage&nbsp;&raquo; l'&eacute;tranger qui a obtenu le statut de r&eacute;fugi&eacute;. Le stage, c'est la dur&eacute;e de r&eacute;sidence habituelle en France exig&eacute;e avant de d&eacute;poser&nbsp;: 5&nbsp;ans en r&egrave;gle g&eacute;n&eacute;rale. Un r&eacute;fugi&eacute; statutaire peut donc, en droit, d&eacute;poser sa demande d&egrave;s la reconnaissance de son statut par l'OFPRA ou la CNDA.</p>
+
+<p>Cette dispense ne supprime rien d'autre. Vous devez toujours <strong>r&eacute;sider en France</strong> au moment du d&eacute;cret et y avoir le centre de vos int&eacute;r&ecirc;ts, d&eacute;tenir un titre de s&eacute;jour valide (la carte de r&eacute;sident d&eacute;livr&eacute;e aux r&eacute;fugi&eacute;s convient), justifier du <strong>niveau B2</strong>, r&eacute;ussir l'<strong>examen civique</strong>, passer l'<strong>entretien</strong> d'assimilation, et disposer de <strong>ressources stables et suffisantes</strong>.</p>
+
+<div class="callout">
+  <p><strong>Le vrai calendrier&nbsp;:</strong> la loi permet de d&eacute;poser tout de suite, mais la circulaire du 2 mai 2025 demande aux pr&eacute;fectures d'appr&eacute;cier l'insertion professionnelle <em>sur cinq ans</em>. D&eacute;poser sans emploi stable ni certification B2 conduit presque toujours &agrave; un ajournement. La dispense de stage fait gagner du temps &agrave; ceux qui sont pr&ecirc;ts&nbsp;; elle ne rend pas pr&ecirc;t.</p>
+</div>
+
+<h2>R&eacute;fugi&eacute;, protection subsidiaire, apatride&nbsp;: trois r&eacute;gimes diff&eacute;rents</h2>
+
+<table class="article-table">
+  <thead><tr><th>Statut</th><th>Dur&eacute;e de r&eacute;sidence exig&eacute;e</th><th>Test de langue B2</th></tr></thead>
+  <tbody>
+    <tr><td>R&eacute;fugi&eacute; statutaire (OFPRA ou CNDA)</td><td><em>Aucune</em> (art. 21-19)</td><td>Exig&eacute;, sauf apr&egrave;s 70&nbsp;ans et 15&nbsp;ans de r&eacute;sidence</td></tr>
+    <tr><td>B&eacute;n&eacute;ficiaire de la protection subsidiaire</td><td>5&nbsp;ans (r&egrave;gle g&eacute;n&eacute;rale)</td><td>Exig&eacute;</td></tr>
+    <tr><td>Apatride reconnu par l'OFPRA</td><td>5&nbsp;ans (r&egrave;gle g&eacute;n&eacute;rale)</td><td>Exig&eacute;, sauf apr&egrave;s 70&nbsp;ans et 15&nbsp;ans de r&eacute;sidence</td></tr>
+  </tbody>
+</table>
+
+<p>Le point qui surprend&nbsp;: la <strong>protection subsidiaire</strong> ne donne pas la dispense de stage. L'article 21-19 ne vise que le statut de r&eacute;fugi&eacute; au sens de la Convention de Gen&egrave;ve. Si vous &ecirc;tes b&eacute;n&eacute;ficiaire de la protection subsidiaire, vous relevez de la r&egrave;gle g&eacute;n&eacute;rale des 5&nbsp;ans de r&eacute;sidence habituelle, sauf si une autre r&eacute;duction s'applique &agrave; vous, par exemple un dipl&ocirc;me du sup&eacute;rieur fran&ccedil;ais obtenu apr&egrave;s deux ans d'&eacute;tudes, qui ram&egrave;ne le stage &agrave; 2&nbsp;ans. Les ann&eacute;es pass&eacute;es en France en s&eacute;jour r&eacute;gulier, y compris pendant la proc&eacute;dure d'asile, comptent en principe dans ce calcul&nbsp;; c'est votre installation durable (logement, travail, famille) que la pr&eacute;fecture regarde.</p>
+
+<h2>Le niveau B2&nbsp;: la marche la plus haute, sans dispense li&eacute;e au statut</h2>
+
+<p>Depuis le 1<sup>er</sup> janvier 2026, tout candidat &agrave; la naturalisation doit justifier d'un niveau B2 &agrave; l'&eacute;crit et &agrave; l'oral. Le statut de r&eacute;fugi&eacute; n'y change rien, et la seule dispense pr&eacute;vue par la loi est &eacute;troite&nbsp;: l'article 21-24-1 en exempte le r&eacute;fugi&eacute; politique ou l'apatride <strong>&acirc;g&eacute; de plus de 70&nbsp;ans</strong> qui r&eacute;side r&eacute;guli&egrave;rement en France <strong>depuis au moins 15&nbsp;ans</strong>. Les conditions sont cumulatives. L'autre dispense concerne un handicap ou un &eacute;tat de sant&eacute; qui rend l'&eacute;valuation impossible, sur certificat m&eacute;dical.</p>
+
+<p>Pour tous les autres, il faut un justificatif&nbsp;: un dipl&ocirc;me fran&ccedil;ais (brevet, CAP, bac, dipl&ocirc;me du sup&eacute;rieur d&eacute;livr&eacute; au nom de l'&Eacute;tat), un DELF B2 ou un DALF, ou une attestation TCF ou TEF de moins de deux ans. Un dipl&ocirc;me obtenu dans le pays d'origine, m&ecirc;me en fran&ccedil;ais, ne prouve plus le niveau depuis 2026.</p>
+
+<p>La difficult&eacute; est concr&egrave;te&nbsp;: les formations linguistiques de l'OFII, dans le cadre du contrat d'int&eacute;gration r&eacute;publicaine, visent le niveau A1 puis A2. Entre A2 et B2, il y a plusieurs centaines d'heures de travail. Notre guide sur <a href="/blog/atteindre-niveau-b2-naturalisation.html">le chemin vers le B2</a> propose un plan de travail r&eacute;aliste, et l'application <a href="https://apps.apple.com/fr/app/naturalisation-france-facile/id6761140087" target="_blank">Naturalisation France Facile</a> vous entra&icirc;ne sur les 4&nbsp;&eacute;preuves du TCF IRN et du DELF B2 (compr&eacute;hension orale avec transcription, compr&eacute;hension &eacute;crite, expression &eacute;crite et orale corrig&eacute;es selon les crit&egrave;res officiels), avec des examens blancs pour mesurer o&ugrave; vous en &ecirc;tes avant de payer une inscription.</p>
+
+<h2>L'examen civique&nbsp;: obligatoire, comme pour tout le monde</h2>
+
+<p>Le QCM de 40&nbsp;questions s'impose &agrave; toute demande par d&eacute;cret depuis le 1<sup>er</sup> janvier 2026, sans dispense li&eacute;e au statut de r&eacute;fugi&eacute;&nbsp;; seule une impossibilit&eacute; m&eacute;dicale y &eacute;chappe. Il faut 32&nbsp;bonnes r&eacute;ponses&nbsp;; les questions portent sur l'histoire, les institutions, les droits et devoirs, la place de la France dans le monde et la vie en soci&eacute;t&eacute;. Les 12&nbsp;questions de mise en situation testent des r&eacute;flexes (la&iuml;cit&eacute;, &eacute;galit&eacute;, respect des lois) plut&ocirc;t que des dates. L'app contient 258&nbsp;questions et 100&nbsp;mises en situation avec explication&nbsp;: s'entra&icirc;ner en fran&ccedil;ais tout en r&eacute;visant, les deux pr&eacute;parations se renforcent.</p>
+
+<h2>Le dossier d'un r&eacute;fugi&eacute;&nbsp;: ce qui diff&egrave;re des autres candidats</h2>
+
+<h3>L'&eacute;tat civil vient de l'OFPRA, jamais du consulat</h3>
+
+<p>Ne contactez en aucun cas les autorit&eacute;s du pays que vous avez fui&nbsp;: une d&eacute;marche aupr&egrave;s de votre consulat peut &ecirc;tre interpr&eacute;t&eacute;e comme un acte d'all&eacute;geance et remettre en cause votre protection. C'est l'<strong>OFPRA</strong> qui &eacute;tablit vos actes d'&eacute;tat civil (certificats tenant lieu d'acte de naissance ou de mariage). Ces documents ont valeur d'actes fran&ccedil;ais&nbsp;: demandez-les en ligne sur le site de l'OFPRA suffisamment t&ocirc;t pour qu'ils aient <strong>moins de 3&nbsp;mois</strong> au moment du d&eacute;p&ocirc;t.</p>
+
+<h3>Pas d'extrait de casier judiciaire du pays d'origine</h3>
+
+<p>La r&egrave;gle g&eacute;n&eacute;rale exige un <a href="/blog/casier-judiciaire-naturalisation.html">extrait de casier judiciaire &eacute;tranger</a> des candidats install&eacute;s en France depuis moins de 10&nbsp;ans. Elle ne s'applique pas au pays d'origine du r&eacute;fugi&eacute; ou de l'apatride prot&eacute;g&eacute; par l'OFPRA. Le b&eacute;n&eacute;ficiaire de la protection subsidiaire, lui aussi plac&eacute; sous la protection de l'OFPRA, documente l'impossibilit&eacute; de le demander plut&ocirc;t que de contacter son pays. Si vous avez v&eacute;cu dans un pays tiers avant la France, l'extrait de ce pays reste en revanche demand&eacute;, ou une attestation d'impossibilit&eacute;.</p>
+
+<h3>Le titre de s&eacute;jour et le titre de voyage</h3>
+
+<p>Fournissez votre carte de r&eacute;sident (ou votre carte de s&eacute;jour pluriannuelle, pour la protection subsidiaire) et, comme document d'identit&eacute;, votre titre de voyage pour r&eacute;fugi&eacute;. Le passeport du pays d'origine ne doit pas figurer au dossier.</p>
+
+<h3>Les ressources&nbsp;: le vrai motif d'ajournement</h3>
+
+<p>&laquo;&nbsp;Naturalisation r&eacute;fugi&eacute; sans emploi&nbsp;&raquo; est l'une des recherches les plus fr&eacute;quentes sur le sujet, et la r&eacute;ponse est nette depuis la circulaire du 2 mai 2025&nbsp;: les revenus sont appr&eacute;ci&eacute;s <strong>hors prestations sociales</strong>, et les demandes dont les ressources proviennent majoritairement de ces prestations sont, sauf exception, &eacute;cart&eacute;es. Pour un salari&eacute;, la pr&eacute;fecture attend un CDI de plus d'un an ou une continuit&eacute; de CDD sur 24&nbsp;mois. Une exception explicite&nbsp;: l'insuffisance de ressources qui r&eacute;sulte directement d'une maladie ou d'un handicap ne peut pas vous &ecirc;tre oppos&eacute;e. Notre article sur <a href="/blog/ressources-revenus-naturalisation.html">ce que la pr&eacute;fecture regarde</a> d&eacute;taille chaque situation (CDD, int&eacute;rim, auto-entrepreneur, formation).</p>
+
+<h2>D&eacute;lais, d&eacute;cision et effets sur votre statut</h2>
+
+<p>Le d&eacute;lai l&eacute;gal de r&eacute;ponse est de 18&nbsp;mois &agrave; compter du r&eacute;c&eacute;piss&eacute; de dossier complet, ramen&eacute; &agrave; 12&nbsp;mois si vous r&eacute;sidez habituellement en France depuis au moins 10&nbsp;ans, prolongeable une fois de 3&nbsp;mois. Il n'existe pas de proc&eacute;dure acc&eacute;l&eacute;r&eacute;e propre aux r&eacute;fugi&eacute;s&nbsp;; les d&eacute;lais r&eacute;els varient surtout selon la <a href="/blog/delais-naturalisation-par-prefecture.html">plateforme de naturalisation</a> qui instruit votre dossier.</p>
+
+<p>Le jour o&ugrave; le d&eacute;cret est sign&eacute;, vous &ecirc;tes fran&ccedil;ais, et vos enfants mineurs qui vivent avec vous le deviennent s'ils y sont mentionn&eacute;s. Votre statut de r&eacute;fugi&eacute; prend alors fin&nbsp;: la protection de la France remplace celle de l'OFPRA, vous demandez une carte d'identit&eacute; et un passeport fran&ccedil;ais, et le titre de voyage n'a plus d'objet. Nos <a href="/blog/demarches-apres-naturalisation.html">d&eacute;marches des 6 premiers mois</a> vous guident dans l'ordre.</p>
+
+<h2>Dans quel ordre avancer</h2>
+
+<ol>
+  <li><strong>Stabilisez d'abord votre situation professionnelle.</strong> C'est ce qui d&eacute;cide entre d&eacute;cret et ajournement, bien plus que la date du d&eacute;p&ocirc;t.</li>
+  <li><strong>Travaillez le B2 en parall&egrave;le</strong>, par paliers (A2, B1, B2)&nbsp;: mesurez votre niveau avec un examen blanc avant de vous inscrire.</li>
+  <li><strong>Passez l'examen civique</strong> une fois le vocabulaire en place&nbsp;; l'attestation n'a pas de dur&eacute;e de validit&eacute; limit&eacute;e.</li>
+  <li><strong>Commandez vos actes &agrave; l'OFPRA</strong> trois &agrave; quatre semaines avant le d&eacute;p&ocirc;t, pour respecter la r&egrave;gle des 3&nbsp;mois.</li>
+  <li><strong>D&eacute;posez en ligne</strong> sur l'ANEF avec le timbre fiscal de 255&nbsp;&euro;, puis pr&eacute;parez l'entretien avec le simulateur.</li>
+</ol>
+""",
+    "faq": [
+        ("Un réfugié peut-il demander la naturalisation dès l'obtention de son statut ?",
+         "En droit, oui : l'article 21-19 du Code civil dispense les réfugiés statutaires de toute durée minimale de résidence. En pratique, la demande n'aboutit que si les autres conditions sont réunies : titre de séjour valide, niveau B2 certifié, examen civique réussi, ressources stables appréciées sur cinq ans."),
+        ("La protection subsidiaire donne-t-elle la même dispense ?",
+         "Non. La dispense de stage ne vise que le statut de réfugié. Un bénéficiaire de la protection subsidiaire doit justifier de 5 ans de résidence habituelle en France, sauf autre cause de réduction, par exemple un diplôme du supérieur français obtenu après deux ans d'études, qui ramène la durée à 2 ans."),
+        ("Un réfugié est-il dispensé du test de français B2 ?",
+         "Seulement s'il remplit des conditions cumulatives : être réfugié politique ou apatride, avoir plus de 70 ans et résider régulièrement en France depuis au moins 15 ans (article 21-24-1). Tous les autres doivent fournir un diplôme français, un DELF B2 ou DALF, ou une attestation TCF/TEF de moins de 2 ans. Un handicap ou un état de santé rendant l'évaluation impossible ouvre aussi une dispense, sur certificat médical."),
+        ("Un réfugié doit-il passer l'examen civique ?",
+         "Oui. L'examen civique s'applique à toute demande de naturalisation ou de réintégration par décret depuis le 1er janvier 2026, quel que soit le statut du candidat. Seule une impossibilité médicale attestée permet d'en être dispensé."),
+        ("Peut-on être naturalisé en étant réfugié sans emploi ?",
+         "C'est très difficile depuis la circulaire du 2 mai 2025 : les ressources sont appréciées hors prestations sociales, et les demandes reposant majoritairement sur ces prestations sont en principe écartées ou ajournées. Exception : si l'insuffisance des ressources résulte directement d'une maladie ou d'un handicap, elle ne peut pas vous être opposée."),
+        ("Quels documents d'état civil fournir quand on est réfugié ?",
+         "Les certificats tenant lieu d'actes d'état civil délivrés par l'OFPRA (naissance, mariage), à demander en ligne et datés de moins de 3 mois au dépôt. Ne contactez jamais les autorités de votre pays d'origine. L'extrait de casier judiciaire de ce pays n'est pas exigé."),
+        ("Que devient mon statut de réfugié après la naturalisation ?",
+         "Il prend fin : en devenant français, vous bénéficiez de la protection de la France et n'avez plus besoin de celle de l'OFPRA. Vous demandez une carte d'identité et un passeport français ; le titre de voyage pour réfugié n'a plus d'objet."),
+        ("Mes enfants deviennent-ils français avec moi ?",
+         "Oui, s'ils ont moins de 18 ans, résident habituellement avec vous et sont mentionnés dans le décret. Leur minorité s'apprécie à la date de signature du décret."),
+    ],
+    "links": [
+        ("/blog/ressources-revenus-naturalisation.html", "Ressources et naturalisation&nbsp;: ce que la pr&eacute;fecture regarde"),
+        ("/blog/atteindre-niveau-b2-naturalisation.html", "Atteindre le niveau B2&nbsp;: plan de travail A2&rarr;B2"),
+        ("/blog/naturalisation-sans-condition-de-stage.html", "Naturalisation sans condition de stage&nbsp;: toutes les dispenses"),
+        ("/blog/documents-naturalisation.html", "La liste compl&egrave;te des pi&egrave;ces du dossier"),
+        ("/blog/ajournement-vs-refus-naturalisation.html", "Ajournement ou refus&nbsp;: que faire"),
+    ],
+    "sources": [
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F2213", "Service-public.gouv.fr &mdash; Naturalisation par d&eacute;cret&nbsp;: conditions et pi&egrave;ces (F2213)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F11926", "Service-public.gouv.fr &mdash; Justifier de son niveau de fran&ccedil;ais, dispenses (F11926)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F39426", "Service-public.gouv.fr &mdash; Examen civique (F39426)"),
+        ("https://www.legifrance.gouv.fr/circulaire/id/45604", "L&eacute;gifrance &mdash; Circulaire du 2 mai 2025, orientations relatives &agrave; l'acquisition de la nationalit&eacute; fran&ccedil;aise"),
+        ("https://www.ofpra.gouv.fr/mes-documents-detat-civil", "OFPRA &mdash; Mes documents d'&eacute;tat civil"),
+    ],
+    "cta": "Pr&eacute;parer le B2 et l'examen civique avec l'app",
+},
+# ═══════════════════════════════════════════════════════════════════════
+"naturalisation-apres-etudes-en-france": {
+    "title": "Naturalisation après des études en France : 2 ans suffisent ?",
+    "h1": "Naturalisation apr&egrave;s des &eacute;tudes en France&nbsp;: le stage r&eacute;duit &agrave; 2&nbsp;ans, mode d'emploi",
+    "desc": "Un diplôme du supérieur français après 2 ans d'études ramène la résidence exigée à 2 ans. Étudiant, alternant, doctorant, passeport talent : ce que la préfecture attend.",
+    "og": "Naturalisation apr&egrave;s des &eacute;tudes en France&nbsp;: le stage r&eacute;duit &agrave; 2&nbsp;ans",
+    "tag": "Conditions",
+    "og_img": "default.png",
+    "date": "2026-09-17",
+    "date_fr": "17 septembre 2026",
+    "lede": "Vous avez obtenu un dipl&ocirc;me dans une universit&eacute; ou une &eacute;cole fran&ccedil;aise, et vous vous demandez si vous devez attendre cinq ans de r&eacute;sidence avant de demander la nationalit&eacute;. Non&nbsp;: le Code civil ram&egrave;ne cette dur&eacute;e &agrave; deux ans pour les dipl&ocirc;m&eacute;s du sup&eacute;rieur fran&ccedil;ais. Mais entre la lettre de la loi et la d&eacute;cision de la pr&eacute;fecture, il y a l'insertion professionnelle, le niveau de langue, et une circulaire de 2025 qui a durci la lecture de tout cela. Voici ce qui compte vraiment.",
+    "body": """
+<h2>La r&egrave;gle&nbsp;: deux ans au lieu de cinq</h2>
+
+<p>La naturalisation exige en principe cinq ann&eacute;es de r&eacute;sidence habituelle en France avant le d&eacute;p&ocirc;t de la demande&nbsp;: c'est le &laquo;&nbsp;stage&nbsp;&raquo; de l'article 21-17 du Code civil. L'article 21-18 le r&eacute;duit &agrave; <strong>deux ans</strong> pour &laquo;&nbsp;l'&eacute;tranger qui a accompli avec succ&egrave;s deux ann&eacute;es d'&eacute;tudes sup&eacute;rieures en vue d'acqu&eacute;rir un dipl&ocirc;me d&eacute;livr&eacute; par une universit&eacute; ou un &eacute;tablissement d'enseignement sup&eacute;rieur fran&ccedil;ais&nbsp;&raquo;. Service-public le r&eacute;sume ainsi&nbsp;: avoir obtenu un dipl&ocirc;me d'un &eacute;tablissement d'enseignement sup&eacute;rieur fran&ccedil;ais apr&egrave;s deux ans d'&eacute;tudes.</p>
+
+<p>Trois &eacute;l&eacute;ments doivent donc &ecirc;tre r&eacute;unis&nbsp;:</p>
+
+<ul>
+  <li><strong>deux ann&eacute;es d'&eacute;tudes sup&eacute;rieures</strong> accomplies en France, avec succ&egrave;s&nbsp;;</li>
+  <li>un <strong>dipl&ocirc;me obtenu</strong>&nbsp;: un cursus interrompu avant le dipl&ocirc;me ne suffit pas&nbsp;;</li>
+  <li>un &eacute;tablissement <strong>fran&ccedil;ais</strong>&nbsp;: universit&eacute;, &eacute;cole d'ing&eacute;nieurs ou de commerce, IUT, section de BTS. Un dipl&ocirc;me &eacute;tranger pr&eacute;par&eacute; &agrave; distance depuis la France ne compte pas.</li>
+</ul>
+
+<p>Concr&egrave;tement, un master (deux ans), un BTS ou un BUT, une licence ou un dipl&ocirc;me d'ing&eacute;nieur remplissent la condition. Une seule ann&eacute;e en France, m&ecirc;me dipl&ocirc;mante, ne suffit pas&nbsp;: un master 2 obtenu apr&egrave;s un master 1 &agrave; l'&eacute;tranger, par exemple, ne fait qu'une ann&eacute;e d'&eacute;tudes sup&eacute;rieures en France.</p>
+
+<div class="callout">
+  <p><strong>Ce que la r&eacute;duction ne change pas&nbsp;:</strong> les deux ans sont une dur&eacute;e de r&eacute;sidence, pas un droit &agrave; la naturalisation. Tout le reste s'applique&nbsp;: titre de s&eacute;jour valide, r&eacute;sidence en France au moment du d&eacute;cret, niveau B2, examen civique, entretien, ressources stables, moralit&eacute;.</p>
+</div>
+
+<h2>Les ann&eacute;es d'&eacute;tudes comptent-elles dans la r&eacute;sidence&nbsp;?</h2>
+
+<p>Oui&nbsp;: le stage s'appr&eacute;cie en r&eacute;sidence habituelle, et les ann&eacute;es pass&eacute;es en France sous un titre de s&eacute;jour &eacute;tudiant sont des ann&eacute;es de r&eacute;sidence r&eacute;guli&egrave;re. Un &eacute;tudiant arriv&eacute; pour une licence et rest&eacute; pour un master a souvent d&eacute;j&agrave; cinq ans de pr&eacute;sence&nbsp;; la r&eacute;duction &agrave; deux ans sert surtout &agrave; ceux qui sont arriv&eacute;s directement en master ou en &eacute;cole.</p>
+
+<p>La nuance vient de la notion de <strong>centre des int&eacute;r&ecirc;ts</strong>. La pr&eacute;fecture v&eacute;rifie que votre vie est en France&nbsp;: travail, logement, famille, attaches. Un candidat dont le conjoint et les enfants vivent &agrave; l'&eacute;tranger, ou dont les revenus viennent majoritairement de l'&eacute;tranger, peut se voir refuser la naturalisation m&ecirc;me avec la dur&eacute;e requise&nbsp;: la circulaire du 2 mai 2025 demande explicitement d'&eacute;carter les demandes dont les revenus proviennent majoritairement de l'&eacute;tranger.</p>
+
+<h2>Le point qui d&eacute;cide de tout&nbsp;: l'insertion professionnelle</h2>
+
+<p>C'est le motif d'ajournement le plus fr&eacute;quent pour les jeunes dipl&ocirc;m&eacute;s. La circulaire du 2 mai 2025 demande aux pr&eacute;fets d'appr&eacute;cier l'insertion professionnelle <strong>sur cinq ans</strong> et, pour les salari&eacute;s, d'exiger un <strong>CDI de plus d'un an</strong> &agrave; la date d'examen de la demande, ou une <strong>continuit&eacute; de CDD sur 24&nbsp;mois</strong>. Les revenus sont compar&eacute;s au SMIC, major&eacute; selon la composition du foyer, et appr&eacute;ci&eacute;s hors prestations sociales.</p>
+
+<p>Traduction pratique, situation par situation&nbsp;:</p>
+
+<table class="article-table">
+  <thead><tr><th>Situation</th><th>Lecture de la pr&eacute;fecture</th><th>Conseil</th></tr></thead>
+  <tbody>
+    <tr><td>&Eacute;tudiant encore en cours</td><td>Pas d'insertion professionnelle&nbsp;: ajournement tr&egrave;s probable, sauf profil de haut niveau</td><td>Attendre le dipl&ocirc;me et un premier contrat</td></tr>
+    <tr><td>Alternant (apprentissage, professionnalisation)</td><td>Un contrat de travail et des revenus, mais &agrave; dur&eacute;e d&eacute;termin&eacute;e</td><td>D&eacute;poser une fois embauch&eacute; &agrave; l'issue de l'alternance</td></tr>
+    <tr><td>Jeune dipl&ocirc;m&eacute; en CDD ou en int&eacute;rim</td><td>Continuit&eacute; exig&eacute;e sur 24&nbsp;mois</td><td>Constituer le dossier, d&eacute;poser au 24<sup>e</sup> mois ou d&egrave;s le CDI</td></tr>
+    <tr><td>Salari&eacute; en CDI de plus d'un an</td><td>Situation attendue</td><td>D&eacute;poser d&egrave;s que le B2 et l'examen civique sont acquis</td></tr>
+    <tr><td>Doctorant, chercheur, passeport talent</td><td>Profil &laquo;&nbsp;&agrave; potentiel &eacute;lev&eacute;&nbsp;&raquo; explicitement vis&eacute; par la circulaire</td><td>Mettre en avant le parcours&nbsp;: contrat doctoral, publications, projet</td></tr>
+    <tr><td>Interne en m&eacute;decine ou en pharmacie</td><td>Salari&eacute; de l'h&ocirc;pital&nbsp;: insertion r&eacute;elle, contrats successifs</td><td>Joindre les contrats et le calendrier de l'internat</td></tr>
+  </tbody>
+</table>
+
+<p>Pour les doctorants et les titulaires d'un passeport talent, la circulaire ouvre une porte suppl&eacute;mentaire&nbsp;: elle invite les pr&eacute;fectures &agrave; prendre en compte &laquo;&nbsp;les &eacute;tudiants de haut niveau et les professionnels titulaires d'un passeport talent&nbsp;&raquo; susceptibles de contribuer au rayonnement de la France, et rappelle qu'ils peuvent b&eacute;n&eacute;ficier de la r&eacute;duction du stage &agrave; deux ans au titre des <strong>services importants rendus par leurs capacit&eacute;s et talents</strong> (article 21-18, 2&deg;). Ce fondement ne demande pas de dipl&ocirc;me fran&ccedil;ais&nbsp;: il vise le profil.</p>
+
+<h2>Votre dipl&ocirc;me fran&ccedil;ais prouve le niveau B2&nbsp;: pas de TCF &agrave; passer</h2>
+
+<p>C'est l'avantage le plus concret, et le moins connu. Depuis le 1<sup>er</sup> janvier 2026, le niveau B2 se prouve soit par un test (TCF ou TEF de moins de deux ans, 200 &agrave; 300&nbsp;&euro; pour le TCF), soit par un dipl&ocirc;me. L'arr&ecirc;t&eacute; du 22 d&eacute;cembre 2025 accepte notamment <strong>tout dipl&ocirc;me d&eacute;livr&eacute; au nom de l'&Eacute;tat sanctionnant un niveau au moins &eacute;gal au niveau 3 du cadre national des certifications</strong>, et toute certification professionnelle enregistr&eacute;e au RNCP &agrave; partir de ce niveau. Une licence (niveau 6), un master (niveau 7), un doctorat (niveau 8), un BTS ou un BUT (niveau 5), un dipl&ocirc;me d'ing&eacute;nieur ou un baccalaur&eacute;at remplissent largement cette condition.</p>
+
+<p>Deux v&eacute;rifications &agrave; faire avant de compter dessus&nbsp;:</p>
+
+<ul>
+  <li>le dipl&ocirc;me doit &ecirc;tre <strong>national</strong> (d&eacute;livr&eacute; au nom de l'&Eacute;tat) ou <strong>enregistr&eacute; au RNCP</strong>&nbsp;: un dipl&ocirc;me d'universit&eacute; (DU), un certificat d'&eacute;cole ou un &laquo;&nbsp;MBA&nbsp;&raquo; non enregistr&eacute; ne suffisent pas, m&ecirc;me prestigieux&nbsp;;</li>
+  <li>l'arr&ecirc;t&eacute; ne pose aucune condition sur la langue d'enseignement&nbsp;: c'est le dipl&ocirc;me qui atteste le niveau. Mais si vous avez suivi un cursus enti&egrave;rement en anglais, pr&eacute;parez tout de m&ecirc;me l'entretien en pr&eacute;fecture, qui se d&eacute;roule en fran&ccedil;ais et &eacute;value votre aisance r&eacute;elle.</li>
+</ul>
+
+<p>Si votre dipl&ocirc;me n'entre pas dans ces cat&eacute;gories, il vous faudra un DELF B2, un DALF ou une attestation TCF ou TEF. L'application <a href="https://apps.apple.com/fr/app/naturalisation-france-facile/id6761140087" target="_blank">Naturalisation France Facile</a> vous entra&icirc;ne sur les quatre &eacute;preuves du TCF IRN et du DELF B2, avec correction de l'expression &eacute;crite et orale selon les crit&egrave;res officiels et des examens blancs complets&nbsp;: de quoi valider le niveau avant de payer une inscription.</p>
+
+<h2>L'examen civique et l'entretien&nbsp;: ce qu'aucun dipl&ocirc;me ne remplace</h2>
+
+<p>Aucun dipl&ocirc;me ne dispense de l'<strong>examen civique</strong>&nbsp;: 40&nbsp;questions, 32&nbsp;bonnes r&eacute;ponses, 45&nbsp;minutes, dans un centre agr&eacute;&eacute;, pour environ 70&nbsp;&euro;. Les dipl&ocirc;m&eacute;s le sous-estiment souvent, puis butent sur les questions de mise en situation et les rep&egrave;res historiques pr&eacute;cis. L'app propose 258&nbsp;questions sur les cinq th&egrave;mes officiels et 100&nbsp;mises en situation, avec une explication &agrave; chaque r&eacute;ponse.</p>
+
+<p>L'<strong>entretien d'assimilation</strong> en pr&eacute;fecture, lui, portera sur votre parcours&nbsp;: pourquoi la France, pourquoi maintenant, quel projet professionnel, quelle vie ici. Un candidat qui explique clairement le lien entre ses &eacute;tudes, son emploi et son installation a un dossier coh&eacute;rent. Le simulateur d'entretien de l'app, avec notation de vos r&eacute;ponses, permet de r&eacute;p&eacute;ter ces questions avant le jour J.</p>
+
+<h2>Le dossier&nbsp;: les pi&egrave;ces propres aux &eacute;tudiants et jeunes dipl&ocirc;m&eacute;s</h2>
+
+<ul>
+  <li>le <strong>dipl&ocirc;me</strong> obtenu en France, et les relev&eacute;s de notes attestant les deux ann&eacute;es valid&eacute;es&nbsp;;</li>
+  <li>les <strong>titres de s&eacute;jour</strong> successifs, pour &eacute;tablir la continuit&eacute; de r&eacute;sidence&nbsp;: &eacute;tudiant, recherche d'emploi ou cr&eacute;ation d'entreprise, salari&eacute;, passeport talent&nbsp;;</li>
+  <li>les avis d'imposition des trois derni&egrave;res ann&eacute;es, m&ecirc;me &laquo;&nbsp;non imposable&nbsp;&raquo;&nbsp;; si vous avez &eacute;t&eacute; pris en charge par vos parents, leur justificatif de ressources&nbsp;;</li>
+  <li>pour un &eacute;tudiant boursier, l'attestation de bourse&nbsp;; pour un alternant, le contrat et les bulletins&nbsp;;</li>
+  <li>le contrat de travail en cours et les trois derniers bulletins de salaire&nbsp;;</li>
+  <li>l'attestation de r&eacute;ussite &agrave; l'examen civique et, si votre dipl&ocirc;me ne prouve pas le B2, l'attestation TCF ou TEF ou le DELF.</li>
+</ul>
+
+<p>L'<a href="/blog/casier-judiciaire-naturalisation.html">extrait de casier judiciaire du pays d'origine</a> est demand&eacute; aux candidats install&eacute;s en France depuis moins de dix ans, ce qui est presque toujours le cas des anciens &eacute;tudiants&nbsp;: lancez cette demande en premier, elle peut prendre des mois.</p>
+
+<h2>Calendrier r&eacute;aliste pour un dipl&ocirc;m&eacute;</h2>
+
+<ol>
+  <li><strong>Pendant la derni&egrave;re ann&eacute;e d'&eacute;tudes&nbsp;:</strong> passez l'examen civique (l'attestation n'a pas de dur&eacute;e de validit&eacute; limit&eacute;e) et demandez l'extrait de casier judiciaire du pays d'origine.</li>
+  <li><strong>Au premier emploi&nbsp;:</strong> r&eacute;unissez les justificatifs de r&eacute;sidence continue et d'imposition.</li>
+  <li><strong>Au CDI de plus d'un an, ou &agrave; 24&nbsp;mois de contrats continus&nbsp;:</strong> d&eacute;posez en ligne sur l'ANEF, avec le timbre fiscal de 255&nbsp;&euro;.</li>
+  <li><strong>Ensuite&nbsp;:</strong> entretien, puis instruction&nbsp;; le d&eacute;lai l&eacute;gal de r&eacute;ponse est de 18&nbsp;mois &agrave; compter du r&eacute;c&eacute;piss&eacute;.</li>
+</ol>
+""",
+    "faq": [
+        ("Peut-on demander la naturalisation après 2 ans d'études en France ?",
+         "Oui, si vous avez obtenu un diplôme d'un établissement d'enseignement supérieur français après deux années d'études supérieures accomplies avec succès : l'article 21-18 du Code civil ramène alors la durée de résidence exigée de 5 à 2 ans. Les autres conditions (titre de séjour, B2, examen civique, ressources, moralité) restent entières."),
+        ("Un étudiant encore en cours d'études peut-il être naturalisé ?",
+         "Rien ne l'interdit, et service-public prévoit même les pièces à fournir dans ce cas (certificat de scolarité, attestation de bourse, prise en charge par les parents). Mais depuis la circulaire du 2 mai 2025, l'insertion professionnelle est appréciée sur cinq ans avec des ressources stables hors prestations : sans emploi, la demande est en général ajournée, sauf profil de haut niveau."),
+        ("Les années passées avec un titre de séjour étudiant comptent-elles ?",
+         "Oui, ce sont des années de résidence régulière et habituelle en France. La préfecture vérifie toutefois que le centre de vos intérêts est bien en France (travail, logement, famille) et que vos revenus ne viennent pas majoritairement de l'étranger."),
+        ("Mon master français me dispense-t-il du TCF ?",
+         "Oui. Depuis le 1er janvier 2026, tout diplôme délivré au nom de l'État sanctionnant au moins le niveau 3 du cadre national des certifications, ou toute certification RNCP à partir de ce niveau, justifie le niveau B2 : licence, master, doctorat, BTS, BUT, diplôme d'ingénieur, baccalauréat. Un diplôme d'université (DU) ou un certificat d'école non enregistré au RNCP ne suffit pas."),
+        ("Qu'attend la préfecture d'un jeune diplômé côté emploi ?",
+         "Pour un salarié, un CDI de plus d'un an à la date d'examen de la demande ou une continuité de CDD sur 24 mois, avec des revenus au moins au niveau du SMIC, majoré selon la composition du foyer et appréciés hors prestations sociales (circulaire du 2 mai 2025)."),
+        ("Le passeport talent ou un doctorat aident-ils ?",
+         "Oui. La circulaire du 2 mai 2025 invite les préfectures à prendre en compte les étudiants de haut niveau et les titulaires d'un passeport talent, et rappelle qu'ils peuvent bénéficier de la réduction du stage à deux ans au titre des services importants rendus à la France par leurs capacités et talents (article 21-18, 2°), indépendamment d'un diplôme français."),
+        ("Un alternant peut-il déposer une demande ?",
+         "Il le peut, et son contrat de travail est un vrai atout par rapport à un étudiant sans revenus. Mais un contrat d'apprentissage reste à durée déterminée : le dossier est plus solide une fois l'embauche obtenue à l'issue de l'alternance."),
+        ("Faut-il passer l'examen civique même avec un diplôme français ?",
+         "Oui. Aucun diplôme ne dispense de l'examen civique, obligatoire pour toute demande de naturalisation depuis le 1er janvier 2026. Seule une impossibilité médicale attestée y échappe."),
+    ],
+    "links": [
+        ("/blog/conditions-naturalisation-francaise.html", "Les 7 conditions de la naturalisation"),
+        ("/blog/ressources-revenus-naturalisation.html", "Ressources&nbsp;: CDD, int&eacute;rim, auto-entrepreneur, ce que chaque situation implique"),
+        ("/blog/naturalisation-sans-condition-de-stage.html", "Naturalisation sans condition de stage&nbsp;: qui est dispens&eacute; des 5&nbsp;ans"),
+        ("/blog/examen-civique-naturalisation-2026.html", "L'examen civique&nbsp;: 40&nbsp;questions, 80&nbsp;% de r&eacute;ussite"),
+        ("/blog/ajournement-vs-refus-naturalisation.html", "Ajournement ou refus&nbsp;: que faire"),
+    ],
+    "sources": [
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F2213", "Service-public.gouv.fr &mdash; Naturalisation par d&eacute;cret&nbsp;: dur&eacute;e de r&eacute;sidence (F2213)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F11926", "Service-public.gouv.fr &mdash; Dipl&ocirc;mes et attestations accept&eacute;s pour justifier du niveau B2 (F11926)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F34746", "Service-public.gouv.fr &mdash; Justificatifs de revenus, cas de l'&eacute;tudiant (F34746)"),
+        ("https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053164463", "L&eacute;gifrance &mdash; Arr&ecirc;t&eacute; du 22 d&eacute;cembre 2025 relatif &agrave; la justification du niveau de ma&icirc;trise du fran&ccedil;ais"),
+        ("https://www.legifrance.gouv.fr/circulaire/id/45604", "L&eacute;gifrance &mdash; Circulaire du 2 mai 2025, orientations relatives &agrave; l'acquisition de la nationalit&eacute; fran&ccedil;aise"),
+    ],
+    "cta": "Valider mon B2 et l'examen civique avec l'app",
+},
+# ═══════════════════════════════════════════════════════════════════════
+"naturalisation-sans-condition-de-stage": {
+    "title": "Naturalisation sans condition de stage : qui est dispensé ?",
+    "h1": "Naturalisation sans condition de stage&nbsp;: qui est dispens&eacute; des 5&nbsp;ans de r&eacute;sidence&nbsp;?",
+    "desc": "Francophones, réfugiés, légionnaires, services exceptionnels : qui est dispensé des 5 ans de résidence, et pourquoi le B2, l'examen civique et l'entretien restent exigés.",
+    "og": "Naturalisation sans condition de stage&nbsp;: la liste des dispenses",
+    "tag": "Conditions",
+    "og_img": "tcf-delf-b2.png",
+    "date": "2026-09-17",
+    "date_fr": "17 septembre 2026",
+    "lede": "&laquo;&nbsp;Sans condition de stage&nbsp;&raquo; est la formule la plus mal comprise du droit de la nationalit&eacute;. Elle ne signifie ni &laquo;&nbsp;naturalisation imm&eacute;diate&nbsp;&raquo;, ni &laquo;&nbsp;sans test de langue&nbsp;&raquo;. Elle supprime une seule des conditions de la naturalisation&nbsp;: la dur&eacute;e minimale de r&eacute;sidence en France, cinq ans en r&egrave;gle g&eacute;n&eacute;rale. Voici qui en b&eacute;n&eacute;ficie, ce que la pr&eacute;fecture continue d'exiger, et pourquoi le niveau B2 est devenu, pour les francophones, la question centrale.",
+    "body": """
+<h2>Ce qu'est le stage, et ce que la dispense supprime</h2>
+
+<p>Le &laquo;&nbsp;stage&nbsp;&raquo; d&eacute;signe la dur&eacute;e de r&eacute;sidence habituelle en France exig&eacute;e avant le d&eacute;p&ocirc;t d'une demande de naturalisation&nbsp;: cinq ans (article 21-17 du Code civil), ramen&eacute;s &agrave; deux ans dans certains cas (dipl&ocirc;me du sup&eacute;rieur fran&ccedil;ais, capacit&eacute;s et talents, parcours exceptionnel d'int&eacute;gration). Les articles 21-19 et 21-20 en dispensent totalement six cat&eacute;gories de personnes.</p>
+
+<p>La dispense porte uniquement sur cette dur&eacute;e. Elle laisse intactes toutes les autres conditions&nbsp;: <strong>r&eacute;sider en France</strong> au moment de la signature du d&eacute;cret, avec le centre de ses int&eacute;r&ecirc;ts mat&eacute;riels et familiaux, d&eacute;tenir un titre de s&eacute;jour valide, justifier du <strong>niveau B2</strong>, r&eacute;ussir l'<strong>examen civique</strong>, passer l'<strong>entretien</strong> d'assimilation, disposer de ressources stables, et n'avoir ni condamnation incompatible ni s&eacute;jour irr&eacute;gulier pass&eacute;. Et la naturalisation reste une d&eacute;cision discr&eacute;tionnaire&nbsp;: remplir les conditions ne cr&eacute;e pas un droit.</p>
+
+<h2>Qui est dispens&eacute; du stage&nbsp;: la liste compl&egrave;te</h2>
+
+<table class="article-table">
+  <thead><tr><th>Situation</th><th>Fondement</th><th>Ce qu'il faut prouver</th></tr></thead>
+  <tbody>
+    <tr><td>Ressortissant d'un pays dont le fran&ccedil;ais est langue officielle (ou l'une des langues officielles), et dont le fran&ccedil;ais est la langue maternelle</td><td>Art. 21-20</td><td>Nationalit&eacute; et langue maternelle (scolarit&eacute;, milieu familial)</td></tr>
+    <tr><td>Ressortissant d'un tel pays, scolaris&eacute; au moins 5&nbsp;ans dans un &eacute;tablissement enseignant en fran&ccedil;ais</td><td>Art. 21-20</td><td>Nationalit&eacute;, certificats de scolarit&eacute;, dipl&ocirc;mes</td></tr>
+    <tr><td>R&eacute;fugi&eacute; statutaire (OFPRA ou CNDA)</td><td>Art. 21-19, 5&deg;</td><td>D&eacute;cision de reconnaissance du statut</td></tr>
+    <tr><td>Services militaires accomplis dans une unit&eacute; de l'arm&eacute;e fran&ccedil;aise, dont la L&eacute;gion &eacute;trang&egrave;re</td><td>Art. 21-19, 1&deg;</td><td>&Eacute;tat des services, d&eacute;corations, citations</td></tr>
+    <tr><td>Engagement volontaire dans les arm&eacute;es fran&ccedil;aises ou alli&eacute;es en temps de guerre</td><td>Art. 21-19, 1&deg;</td><td>&Eacute;tat des services</td></tr>
+    <tr><td>Services exceptionnels rendus &agrave; la France, ou naturalisation pr&eacute;sentant un int&eacute;r&ecirc;t exceptionnel</td><td>Art. 21-19, 3&deg;</td><td>Rapport motiv&eacute; du ministre, avis du Conseil d'&Eacute;tat</td></tr>
+  </tbody>
+</table>
+
+<p>Deux cas particuliers s'y ajoutent, hors proc&eacute;dure ordinaire&nbsp;: le militaire &eacute;tranger <strong>bless&eacute; en op&eacute;ration</strong> peut devenir fran&ccedil;ais &laquo;&nbsp;par le sang vers&eacute;&nbsp;&raquo;, sur proposition du ministre des Arm&eacute;es (article 21-14-1), et le francophone qui contribue &laquo;&nbsp;par son action &eacute;m&eacute;rite au rayonnement de la France&nbsp;&raquo; peut &ecirc;tre naturalis&eacute; sur proposition du ministre des Affaires &eacute;trang&egrave;res (article 21-21).</p>
+
+<h2>Francophones&nbsp;: dispens&eacute;s du stage, pas du test de fran&ccedil;ais</h2>
+
+<p>C'est le paradoxe de 2026. L'article 21-20 vise &laquo;&nbsp;la personne qui appartient &agrave; l'entit&eacute; culturelle et linguistique fran&ccedil;aise&nbsp;&raquo;&nbsp;: S&eacute;n&eacute;galais, Ivoiriens, Camerounais, Maliens, Guin&eacute;ens, Congolais, B&eacute;ninois, Togolais, Burkinab&egrave;, Nig&eacute;riens, Gabonais, Ha&iuml;tiens, Belges, Suisses, Canadiens ou Luxembourgeois, d&egrave;s lors que le fran&ccedil;ais est leur langue maternelle ou qu'ils ont &eacute;t&eacute; scolaris&eacute;s au moins cinq ans en fran&ccedil;ais. Pour eux, aucune dur&eacute;e de r&eacute;sidence n'est exig&eacute;e. Le Maroc, l'Alg&eacute;rie et la Tunisie ne figurent pas dans cette liste&nbsp;: le fran&ccedil;ais n'y est pas langue officielle.</p>
+
+<p>Mais depuis le 1<sup>er</sup> janvier 2026, cette appartenance linguistique ne dispense plus de <strong>prouver</strong> le niveau. Le d&eacute;cret n&deg;&nbsp;2025-648 a relev&eacute; le niveau exig&eacute; &agrave; B2, et l'arr&ecirc;t&eacute; du 22 d&eacute;cembre 2025 a fix&eacute; la liste ferm&eacute;e des justificatifs&nbsp;: dipl&ocirc;me national du brevet, dipl&ocirc;me d&eacute;livr&eacute; au nom de l'&Eacute;tat fran&ccedil;ais d'un niveau au moins &eacute;gal au niveau 3, certification RNCP, dipl&ocirc;me attestant un niveau B2 (DELF B2, DALF), attestation TCF ou TEF de moins de deux ans. Les <strong>attestations de comparabilit&eacute; ENIC-NARIC</strong> pour un dipl&ocirc;me &eacute;tranger obtenu en fran&ccedil;ais, qui servaient jusque-l&agrave;, ne sont plus accept&eacute;es.</p>
+
+<div class="callout">
+  <p><strong>Concr&egrave;tement&nbsp;:</strong> un baccalaur&eacute;at, une licence ou un master obtenus &agrave; Dakar, Abidjan ou Yaound&eacute;, en fran&ccedil;ais, ne prouvent plus le B2. Vous parlez fran&ccedil;ais depuis toujours&nbsp;? Il faudra quand m&ecirc;me passer le TCF, le TEF ou le DELF B2, &agrave; moins d'avoir un dipl&ocirc;me fran&ccedil;ais ou un DELF/DALF d&eacute;j&agrave; en poche.</p>
+</div>
+
+<p>La bonne nouvelle, c'est que pour un francophone natif, le B2 est un objectif rapide&nbsp;: l'enjeu n'est pas la langue mais le <strong>format</strong> des &eacute;preuves (compr&eacute;hension orale chronom&eacute;tr&eacute;e, expression &eacute;crite norm&eacute;e, temps de parole). Quelques semaines d'entra&icirc;nement cibl&eacute; suffisent souvent. L'application <a href="https://apps.apple.com/fr/app/naturalisation-france-facile/id6761140087" target="_blank">Naturalisation France Facile</a> reproduit les quatre &eacute;preuves du TCF IRN et du DELF B2, note vos productions &eacute;crites et orales selon les grilles officielles, et propose des examens blancs pour choisir la certification qui vous convient&nbsp;: le DELF B2, valable &agrave; vie, ou le TCF, plus rapide &agrave; obtenir mais valable deux ans.</p>
+
+<h2>L&eacute;gion &eacute;trang&egrave;re et militaires&nbsp;: ce que la loi dit, et ce que la L&eacute;gion fait</h2>
+
+<p>L'article 21-19 ne fixe aucune dur&eacute;e de service&nbsp;: il dispense du stage l'&eacute;tranger qui a &laquo;&nbsp;effectivement accompli des services militaires dans une unit&eacute; de l'arm&eacute;e fran&ccedil;aise&nbsp;&raquo;. En pratique, la L&eacute;gion &eacute;trang&egrave;re instruit elle-m&ecirc;me les demandes de ses l&eacute;gionnaires et indique qu'un l&eacute;gionnaire peut demander la nationalit&eacute; fran&ccedil;aise &agrave; partir de cinq ans de service, au vu de sa mani&egrave;re de servir et de sa volont&eacute; d'int&eacute;gration&nbsp;; les dossiers passent par le commandement de la L&eacute;gion, &agrave; Aubagne, qui &eacute;met un avis. Le l&eacute;gionnaire bless&eacute; en op&eacute;ration rel&egrave;ve quant &agrave; lui de la voie &laquo;&nbsp;par le sang vers&eacute;&nbsp;&raquo;, sans condition de dur&eacute;e.</p>
+
+<p>Comme pour les autres dispens&eacute;s, le B2, l'examen civique et l'entretien s'appliquent. Les pi&egrave;ces sp&eacute;cifiques sont l'&eacute;tat des services, les d&eacute;corations et les citations.</p>
+
+<h2>Services exceptionnels et int&eacute;r&ecirc;t exceptionnel&nbsp;: une voie rare</h2>
+
+<p>Le 3&deg; de l'article 21-19 vise deux hypoth&egrave;ses&nbsp;: les services exceptionnels rendus &agrave; la France, et la naturalisation qui pr&eacute;sente pour la France un int&eacute;r&ecirc;t exceptionnel. Dans les deux cas, le d&eacute;cret ne peut &ecirc;tre pris qu'apr&egrave;s <strong>avis du Conseil d'&Eacute;tat</strong>, sur rapport motiv&eacute; du ministre comp&eacute;tent. Ce sont les naturalisations de sportifs, de chercheurs ou d'artistes dont parle la presse&nbsp;; elles se comptent en dizaines par an et ne se demandent pas au guichet&nbsp;: elles se proposent. Si votre profil rel&egrave;ve plut&ocirc;t de &laquo;&nbsp;services importants rendus par vos capacit&eacute;s et talents&nbsp;&raquo;, c'est la r&eacute;duction du stage &agrave; deux ans (article 21-18, 2&deg;) qui s'applique, dans la proc&eacute;dure ordinaire.</p>
+
+<h2>Ce que la dispense ne vous &eacute;pargne jamais</h2>
+
+<ul>
+  <li><strong>Le B2</strong>, &agrave; l'&eacute;crit et &agrave; l'oral&nbsp;: seuls le r&eacute;fugi&eacute; ou l'apatride de plus de 70&nbsp;ans r&eacute;sidant en France depuis 15&nbsp;ans, et les personnes dont l'&eacute;tat de sant&eacute; rend l'&eacute;valuation impossible, en sont dispens&eacute;s.</li>
+  <li><strong>L'examen civique</strong>&nbsp;: 40&nbsp;questions, 32&nbsp;bonnes r&eacute;ponses, dans un centre agr&eacute;&eacute;. Aucune dispense li&eacute;e &agrave; la nationalit&eacute;, &agrave; la langue maternelle ou au statut&nbsp;; seule une impossibilit&eacute; m&eacute;dicale y &eacute;chappe.</li>
+  <li><strong>L'entretien d'assimilation</strong>&nbsp;: adh&eacute;sion aux principes de la R&eacute;publique, connaissance des droits et devoirs, coh&eacute;rence du parcours.</li>
+  <li><strong>Les ressources stables</strong>, appr&eacute;ci&eacute;es sur cinq ans, hors prestations sociales, et la <strong>r&eacute;sidence effective</strong> en France&nbsp;: un francophone qui vient d'arriver et travaille &agrave; distance pour un employeur &eacute;tranger n'a pas le centre de ses int&eacute;r&ecirc;ts en France.</li>
+  <li><strong>La moralit&eacute;</strong>&nbsp;: une peine ferme de 6&nbsp;mois ou plus, une atteinte aux int&eacute;r&ecirc;ts de la Nation ou un s&eacute;jour irr&eacute;gulier pass&eacute; conduisent au rejet.</li>
+</ul>
+
+<h2>Comment pr&eacute;parer une demande sans stage</h2>
+
+<ol>
+  <li><strong>V&eacute;rifiez le fondement</strong> et r&eacute;unissez sa preuve&nbsp;: scolarit&eacute; en fran&ccedil;ais, statut, &eacute;tat des services.</li>
+  <li><strong>V&eacute;rifiez votre justificatif de langue</strong>&nbsp;: dipl&ocirc;me fran&ccedil;ais, DELF ou DALF&nbsp;; sinon, inscrivez-vous au TCF ou au TEF apr&egrave;s quelques examens blancs.</li>
+  <li><strong>Passez l'examen civique</strong>&nbsp;; l'attestation n'expire pas.</li>
+  <li><strong>Attendez une situation professionnelle stable</strong>&nbsp;: la dispense de stage ne compense pas un CDD de trois mois.</li>
+  <li><strong>D&eacute;posez en ligne</strong> sur l'ANEF, avec le timbre fiscal de 255&nbsp;&euro;, puis <a href="/blog/sentrainer-entretien-naturalisation.html">pr&eacute;parez l'entretien</a>.</li>
+</ol>
+""",
+    "faq": [
+        ("Que signifie « naturalisation sans condition de stage » ?",
+         "Que la durée minimale de résidence en France (5 ans en règle générale, 2 ans dans certains cas) n'est pas exigée. Toutes les autres conditions de la naturalisation s'appliquent : résidence en France au moment du décret, titre de séjour, niveau B2, examen civique, entretien, ressources, moralité."),
+        ("Qui est dispensé de la condition de stage ?",
+         "Les ressortissants d'un pays dont le français est langue officielle, si le français est leur langue maternelle ou s'ils ont été scolarisés au moins 5 ans en français (article 21-20) ; les réfugiés statutaires ; les personnes ayant accompli des services militaires dans l'armée française ou un engagement volontaire en temps de guerre ; et celles ayant rendu des services exceptionnels à la France (article 21-19)."),
+        ("Un francophone doit-il quand même passer le TCF ou le DELF ?",
+         "Oui, sauf s'il possède un diplôme français (brevet, CAP, bac, diplôme du supérieur délivré au nom de l'État), un DELF B2 ou un DALF. Depuis le 1er janvier 2026, un diplôme étranger obtenu en français ne prouve plus le niveau : les attestations de comparabilité ENIC-NARIC ne sont plus acceptées."),
+        ("Les Marocains, Algériens et Tunisiens bénéficient-ils de la dispense francophone ?",
+         "Non : l'article 21-20 vise les ressortissants des États dont le français est langue officielle ou l'une des langues officielles, ce qui n'est pas le cas du Maroc, de l'Algérie ni de la Tunisie. Ils relèvent de la règle générale des 5 ans, sauf autre cause de réduction ou de dispense : études supérieures en France, statut de réfugié, ou réintégration pour les personnes nées en Algérie avant 1962."),
+        ("Après combien d'années un légionnaire peut-il demander la nationalité ?",
+         "La loi ne fixe pas de durée : l'article 21-19 dispense du stage tout étranger ayant accompli des services militaires dans une unité de l'armée française. La Légion étrangère indique de son côté qu'un légionnaire peut demander la nationalité à partir de cinq ans de service, selon sa manière de servir ; un légionnaire blessé en opération peut l'obtenir sans condition de durée, « par le sang versé »."),
+        ("Sans condition de stage, la naturalisation est-elle plus rapide ?",
+         "Le dépôt peut se faire plus tôt, mais l'instruction suit le même délai légal : 18 mois à compter du récépissé (12 mois après 10 ans de résidence), prolongeables une fois de 3 mois. Le calendrier réel dépend surtout de votre préparation au B2 et à l'examen civique, et de la stabilité de votre emploi."),
+        ("La dispense de stage dispense-t-elle de l'examen civique ?",
+         "Non. L'examen civique s'impose à toute demande de naturalisation par décret depuis le 1er janvier 2026, quel que soit le fondement de la demande. Seule une impossibilité médicale attestée y échappe."),
+    ],
+    "links": [
+        ("/blog/naturalisation-refugie-2026.html", "Naturalisation des r&eacute;fugi&eacute;s&nbsp;: ce qui est vraiment exig&eacute;"),
+        ("/blog/naturalisation-apres-etudes-en-france.html", "Naturalisation apr&egrave;s des &eacute;tudes en France&nbsp;: le stage r&eacute;duit &agrave; 2&nbsp;ans"),
+        ("/blog/reintegration-nationalite-francaise-2026.html", "R&eacute;int&eacute;gration dans la nationalit&eacute; fran&ccedil;aise&nbsp;: d&eacute;cret ou d&eacute;claration"),
+        ("/blog/tcf-irn-ou-delf-b2-lequel-choisir.html", "TCF IRN ou DELF B2&nbsp;: lequel choisir"),
+        ("/blog/atteindre-niveau-b2-naturalisation.html", "Atteindre le niveau B2&nbsp;: plan de travail"),
+    ],
+    "sources": [
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F2213", "Service-public.gouv.fr &mdash; Naturalisation par d&eacute;cret&nbsp;: cas sans dur&eacute;e minimale de r&eacute;sidence (F2213)"),
+        ("https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006149926/", "Code civil &mdash; Articles 21-14-1 &agrave; 21-25-1 (naturalisation, dispenses de stage)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F11926", "Service-public.gouv.fr &mdash; Justifier de son niveau de fran&ccedil;ais (F11926)"),
+        ("https://ca.diplomatie.gouv.fr/fr/le-niveau-b2-en-francais-devient-obligatoire-pour-les-demandes-dacquisition-de-la-nationalite", "Consulats de France au Canada &mdash; Niveau B2 et fin des attestations ENIC-NARIC au 1er janvier 2026"),
+        ("https://www.legion-recrute.com/fr/questions-frequentes", "L&eacute;gion &eacute;trang&egrave;re &mdash; Questions fr&eacute;quentes (nationalit&eacute; fran&ccedil;aise)"),
+    ],
+    "cta": "Passer le B2 avec les examens blancs de l'app",
+},
+# ═══════════════════════════════════════════════════════════════════════
+"naturalisation-apres-65-ans": {
+    "title": "Naturalisation après 65 ans : test de langue obligatoire ?",
+    "h1": "Naturalisation apr&egrave;s 65&nbsp;ans&nbsp;: faut-il passer le test de langue et l'examen civique&nbsp;?",
+    "desc": "Par décret, aucune dispense d'âge : B2 et examen civique s'appliquent. Mais avec un enfant ou petit-enfant français et 25 ans en France, une déclaration sans test existe.",
+    "og": "Naturalisation apr&egrave;s 65&nbsp;ans&nbsp;: test de langue, ou d&eacute;claration sans test&nbsp;?",
+    "tag": "Conditions",
+    "og_img": "default.png",
+    "date": "2026-09-17",
+    "date_fr": "17 septembre 2026",
+    "lede": "Jusqu'en 2020, les candidats de plus de 60&nbsp;ans &eacute;taient dispens&eacute;s de justifier de leur niveau de fran&ccedil;ais. Ce n'est plus le cas, et depuis 2026 le niveau exig&eacute; est le B2, avec en plus un examen civique. Pour beaucoup de retrait&eacute;s, la question n'est donc plus &laquo;&nbsp;comment se pr&eacute;parer&nbsp;&raquo; mais &laquo;&nbsp;existe-t-il une autre voie&nbsp;&raquo;. Il en existe une, m&eacute;connue et sans aucun test, r&eacute;serv&eacute;e aux parents et grands-parents de Fran&ccedil;ais install&eacute;s en France depuis 25&nbsp;ans. Voici les deux chemins, et comment choisir.",
+    "body": """
+<h2>Par d&eacute;cret&nbsp;: aucune dispense li&eacute;e &agrave; l'&acirc;ge, ni pour la langue ni pour l'examen civique</h2>
+
+<p>La naturalisation par d&eacute;cret s'obtient &agrave; tout &acirc;ge, sans limite sup&eacute;rieure. Mais ses conditions ne s'assouplissent pas avec les ann&eacute;es. Le d&eacute;cret du 30 d&eacute;cembre 2019 a supprim&eacute;, &agrave; compter du 1<sup>er</sup> avril 2020, la dispense de justificatif de langue dont b&eacute;n&eacute;ficiaient les plus de 60&nbsp;ans. Depuis le 1<sup>er</sup> janvier 2026, le niveau exig&eacute; est le <strong>B2</strong>, &agrave; l'&eacute;crit comme &agrave; l'oral, et l'<strong>examen civique</strong> (40&nbsp;questions, 32&nbsp;bonnes r&eacute;ponses) s'ajoute &agrave; l'entretien.</p>
+
+<p>Les seules dispenses pr&eacute;vues sont &eacute;troites&nbsp;:</p>
+
+<ul>
+  <li><strong>Langue</strong>&nbsp;: le r&eacute;fugi&eacute; politique ou l'apatride de plus de 70&nbsp;ans r&eacute;sidant r&eacute;guli&egrave;rement en France depuis au moins 15&nbsp;ans (article 21-24-1), et les personnes dont un handicap ou l'&eacute;tat de sant&eacute; rend l'&eacute;valuation impossible, sur certificat m&eacute;dical.</li>
+  <li><strong>Examen civique</strong>&nbsp;: uniquement l'impossibilit&eacute; m&eacute;dicale attest&eacute;e. Des am&eacute;nagements d'&eacute;preuve (temps suppl&eacute;mentaire, assistance) sont possibles sur certificat m&eacute;dical pr&eacute;cisant les am&eacute;nagements n&eacute;cessaires.</li>
+</ul>
+
+<div class="callout">
+  <p><strong>Le certificat m&eacute;dical n'est pas un certificat de complaisance&nbsp;:</strong> il doit attester que l'&eacute;tat de sant&eacute; rend toute &eacute;valuation linguistique impossible, et le service instructeur ou le minist&egrave;re peuvent demander une nouvelle expertise m&eacute;dicale. L'&acirc;ge seul n'est pas un motif.</p>
+</div>
+
+<h2>Retrait&eacute; et naturalisation&nbsp;: les ressources ne sont pas un obstacle</h2>
+
+<p>La condition d'insertion professionnelle inqui&egrave;te souvent les retrait&eacute;s, &agrave; tort. L'administration appr&eacute;cie les ressources &laquo;&nbsp;selon votre condition&nbsp;&raquo;&nbsp;: une <strong>pension de retraite</strong> stable et suffisante est une ressource au sens de la naturalisation, et service-public pr&eacute;voit les pi&egrave;ces &agrave; fournir dans ce cas (titre de pension, dernier bordereau de versement, avis d'imposition des trois derni&egrave;res ann&eacute;es). Les crit&egrave;res de CDI ou de continuit&eacute; de CDD de la circulaire du 2 mai 2025 visent les salari&eacute;s, pas les retrait&eacute;s.</p>
+
+<p>Deux points restent sensibles&nbsp;: des revenus <strong>majoritairement compos&eacute;s de prestations sociales</strong> sont un motif d'ajournement, sauf si l'insuffisance r&eacute;sulte d'une maladie ou d'un handicap&nbsp;; et des <strong>revenus provenant majoritairement de l'&eacute;tranger</strong> (pension &eacute;trang&egrave;re, biens au pays) peuvent conduire la pr&eacute;fecture &agrave; consid&eacute;rer que le centre de vos int&eacute;r&ecirc;ts n'est pas en France.</p>
+
+<h2>La voie sans test&nbsp;: la d&eacute;claration de l'ascendant d'un Fran&ccedil;ais</h2>
+
+<p>Cr&eacute;&eacute;e par la loi du 7 mars 2016, la d&eacute;claration de nationalit&eacute; de l'article 21-13-1 du Code civil s'adresse &agrave; la personne qui remplit, &agrave; la date de la d&eacute;claration, <strong>trois conditions cumulatives</strong>&nbsp;:</p>
+
+<ol>
+  <li>&ecirc;tre &acirc;g&eacute;e de <strong>65&nbsp;ans ou plus</strong>&nbsp;;</li>
+  <li>r&eacute;sider en France <strong>de mani&egrave;re r&eacute;guli&egrave;re et habituelle depuis au moins 25&nbsp;ans</strong>&nbsp;;</li>
+  <li>&ecirc;tre l'<strong>ascendant direct</strong> d'un ressortissant fran&ccedil;ais&nbsp;: parent, grand-parent ou arri&egrave;re-grand-parent d'un enfant, petit-enfant ou arri&egrave;re-petit-enfant fran&ccedil;ais.</li>
+</ol>
+
+<p>Cette proc&eacute;dure est une <strong>d&eacute;claration</strong>, pas une naturalisation&nbsp;: si les conditions sont remplies, l'enregistrement est de droit, sauf opposition du Gouvernement pour indignit&eacute; ou d&eacute;faut d'assimilation. Et surtout, elle &eacute;chappe aux deux &eacute;preuves&nbsp;: <strong>ni test de langue, ni examen civique</strong>. Service-public le dit express&eacute;ment&nbsp;: l'entretien &laquo;&nbsp;ne porte pas sur le niveau de connaissance de la langue fran&ccedil;aise&nbsp;&raquo;, et l'examen civique ne concerne que les proc&eacute;dures par d&eacute;cret.</p>
+
+<table class="article-table">
+  <thead><tr><th>Crit&egrave;re</th><th>Naturalisation par d&eacute;cret</th><th>D&eacute;claration &laquo;&nbsp;ascendant de Fran&ccedil;ais&nbsp;&raquo;</th></tr></thead>
+  <tbody>
+    <tr><td>&Acirc;ge</td><td>18&nbsp;ans et plus</td><td>65&nbsp;ans et plus</td></tr>
+    <tr><td>R&eacute;sidence en France</td><td>5&nbsp;ans (r&egrave;gle g&eacute;n&eacute;rale)</td><td>25&nbsp;ans, r&eacute;guli&egrave;re et habituelle</td></tr>
+    <tr><td>Lien familial</td><td>Aucun exig&eacute;</td><td>Enfant, petit-enfant ou arri&egrave;re-petit-enfant fran&ccedil;ais</td></tr>
+    <tr><td>Test de langue B2</td><td>Oui (dispenses m&eacute;dicales et r&eacute;fugi&eacute;s de plus de 70&nbsp;ans)</td><td><em>Non</em></td></tr>
+    <tr><td>Examen civique</td><td>Oui</td><td><em>Non</em></td></tr>
+    <tr><td>Entretien</td><td>Oui, assimilation</td><td>Oui, indignit&eacute; et assimilation, hors langue</td></tr>
+    <tr><td>Ressources</td><td>Stables et suffisantes</td><td>Pas de condition de ressources</td></tr>
+    <tr><td>Nature de la d&eacute;cision</td><td>Discr&eacute;tionnaire (faveur)</td><td>Enregistrement de droit, sauf opposition</td></tr>
+    <tr><td>Timbre fiscal</td><td>255&nbsp;&euro;</td><td>255&nbsp;&euro;</td></tr>
+    <tr><td>D&eacute;lai</td><td>18&nbsp;mois (12&nbsp;mois apr&egrave;s 10&nbsp;ans de r&eacute;sidence)</td><td>1&nbsp;an pour refuser l'enregistrement (2&nbsp;ans en cas d'opposition)</td></tr>
+  </tbody>
+</table>
+
+<h3>Le dossier de la d&eacute;claration</h3>
+
+<p>Le formulaire est le <strong>cerfa n&deg;&nbsp;15561</strong>, en deux exemplaires, avec un timbre fiscal de 255&nbsp;&euro; (127,50&nbsp;&euro; en Guyane). Les pi&egrave;ces essentielles&nbsp;: votre acte de naissance, votre titre de s&eacute;jour, l'acte de naissance de moins de 3&nbsp;mois de votre enfant (ou de votre petit-enfant, avec l'acte de naissance du parent interm&eacute;diaire) &eacute;tablissant la filiation, la preuve de la nationalit&eacute; fran&ccedil;aise de ce descendant (acte de naissance mentionnant la nationalit&eacute;, certificat de nationalit&eacute; fran&ccedil;aise, d&eacute;cret ou d&eacute;claration), et surtout des <strong>justificatifs couvrant 25&nbsp;ans de r&eacute;sidence r&eacute;guli&egrave;re</strong>&nbsp;: relev&eacute; de carri&egrave;re, avis d'imposition, anciens titres de s&eacute;jour. Le dossier se d&eacute;pose &agrave; la plateforme de naturalisation de votre domicile, au guichet ou par courrier recommand&eacute; selon les plateformes.</p>
+
+<p>Vous &ecirc;tes ensuite convoqu&eacute; &agrave; un entretien, &agrave; l'issue duquel un r&eacute;c&eacute;piss&eacute; est remis. Le minist&egrave;re a un an pour refuser l'enregistrement (deux ans si une proc&eacute;dure d'opposition est engag&eacute;e)&nbsp;; la nationalit&eacute; prend effet &agrave; la date de souscription de la d&eacute;claration.</p>
+
+<h2>Fr&egrave;re ou s&oelig;ur de Fran&ccedil;ais&nbsp;: l'autre d&eacute;claration sans test</h2>
+
+<p>Pour &ecirc;tre complet&nbsp;: l'article 21-13-2 ouvre une d&eacute;claration similaire au fr&egrave;re ou &agrave; la s&oelig;ur d'un Fran&ccedil;ais n&eacute; en France, &agrave; condition de r&eacute;sider en France depuis l'&acirc;ge de 6&nbsp;ans, d'y avoir suivi sa scolarit&eacute; obligatoire et d'&ecirc;tre en s&eacute;jour r&eacute;gulier. Elle concerne rarement les seniors, mais elle rel&egrave;ve de la m&ecirc;me logique&nbsp;: une d&eacute;claration, sans test de langue ni examen civique.</p>
+
+<h2>Comment choisir entre les deux voies</h2>
+
+<ul>
+  <li><strong>Vous avez 65&nbsp;ans, 25&nbsp;ans de r&eacute;sidence r&eacute;guli&egrave;re et un descendant fran&ccedil;ais&nbsp;:</strong> la d&eacute;claration est la voie naturelle. Pas de test, pas d'examen, une d&eacute;cision de droit.</li>
+  <li><strong>Il vous manque l'une des trois conditions</strong> (moins de 25&nbsp;ans en France, pas de descendant fran&ccedil;ais, moins de 65&nbsp;ans)&nbsp;: seule la naturalisation par d&eacute;cret est ouverte, avec le B2 et l'examen civique.</li>
+  <li><strong>Vous &ecirc;tes &agrave; quelques ann&eacute;es des 25&nbsp;ans&nbsp;:</strong> comparez le temps de pr&eacute;paration du B2 (souvent 6 &agrave; 18&nbsp;mois selon le niveau de d&eacute;part) au temps d'attente&nbsp;; il est parfois plus s&ucirc;r d'attendre la d&eacute;claration.</li>
+</ul>
+
+<h2>Pr&eacute;parer le B2 et l'examen civique &agrave; 65&nbsp;ans&nbsp;: r&eacute;aliste&nbsp;?</h2>
+
+<p>Oui, &agrave; condition de s'y prendre m&eacute;thodiquement. Le niveau B2 exige de comprendre un journal radio ou un article de presse, d'&eacute;crire une lettre argument&eacute;e et de tenir une conversation sur un sujet d'actualit&eacute;. Pour quelqu'un qui vit en France depuis vingt ans, l'oral est souvent acquis&nbsp;; c'est l'&eacute;crit et le format des &eacute;preuves qui demandent du travail. Le DELF B2, valable &agrave; vie, est un bon choix quand on n'est pas press&eacute;&nbsp;; le TCF IRN, valable deux ans, quand le dossier est pr&ecirc;t.</p>
+
+<p>L'application <a href="https://apps.apple.com/fr/app/naturalisation-france-facile/id6761140087" target="_blank">Naturalisation France Facile</a> permet d'avancer &agrave; son rythme&nbsp;: des exercices de compr&eacute;hension orale avec transcription pour r&eacute;&eacute;couter et lire, des sujets d'expression &eacute;crite corrig&eacute;s avec des r&eacute;ponses mod&egrave;les, des examens blancs pour se situer, et, pour l'examen civique, 258&nbsp;questions et 100&nbsp;mises en situation, chacune expliqu&eacute;e. Le simulateur d'entretien aide enfin &agrave; formuler &agrave; l'oral son parcours, ses attaches en France et ses motivations, des questions que l'agent de pr&eacute;fecture posera quelle que soit la voie choisie.</p>
+""",
+    "faq": [
+        ("Faut-il passer le test de français pour être naturalisé après 60 ou 65 ans ?",
+         "Pour une naturalisation par décret, oui : depuis le 1er avril 2020, il n'existe plus de dispense liée à l'âge, et le niveau exigé est le B2 depuis le 1er janvier 2026. Les seules dispenses concernent le réfugié ou l'apatride de plus de 70 ans résidant en France depuis 15 ans, et les personnes dont l'état de santé rend l'évaluation impossible, sur certificat médical."),
+        ("Existe-t-il une naturalisation sans test après 65 ans ?",
+         "Pas une naturalisation, mais une déclaration de nationalité (article 21-13-1 du Code civil) : à partir de 65 ans, avec 25 ans de résidence régulière et habituelle en France et un enfant, petit-enfant ou arrière-petit-enfant français, vous pouvez devenir français par déclaration, sans test de langue ni examen civique."),
+        ("Un retraité sans emploi peut-il être naturalisé ?",
+         "Oui. Une pension de retraite stable et suffisante répond à la condition de ressources, appréciée selon votre situation. Les exigences de CDI ou de CDD continus visent les salariés. En revanche, des revenus composés majoritairement de prestations sociales ou provenant majoritairement de l'étranger peuvent être opposés."),
+        ("L'examen civique est-il obligatoire à 65 ans ?",
+         "Pour une demande par décret, oui, quel que soit l'âge : seule une impossibilité médicale attestée permet d'en être dispensé, et des aménagements sont possibles. Pour la déclaration de l'ascendant d'un Français, non : l'examen civique ne concerne que les procédures par décret."),
+        ("Quels documents prouvent 25 ans de résidence en France ?",
+         "Tous documents couvrant la période de façon continue : relevé de carrière de la sécurité sociale ou relevé de situation individuelle, avis d'imposition, anciens titres de séjour, quittances. Vous pouvez combiner des documents différents pour couvrir les 25 ans."),
+        ("Combien coûte la déclaration de l'ascendant d'un Français et combien de temps prend-elle ?",
+         "Un timbre fiscal de 255 € (127,50 € en Guyane), comme pour la naturalisation. Le ministère dispose d'un an à compter du récépissé remis après l'entretien pour refuser l'enregistrement, ou de deux ans si une procédure d'opposition est engagée. La nationalité prend effet à la date de souscription."),
+        ("Mon petit-enfant est français mais pas mon enfant : la déclaration est-elle possible ?",
+         "Oui : l'article 21-13-1 vise l'ascendant direct d'un ressortissant français, ce qui inclut le grand-parent. Il faudra fournir l'acte de naissance du petit-enfant et celui de son parent (votre enfant) pour établir la chaîne de filiation, ainsi que la preuve de la nationalité française du petit-enfant."),
+        ("Peut-on obtenir un aménagement du test de langue pour raison de santé ?",
+         "Oui. Sur certificat médical précisant les aménagements nécessaires, vous pouvez bénéficier d'aménagements d'épreuve pour le test de langue comme pour l'examen civique. Si l'état de santé rend toute évaluation impossible, une dispense complète est possible, sur certificat médical, l'administration pouvant demander une nouvelle expertise."),
+    ],
+    "links": [
+        ("/blog/atteindre-niveau-b2-naturalisation.html", "Atteindre le niveau B2&nbsp;: combien de mois pr&eacute;voir"),
+        ("/blog/tcf-irn-ou-delf-b2-lequel-choisir.html", "TCF IRN ou DELF B2&nbsp;: lequel choisir"),
+        ("/blog/ressources-revenus-naturalisation.html", "Ressources et naturalisation&nbsp;: ce que la pr&eacute;fecture regarde"),
+        ("/blog/reintegration-nationalite-francaise-2026.html", "R&eacute;int&eacute;gration dans la nationalit&eacute; fran&ccedil;aise&nbsp;: d&eacute;cret ou d&eacute;claration"),
+        ("/blog/documents-naturalisation.html", "La liste compl&egrave;te des pi&egrave;ces du dossier"),
+    ],
+    "sources": [
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F33430", "Service-public.gouv.fr &mdash; D&eacute;claration de nationalit&eacute; de l'ascendant d'un Fran&ccedil;ais (F33430)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F11926", "Service-public.gouv.fr &mdash; Niveau de fran&ccedil;ais exig&eacute;, am&eacute;nagements et dispenses (F11926)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F39426", "Service-public.gouv.fr &mdash; Examen civique&nbsp;: proc&eacute;dures concern&eacute;es (F39426)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F34746", "Service-public.gouv.fr &mdash; Justificatifs de revenus, cas du retrait&eacute; (F34746)"),
+        ("https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031713003", "Code civil &mdash; Article 21-13-1"),
+        ("https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039696962", "L&eacute;gifrance &mdash; D&eacute;cret n&deg;&nbsp;2019-1507 du 30 d&eacute;cembre 2019 (fin de la dispense de langue apr&egrave;s 60&nbsp;ans)"),
+    ],
+    "cta": "Pr&eacute;parer le B2 &agrave; mon rythme avec l'app",
+},
+# ═══════════════════════════════════════════════════════════════════════
+"naturalisation-rapide": {
+    "title": "Naturalisation rapide : comment devenir français plus vite",
+    "h1": "Naturalisation rapide&nbsp;: comment devenir fran&ccedil;ais plus vite, sans y laisser des mois",
+    "desc": "Aucune procédure accélérée n'existe. Mais entre un décret en un an et trois ans d'attente, tout se joue avant le dépôt : bonne voie, B2, examen civique, dossier complet.",
+    "og": "Naturalisation rapide&nbsp;: les 5 leviers qui font gagner des mois",
+    "tag": "M&eacute;thode",
+    "og_img": "suivi-relance.png",
+    "date": "2026-09-17",
+    "date_fr": "17 septembre 2026",
+    "lede": "Tapez &laquo;&nbsp;naturalisation rapide&nbsp;&raquo; et vous trouverez des services payants qui promettent d'acc&eacute;l&eacute;rer votre dossier. Aucun ne le peut&nbsp;: la proc&eacute;dure est gratuite hors timbre fiscal, et personne n'obtient de d&eacute;cision plus vite en payant. Ce qui s&eacute;pare un candidat fran&ccedil;ais en quatorze mois d'un candidat qui attend trois ans, ce n'est pas la chance ni la pr&eacute;fecture. C'est la voie choisie, l'ordre dans lequel il a pr&eacute;par&eacute; le B2, l'examen civique et ses pi&egrave;ces, et un dossier accept&eacute; du premier coup. Voici les cinq leviers qui font r&eacute;ellement gagner des mois, et les fausses bonnes id&eacute;es qui en font perdre.",
+    "body": """
+<h2>Ce qui est incompressible, et ce qui d&eacute;pend de vous</h2>
+
+<p>La loi fixe un d&eacute;lai maximal de r&eacute;ponse&nbsp;: <strong>18&nbsp;mois</strong> &agrave; compter du r&eacute;c&eacute;piss&eacute; de dossier complet, ramen&eacute;s &agrave; <strong>12&nbsp;mois</strong> si vous r&eacute;sidez habituellement en France depuis au moins 10&nbsp;ans, prolongeables une seule fois de 3&nbsp;mois par d&eacute;cision motiv&eacute;e (article 21-25-1 du Code civil). Dans les faits, il s'&eacute;coule le plus souvent <a href="/blog/delais-naturalisation-2026.html">12 &agrave; 18&nbsp;mois</a> entre le r&eacute;c&eacute;piss&eacute; et la publication du d&eacute;cret, avec de fortes variations <a href="/blog/delais-naturalisation-par-prefecture.html">selon la plateforme</a> qui instruit votre dossier.</p>
+
+<p>Ce chrono-l&agrave;, vous ne le contr&ocirc;lez pas. Mais il ne d&eacute;marre qu'au r&eacute;c&eacute;piss&eacute;, et le r&eacute;c&eacute;piss&eacute; n'est d&eacute;livr&eacute; que lorsque le dossier est <em>complet</em>. Tout ce qui pr&eacute;c&egrave;de, le niveau de langue, l'examen civique, les pi&egrave;ces, le choix de la proc&eacute;dure, est du temps que vous pilotez, et c'est l&agrave; que se creusent les &eacute;carts.</p>
+
+<table class="article-table">
+  <thead><tr><th>Phase</th><th>Qui tient le chrono</th><th>Votre marge</th></tr></thead>
+  <tbody>
+    <tr><td>Choix de la voie, B2, examen civique, pi&egrave;ces</td><td><em>Vous</em></td><td>De 2&nbsp;mois &agrave; plus d'un an selon la m&eacute;thode</td></tr>
+    <tr><td>D&eacute;p&ocirc;t et v&eacute;rification de compl&eacute;tude</td><td>Vous et la plateforme</td><td>Un dossier complet &eacute;vite des allers-retours de plusieurs semaines chacun</td></tr>
+    <tr><td>Entretien et avis du pr&eacute;fet</td><td>La plateforme</td><td>Un entretien pr&eacute;par&eacute; &eacute;vite l'ajournement, qui co&ucirc;te un &agrave; deux ans</td></tr>
+    <tr><td>Instruction au minist&egrave;re, d&eacute;cret</td><td>L'administration</td><td>R&eacute;pondre vite aux demandes, relancer au bon moment</td></tr>
+  </tbody>
+</table>
+
+<div class="callout">
+  <p><strong>La r&egrave;gle d'or&nbsp;:</strong> un mois gagn&eacute; avant le d&eacute;p&ocirc;t vaut un mois gagn&eacute; sur le d&eacute;cret. Un mois perdu en cours d'instruction (pi&egrave;ce manquante, changement non signal&eacute;, ajournement) en co&ucirc;te souvent plusieurs.</p>
+</div>
+
+<h2>Levier 1&nbsp;: choisir la voie la plus courte pour votre situation</h2>
+
+<p>La naturalisation par d&eacute;cret n'est pas la seule porte, et rarement la plus rapide. Avant de constituer un dossier, v&eacute;rifiez si une autre proc&eacute;dure vous est ouverte&nbsp;:</p>
+
+<ul>
+  <li><strong>Mari&eacute;(e) &agrave; un(e) Fran&ccedil;ais(e) depuis 4&nbsp;ans</strong> (5&nbsp;ans sans r&eacute;sidence continue en France)&nbsp;: la <a href="/blog/naturalisation-par-mariage-2026.html">d&eacute;claration par mariage</a>, enregistr&eacute;e dans un d&eacute;lai d'un an apr&egrave;s l'entretien, sans examen civique.</li>
+  <li><strong>65&nbsp;ans, 25&nbsp;ans en France, un enfant ou petit-enfant fran&ccedil;ais</strong>&nbsp;: la <a href="/blog/naturalisation-apres-65-ans.html">d&eacute;claration de l'ascendant d'un Fran&ccedil;ais</a>, un an &eacute;galement, sans test de langue ni examen civique.</li>
+  <li><strong>Vous avez d&eacute;j&agrave; &eacute;t&eacute; fran&ccedil;ais</strong>&nbsp;: la <a href="/blog/reintegration-nationalite-francaise-2026.html">r&eacute;int&eacute;gration</a>, sans dur&eacute;e minimale de r&eacute;sidence par d&eacute;cret, et en six mois par d&eacute;claration dans certains cas de perte.</li>
+  <li><strong>Dipl&ocirc;me du sup&eacute;rieur fran&ccedil;ais apr&egrave;s deux ans d'&eacute;tudes</strong>&nbsp;: la r&eacute;sidence exig&eacute;e tombe &agrave; <a href="/blog/naturalisation-apres-etudes-en-france.html">2&nbsp;ans</a> au lieu de 5.</li>
+  <li><strong>R&eacute;fugi&eacute;, ressortissant d'un pays francophone, ancien militaire</strong>&nbsp;: <a href="/blog/naturalisation-sans-condition-de-stage.html">aucune dur&eacute;e de r&eacute;sidence</a> n'est exig&eacute;e.</li>
+  <li><strong>10&nbsp;ans de r&eacute;sidence habituelle</strong>&nbsp;: vous restez dans la proc&eacute;dure ordinaire, mais le d&eacute;lai l&eacute;gal de r&eacute;ponse passe de 18 &agrave; 12&nbsp;mois. Si vous &ecirc;tes &agrave; quelques mois du seuil, attendez-le avant de d&eacute;poser.</li>
+</ul>
+
+<p>Les <a href="/blog/conditions-naturalisation-francaise.html">sept conditions de la naturalisation</a> restent la base&nbsp;: la voie la plus rapide est d'abord celle dont vous remplissez d&eacute;j&agrave; toutes les conditions.</p>
+
+<h2>Levier 2&nbsp;: lancer le B2 et l'examen civique en parall&egrave;le, et tout de suite</h2>
+
+<p>C'est le poste o&ugrave; les candidats perdent le plus de temps, parce qu'ils encha&icirc;nent les &eacute;tapes au lieu de les mener de front. Depuis le 1<sup>er</sup> janvier 2026, une demande par d&eacute;cret exige un justificatif de niveau B2 et une attestation de r&eacute;ussite &agrave; l'examen civique. Les deux ont des calendriers diff&eacute;rents&nbsp;:</p>
+
+<table class="article-table">
+  <thead><tr><th>&Eacute;preuve</th><th>Trouver une date</th><th>R&eacute;sultats</th><th>Validit&eacute;</th></tr></thead>
+  <tbody>
+    <tr><td>TCF IRN</td><td>Sessions fr&eacute;quentes, souvent sous 1 &agrave; 3&nbsp;mois</td><td>Environ 4&nbsp;semaines</td><td>2&nbsp;ans</td></tr>
+    <tr><td>DELF B2</td><td>2 &agrave; 6 sessions par an selon les centres</td><td>2 &agrave; 3&nbsp;mois</td><td>&Agrave; vie</td></tr>
+    <tr><td>Examen civique</td><td>Sessions r&eacute;guli&egrave;res en centre agr&eacute;&eacute;</td><td>Rapides</td><td>Sans limite</td></tr>
+  </tbody>
+</table>
+
+<p>L'ordre le plus efficace&nbsp;: inscrivez-vous &agrave; l'<strong>examen civique d&egrave;s maintenant</strong>, puisque l'attestation n'expire pas, et r&eacute;servez le <strong>TCF IRN</strong> plut&ocirc;t que le DELF si vous &ecirc;tes press&eacute;&nbsp;: m&ecirc;me niveau exig&eacute;, r&eacute;sultats en quelques semaines au lieu de plusieurs mois. Le DELF garde son int&eacute;r&ecirc;t si vous n'&ecirc;tes pas &agrave; trois mois pr&egrave;s, parce qu'il est valable &agrave; vie. Notre comparatif <a href="/blog/tcf-irn-ou-delf-b2-lequel-choisir.html">TCF IRN ou DELF B2</a> d&eacute;taille les deux formats.</p>
+
+<p>Le vrai risque de temps, c'est l'&eacute;chec&nbsp;: un TCF rat&eacute;, c'est 200 &agrave; 300&nbsp;&euro; et deux &agrave; trois mois de plus pour retrouver une date et un r&eacute;sultat. D'o&ugrave; l'int&eacute;r&ecirc;t de <strong>savoir si vous &ecirc;tes pr&ecirc;t avant de r&eacute;server</strong>. L'application <a href="https://apps.apple.com/fr/app/naturalisation-france-facile/id6761140087" target="_blank">Naturalisation France Facile</a> sert exactement &agrave; cela&nbsp;: plus de 750&nbsp;exercices calibr&eacute;s B2 sur les quatre &eacute;preuves du TCF IRN et du DELF B2, la correction de vos productions &eacute;crites et orales selon les grilles officielles, et des examens blancs complets qui vous disent o&ugrave; vous en &ecirc;tes. Pour l'examen civique, ses 258&nbsp;questions sur les cinq th&egrave;mes officiels et ses 100&nbsp;mises en situation, chacune expliqu&eacute;e, vous am&egrave;nent au-dessus des 32&nbsp;bonnes r&eacute;ponses sur 40 avant d'entrer dans la salle. Si votre niveau est encore loin du B2, notre <a href="/blog/atteindre-niveau-b2-naturalisation.html">plan de travail A2&rarr;B2</a> donne les ordres de grandeur en mois.</p>
+
+<h2>Levier 3&nbsp;: un dossier complet du premier coup</h2>
+
+<p>Le r&eacute;c&eacute;piss&eacute;, qui d&eacute;clenche le d&eacute;lai l&eacute;gal, n'est d&eacute;livr&eacute; que lorsque toutes les pi&egrave;ces sont l&agrave;. Un dossier incomplet ne &laquo;&nbsp;prend pas date&nbsp;&raquo;&nbsp;: il attend. Et chaque demande de pi&egrave;ce compl&eacute;mentaire pendant l'instruction co&ucirc;te plusieurs semaines, entre l'envoi de la demande, votre r&eacute;ponse et le r&eacute;examen&nbsp;; pass&eacute; le d&eacute;lai fix&eacute;, le dossier peut m&ecirc;me &ecirc;tre class&eacute; sans suite.</p>
+
+<p>La m&eacute;thode qui &eacute;vite ces allers-retours tient en trois r&egrave;gles&nbsp;:</p>
+
+<ol>
+  <li><strong>Commandez d'abord les pi&egrave;ces lentes.</strong> L'<a href="/blog/casier-judiciaire-naturalisation.html">extrait de casier judiciaire &eacute;tranger</a> (exig&eacute; si vous vivez en France depuis moins de 10&nbsp;ans), les actes d'&eacute;tat civil &eacute;trangers &agrave; faire apostiller puis traduire par un traducteur agr&eacute;&eacute;&nbsp;: plusieurs semaines &agrave; plusieurs mois selon le pays.</li>
+  <li><strong>Gardez les pi&egrave;ces p&eacute;rissables pour la fin.</strong> Un acte d'&eacute;tat civil fran&ccedil;ais doit avoir moins de 3&nbsp;mois au d&eacute;p&ocirc;t&nbsp;; l'attestation TCF ou TEF, moins de 2&nbsp;ans.</li>
+  <li><strong>D&eacute;posez en ligne</strong>, sur le t&eacute;l&eacute;service de l'<a href="/glossaire/anef.html">ANEF</a>&nbsp;: chaque &eacute;tape vous est notifi&eacute;e par mail, et vous r&eacute;pondez aux demandes depuis votre espace, sans courrier. Pr&eacute;parez en m&ecirc;me temps les originaux, exig&eacute;s &agrave; l'entretien.</li>
+</ol>
+
+<p>La <a href="/blog/documents-naturalisation.html">liste compl&egrave;te des pi&egrave;ces</a> d&eacute;pend de votre situation (salari&eacute;, ind&eacute;pendant, &eacute;tudiant, retrait&eacute;, en couple, avec enfants). La checklist de l'app la personnalise et se coche au fur et &agrave; mesure&nbsp;: c'est le moyen le plus simple de v&eacute;rifier, avant de cliquer sur &laquo;&nbsp;envoyer&nbsp;&raquo;, que rien ne manque, y compris les pi&egrave;ces que les listes g&eacute;n&eacute;riques oublient.</p>
+
+<h2>Levier 4&nbsp;: ne pas d&eacute;clencher d'ajournement</h2>
+
+<p>L'<a href="/blog/ajournement-vs-refus-naturalisation.html">ajournement</a> est le pire ennemi d'une naturalisation rapide&nbsp;: la demande est report&eacute;e, un d&eacute;lai vous est impos&eacute;, souvent un &agrave; deux ans, et toute nouvelle demande d&eacute;pos&eacute;e avant son terme est class&eacute;e sans suite. Ses causes sont connues, et la plupart se voient avant le d&eacute;p&ocirc;t&nbsp;:</p>
+
+<ul>
+  <li><strong>L'insertion professionnelle.</strong> Depuis la circulaire du 2 mai 2025, la pr&eacute;fecture attend d'un salari&eacute; un CDI de plus d'un an ou une continuit&eacute; de CDD sur 24&nbsp;mois, avec des revenus au moins au niveau du SMIC, hors prestations sociales. D&eacute;poser avec un CDD de six mois pour &laquo;&nbsp;gagner du temps&nbsp;&raquo; revient presque toujours &agrave; en perdre&nbsp;: trois mois d'attente d'un CDI valent mieux qu'un an d'ajournement. Notre guide sur <a href="/blog/ressources-revenus-naturalisation.html">les ressources</a> passe chaque situation en revue.</li>
+  <li><strong>Le niveau de fran&ccedil;ais r&eacute;el.</strong> L'attestation ouvre la porte, mais l'entretien se d&eacute;roule en fran&ccedil;ais et l'agent note votre aisance. Un B2 de justesse sur le papier et une conversation laborieuse en pr&eacute;fecture font un compte rendu d&eacute;favorable.</li>
+  <li><strong>Les incoh&eacute;rences.</strong> Une adresse, une situation familiale ou professionnelle qui ne correspond plus au dossier, un changement non signal&eacute;&nbsp;: tout ce que l'enqu&ecirc;te d&eacute;couvre p&egrave;se plus lourd que le fait lui-m&ecirc;me.</li>
+</ul>
+
+<p>L'<a href="/blog/entretien-naturalisation-prefectures.html">entretien d'assimilation</a> se pr&eacute;pare comme une &eacute;preuve&nbsp;: motivations, parcours, valeurs de la R&eacute;publique, vie quotidienne. Le simulateur d'entretien de l'app vous fait r&eacute;p&eacute;ter les <a href="/blog/questions-entretien-naturalisation.html">questions r&eacute;ellement pos&eacute;es</a> et note vos r&eacute;ponses &agrave; l'oral comme &agrave; l'&eacute;crit&nbsp;; c'est la diff&eacute;rence entre arriver en terrain connu et improviser devant l'agent.</p>
+
+<h2>Levier 5&nbsp;: pendant l'instruction, r&eacute;agir vite et relancer au bon moment</h2>
+
+<p>Une fois le r&eacute;c&eacute;piss&eacute; en main, vous n'acc&eacute;l&eacute;rez plus l'administration, mais vous pouvez &eacute;viter de la ralentir&nbsp;:</p>
+
+<ul>
+  <li><strong>R&eacute;pondez dans les d&eacute;lais</strong> &agrave; toute demande de pi&egrave;ce ou de formalit&eacute; notifi&eacute;e sur votre espace ANEF.</li>
+  <li><strong>Signalez imm&eacute;diatement tout changement</strong> de situation (adresse, emploi, mariage, naissance), avec justificatifs. Ne d&eacute;m&eacute;nagez pas dans un autre d&eacute;partement pour &laquo;&nbsp;changer de pr&eacute;fecture&nbsp;&raquo;&nbsp;: le dossier est transf&eacute;r&eacute;, et le transfert prend du temps.</li>
+  <li><strong>Suivez les statuts</strong> de votre dossier sur l'ANEF et sachez <a href="/blog/statuts-anef-naturalisation.html">ce que chacun signifie</a>&nbsp;: un affichage fig&eacute; n'est pas forc&eacute;ment un dossier bloqu&eacute;.</li>
+  <li><strong>Relancez quand c'est utile, pas avant.</strong> Une relance &agrave; trois mois n'a aucun effet&nbsp;; une lettre recommand&eacute;e argument&eacute;e au d&eacute;passement du d&eacute;lai l&eacute;gal, puis un recours, en ont un. Notre guide <a href="/blog/relance-naturalisation-que-faire-sans-reponse.html">que faire sans r&eacute;ponse</a> donne le calendrier et les mod&egrave;les.</li>
+</ul>
+
+<p>Le module de suivi de l'app calcule ces dates &agrave; partir de votre r&eacute;c&eacute;piss&eacute; (12 ou 18&nbsp;mois selon votre anciennet&eacute; de r&eacute;sidence, prolongation comprise) et vous indique quelle relance envoyer, &agrave; qui, et quand.</p>
+
+<h2>Ce qui ne marche pas, et ce qui co&ucirc;te du temps</h2>
+
+<ul>
+  <li><strong>Les &laquo;&nbsp;services express&nbsp;&raquo; payants.</strong> Service-public l'&eacute;crit noir sur blanc&nbsp;: hormis le timbre fiscal de 255&nbsp;&euro;, l'acquisition de la nationalit&eacute; est une d&eacute;marche gratuite, et aucun site priv&eacute; ne peut vous obtenir un rendez-vous ou une d&eacute;cision plus vite. Au mieux vous payez pour un formulaire&nbsp;; au pire vous confiez vos documents d'identit&eacute; &agrave; un inconnu.</li>
+  <li><strong>D&eacute;poser incomplet &laquo;&nbsp;pour prendre date&nbsp;&raquo;.</strong> Sans r&eacute;c&eacute;piss&eacute;, le d&eacute;lai l&eacute;gal ne court pas.</li>
+  <li><strong>D&eacute;m&eacute;nager vers une pr&eacute;fecture r&eacute;put&eacute;e rapide.</strong> Le transfert du dossier annule le gain esp&eacute;r&eacute;, et un d&eacute;m&eacute;nagement de complaisance se voit.</li>
+  <li><strong>Choisir le DELF quand on est press&eacute;</strong>, ou passer le TCF sans s'&ecirc;tre test&eacute;&nbsp;: deux &agrave; trois mois de plus dans les deux cas.</li>
+  <li><strong>Multiplier les relances pr&eacute;coces.</strong> Elles n'acc&eacute;l&egrave;rent rien et encombrent le service qui instruit votre dossier.</li>
+</ul>
+
+<h2>Le calendrier le plus court, concr&egrave;tement</h2>
+
+<ol>
+  <li><strong>Mois 0.</strong> V&eacute;rifiez votre voie et vos conditions&nbsp;; commandez le casier judiciaire &eacute;tranger et les actes &agrave; apostiller&nbsp;; commencez l'examen civique dans l'app.</li>
+  <li><strong>Mois 1.</strong> Passez l'examen civique. Faites un examen blanc de TCF&nbsp;: si le B2 est l&agrave;, r&eacute;servez une date&nbsp;; sinon, planifiez les semaines de travail n&eacute;cessaires.</li>
+  <li><strong>Mois 2 &agrave; 3.</strong> Passez le TCF IRN&nbsp;; r&eacute;unissez les pi&egrave;ces de revenus et de domicile&nbsp;; demandez les actes fran&ccedil;ais de moins de 3&nbsp;mois en dernier.</li>
+  <li><strong>Mois 3 &agrave; 4.</strong> R&eacute;sultat du TCF, dossier complet, d&eacute;p&ocirc;t en ligne, r&eacute;c&eacute;piss&eacute;. Le d&eacute;lai l&eacute;gal d&eacute;marre.</li>
+  <li><strong>Mois 6 &agrave; 10.</strong> Entretien, pr&eacute;par&eacute; avec le simulateur&nbsp;; originaux en main.</li>
+  <li><strong>Mois 12 &agrave; 18 apr&egrave;s le r&eacute;c&eacute;piss&eacute;.</strong> D&eacute;cision, puis publication du d&eacute;cret au Journal officiel&nbsp;; vous &ecirc;tes fran&ccedil;ais &agrave; la date de signature. V&eacute;rifiez votre nom dans notre <a href="/outils/decret-naturalisation.html">annuaire des d&eacute;crets</a>.</li>
+</ol>
+
+<p>Compt&eacute; ainsi, un candidat pr&ecirc;t met trois &agrave; quatre mois pour d&eacute;poser un dossier complet, puis entre un an et dix-huit mois pour obtenir son d&eacute;cret. Le m&ecirc;me candidat qui encha&icirc;ne les &eacute;tapes une &agrave; une, rate un TCF, d&eacute;pose incomplet et improvise son entretien peut facilement doubler ce d&eacute;lai. La rapidit&eacute;, en naturalisation, ce n'est pas une astuce&nbsp;: c'est une pr&eacute;paration qui tient dans une seule application, gratuite pour commencer.</p>
+""",
+    "faq": [
+        ("Existe-t-il une procédure de naturalisation accélérée ?",
+         "Non. Il n'existe ni procédure express, ni traitement prioritaire payant. Le délai légal de réponse est de 18 mois à compter du récépissé, ramené à 12 mois après 10 ans de résidence habituelle en France, prolongeable une fois de 3 mois. Ce que vous pouvez accélérer, c'est tout ce qui précède le récépissé : choix de la voie, B2, examen civique, constitution du dossier."),
+        ("Quel est le délai minimum pour obtenir la nationalité française ?",
+         "Pour une naturalisation par décret, comptez le temps de préparation (trois à quatre mois pour un candidat prêt) puis 12 à 18 mois d'instruction à partir du récépissé. Les déclarations sont plus courtes : un an pour la déclaration par mariage ou celle de l'ascendant d'un Français, six mois pour une réintégration par déclaration."),
+        ("Quelle est la voie la plus rapide pour devenir français ?",
+         "Celle dont vous remplissez déjà toutes les conditions. Marié(e) depuis 4 ans à un(e) Français(e) : la déclaration par mariage, sans examen civique. Ancien Français : la réintégration, sans durée de résidence. Diplômé du supérieur français : résidence réduite à 2 ans. Réfugié ou ressortissant d'un pays francophone : aucune durée de résidence. Et après 10 ans en France, le délai légal passe de 18 à 12 mois."),
+        ("TCF IRN ou DELF B2 : lequel choisir quand on est pressé ?",
+         "Le TCF IRN : des sessions fréquentes et des résultats en quatre semaines environ, contre deux à trois mois et des sessions rares pour le DELF B2. Le DELF reste préférable si vous n'êtes pas à trois mois près, car il est valable à vie alors que l'attestation TCF expire au bout de 2 ans."),
+        ("Un service payant peut-il accélérer ma naturalisation ?",
+         "Non. Hormis le timbre fiscal de 255 €, la démarche est gratuite, et aucun intermédiaire ne peut obtenir un rendez-vous ou une décision plus rapide. Service-public met explicitement en garde contre ces sites. Le seul accélérateur légitime est votre préparation : dossier complet, B2 et examen civique acquis, entretien répété."),
+        ("Déménager dans une préfecture plus rapide fait-il gagner du temps ?",
+         "Non. Votre dossier est instruit par la plateforme de votre domicile ; un déménagement en cours d'instruction entraîne un transfert qui rallonge le traitement. Si vous déménagez pour de vraies raisons, signalez-le immédiatement sur votre espace ANEF."),
+        ("Quand passer l'examen civique pour ne pas perdre de temps ?",
+         "Tout de suite : les sessions sont régulières, les résultats rapides et l'attestation de réussite n'a pas de durée de validité limitée. Passez-le en parallèle de votre préparation au B2, pas après."),
+        ("Que faire si le délai légal est dépassé sans réponse ?",
+         "Envoyez une lettre recommandée argumentée rappelant la date du récépissé et le délai légal, puis engagez les recours prévus (gracieux, hiérarchique, Défenseur des droits, tribunal administratif). Relancer avant le terme du délai n'a en revanche aucun effet."),
+    ],
+    "links": [
+        ("/blog/delais-naturalisation-2026.html", "D&eacute;lai de naturalisation 2026&nbsp;: 12 &agrave; 18&nbsp;mois en moyenne"),
+        ("/blog/guide-complet-naturalisation-2026.html", "Le guide complet en 8 &eacute;tapes"),
+        ("/blog/tcf-irn-ou-delf-b2-lequel-choisir.html", "TCF IRN ou DELF B2&nbsp;: lequel choisir"),
+        ("/blog/documents-naturalisation.html", "La liste compl&egrave;te des pi&egrave;ces du dossier"),
+        ("/blog/relance-naturalisation-que-faire-sans-reponse.html", "Sans r&eacute;ponse&nbsp;: quand et comment relancer"),
+    ],
+    "sources": [
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F2213", "Service-public.gouv.fr &mdash; Naturalisation par d&eacute;cret&nbsp;: r&eacute;c&eacute;piss&eacute;, d&eacute;lais de r&eacute;ponse, gratuit&eacute; de la d&eacute;marche (F2213)"),
+        ("https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006149926/", "Code civil &mdash; Article 21-25-1 (d&eacute;lais de r&eacute;ponse) et articles 21-17 &agrave; 21-20 (dur&eacute;e de r&eacute;sidence)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F2726", "Service-public.gouv.fr &mdash; D&eacute;claration de nationalit&eacute; par mariage&nbsp;: d&eacute;lai d'un an (F2726)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F11926", "Service-public.gouv.fr &mdash; Justificatifs de niveau de fran&ccedil;ais et validit&eacute; (F11926)"),
+        ("https://www.legifrance.gouv.fr/circulaire/id/45604", "L&eacute;gifrance &mdash; Circulaire du 2 mai 2025 (insertion professionnelle, ressources)"),
+    ],
+    "cta": "Gagner des mois avec l'app",
 },
 }
 
@@ -693,8 +1493,8 @@ def render(slug, a):
         "headline": clean(a["h1"]),
         "description": a["desc"],
         "url": url,
-        "datePublished": TODAY,
-        "dateModified": TODAY,
+        "datePublished": a.get("date", TODAY),
+        "dateModified": a.get("date", TODAY),
         "author": {"@type": "Person", "name": "Augusto Grone", "url": f"{BASE}/a-propos.html"},
         "publisher": {"@type": "Organization", "name": "Naturalisation France Facile", "url": BASE},
         "mainEntityOfPage": {"@type": "WebPage", "@id": url},
@@ -762,7 +1562,7 @@ def render(slug, a):
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="{BASE}/img/og/{a["og_img"]}" />
-  <link rel="stylesheet" href="/css/style.css?v=23" />
+  <link rel="stylesheet" href="/css/style.css?v=24" />
 {ld(article_ld)}{ld(breadcrumb_ld)}{ld(faq_ld)}</head>
 <body>
 
@@ -785,7 +1585,7 @@ def render(slug, a):
 <article class="section" style="padding-top:120px">
   <p class="article-back"><a href="/blog/">&larr; Retour au blog</a></p>
   <h1 class="section-title">{a["h1"]}</h1>
-  <p class="article-meta" style="text-align:center">Mis &agrave; jour le {TODAY_FR} &middot; {a["tag"]}</p>
+  <p class="article-meta" style="text-align:center">Mis &agrave; jour le {a.get("date_fr", TODAY_FR)} &middot; {a["tag"]}</p>
 
   <div class="article-body">
     <p class="article-lede">{a["lede"]}</p>

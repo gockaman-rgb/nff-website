@@ -39,10 +39,12 @@ PILLAR = "guide-complet-naturalisation-2026"
 # demarches : c'est aussi celui dans lequel les gens cherchent.
 SECTIONS = [
     ("conditions", "1. Suis-je &eacute;ligible&nbsp;?",
-     "Les conditions &agrave; remplir avant m&ecirc;me de constituer un dossier.",
+     "Les conditions &agrave; remplir avant m&ecirc;me de constituer un dossier, et la voie d'acc&egrave;s qui correspond &agrave; votre situation.",
      ["conditions-naturalisation-francaise", "ressources-revenus-naturalisation",
-      "naturalisation-par-mariage-2026", "naturalisation-2026-nouvelles-regles",
-      "pourquoi-devenir-francais-avantages"]),
+      "naturalisation-par-mariage-2026", "reintegration-nationalite-francaise-2026",
+      "naturalisation-refugie-2026", "naturalisation-apres-etudes-en-france",
+      "naturalisation-sans-condition-de-stage", "naturalisation-apres-65-ans",
+      "naturalisation-2026-nouvelles-regles", "pourquoi-devenir-francais-avantages"]),
     ("examens", "2. Les examens",
      "Le niveau B2 en fran&ccedil;ais et l'examen civique, obligatoires depuis 2026.",
      ["atteindre-niveau-b2-naturalisation", "tcf-irn-ou-delf-b2-lequel-choisir",
@@ -58,8 +60,8 @@ SECTIONS = [
      ["entretien-naturalisation-prefectures", "questions-entretien-naturalisation",
       "sentrainer-entretien-naturalisation", "apres-entretien-naturalisation"]),
     ("suivi", "5. Suivre son dossier",
-     "Comprendre o&ugrave; en est votre demande, relancer, et contester si besoin.",
-     ["suivre-dossier-naturalisation-anef", "statuts-anef-naturalisation",
+     "Gagner du temps avant le d&eacute;p&ocirc;t, comprendre o&ugrave; en est votre demande, relancer, et contester si besoin.",
+     ["naturalisation-rapide", "suivre-dossier-naturalisation-anef", "statuts-anef-naturalisation",
       "delais-naturalisation-2026", "delais-naturalisation-par-prefecture",
       "relance-naturalisation-que-faire-sans-reponse", "ajournement-vs-refus-naturalisation"]),
     ("apres", "6. Apr&egrave;s l'obtention",
@@ -228,7 +230,7 @@ def main():
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:image" content="{BASE}/img/og/default.png" />
-  <link rel="stylesheet" href="/css/style.css?v=23" />
+  <link rel="stylesheet" href="/css/style.css?v=24" />
 {ld(blog_ld)}{ld(itemlist_ld)}{ld(breadcrumb_ld)}</head>
 <body>
 

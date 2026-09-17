@@ -432,6 +432,14 @@ img { max-width: 100%; display: block; }
 .article-body tbody tr:nth-child(even) td,
 .article-table tbody tr:nth-child(even) td { background: var(--bg-subtle); }
 .article-body td em, .article-table td em { font-style: normal; font-weight: 600; color: var(--text); }
+/* sur mobile, un tableau plus large que la colonne defile dans son cadre
+   au lieu d'elargir toute la page */
+@media (max-width: 600px) {
+  .article-body table, .article-table {
+    display: block; overflow-x: auto; -webkit-overflow-scrolling: touch;
+    width: max-content; max-width: 100%;
+  }
+}
 
 /* ============================================
    Module feature pages (/fonctionnalites/*)
