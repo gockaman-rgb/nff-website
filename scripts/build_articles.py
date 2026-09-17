@@ -10,8 +10,15 @@ Les cinq suivants (17 septembre 2026) couvrent les voies d'acces a la
 nationalite qui exigent aussi le niveau B2, a cote de la declaration par
 mariage deja traitee : reintegration, refugies, etudes en France,
 dispenses de stage, candidats de plus de 65 ans ; puis "naturalisation
-rapide", l'article de methode qui relie les cinq leviers a l'app. Chaque
-article porte sa date ("date" / "date_fr"), a defaut TODAY.
+rapide", l'article de methode qui relie les cinq leviers a l'app.
+
+Quatre articles de plus, choisis sur la Search Console (3 mois au 15
+septembre 2026) : des requetes ou le site se positionnait deja sans page
+dediee ("pourquoi voulez-vous devenir francais" ~300 impressions servies
+par l'article "avantages", "avis favorable naturalisation lettre
+recommandee", "timbre fiscal 55 EUR naturalisation" 187 impressions sans
+clic, "journal officiel naturalisation liste des noms"). Chaque article
+porte sa date ("date" / "date_fr"), a defaut TODAY.
 
 Faits verifies (septembre 2026) : l'examen civique ne concerne que les
 procedures par decret (service-public F39426) ; les attestations de
@@ -193,7 +200,7 @@ ARTICLES = {
 
 <h2>&Eacute;tape 2&nbsp;: l'avis du pr&eacute;fet</h2>
 
-<p>Sur la base du dossier complet et du compte rendu, la pr&eacute;fecture formule un <strong>avis</strong>&nbsp;: favorable, favorable avec r&eacute;serves, ou d&eacute;favorable. Cet avis n'est pas la d&eacute;cision finale, mais il p&egrave;se lourd&nbsp;: le minist&egrave;re suit g&eacute;n&eacute;ralement la recommandation locale.</p>
+<p>Sur la base du dossier complet et du compte rendu, la pr&eacute;fecture formule un <strong>avis</strong>&nbsp;: favorable, favorable avec r&eacute;serves, ou d&eacute;favorable. Cet avis n'est pas la d&eacute;cision finale, mais il p&egrave;se lourd&nbsp;: le minist&egrave;re suit g&eacute;n&eacute;ralement la recommandation locale. Ce qu'il vaut juridiquement, comment on l'apprend et ce qui peut encore bloquer&nbsp;: voir notre guide de l'<a href="/blog/avis-favorable-naturalisation.html">avis favorable</a>.</p>
 
 <p>&Agrave; ce stade, rien ne change dans votre espace en ligne. C'est normal, et c'est la premi&egrave;re source d'angoisse&nbsp;: le dossier avance sans que l'affichage bouge.</p>
 
@@ -253,7 +260,7 @@ ARTICLES = {
 <p>Les canaux diff&egrave;rent selon l'issue, et savoir lequel surveiller &eacute;vite bien des angoisses&nbsp;:</p>
 
 <ul>
-  <li><strong>Favorable</strong> &mdash; il n'y a g&eacute;n&eacute;ralement pas de courrier annon&ccedil;ant &laquo;&nbsp;c'est accept&eacute;&nbsp;&raquo;. Ce que vous verrez, c'est la parution de votre d&eacute;cret. Depuis f&eacute;vrier 2023, l'espace ANEF signale automatiquement cette publication&nbsp;; vous pouvez aussi la v&eacute;rifier dans l'<a href="/outils/decret-naturalisation.html">annuaire des d&eacute;crets publi&eacute;s au Journal officiel</a>. La pr&eacute;fecture vous convoque ensuite &agrave; la <a href="/blog/ceremonie-naturalisation-que-se-passe-t-il.html">c&eacute;r&eacute;monie d'accueil</a>.</li>
+  <li><strong>Favorable</strong> &mdash; il n'y a g&eacute;n&eacute;ralement pas de courrier annon&ccedil;ant &laquo;&nbsp;c'est accept&eacute;&nbsp;&raquo;. Ce que vous verrez, c'est la parution de votre d&eacute;cret. Depuis f&eacute;vrier 2023, l'espace ANEF signale automatiquement cette publication&nbsp;; vous pouvez aussi la v&eacute;rifier dans l'<a href="/outils/decret-naturalisation.html">annuaire des d&eacute;crets publi&eacute;s au Journal officiel</a> et <a href="/blog/journal-officiel-naturalisation-liste-des-noms.html">t&eacute;l&eacute;charger l'extrait nominatif</a> sur L&eacute;gifrance. La pr&eacute;fecture vous convoque ensuite &agrave; la <a href="/blog/ceremonie-naturalisation-que-se-passe-t-il.html">c&eacute;r&eacute;monie d'accueil</a>.</li>
   <li><strong>Ajournement, refus, irrecevabilit&eacute;</strong> &mdash; ces d&eacute;cisions sont <strong>notifi&eacute;es</strong>, par courrier ou via le t&eacute;l&eacute;service. La date de notification est capitale&nbsp;: c'est elle, et non la date de la d&eacute;cision, qui fait courir vos deux mois de recours. Notez-la d&egrave;s r&eacute;ception.</li>
 </ul>
 
@@ -285,6 +292,7 @@ ARTICLES = {
     ],
     "links": [
         ("/blog/entretien-naturalisation-prefectures.html", "L'entretien en pr&eacute;fecture&nbsp;: comment il se d&eacute;roule"),
+        ("/blog/avis-favorable-naturalisation.html", "Avis favorable&nbsp;: ce que &ccedil;a vaut, et combien de temps avant le d&eacute;cret"),
         ("/blog/suivre-dossier-naturalisation-anef.html", "Suivre son dossier sur l'ANEF"),
         ("/blog/ajournement-vs-refus-naturalisation.html", "Ajournement ou refus&nbsp;: que faire"),
     ],
@@ -439,7 +447,7 @@ ARTICLES = {
 
 <p>Vous n'avez pas &agrave; attendre la <a href="/blog/ceremonie-naturalisation-que-se-passe-t-il.html">c&eacute;r&eacute;monie d'accueil</a> pour commencer. Un d&eacute;cret de naturalisation prend effet <strong>&agrave; la date de sa signature</strong> (article 51 du d&eacute;cret n&deg;&nbsp;93-1362). La c&eacute;r&eacute;monie est un moment d'accueil r&eacute;publicain, pas une formalit&eacute; d'acquisition.</p>
 
-<p>En pratique, il vous faut n&eacute;anmoins une <strong>preuve</strong> pour engager les d&eacute;marches&nbsp;: l'ampliation de votre d&eacute;cret, remise le plus souvent lors de la c&eacute;r&eacute;monie, ou r&eacute;cup&eacute;rable aupr&egrave;s de votre pr&eacute;fecture.</p>
+<p>En pratique, il vous faut n&eacute;anmoins une <strong>preuve</strong> pour engager les d&eacute;marches&nbsp;: l'extrait nominatif de votre d&eacute;cret, &agrave; t&eacute;l&eacute;charger sur L&eacute;gifrance &agrave; partir de la date de publication communiqu&eacute;e sur votre espace ANEF. Ce PDF porte une signature &eacute;lectronique authentifi&eacute;e et se suffit &agrave; lui-m&ecirc;me, sans copie certifi&eacute;e conforme&nbsp;; notre guide explique <a href="/blog/journal-officiel-naturalisation-liste-des-noms.html">comment le trouver</a>. Avant f&eacute;vrier 2023, l'administration envoyait une ampliation par courrier ou par mail.</p>
 
 <h2>&Eacute;tape 1&nbsp;: l'acte de naissance fran&ccedil;ais</h2>
 
@@ -527,7 +535,7 @@ ARTICLES = {
         ("Quelles démarches faire juste après la naturalisation ?",
          "Dans cet ordre : demander votre acte de naissance français au Service central d'état civil de Nantes si vous êtes né à l'étranger, puis la carte nationale d'identité, puis le passeport, puis l'inscription sur les listes électorales. Chaque étape dépend de la précédente : l'acte de naissance conditionne tout le reste."),
         ("Faut-il attendre la cérémonie pour commencer les démarches ?",
-         "Non. Le décret prend effet à la date de sa signature : vous êtes français avant la cérémonie. Il vous faut néanmoins une preuve — l'ampliation du décret — que vous récupérez à la cérémonie ou auprès de votre préfecture."),
+         "Non. Le décret prend effet à la date de sa signature : vous êtes français avant la cérémonie. Il vous faut néanmoins une preuve : l'extrait nominatif de votre décret, à télécharger sur Légifrance (il porte une signature électronique authentifiée), à partir de la date de publication indiquée sur votre espace ANEF."),
         ("La première carte d'identité française est-elle gratuite ?",
          "Oui, la première délivrance d'une carte nationale d'identité est gratuite. Le passeport, lui, est payant."),
         ("Perd-on sa nationalité d'origine en devenant français ?",
@@ -1384,7 +1392,7 @@ ARTICLES = {
 <ol>
   <li><strong>Commandez d'abord les pi&egrave;ces lentes.</strong> L'<a href="/blog/casier-judiciaire-naturalisation.html">extrait de casier judiciaire &eacute;tranger</a> (exig&eacute; si vous vivez en France depuis moins de 10&nbsp;ans), les actes d'&eacute;tat civil &eacute;trangers &agrave; faire apostiller puis traduire par un traducteur agr&eacute;&eacute;&nbsp;: plusieurs semaines &agrave; plusieurs mois selon le pays.</li>
   <li><strong>Gardez les pi&egrave;ces p&eacute;rissables pour la fin.</strong> Un acte d'&eacute;tat civil fran&ccedil;ais doit avoir moins de 3&nbsp;mois au d&eacute;p&ocirc;t&nbsp;; l'attestation TCF ou TEF, moins de 2&nbsp;ans.</li>
-  <li><strong>D&eacute;posez en ligne</strong>, sur le t&eacute;l&eacute;service de l'<a href="/glossaire/anef.html">ANEF</a>&nbsp;: chaque &eacute;tape vous est notifi&eacute;e par mail, et vous r&eacute;pondez aux demandes depuis votre espace, sans courrier. Pr&eacute;parez en m&ecirc;me temps les originaux, exig&eacute;s &agrave; l'entretien.</li>
+  <li><strong>D&eacute;posez en ligne</strong>, sur le t&eacute;l&eacute;service de l'<a href="/glossaire/anef.html">ANEF</a>, o&ugrave; le <a href="/blog/timbre-fiscal-naturalisation.html">timbre fiscal</a> se paie directement&nbsp;: chaque &eacute;tape vous est notifi&eacute;e par mail, et vous r&eacute;pondez aux demandes depuis votre espace, sans courrier. Pr&eacute;parez en m&ecirc;me temps les originaux, exig&eacute;s &agrave; l'entretien.</li>
 </ol>
 
 <p>La <a href="/blog/documents-naturalisation.html">liste compl&egrave;te des pi&egrave;ces</a> d&eacute;pend de votre situation (salari&eacute;, ind&eacute;pendant, &eacute;tudiant, retrait&eacute;, en couple, avec enfants). La checklist de l'app la personnalise et se coche au fur et &agrave; mesure&nbsp;: c'est le moyen le plus simple de v&eacute;rifier, avant de cliquer sur &laquo;&nbsp;envoyer&nbsp;&raquo;, que rien ne manque, y compris les pi&egrave;ces que les listes g&eacute;n&eacute;riques oublient.</p>
@@ -1399,7 +1407,7 @@ ARTICLES = {
   <li><strong>Les incoh&eacute;rences.</strong> Une adresse, une situation familiale ou professionnelle qui ne correspond plus au dossier, un changement non signal&eacute;&nbsp;: tout ce que l'enqu&ecirc;te d&eacute;couvre p&egrave;se plus lourd que le fait lui-m&ecirc;me.</li>
 </ul>
 
-<p>L'<a href="/blog/entretien-naturalisation-prefectures.html">entretien d'assimilation</a> se pr&eacute;pare comme une &eacute;preuve&nbsp;: motivations, parcours, valeurs de la R&eacute;publique, vie quotidienne. Le simulateur d'entretien de l'app vous fait r&eacute;p&eacute;ter les <a href="/blog/questions-entretien-naturalisation.html">questions r&eacute;ellement pos&eacute;es</a> et note vos r&eacute;ponses &agrave; l'oral comme &agrave; l'&eacute;crit&nbsp;; c'est la diff&eacute;rence entre arriver en terrain connu et improviser devant l'agent.</p>
+<p>L'<a href="/blog/entretien-naturalisation-prefectures.html">entretien d'assimilation</a> se pr&eacute;pare comme une &eacute;preuve&nbsp;: motivations (voir nos <a href="/blog/pourquoi-voulez-vous-devenir-francais.html">huit exemples de r&eacute;ponses</a> &agrave; &laquo;&nbsp;pourquoi voulez-vous devenir fran&ccedil;ais&nbsp;?&nbsp;&raquo;), parcours, valeurs de la R&eacute;publique, vie quotidienne. Le simulateur d'entretien de l'app vous fait r&eacute;p&eacute;ter les <a href="/blog/questions-entretien-naturalisation.html">questions r&eacute;ellement pos&eacute;es</a> et note vos r&eacute;ponses &agrave; l'oral comme &agrave; l'&eacute;crit&nbsp;; c'est la diff&eacute;rence entre arriver en terrain connu et improviser devant l'agent.</p>
 
 <h2>Levier 5&nbsp;: pendant l'instruction, r&eacute;agir vite et relancer au bon moment</h2>
 
@@ -1409,6 +1417,7 @@ ARTICLES = {
   <li><strong>R&eacute;pondez dans les d&eacute;lais</strong> &agrave; toute demande de pi&egrave;ce ou de formalit&eacute; notifi&eacute;e sur votre espace ANEF.</li>
   <li><strong>Signalez imm&eacute;diatement tout changement</strong> de situation (adresse, emploi, mariage, naissance), avec justificatifs. Ne d&eacute;m&eacute;nagez pas dans un autre d&eacute;partement pour &laquo;&nbsp;changer de pr&eacute;fecture&nbsp;&raquo;&nbsp;: le dossier est transf&eacute;r&eacute;, et le transfert prend du temps.</li>
   <li><strong>Suivez les statuts</strong> de votre dossier sur l'ANEF et sachez <a href="/blog/statuts-anef-naturalisation.html">ce que chacun signifie</a>&nbsp;: un affichage fig&eacute; n'est pas forc&eacute;ment un dossier bloqu&eacute;.</li>
+  <li><strong>Apr&egrave;s l'avis favorable, patientez.</strong> La file d'attente du minist&egrave;re ne se relance pas&nbsp;; notre guide explique <a href="/blog/avis-favorable-naturalisation.html">ce qui se passe entre l'avis favorable et le d&eacute;cret</a>.</li>
   <li><strong>Relancez quand c'est utile, pas avant.</strong> Une relance &agrave; trois mois n'a aucun effet&nbsp;; une lettre recommand&eacute;e argument&eacute;e au d&eacute;passement du d&eacute;lai l&eacute;gal, puis un recours, en ont un. Notre guide <a href="/blog/relance-naturalisation-que-faire-sans-reponse.html">que faire sans r&eacute;ponse</a> donne le calendrier et les mod&egrave;les.</li>
 </ul>
 
@@ -1470,6 +1479,521 @@ ARTICLES = {
         ("https://www.legifrance.gouv.fr/circulaire/id/45604", "L&eacute;gifrance &mdash; Circulaire du 2 mai 2025 (insertion professionnelle, ressources)"),
     ],
     "cta": "Gagner des mois avec l'app",
+},
+# ═══════════════════════════════════════════════════════════════════════
+"pourquoi-voulez-vous-devenir-francais": {
+    "title": "Pourquoi voulez-vous devenir français ? 8 réponses d'entretien",
+    "h1": "Pourquoi voulez-vous devenir fran&ccedil;ais&nbsp;? Comment r&eacute;pondre &agrave; l'entretien, avec 8 exemples",
+    "desc": "La question ouvre presque tous les entretiens. Ce que l'agent évalue vraiment, les réponses qui desservent, une méthode en trois temps et 8 exemples selon votre parcours.",
+    "og": "Pourquoi voulez-vous devenir fran&ccedil;ais&nbsp;? 8 exemples de r&eacute;ponses pour l'entretien",
+    "tag": "Entretien",
+    "og_img": "simulation-entretien.png",
+    "date": "2026-09-17",
+    "date_fr": "17 septembre 2026",
+    "lede": "&laquo;&nbsp;Pourquoi voulez-vous devenir fran&ccedil;ais&nbsp;?&nbsp;&raquo; C'est la question par laquelle commence la plupart des entretiens d'assimilation, celle que tout le monde a pr&eacute;par&eacute;e, et celle o&ugrave; beaucoup tr&eacute;buchent quand m&ecirc;me&nbsp;: r&eacute;ponse trop courte, trop g&eacute;n&eacute;rale, ou qui sonne comme une formalit&eacute;. Voici ce que l'agent &eacute;value derri&egrave;re cette question, les r&eacute;ponses qui desservent, une m&eacute;thode simple pour construire la v&ocirc;tre, et huit exemples r&eacute;dig&eacute;s pour des parcours diff&eacute;rents, &agrave; adapter &agrave; votre histoire, pas &agrave; r&eacute;citer.",
+    "body": """
+<h2>Ce que l'agent &eacute;value vraiment derri&egrave;re la question</h2>
+
+<p>L'entretien en pr&eacute;fecture n'est pas un examen de connaissances. Depuis le 1<sup>er</sup> janvier 2026, les connaissances sont v&eacute;rifi&eacute;es par l'<a href="/blog/examen-civique-naturalisation-2026.html">examen civique</a>, et le niveau de fran&ccedil;ais par un test ou un dipl&ocirc;me. La circulaire du 2 mai 2025 demande donc aux pr&eacute;fectures de recentrer l'entretien sur une chose&nbsp;: <strong>votre adh&eacute;sion aux principes et aux valeurs essentiels de la R&eacute;publique</strong>, et l'absence de signaux contraires. Service-public le formule ainsi&nbsp;: l'entretien &laquo;&nbsp;a pour but de v&eacute;rifier votre assimilation &agrave; la communaut&eacute; fran&ccedil;aise, notamment votre adh&eacute;sion aux principes et aux valeurs essentiels de la R&eacute;publique&nbsp;&raquo;, que rappelle la charte des droits et devoirs du citoyen fran&ccedil;ais, sign&eacute;e &agrave; la fin de l'entretien.</p>
+
+<p>La question &laquo;&nbsp;pourquoi voulez-vous devenir fran&ccedil;ais&nbsp;?&nbsp;&raquo; sert &agrave; cela. &Agrave; travers votre r&eacute;ponse, l'agent cherche quatre choses&nbsp;:</p>
+
+<ul>
+  <li><strong>La sinc&eacute;rit&eacute; du projet</strong>&nbsp;: vous demandez la nationalit&eacute; pour vous inscrire durablement dans la communaut&eacute; nationale, pas pour un document.</li>
+  <li><strong>La coh&eacute;rence avec votre dossier</strong>&nbsp;: ce que vous racontez doit correspondre &agrave; votre parcours, &agrave; vos attaches, &agrave; votre situation professionnelle et familiale telles qu'elles figurent dans les pi&egrave;ces.</li>
+  <li><strong>Un rapport personnel aux valeurs</strong>&nbsp;: libert&eacute;, &eacute;galit&eacute; (notamment entre les femmes et les hommes), fraternit&eacute;, la&iuml;cit&eacute;. Non pas r&eacute;cit&eacute;es, mais reli&eacute;es &agrave; votre vie.</li>
+  <li><strong>Votre aisance en fran&ccedil;ais</strong>&nbsp;: l'&eacute;change se fait en fran&ccedil;ais, et une r&eacute;ponse fluide, construite, compte autant que son contenu.</li>
+</ul>
+
+<div class="callout">
+  <p><strong>&Agrave; retenir&nbsp;:</strong> l'agent a votre dossier sous les yeux. Il ne cherche pas des informations, il cherche une personne. La bonne r&eacute;ponse est celle que vous seul pouvez donner.</p>
+</div>
+
+<h2>Les cinq r&eacute;ponses qui desservent</h2>
+
+<p>Certaines r&eacute;ponses sont sinc&egrave;res et pourtant contre-productives, parce qu'elles d&eacute;crivent un avantage plut&ocirc;t qu'un engagement.</p>
+
+<ol>
+  <li><strong>&laquo;&nbsp;Pour avoir le passeport et voyager plus facilement.&nbsp;&raquo;</strong> C'est vrai pour tout le monde, et c'est pr&eacute;cis&eacute;ment ce qu'on ne veut pas entendre en premier&nbsp;: la nationalit&eacute; r&eacute;duite &agrave; un titre de circulation.</li>
+  <li><strong>&laquo;&nbsp;Pour ne plus avoir &agrave; renouveler mon titre de s&eacute;jour.&nbsp;&raquo;</strong> Compr&eacute;hensible, mais c'est une r&eacute;ponse de confort administratif. Elle peut venir en fin de r&eacute;ponse, jamais en ouverture.</li>
+  <li><strong>&laquo;&nbsp;Parce que j'y ai droit, j'ai les cinq ans.&nbsp;&raquo;</strong> Remplir les conditions ne cr&eacute;e aucun droit&nbsp;: la naturalisation reste une d&eacute;cision discr&eacute;tionnaire. Cette r&eacute;ponse froisse.</li>
+  <li><strong>&laquo;&nbsp;Pour les aides, pour mes enfants, pour les &eacute;tudes.&nbsp;&raquo;</strong> Les droits sociaux ne d&eacute;pendent pas de la nationalit&eacute;, et l'agent le sait. Vous perdez en cr&eacute;dibilit&eacute;.</li>
+  <li><strong>Une r&eacute;ponse qui d&eacute;nigre votre pays d'origine.</strong> Vous n'avez pas &agrave; renier d'o&ugrave; vous venez. La France admet la double nationalit&eacute;&nbsp;; ce qui compte, c'est ce qui vous attache ici.</li>
+</ol>
+
+<p>S'y ajoutent deux erreurs de forme&nbsp;: la r&eacute;ponse en une phrase (&laquo;&nbsp;parce que j'aime la France&nbsp;&raquo;), qui oblige l'agent &agrave; creuser, et la r&eacute;ponse apprise par c&oelig;ur, reconnaissable au ton, qui fait douter de tout le reste.</p>
+
+<h2>La m&eacute;thode en trois temps</h2>
+
+<p>Une bonne r&eacute;ponse dure trente secondes &agrave; une minute et suit un fil simple&nbsp;: d'o&ugrave; vous venez, ce qui vous retient ici, o&ugrave; vous allez. &Agrave; chaque temps, un fait concret.</p>
+
+<table class="article-table">
+  <thead><tr><th>Temps</th><th>Ce que vous dites</th><th>Exemple de fait concret</th></tr></thead>
+  <tbody>
+    <tr><td>1. Le parcours</td><td>Quand et pourquoi vous &ecirc;tes arriv&eacute;, ce que la France vous a permis de construire</td><td>&laquo;&nbsp;Arriv&eacute; en 2017 pour un master, embauch&eacute; en 2019, en CDI depuis 2021&nbsp;&raquo;</td></tr>
+    <tr><td>2. Les attaches</td><td>Ce qui fait que votre vie est ici&nbsp;: famille, travail, amis, engagement, quartier</td><td>&laquo;&nbsp;Mes enfants sont scolaris&eacute;s &agrave; Lyon, je suis b&eacute;n&eacute;vole au club de foot&nbsp;&raquo;</td></tr>
+    <tr><td>3. Le projet et les valeurs</td><td>Ce que la nationalit&eacute; change pour vous&nbsp;: participer pleinement, voter, &ecirc;tre citoyen &agrave; part enti&egrave;re</td><td>&laquo;&nbsp;Je veux voter dans la ville o&ugrave; je paie mes imp&ocirc;ts depuis dix ans&nbsp;&raquo;</td></tr>
+  </tbody>
+</table>
+
+<p>Les valeurs viennent naturellement dans le troisi&egrave;me temps, &agrave; condition de les relier &agrave; quelque chose de v&eacute;cu&nbsp;: la la&iuml;cit&eacute; comme libert&eacute; de conscience que vous appr&eacute;ciez au quotidien, l'&eacute;galit&eacute; entre les femmes et les hommes telle que vous l'appliquez dans votre couple ou au travail, la fraternit&eacute; &agrave; travers un engagement concret. Une phrase suffit&nbsp;; c'est l'exemple qui la rend cr&eacute;dible.</p>
+
+<h2>Huit exemples de r&eacute;ponses, selon votre parcours</h2>
+
+<p>Chaque exemple est &eacute;crit comme on le dirait &agrave; l'oral. Prenez la structure, changez les faits&nbsp;: l'agent doit entendre votre histoire, pas celle-ci.</p>
+
+<h3>1. Arriv&eacute; pour les &eacute;tudes, rest&eacute; pour travailler</h3>
+
+<p>&laquo;&nbsp;Je suis arriv&eacute; en France en 2018 pour un master, et ce qui devait &ecirc;tre deux ann&eacute;es d'&eacute;tudes est devenu ma vie. J'ai &eacute;t&eacute; recrut&eacute; &agrave; la fin de mon stage, je suis en CDI depuis quatre ans dans la m&ecirc;me entreprise, et c'est ici que j'ai construit tout ce qui compte pour moi&nbsp;: mon m&eacute;tier, mes amis, mon appartement. Je paie mes imp&ocirc;ts ici, je suis les d&eacute;bats d'ici, et je me suis rendu compte que je ne pouvais pas voter dans le pays o&ugrave; se d&eacute;cide mon quotidien. Demander la nationalit&eacute;, c'est aller au bout de cette installation&nbsp;: &ecirc;tre un citoyen &agrave; part enti&egrave;re, avec les devoirs qui vont avec.&nbsp;&raquo;</p>
+
+<h3>2. Parent d'enfants n&eacute;s en France</h3>
+
+<p>&laquo;&nbsp;Mes deux enfants sont n&eacute;s &agrave; Nantes, ils sont fran&ccedil;ais, ils grandissent &agrave; l'&eacute;cole de la R&eacute;publique. Je veux &ecirc;tre du m&ecirc;me pays que mes enfants, pas seulement le parent &eacute;tranger qui les accompagne. Ma femme et moi avons fait le choix de les &eacute;lever dans les valeurs qu'on leur enseigne &agrave; l'&eacute;cole&nbsp;: la m&ecirc;me libert&eacute; pour notre fille que pour notre fils, le respect de toutes les croyances et le droit de ne pas croire. Devenir fran&ccedil;ais, c'est rendre officiel un engagement que nous vivons d&eacute;j&agrave; &agrave; la maison.&nbsp;&raquo;</p>
+
+<h3>3. Mari&eacute;(e) &agrave; un(e) Fran&ccedil;ais(e)</h3>
+
+<p>&laquo;&nbsp;J'ai rencontr&eacute; mon mari en 2019 et nous vivons ensemble &agrave; Toulouse depuis. Sa famille est devenue la mienne, nos amis sont ici, notre projet de vie est ici. Je n'ai pas demand&eacute; la nationalit&eacute; tout de suite&nbsp;: je voulais d'abord m'installer professionnellement, am&eacute;liorer mon fran&ccedil;ais, comprendre le pays de l'int&eacute;rieur. Aujourd'hui je me sens chez moi, et je veux participer pleinement &agrave; la vie du pays o&ugrave; nous construisons notre famille, y compris par le vote.&nbsp;&raquo; <em>Pour la d&eacute;claration par mariage, l'entretien se d&eacute;roule avec votre conjoint&nbsp;: la r&eacute;alit&eacute; de votre vie commune est v&eacute;rifi&eacute;e en m&ecirc;me temps que votre assimilation.</em></p>
+
+<h3>4. R&eacute;fugi&eacute;</h3>
+
+<p>&laquo;&nbsp;La France m'a accord&eacute; sa protection en 2019, &agrave; un moment o&ugrave; je n'avais plus de pays. Depuis, j'ai appris la langue, trouv&eacute; un emploi de technicien, et je vis &agrave; Rennes avec ma famille. Je ne demande pas la nationalit&eacute; pour effacer d'o&ugrave; je viens, mais parce que c'est ici que ma vie a pu recommencer, et que je veux y contribuer comme citoyen et non plus comme personne prot&eacute;g&eacute;e. Les libert&eacute;s qui m'ont manqu&eacute; l&agrave;-bas, la libert&eacute; d'opinion, la libert&eacute; de conscience, je sais ce qu'elles valent&nbsp;: ce sont les valeurs que je veux d&eacute;fendre &agrave; mon tour.&nbsp;&raquo;</p>
+
+<h3>5. Salari&eacute; install&eacute; depuis longtemps</h3>
+
+<p>&laquo;&nbsp;Je vis en France depuis douze ans. J'y ai fait toute ma carri&egrave;re, dans la m&ecirc;me entreprise de logistique, o&ugrave; j'encadre aujourd'hui une &eacute;quipe. J'ai longtemps repouss&eacute; la demande parce que je pensais que mon titre de s&eacute;jour suffisait. Puis j'ai compris que je vivais comme un Fran&ccedil;ais sans en avoir les droits ni les devoirs&nbsp;: je ne vote pas, je ne peux pas &ecirc;tre jur&eacute;, je ne suis pas concern&eacute; par les d&eacute;cisions prises en mon nom. Je veux r&eacute;gulariser ce d&eacute;calage, parce que ma vie est ici et qu'elle y restera.&nbsp;&raquo;</p>
+
+<h3>6. Entrepreneur ou ind&eacute;pendant</h3>
+
+<p>&laquo;&nbsp;J'ai cr&eacute;&eacute; mon entreprise &agrave; Marseille en 2020. Elle emploie aujourd'hui trois personnes, toutes recrut&eacute;es localement. J'ai b&eacute;n&eacute;fici&eacute; de ce que la France offre &agrave; ceux qui entreprennent&nbsp;: un cadre stable, des r&egrave;gles claires, un syst&egrave;me qui prot&egrave;ge les salari&eacute;s comme les patrons. Devenir fran&ccedil;ais, c'est reconna&icirc;tre que mon projet est li&eacute; &agrave; ce pays et m'engager &agrave; y participer durablement, comme contribuable, comme employeur et, je l'esp&egrave;re, comme citoyen.&nbsp;&raquo;</p>
+
+<h3>7. Retrait&eacute; ou parent d'un Fran&ccedil;ais majeur</h3>
+
+<p>&laquo;&nbsp;J'ai travaill&eacute; trente ans en France, dans le b&acirc;timent puis comme gardien d'immeuble. Mes enfants sont fran&ccedil;ais, mes petits-enfants aussi. Ma retraite, je la vis ici, dans le quartier o&ugrave; j'habite depuis 1998. Je demande la nationalit&eacute; tard parce que, longtemps, je n'ai pas os&eacute;, et parce que le niveau de fran&ccedil;ais &agrave; l'&eacute;crit m'a fait peur. J'ai travaill&eacute; pour l'obtenir. Je veux finir ma vie dans le pays o&ugrave; je l'ai construite, avec les m&ecirc;mes droits que mes enfants.&nbsp;&raquo;</p>
+
+<h3>8. Francophone arriv&eacute; r&eacute;cemment</h3>
+
+<p>&laquo;&nbsp;Le fran&ccedil;ais est ma langue depuis l'enfance et la culture fran&ccedil;aise fait partie de mon &eacute;ducation&nbsp;; ce n'est pas pour cela que je demande la nationalit&eacute;. Je la demande parce que, depuis mon installation &agrave; Lille en 2023 comme ing&eacute;nieur, j'ai trouv&eacute; un pays o&ugrave; je veux m'engager, pas seulement travailler. Je si&egrave;ge au conseil d'&eacute;cole de mes enfants, je suis adh&eacute;rent d'une association de quartier. Ce que je veux, c'est pouvoir y participer pleinement et durablement, avec la responsabilit&eacute; que cela implique.&nbsp;&raquo;</p>
+
+<h2>Les questions qui suivent, et comment les anticiper</h2>
+
+<p>La question de la motivation appelle presque toujours des relances. Pr&eacute;parez-les avec la m&ecirc;me m&eacute;thode&nbsp;: une r&eacute;ponse courte, un fait concret.</p>
+
+<ul>
+  <li><strong>&laquo;&nbsp;Pourquoi maintenant&nbsp;?&nbsp;&raquo;</strong> Un &eacute;l&eacute;ment d&eacute;clencheur honn&ecirc;te&nbsp;: un CDI, une naissance, un ancrage devenu &eacute;vident, le niveau de fran&ccedil;ais enfin atteint.</li>
+  <li><strong>&laquo;&nbsp;Que repr&eacute;sente la la&iuml;cit&eacute; pour vous&nbsp;?&nbsp;&raquo;</strong> La libert&eacute; de croire, de ne pas croire, de changer de religion, et la neutralit&eacute; de l'&Eacute;tat&nbsp;; puis un exemple de votre quotidien.</li>
+  <li><strong>&laquo;&nbsp;Garderez-vous votre nationalit&eacute; d'origine&nbsp;?&nbsp;&raquo;</strong> La France autorise la double nationalit&eacute;. R&eacute;pondez franchement&nbsp;; expliquez que vos attaches d'origine n'entament pas votre engagement ici.</li>
+  <li><strong>&laquo;&nbsp;Que changerait la nationalit&eacute; pour vous&nbsp;?&nbsp;&raquo;</strong> Le vote, l'&eacute;ligibilit&eacute;, la participation &agrave; la d&eacute;fense et aux jurys, l'&eacute;galit&eacute; compl&egrave;te de droits et de devoirs.</li>
+  <li><strong>&laquo;&nbsp;Qu'est-ce qui vous manquerait si vous quittiez la France&nbsp;?&nbsp;&raquo;</strong> Une r&eacute;ponse concr&egrave;te et personnelle vaut mieux qu'une liste.</li>
+</ul>
+
+<p>Notre article sur <a href="/blog/questions-entretien-naturalisation.html">les questions pos&eacute;es &agrave; l'entretien</a> couvre les autres th&egrave;mes&nbsp;: histoire, institutions, vie quotidienne, situation personnelle.</p>
+
+<h2>Et par &eacute;crit&nbsp;?</h2>
+
+<p>Aucune pi&egrave;ce du dossier ne s'appelle &laquo;&nbsp;lettre de motivation&nbsp;&raquo;. Mais le t&eacute;l&eacute;service de l'ANEF vous permet de compl&eacute;ter votre demande &laquo;&nbsp;avec des informations qui vous semblent avoir un int&eacute;r&ecirc;t particulier&nbsp;&raquo;, et certaines plateformes appr&eacute;cient un texte de quelques lignes sur papier libre&nbsp;: engagement associatif, parcours, projet. Si vous le r&eacute;digez, gardez la m&ecirc;me structure en trois temps, sans d&eacute;passer une page, et surtout sans contradiction avec ce que vous direz &agrave; l'oral&nbsp;: l'agent aura le texte devant lui.</p>
+
+<h2>S'entra&icirc;ner jusqu'&agrave; ce que la r&eacute;ponse soit la v&ocirc;tre</h2>
+
+<p>La diff&eacute;rence entre une r&eacute;ponse pr&eacute;par&eacute;e et une r&eacute;ponse r&eacute;cit&eacute;e, c'est la r&eacute;p&eacute;tition &agrave; voix haute. Dites-la, chronom&eacute;trez-la, reformulez-la sans notes, jusqu'&agrave; ce qu'elle tienne en une minute et qu'elle sonne juste. Puis entra&icirc;nez-vous aux relances.</p>
+
+<p>Le module de simulation d'entretien de l'application <a href="https://apps.apple.com/fr/app/naturalisation-france-facile/id6761140087" target="_blank">Naturalisation France Facile</a> a &eacute;t&eacute; construit pour cela&nbsp;: 70&nbsp;questions sur les 8&nbsp;th&egrave;mes de l'entretien, dont la motivation personnelle et le projet de vie, chacune avec une r&eacute;ponse mod&egrave;le et des conseils&nbsp;; 15&nbsp;questions sur <em>votre</em> dossier, pour v&eacute;rifier que votre histoire est coh&eacute;rente d'un bout &agrave; l'autre&nbsp;; et une simulation compl&egrave;te de 100&nbsp;questions encha&icirc;n&eacute;es, o&ugrave; vous r&eacute;pondez &agrave; l'oral ou &agrave; l'&eacute;crit et o&ugrave; l'IA note vos r&eacute;ponses et vous dit quoi am&eacute;liorer. Vous arrivez en pr&eacute;fecture en ayant d&eacute;j&agrave; r&eacute;pondu dix fois &agrave; &laquo;&nbsp;pourquoi voulez-vous devenir fran&ccedil;ais&nbsp;?&nbsp;&raquo;, et en sachant que votre r&eacute;ponse tient.</p>
+""",
+    "faq": [
+        ("Que répondre à « pourquoi voulez-vous devenir français ? » à l'entretien de naturalisation ?",
+         "Une réponse personnelle en trois temps : votre parcours en France (quand, pourquoi, ce que vous y avez construit), vos attaches (famille, travail, engagement), puis votre projet et ce que la nationalité change pour vous (voter, être citoyen à part entière), en reliant une ou deux valeurs de la République à un exemple vécu. Trente secondes à une minute, des faits concrets, pas de récitation."),
+        ("Quelles réponses faut-il éviter ?",
+         "Celles qui réduisent la nationalité à un avantage : le passeport pour voyager, la fin du titre de séjour, « j'y ai droit », les aides ou les études. Évitez aussi de dénigrer votre pays d'origine, la réponse en une phrase, et la réponse apprise par cœur, que l'agent reconnaît au ton."),
+        ("L'agent pose-t-il d'autres questions sur la motivation ?",
+         "Presque toujours : « pourquoi maintenant ? », « que représente la laïcité pour vous ? », « garderez-vous votre nationalité d'origine ? », « que changerait la nationalité pour vous ? ». Préparez chacune avec une réponse courte et un fait concret."),
+        ("Faut-il rédiger une lettre de motivation pour la naturalisation ?",
+         "Ce n'est pas une pièce obligatoire. Le téléservice de l'ANEF permet d'ajouter des informations d'intérêt particulier, et un texte court sur papier libre est parfois apprécié. Si vous en écrivez un, gardez la structure en trois temps et assurez-vous qu'il ne contredit pas ce que vous direz à l'oral."),
+        ("Peut-on dire qu'on veut garder sa nationalité d'origine ?",
+         "Oui. La France admet la double nationalité, et la question est souvent posée pour tester la sincérité. Répondez franchement : vos attaches d'origine ne diminuent pas votre engagement en France, et c'est cet engagement que vous expliquez."),
+        ("Que se passe-t-il si l'agent estime que la motivation n'est pas sincère ?",
+         "Le compte rendu d'entretien pèse sur l'avis du préfet. Un défaut d'assimilation, dont l'absence d'adhésion aux valeurs de la République, peut conduire à une décision d'irrecevabilité (article 21-24 du Code civil) ; une motivation jugée faible ou incohérente avec le dossier peut alimenter un ajournement. D'où l'importance de préparer une réponse vraie et cohérente."),
+        ("Comment s'entraîner à répondre ?",
+         "À voix haute, chronométré, sans notes, puis en enchaînant les relances. L'application Naturalisation France Facile propose 70 questions d'entretien avec réponses modèles, 15 questions sur votre propre dossier et une simulation complète de 100 questions, avec une notation de vos réponses orales et écrites par IA."),
+    ],
+    "links": [
+        ("/blog/questions-entretien-naturalisation.html", "Toutes les questions pos&eacute;es &agrave; l'entretien, th&egrave;me par th&egrave;me"),
+        ("/blog/sentrainer-entretien-naturalisation.html", "S'entra&icirc;ner &agrave; l'entretien&nbsp;: m&eacute;thode, seul ou en duo"),
+        ("/blog/entretien-naturalisation-prefectures.html", "Comment se d&eacute;roule l'entretien en pr&eacute;fecture"),
+        ("/blog/apres-entretien-naturalisation.html", "Apr&egrave;s l'entretien&nbsp;: ce qui se passe vraiment"),
+        ("/blog/pourquoi-devenir-francais-avantages.html", "Pourquoi devenir fran&ccedil;ais&nbsp;: les avantages r&eacute;els, et les id&eacute;es re&ccedil;ues"),
+    ],
+    "sources": [
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F2213", "Service-public.gouv.fr &mdash; Naturalisation par d&eacute;cret&nbsp;: l'entretien et la charte des droits et devoirs (F2213)"),
+        ("https://www.legifrance.gouv.fr/circulaire/id/45604", "L&eacute;gifrance &mdash; Circulaire du 2 mai 2025&nbsp;: l'entretien recentr&eacute; sur l'adh&eacute;sion aux principes et valeurs de la R&eacute;publique"),
+        ("https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070721/LEGISCTA000006149926/", "Code civil &mdash; Article 21-24 (assimilation &agrave; la communaut&eacute; fran&ccedil;aise)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F2726", "Service-public.gouv.fr &mdash; D&eacute;claration par mariage&nbsp;: l'entretien avec le conjoint (F2726)"),
+    ],
+    "cta": "R&eacute;p&eacute;ter l'entretien avec l'app",
+},
+# ═══════════════════════════════════════════════════════════════════════
+"avis-favorable-naturalisation": {
+    "title": "Avis favorable naturalisation : que se passe-t-il ensuite ?",
+    "h1": "Avis favorable de naturalisation&nbsp;: ce que &ccedil;a veut dire, et combien de temps avant le d&eacute;cret",
+    "desc": "L'avis favorable est la proposition du préfet, pas la décision : le ministère contrôle encore avant le décret. Comment on l'apprend, ce qui peut bloquer, les délais.",
+    "og": "Avis favorable de naturalisation&nbsp;: et apr&egrave;s&nbsp;?",
+    "tag": "Suivi",
+    "og_img": "suivi-relance.png",
+    "date": "2026-09-17",
+    "date_fr": "17 septembre 2026",
+    "lede": "L'agent vous l'a dit &agrave; la fin de l'entretien, ou un courrier vous l'a annonc&eacute;, ou vous l'avez d&eacute;duit d'un changement de statut sur l'ANEF&nbsp;: votre dossier a re&ccedil;u un avis favorable. C'est la meilleure nouvelle possible avant le d&eacute;cret, et elle appelle trois questions&nbsp;: qu'est-ce que &ccedil;a vaut juridiquement, que reste-t-il &agrave; franchir, et combien de temps encore&nbsp;? R&eacute;ponses &agrave; partir des textes, d&eacute;cret de 1993 en main.",
+    "body": """
+<h2>Un avis favorable n'est pas une d&eacute;cision&nbsp;: ce que dit le d&eacute;cret de 1993</h2>
+
+<p>La proc&eacute;dure de naturalisation est r&eacute;gl&eacute;e par le d&eacute;cret n&deg;&nbsp;93-1362 du 30 d&eacute;cembre 1993. Il distingue nettement deux moments.</p>
+
+<p>D'un c&ocirc;t&eacute;, les <strong>d&eacute;cisions d&eacute;favorables</strong>, que le pr&eacute;fet prend lui-m&ecirc;me&nbsp;: irrecevabilit&eacute; (article 43), rejet ou ajournement (article 44). Elles vous sont notifi&eacute;es, avec un d&eacute;lai de deux mois pour former un <a href="/glossaire/rapo.html">recours administratif</a> aupr&egrave;s du ministre.</p>
+
+<p>De l'autre, les cas favorables. L'article 46 est pr&eacute;cis&nbsp;: lorsque le pr&eacute;fet &laquo;&nbsp;estime que la demande est recevable et qu'il y a lieu d'accorder la naturalisation&nbsp;&raquo;, il &laquo;&nbsp;&eacute;met une proposition en ce sens&nbsp;&raquo;, et &laquo;&nbsp;le dossier assorti de cette proposition est transmis au ministre charg&eacute; des naturalisations dans les six mois suivant la d&eacute;livrance du r&eacute;c&eacute;piss&eacute;&nbsp;&raquo;. Le dossier part avec vos pi&egrave;ces, votre bulletin n&deg;&nbsp;2 de casier judiciaire et le r&eacute;sultat de l'enqu&ecirc;te.</p>
+
+<p>Puis l'article 48 rappelle qui d&eacute;cide&nbsp;: &laquo;&nbsp;si le ministre charg&eacute; des naturalisations estime qu'il n'y a pas lieu d'accorder la naturalisation ou la r&eacute;int&eacute;gration sollicit&eacute;e, il prononce le rejet de la demande&nbsp;&raquo;&nbsp;; il peut aussi &laquo;&nbsp;en prononcer l'ajournement&nbsp;&raquo;. Autrement dit, l'avis favorable est une <strong>proposition</strong>. La d&eacute;cision, c'est le d&eacute;cret, sign&eacute; au niveau national apr&egrave;s contr&ocirc;le.</p>
+
+<div class="callout">
+  <p><strong>&Agrave; retenir&nbsp;:</strong> avis favorable = la pr&eacute;fecture propose votre naturalisation et transmet le dossier au minist&egrave;re. Vous n'&ecirc;tes pas encore fran&ccedil;ais&nbsp;; vous le devenez &agrave; la date de signature du d&eacute;cret. Mais vous avez franchi l'&eacute;tape qui &eacute;carte le plus de dossiers.</p>
+</div>
+
+<h2>Comment on apprend l'avis favorable</h2>
+
+<p>Aucun texte n'oblige la pr&eacute;fecture &agrave; vous notifier sa proposition. Elle vous parvient donc de fa&ccedil;on variable&nbsp;:</p>
+
+<ul>
+  <li><strong>&Agrave; la fin de l'entretien</strong>, quand l'agent vous indique qu'il proposera un avis favorable. C'est fr&eacute;quent, mais l'avis d&eacute;finitif suppose la validation de sa hi&eacute;rarchie.</li>
+  <li><strong>Par un courrier ou un mail</strong> de la plateforme de naturalisation vous informant que votre dossier a &eacute;t&eacute; transmis au minist&egrave;re avec un avis favorable. Toutes les plateformes ne le font pas.</li>
+  <li><strong>Par le statut ANEF.</strong> Le passage de la phase pr&eacute;fectorale (proposition de d&eacute;cision) &agrave; la phase de contr&ocirc;le minist&eacute;riel signale que le dossier a quitt&eacute; la pr&eacute;fecture&nbsp;; notre d&eacute;codage des <a href="/blog/statuts-anef-naturalisation.html">statuts ANEF</a> d&eacute;taille chaque libell&eacute;.</li>
+</ul>
+
+<p>Une pr&eacute;cision utile, parce que la question revient sans cesse&nbsp;: une <strong>lettre recommand&eacute;e</strong> ne porte pas un avis, elle porte une <em>d&eacute;cision</em>. Si vous en recevez une pendant l'instruction, c'est le plus souvent la notification d'une d&eacute;cision d&eacute;favorable, avec ses voies et d&eacute;lais de recours&nbsp;; &agrave; l'issue, c'est parfois la notification de votre inscription dans un d&eacute;cret, qui vous parvient sinon par mail sur votre espace personnel. Un avis favorable, lui, ne se notifie pas par recommand&eacute;.</p>
+
+<h2>Ce qui se passe au minist&egrave;re apr&egrave;s l'avis favorable</h2>
+
+<p>Le dossier arrive &agrave; la <a href="/glossaire/sdanf.html">sous-direction de l'acc&egrave;s &agrave; la nationalit&eacute; fran&ccedil;aise</a> (SDANF), &agrave; Rez&eacute; pr&egrave;s de Nantes. Elle ne refait pas l'instruction&nbsp;; elle la <strong>contr&ocirc;le</strong>, et pr&eacute;pare le d&eacute;cret. Dans l'ordre&nbsp;:</p>
+
+<ol>
+  <li><strong>File d'attente d'affectation.</strong> Le dossier attend qu'un agent le prenne. C'est, d'apr&egrave;s les retours d'usagers, l'&eacute;tape la plus longue du parcours, et aucune relance ne la raccourcit.</li>
+  <li><strong>Contr&ocirc;le minist&eacute;riel.</strong> V&eacute;rification de la recevabilit&eacute; et de l'opportunit&eacute; au regard des orientations nationales (la <a href="/blog/ressources-revenus-naturalisation.html">circulaire du 2 mai 2025</a> sur l'insertion professionnelle et le comportement), relecture de l'enqu&ecirc;te et du casier, &eacute;ventuelle enqu&ecirc;te compl&eacute;mentaire.</li>
+  <li><strong>V&eacute;rification de l'&eacute;tat civil</strong> par le <a href="/glossaire/scec.html">Service central d'&eacute;tat civil</a> de Nantes, qui &eacute;tablira votre acte de naissance fran&ccedil;ais. C'est l&agrave; que les incoh&eacute;rences d'orthographe ou de dates entre vos actes se r&egrave;glent, parfois au prix d'une demande de pi&egrave;ce.</li>
+  <li><strong>Derni&egrave;res v&eacute;rifications puis insertion dans un d&eacute;cret</strong> collectif, signature, publication au Journal officiel. Vous &ecirc;tes inform&eacute; par mail de votre inscription et de la date de publication&nbsp;; le d&eacute;cret se t&eacute;l&eacute;charge sur L&eacute;gifrance.</li>
+</ol>
+
+<h2>Combien de temps entre l'avis favorable et le d&eacute;cret&nbsp;?</h2>
+
+<p>Le cadre l&eacute;gal est celui de toute la proc&eacute;dure&nbsp;: l'administration doit r&eacute;pondre dans les <strong>18&nbsp;mois</strong> suivant le r&eacute;c&eacute;piss&eacute; de dossier complet, <strong>12&nbsp;mois</strong> si vous r&eacute;sidez en France depuis au moins 10&nbsp;ans, avec une prolongation possible de 3&nbsp;mois. Le d&eacute;cret de 1993 ajoute un jalon interne&nbsp;: la pr&eacute;fecture doit transmettre sa proposition dans les <strong>6&nbsp;mois</strong> du r&eacute;c&eacute;piss&eacute;.</p>
+
+<table class="article-table">
+  <thead><tr><th>&Eacute;tape</th><th>Rep&egrave;re</th><th>Ce que vous voyez</th></tr></thead>
+  <tbody>
+    <tr><td>R&eacute;c&eacute;piss&eacute; de dossier complet</td><td>Jour 0&nbsp;: le d&eacute;lai l&eacute;gal d&eacute;marre</td><td>R&eacute;c&eacute;piss&eacute; sur l'ANEF</td></tr>
+    <tr><td>Entretien puis proposition du pr&eacute;fet</td><td>Au plus tard 6&nbsp;mois apr&egrave;s le r&eacute;c&eacute;piss&eacute; (article 46)</td><td>Avis favorable oral ou courrier, statut &laquo;&nbsp;proposition&nbsp;&raquo;</td></tr>
+    <tr><td>Contr&ocirc;le &agrave; la SDANF</td><td>Souvent la phase la plus longue, plusieurs mois</td><td>Statuts de contr&ocirc;le, parfois fig&eacute;s longtemps</td></tr>
+    <tr><td>Insertion dans un d&eacute;cret et publication</td><td>Quelques semaines une fois le dossier valid&eacute;</td><td>Mail d'inscription, date au JO sur votre espace</td></tr>
+    <tr><td>R&eacute;ponse au plus tard</td><td>18&nbsp;mois (12 apr&egrave;s 10&nbsp;ans de r&eacute;sidence), +3&nbsp;mois</td><td>Pass&eacute; ce d&eacute;lai&nbsp;: relance puis recours</td></tr>
+  </tbody>
+</table>
+
+<p>En pratique, comptez le plus souvent <strong>entre trois mois et un an</strong> entre l'avis favorable et la publication, selon la file d'attente du moment. Nos pages sur les <a href="/blog/delais-naturalisation-2026.html">d&eacute;lais de naturalisation</a> et sur les <a href="/blog/delais-naturalisation-par-prefecture.html">&eacute;carts entre plateformes</a> donnent les ordres de grandeur observ&eacute;s.</p>
+
+<h2>Peut-on encore &ecirc;tre refus&eacute; apr&egrave;s un avis favorable&nbsp;?</h2>
+
+<p>Oui, c'est rare mais pr&eacute;vu par les textes, et il vaut mieux savoir ce qui le d&eacute;clenche&nbsp;:</p>
+
+<ul>
+  <li><strong>Un &eacute;l&eacute;ment nouveau d&eacute;favorable</strong> apparu pendant le contr&ocirc;le&nbsp;: une condamnation, une proc&eacute;dure p&eacute;nale, un signalement de l'enqu&ecirc;te, un s&eacute;jour irr&eacute;gulier pass&eacute; non d&eacute;clar&eacute;.</li>
+  <li><strong>Un changement de situation</strong> qui fragilise une condition&nbsp;: perte d'emploi durable, revenus devenus majoritairement des prestations sociales, d&eacute;part du conjoint et des enfants &agrave; l'&eacute;tranger, ce qui remet en cause le centre de vos int&eacute;r&ecirc;ts en France.</li>
+  <li><strong>Une incoh&eacute;rence d'&eacute;tat civil</strong> non r&eacute;solue, qui bloque l'insertion dans le d&eacute;cret tant qu'elle n'est pas lev&eacute;e.</li>
+  <li><strong>Une divergence d'appr&eacute;ciation</strong> entre la pr&eacute;fecture et le minist&egrave;re sur l'opportunit&eacute;, au regard des orientations nationales.</li>
+</ul>
+
+<p>Et apr&egrave;s la publication, le d&eacute;cret peut encore &ecirc;tre <strong>retir&eacute;</strong> dans les deux ans, sur avis conforme du Conseil d'&Eacute;tat, si l'administration constate que vous ne remplissiez pas les conditions, ou dans les deux ans suivant la d&eacute;couverte d'une fraude. La conclusion pratique tient en une phrase&nbsp;: jusqu'au d&eacute;cret, gardez votre situation stable et <strong>d&eacute;clarez tout changement</strong> (adresse, emploi, situation familiale) sur votre espace ANEF, avec justificatifs. Un changement d&eacute;clar&eacute; s'explique&nbsp;; un changement d&eacute;couvert se paie.</p>
+
+<h2>Avis favorable apr&egrave;s un recours&nbsp;: le cas du recours hi&eacute;rarchique</h2>
+
+<p>Autre situation fr&eacute;quente dans les recherches&nbsp;: vous avez re&ccedil;u un ajournement ou un rejet du pr&eacute;fet, form&eacute; un recours aupr&egrave;s du ministre dans les deux mois, et le minist&egrave;re y a fait droit. Cet &laquo;&nbsp;avis favorable apr&egrave;s recours&nbsp;&raquo; signifie que votre dossier repart vers la naturalisation, sans nouvelle demande ni nouveau timbre&nbsp;: il rejoint le circuit de contr&ocirc;le puis d'insertion dans un d&eacute;cret, avec des d&eacute;lais comparables. Notre guide sur l'<a href="/blog/ajournement-vs-refus-naturalisation.html">ajournement et le refus</a> d&eacute;taille la proc&eacute;dure de recours, et ce qu'un silence de quatre mois du ministre signifie.</p>
+
+<h2>Ce que vous pouvez faire pendant l'attente</h2>
+
+<ul>
+  <li><strong>Rien pour acc&eacute;l&eacute;rer</strong>, et c'est frustrant&nbsp;: la file d'attente minist&eacute;rielle ne se relance pas. Une relance avant le terme du d&eacute;lai l&eacute;gal n'a pas d'effet.</li>
+  <li><strong>R&eacute;pondre vite</strong> &agrave; toute demande de pi&egrave;ce (souvent de l'&eacute;tat civil) notifi&eacute;e sur l'ANEF&nbsp;; c'est le seul moment o&ugrave; votre r&eacute;activit&eacute; change le calendrier.</li>
+  <li><strong>Maintenir votre titre de s&eacute;jour en cours de validit&eacute;</strong> jusqu'au d&eacute;cret&nbsp;: demandez son renouvellement dans les d&eacute;lais habituels, la proc&eacute;dure de naturalisation ne le remplace pas.</li>
+  <li><strong>Pr&eacute;parer l'apr&egrave;s</strong>&nbsp;: les actes de naissance &eacute;trangers ne serviront plus, mais vos <a href="/blog/demarches-apres-naturalisation.html">d&eacute;marches des six premiers mois</a> (acte de naissance fran&ccedil;ais, carte d'identit&eacute;, passeport, listes &eacute;lectorales) s'encha&icirc;nent vite apr&egrave;s la publication.</li>
+  <li><strong>Relancer au bon moment</strong>&nbsp;: au d&eacute;passement du d&eacute;lai l&eacute;gal, une lettre recommand&eacute;e argument&eacute;e, puis les recours d&eacute;crits dans notre guide <a href="/blog/relance-naturalisation-que-faire-sans-reponse.html">que faire sans r&eacute;ponse</a>.</li>
+</ul>
+
+<p>Le module de suivi de l'application <a href="https://apps.apple.com/fr/app/naturalisation-france-facile/id6761140087" target="_blank">Naturalisation France Facile</a> calcule vos &eacute;ch&eacute;ances &agrave; partir de la date du r&eacute;c&eacute;piss&eacute;, 12 ou 18&nbsp;mois selon votre anciennet&eacute; de r&eacute;sidence, prolongation comprise, et vous dit quelle relance envoyer, &agrave; qui et quand. Sa checklist pr&eacute;pare d&eacute;j&agrave; les d&eacute;marches d'apr&egrave;s-d&eacute;cret, pour que l'attente serve &agrave; quelque chose.</p>
+""",
+    "faq": [
+        ("Que signifie un avis favorable pour une naturalisation ?",
+         "Que le préfet, après l'entretien et l'enquête, estime que votre demande est recevable et qu'il y a lieu d'accorder la naturalisation : il émet une proposition en ce sens et transmet le dossier au ministère chargé des naturalisations (article 46 du décret du 30 décembre 1993). C'est une proposition, pas la décision : celle-ci est le décret, pris au niveau national après contrôle."),
+        ("Combien de temps après l'avis favorable arrive le décret ?",
+         "Le plus souvent entre trois mois et un an, selon la file d'attente du ministère. Le cadre légal est de 18 mois maximum à compter du récépissé de dossier complet (12 mois après 10 ans de résidence habituelle en France), prolongeables une fois de 3 mois ; la préfecture doit transmettre sa proposition dans les 6 mois du récépissé."),
+        ("Comment savoir si j'ai un avis favorable ?",
+         "Par l'agent à la fin de l'entretien, par un courrier ou un mail de la plateforme indiquant que le dossier est transmis au ministère avec un avis favorable, ou par le passage de votre dossier en phase de contrôle ministériel sur l'ANEF. Aucun texte n'impose une notification de l'avis."),
+        ("Une lettre recommandée annonce-t-elle un avis favorable ?",
+         "Non. Une lettre recommandée porte une décision : le plus souvent une décision défavorable pendant l'instruction, avec les délais de recours, ou, à la fin, la notification de votre inscription dans un décret. L'avis favorable, lui, ne se notifie pas par recommandé."),
+        ("Peut-on être refusé après un avis favorable ?",
+         "Oui, c'est rare mais possible : l'article 48 du décret de 1993 permet au ministre de rejeter ou d'ajourner malgré la proposition du préfet, par exemple si un élément nouveau apparaît (condamnation, séjour irrégulier passé, changement de situation) ou en cas de divergence sur l'opportunité. Après publication, le décret peut encore être retiré dans les deux ans si les conditions n'étaient pas remplies, ou en cas de fraude."),
+        ("Que veut dire « avis favorable » après un recours hiérarchique ?",
+         "Que le ministre a fait droit à votre recours contre une décision d'ajournement ou de rejet du préfet : votre dossier repart vers la naturalisation, sans nouvelle demande ni nouveau timbre, et rejoint le circuit de contrôle puis d'insertion dans un décret."),
+        ("Dois-je renouveler mon titre de séjour après l'avis favorable ?",
+         "Oui. Jusqu'à la signature du décret, vous restez soumis au droit au séjour : demandez le renouvellement dans les délais habituels. La procédure de naturalisation ne remplace pas le titre de séjour."),
+        ("Faut-il relancer après un avis favorable ?",
+         "Pas avant le terme du délai légal : la file d'attente ministérielle ne se relance pas. Répondez vite aux demandes de pièces, déclarez tout changement de situation, et n'engagez une relance écrite puis les recours qu'une fois le délai légal dépassé."),
+    ],
+    "links": [
+        ("/blog/apres-entretien-naturalisation.html", "Apr&egrave;s l'entretien&nbsp;: compte rendu, avis du pr&eacute;fet, transmission"),
+        ("/blog/statuts-anef-naturalisation.html", "Statuts ANEF&nbsp;: que signifie chaque libell&eacute;"),
+        ("/blog/journal-officiel-naturalisation-liste-des-noms.html", "Trouver son nom dans un d&eacute;cret au Journal officiel"),
+        ("/blog/relance-naturalisation-que-faire-sans-reponse.html", "Sans r&eacute;ponse&nbsp;: quand et comment relancer"),
+        ("/blog/ajournement-vs-refus-naturalisation.html", "Ajournement ou refus&nbsp;: les recours"),
+    ],
+    "sources": [
+        ("https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000041422414", "L&eacute;gifrance &mdash; D&eacute;cret n&deg;&nbsp;93-1362, article 46 (proposition favorable du pr&eacute;fet, transmission au ministre)"),
+        ("https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000049147350", "L&eacute;gifrance &mdash; D&eacute;cret n&deg;&nbsp;93-1362, article 44 (rejet et ajournement par le pr&eacute;fet)"),
+        ("https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000022414611", "L&eacute;gifrance &mdash; D&eacute;cret n&deg;&nbsp;93-1362, article 48 (d&eacute;cision du ministre)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F2213", "Service-public.gouv.fr &mdash; Naturalisation par d&eacute;cret&nbsp;: d&eacute;lais de r&eacute;ponse, notification, retrait du d&eacute;cret (F2213)"),
+        ("https://www.legifrance.gouv.fr/circulaire/id/45604", "L&eacute;gifrance &mdash; Circulaire du 2 mai 2025, orientations relatives &agrave; l'acquisition de la nationalit&eacute; fran&ccedil;aise"),
+    ],
+    "cta": "Suivre mes d&eacute;lais et relances dans l'app",
+},
+# ═══════════════════════════════════════════════════════════════════════
+"timbre-fiscal-naturalisation": {
+    "title": "Timbre fiscal naturalisation : 255 €, achat en ligne, validité",
+    "h1": "Timbre fiscal de naturalisation&nbsp;: 255&nbsp;&euro;, o&ugrave; l'acheter, validit&eacute; et remboursement",
+    "desc": "255 € depuis le 1er mai 2026 (127,50 € en Guyane), payable dans la démarche ANEF ou sur timbres.impots.gouv.fr, valable 1 an, remboursable 18 mois. Et le timbre à 55 €.",
+    "og": "Timbre fiscal de naturalisation&nbsp;: le mode d'emploi 2026",
+    "tag": "Documents",
+    "og_img": "checklist-documents.png",
+    "date": "2026-09-17",
+    "date_fr": "17 septembre 2026",
+    "lede": "Le timbre fiscal est la seule d&eacute;pense obligatoire de la demande de nationalit&eacute;, et l'une des rares pi&egrave;ces qui peut faire classer un dossier sans suite si elle manque. Depuis le 1er mai 2026, il co&ucirc;te 255&nbsp;&euro;. Voici, &agrave; partir des pages officielles, comment l'acheter (et depuis quand on peut le payer directement dans la d&eacute;marche en ligne), combien de temps il reste valable, comment se le faire rembourser, et ce qu'il faut faire d'un timbre &agrave; 55&nbsp;&euro; achet&eacute; avant la hausse.",
+    "body": """
+<h2>Le montant en 2026, et les proc&eacute;dures concern&eacute;es</h2>
+
+<p>Le droit de timbre s'&eacute;l&egrave;ve &agrave; <strong>255&nbsp;&euro;</strong> en m&eacute;tropole et dans les d&eacute;partements d'outre-mer, et &agrave; <strong>127,50&nbsp;&euro;</strong> en Guyane. Il &eacute;tait de 55&nbsp;&euro; jusqu'au 30 avril 2026&nbsp;; notre article sur la <a href="/blog/hausse-timbre-fiscal-naturalisation-mai-2026.html">hausse du 1<sup>er</sup> mai 2026</a> en retrace l'origine.</p>
+
+<p>Service-public liste les d&eacute;marches soumises &agrave; cette taxe&nbsp;: la <strong>naturalisation</strong> par d&eacute;cret, la <strong>r&eacute;int&eacute;gration</strong> dans la nationalit&eacute; fran&ccedil;aise, et les <strong>d&eacute;clarations de nationalit&eacute;</strong> au titre du mariage avec un Fran&ccedil;ais, en tant qu'ascendant d'un Fran&ccedil;ais ou de fr&egrave;re ou s&oelig;ur d'un Fran&ccedil;ais. Le montant est identique pour toutes.</p>
+
+<table class="article-table">
+  <thead><tr><th>Proc&eacute;dure</th><th>Montant</th><th>O&ugrave; le payer</th></tr></thead>
+  <tbody>
+    <tr><td>Naturalisation ou r&eacute;int&eacute;gration par d&eacute;cret (d&eacute;p&ocirc;t en ligne)</td><td>255&nbsp;&euro; (127,50&nbsp;&euro; en Guyane)</td><td>Directement dans la d&eacute;marche en ligne sur l'ANEF</td></tr>
+    <tr><td>D&eacute;claration par mariage, ascendant, fr&egrave;re ou s&oelig;ur d'un Fran&ccedil;ais</td><td>255&nbsp;&euro; (127,50&nbsp;&euro; en Guyane)</td><td>timbres.impots.gouv.fr ou bureau de tabac agr&eacute;&eacute;, timbre joint au dossier</td></tr>
+    <tr><td>D&eacute;p&ocirc;t papier autoris&eacute; (impossibilit&eacute; de t&eacute;l&eacute;service attest&eacute;e)</td><td>255&nbsp;&euro; (127,50&nbsp;&euro; en Guyane)</td><td>timbres.impots.gouv.fr ou bureau de tabac agr&eacute;&eacute;</td></tr>
+    <tr><td>D&eacute;p&ocirc;t &agrave; l'&eacute;tranger, au consulat</td><td>Droits de chancellerie</td><td>Au consulat, lors du d&eacute;p&ocirc;t (esp&egrave;ces, carte ou virement selon le poste)</td></tr>
+  </tbody>
+</table>
+
+<p>Deux cas particuliers reviennent souvent. Un <strong>couple</strong> qui d&eacute;pose deux demandes paie deux timbres&nbsp;: chaque demande est un dossier. Les <strong>enfants mineurs</strong> inscrits sur la demande d'un parent, eux, ne paient rien&nbsp;: ils deviennent fran&ccedil;ais par effet collectif, sans dossier propre.</p>
+
+<h2>O&ugrave; et comment l'acheter</h2>
+
+<h3>1. Dans la d&eacute;marche en ligne, pour la naturalisation et la r&eacute;int&eacute;gration</h3>
+
+<p>C'est la voie normale depuis la g&eacute;n&eacute;ralisation du t&eacute;l&eacute;service&nbsp;: service-public indique que &laquo;&nbsp;la demande de naturalisation fran&ccedil;aise et la demande de r&eacute;int&eacute;gration par d&eacute;cret se font en ligne&nbsp;&raquo; et que &laquo;&nbsp;vous pouvez payer le timbre fiscal &eacute;lectronique lors de la d&eacute;marche en ligne&nbsp;&raquo;. Le paiement se fait par carte bancaire au moment du d&eacute;p&ocirc;t sur l'<a href="/glossaire/anef.html">ANEF</a>, et le timbre est rattach&eacute; &agrave; votre dossier sans manipulation. Si vous avez d&eacute;j&agrave; un timbre &eacute;lectronique, la d&eacute;marche permet de saisir sa r&eacute;f&eacute;rence.</p>
+
+<h3>2. Sur timbres.impots.gouv.fr, pour les d&eacute;clarations et les d&eacute;p&ocirc;ts papier</h3>
+
+<p>Le site officiel de la Direction g&eacute;n&eacute;rale des finances publiques vend le timbre &laquo;&nbsp;Nationalit&eacute; fran&ccedil;aise&nbsp;&raquo; au montant en vigueur. Apr&egrave;s paiement par carte, vous recevez par mail ou par SMS, au choix, le <strong>timbre &eacute;lectronique</strong> (un identifiant &agrave; 16 chiffres) et le <strong>justificatif de paiement</strong> avec la r&eacute;f&eacute;rence de transaction. Imprimez ou enregistrez les deux&nbsp;: le timbre se joint au dossier, la r&eacute;f&eacute;rence sert en cas de remboursement.</p>
+
+<h3>3. Dans un bureau de tabac agr&eacute;&eacute;</h3>
+
+<p>Les buralistes &eacute;quip&eacute;s de l'application &laquo;&nbsp;Point de vente agr&eacute;&eacute;&nbsp;&raquo; d&eacute;livrent le m&ecirc;me timbre &eacute;lectronique, sur un re&ccedil;u portant l'identifiant. Demandez explicitement un timbre pour une demande de nationalit&eacute; fran&ccedil;aise, au montant en vigueur, et conservez le re&ccedil;u comme un original.</p>
+
+<div class="callout">
+  <p><strong>Un seul site officiel&nbsp;:</strong> timbres.impots.gouv.fr, sans frais de service. Les sites qui &laquo;&nbsp;vendent&nbsp;&raquo; le timbre plus cher, ou qui proposent un &laquo;&nbsp;service de d&eacute;p&ocirc;t express&nbsp;&raquo;, n'ont aucune existence administrative&nbsp;: hormis le timbre, la d&eacute;marche est gratuite.</p>
+</div>
+
+<h2>Validit&eacute;&nbsp;: un an, et pas plus</h2>
+
+<p>Le timbre &eacute;lectronique est <strong>valable 1&nbsp;an &agrave; partir de sa date d'achat</strong>. Service-public en tire un conseil de bon sens&nbsp;: &laquo;&nbsp;pour &eacute;viter qu'il ne soit plus valide au moment du d&eacute;p&ocirc;t de votre demande, attendez d'avoir fini de pr&eacute;parer votre dossier avant de l'acheter&nbsp;&raquo;. C'est la derni&egrave;re pi&egrave;ce &agrave; acqu&eacute;rir, une fois le B2, l'examen civique, les actes et les traductions r&eacute;unis, et c'est d'ailleurs sa place dans une <a href="/blog/documents-naturalisation.html">checklist de dossier</a> bien ordonn&eacute;e.</p>
+
+<p>Un timbre p&eacute;rim&eacute; n'est pas perdu pour autant, &agrave; condition d'agir dans les temps&nbsp;: voir le remboursement ci-dessous.</p>
+
+<h2>Remboursement&nbsp;: 18&nbsp;mois, en ligne, avec la r&eacute;f&eacute;rence de transaction</h2>
+
+<p>Si vous n'utilisez pas le timbre, vous pouvez en demander le <strong>remboursement en ligne dans les 18&nbsp;mois qui suivent l'achat</strong>, sur le m&ecirc;me site, muni de la r&eacute;f&eacute;rence de la transaction indiqu&eacute;e sur le justificatif. Cela couvre trois situations&nbsp;: vous avez achet&eacute; un timbre puis renonc&eacute; &agrave; d&eacute;poser, vous en avez achet&eacute; deux par erreur, ou le timbre a d&eacute;pass&eacute; sa validit&eacute; d'un an mais reste dans la fen&ecirc;tre de 18&nbsp;mois.</p>
+
+<p>Ce qui n'est jamais rembours&eacute;&nbsp;: un timbre <strong>consomm&eacute; par un d&eacute;p&ocirc;t</strong>. Si votre demande est ensuite ajourn&eacute;e, rejet&eacute;e ou class&eacute;e sans suite, la taxe reste acquise, et une nouvelle demande suppose un nouveau timbre. C'est l'une des raisons de ne d&eacute;poser qu'un dossier complet et solide, sujet de notre article sur la <a href="/blog/naturalisation-rapide.html">naturalisation sans perdre de mois</a>.</p>
+
+<h2>J'ai achet&eacute; un timbre &agrave; 55&nbsp;&euro; avant le 1<sup>er</sup> mai 2026&nbsp;: que faire&nbsp;?</h2>
+
+<p>La taxe due est celle en vigueur <strong>&agrave; la date du d&eacute;p&ocirc;t</strong> de la demande. Un dossier d&eacute;pos&eacute; depuis le 1<sup>er</sup> mai 2026 suppose donc un timbre de 255&nbsp;&euro;, m&ecirc;me si vous aviez achet&eacute; un timbre &agrave; 55&nbsp;&euro; avant la hausse&nbsp;: celui-ci ne couvre plus le montant exig&eacute;. Deux possibilit&eacute;s&nbsp;:</p>
+
+<ol>
+  <li><strong>Demander son remboursement</strong> en ligne, dans les 18&nbsp;mois suivant l'achat, puis acheter un timbre de 255&nbsp;&euro;, ou payer directement dans la d&eacute;marche ANEF.</li>
+  <li><strong>V&eacute;rifier aupr&egrave;s de votre plateforme</strong> si un compl&eacute;ment est accept&eacute; avant de compter dessus&nbsp;: ne d&eacute;posez pas avec un timbre insuffisant, la pi&egrave;ce serait consid&eacute;r&eacute;e comme manquante.</li>
+</ol>
+
+<p>Et si vous avez d&eacute;pos&eacute; <em>avant</em> le 1<sup>er</sup> mai 2026 avec un timbre &agrave; 55&nbsp;&euro;, rien ne change&nbsp;: le tarif applicable &eacute;tait celui du jour du d&eacute;p&ocirc;t.</p>
+
+<h2>Les erreurs qui co&ucirc;tent 255&nbsp;&euro; ou plusieurs semaines</h2>
+
+<ul>
+  <li><strong>Acheter trop t&ocirc;t</strong>&nbsp;: un dossier qui prend quatorze mois &agrave; r&eacute;unir rend le timbre caduc. Achetez en dernier.</li>
+  <li><strong>Se tromper de timbre</strong>&nbsp;: le timbre &laquo;&nbsp;passeport&nbsp;&raquo; ou &laquo;&nbsp;titre de s&eacute;jour&nbsp;&raquo; n'est pas le timbre &laquo;&nbsp;nationalit&eacute;&nbsp;&raquo;. Sur le site officiel, choisissez la rubrique nationalit&eacute; fran&ccedil;aise.</li>
+  <li><strong>Perdre le justificatif</strong>&nbsp;: sans la r&eacute;f&eacute;rence de transaction, pas de remboursement. Conservez le mail ou le SMS et une copie imprim&eacute;e.</li>
+  <li><strong>Acheter sur un site interm&eacute;diaire</strong>&nbsp;: au mieux vous payez des frais inutiles, au pire vous laissez vos donn&eacute;es bancaires &agrave; un inconnu.</li>
+  <li><strong>Payer deux fois</strong> pour deux demandes rejet&eacute;es&nbsp;: le timbre n'assure rien. Un dossier pr&eacute;par&eacute; (B2 acquis, examen civique r&eacute;ussi, pi&egrave;ces compl&egrave;tes, entretien r&eacute;p&eacute;t&eacute;) co&ucirc;te 255&nbsp;&euro;&nbsp;; un dossier b&acirc;cl&eacute; en co&ucirc;te 510 et une ann&eacute;e.</li>
+</ul>
+
+<h2>Le timbre dans le budget total</h2>
+
+<p>Le timbre n'est qu'une partie de la d&eacute;pense&nbsp;: s'y ajoutent le test de langue (200 &agrave; 300&nbsp;&euro; pour le TCF IRN, 100 &agrave; 200&nbsp;&euro; pour le DELF B2, sauf si un dipl&ocirc;me fran&ccedil;ais vous en dispense), l'examen civique (environ 70&nbsp;&euro;), les traductions par un traducteur agr&eacute;&eacute; et les apostilles. Notre article sur le <a href="/blog/cout-naturalisation-francaise-2026.html">co&ucirc;t complet de la naturalisation</a> d&eacute;taille chaque poste et les moyens de r&eacute;duire la facture.</p>
+
+<p>Le poste le plus rentable reste la pr&eacute;paration&nbsp;: r&eacute;ussir le TCF et l'examen civique du premier coup, c'est 300&nbsp;&euro; et trois mois de gagn&eacute;s. L'application <a href="https://apps.apple.com/fr/app/naturalisation-france-facile/id6761140087" target="_blank">Naturalisation France Facile</a> vous y entra&icirc;ne (750&nbsp;exercices B2 corrig&eacute;s, 258&nbsp;questions civiques expliqu&eacute;es, examens blancs) et sa checklist de dossier place le timbre exactement o&ugrave; il doit &ecirc;tre&nbsp;: en derni&egrave;re ligne, une fois tout le reste coch&eacute;.</p>
+""",
+    "faq": [
+        ("Combien coûte le timbre fiscal pour la naturalisation en 2026 ?",
+         "255 € depuis le 1er mai 2026 (127,50 € en Guyane), contre 55 € auparavant. Le montant est le même pour la naturalisation par décret, la réintégration et les déclarations de nationalité par mariage, ascendant ou frère et sœur d'un Français."),
+        ("Où acheter le timbre fiscal de naturalisation ?",
+         "Pour une naturalisation ou une réintégration déposée en ligne, vous pouvez le payer directement dans la démarche sur l'ANEF. Sinon, achetez le timbre électronique « Nationalité française » sur timbres.impots.gouv.fr ou dans un bureau de tabac équipé de l'application Point de vente agréé. À l'étranger, la taxe se paie au consulat sous forme de droits de chancellerie."),
+        ("Combien de temps le timbre fiscal est-il valable ?",
+         "Un an à compter de la date d'achat. Achetez-le en dernier, une fois le dossier prêt, pour éviter qu'il n'expire avant le dépôt."),
+        ("Le timbre fiscal est-il remboursable ?",
+         "Oui, s'il n'a pas été utilisé : la demande de remboursement se fait en ligne dans les 18 mois suivant l'achat, avec la référence de transaction du justificatif. Un timbre consommé par un dépôt n'est pas remboursé, même si la demande est ensuite ajournée ou rejetée."),
+        ("J'ai acheté un timbre à 55 € avant mai 2026 : puis-je l'utiliser ?",
+         "Pas pour un dossier déposé depuis le 1er mai 2026 : la taxe due est celle en vigueur à la date du dépôt, soit 255 €. Demandez le remboursement du timbre à 55 € dans les 18 mois suivant son achat et achetez un timbre au nouveau montant, ou payez directement dans la démarche ANEF."),
+        ("Faut-il un timbre pour chaque membre de la famille ?",
+         "Un timbre par demande : un couple qui dépose deux dossiers paie deux timbres. Les enfants mineurs inscrits sur la demande d'un parent n'en paient pas, ils deviennent français par effet collectif."),
+        ("Le timbre est-il exigé pour la déclaration par mariage ?",
+         "Oui, 255 € (127,50 € en Guyane), comme pour la naturalisation. Il s'achète sur timbres.impots.gouv.fr ou chez un buraliste agréé et se joint au dossier de déclaration."),
+        ("Que se passe-t-il si le timbre manque au dossier ?",
+         "Le dossier est incomplet : pas de récépissé, donc pas de départ du délai légal, et une mise en demeure de fournir la pièce dans un délai fixé, faute de quoi la demande peut être classée sans suite."),
+    ],
+    "links": [
+        ("/blog/cout-naturalisation-francaise-2026.html", "Co&ucirc;t de la naturalisation 2026&nbsp;: le budget poste par poste"),
+        ("/blog/hausse-timbre-fiscal-naturalisation-mai-2026.html", "La hausse du timbre de 55 &agrave; 255&nbsp;&euro;&nbsp;: pourquoi et depuis quand"),
+        ("/blog/documents-naturalisation.html", "La liste compl&egrave;te des pi&egrave;ces du dossier"),
+        ("/blog/naturalisation-rapide.html", "Naturalisation rapide&nbsp;: d&eacute;poser un dossier complet du premier coup"),
+        ("/glossaire/timbre-fiscal.html", "Timbre fiscal&nbsp;: la d&eacute;finition"),
+    ],
+    "sources": [
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F32952", "Service-public.gouv.fr &mdash; Comment acheter un timbre fiscal pour une demande de nationalit&eacute; fran&ccedil;aise&nbsp;? (F32952)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F2213", "Service-public.gouv.fr &mdash; Naturalisation par d&eacute;cret&nbsp;: prix de la d&eacute;marche, gratuit&eacute; hors timbre (F2213)"),
+        ("https://timbres.impots.gouv.fr/", "Direction g&eacute;n&eacute;rale des finances publiques &mdash; Achat en ligne du timbre fiscal &eacute;lectronique"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F33430", "Service-public.gouv.fr &mdash; D&eacute;claration de l'ascendant d'un Fran&ccedil;ais&nbsp;: timbre de 255&nbsp;&euro; (F33430)"),
+    ],
+    "cta": "Pr&eacute;parer mon dossier complet avec l'app",
+},
+# ═══════════════════════════════════════════════════════════════════════
+"journal-officiel-naturalisation-liste-des-noms": {
+    "title": "Journal officiel naturalisation : trouver la liste des noms",
+    "h1": "Journal officiel et naturalisation&nbsp;: comment trouver la liste des noms, et pourquoi Google ne l'affiche pas",
+    "desc": "Les noms des naturalisés sont au JO, en accès protégé, non indexé par Google. Où les trouver : espace ANEF, extrait nominatif sur Légifrance, notre annuaire des décrets.",
+    "og": "Journal officiel&nbsp;: trouver son nom dans un d&eacute;cret de naturalisation",
+    "tag": "Apr&egrave;s l'obtention",
+    "og_img": "suivi-relance.png",
+    "date": "2026-09-17",
+    "date_fr": "17 septembre 2026",
+    "lede": "Chaque mois, des milliers de personnes tapent &laquo;&nbsp;journal officiel naturalisation liste des noms&nbsp;&raquo; et tombent sur des pages qui n'affichent aucun nom. Ce n'est pas un bug&nbsp;: la loi interdit que les d&eacute;crets de naturalisation soient index&eacute;s par les moteurs de recherche. Les noms existent pourtant, publi&eacute;s et t&eacute;l&eacute;chargeables gratuitement. Voici o&ugrave; ils sont, comment y acc&eacute;der en trois minutes, ce que contient un d&eacute;cret, et ce qu'il faut penser d'une absence.",
+    "body": """
+<h2>Pourquoi vous ne trouverez jamais la liste des noms sur Google</h2>
+
+<p>Les d&eacute;crets de naturalisation sont publi&eacute;s au Journal officiel depuis 1924, et les d&eacute;crets r&eacute;cents sont sur L&eacute;gifrance. Mais le Code des relations entre le public et l'administration pose une r&egrave;gle claire (article L. 221-14)&nbsp;: &laquo;&nbsp;certains actes individuels, notamment relatifs &agrave; l'&eacute;tat et &agrave; la nationalit&eacute; des personnes, doivent &ecirc;tre publi&eacute;s dans des conditions garantissant qu'ils ne font pas l'objet d'une indexation par des moteurs de recherche&nbsp;&raquo;. L'article R. 221-15 en dresse la liste, et les d&eacute;crets de naturalisation et de r&eacute;int&eacute;gration y figurent express&eacute;ment.</p>
+
+<p>Concr&egrave;tement, la page L&eacute;gifrance d'un d&eacute;cret de naturalisation affiche son titre, sa date, son num&eacute;ro NOR et la mention <strong>&laquo;&nbsp;acc&egrave;s prot&eacute;g&eacute;&nbsp;&raquo;</strong>. Les noms figurent dans un <strong>extrait nominatif au format PDF</strong>, accessible seulement apr&egrave;s un petit calcul anti-robot. Aucun moteur de recherche ne peut donc lire ni afficher cette liste, et aucun site s&eacute;rieux ne peut la republier. Les sites qui promettent une &laquo;&nbsp;liste des noms 2026 par mois&nbsp;&raquo; ne peuvent, au mieux, que vous renvoyer vers ces extraits.</p>
+
+<div class="callout">
+  <p><strong>&Agrave; retenir&nbsp;:</strong> la liste des noms existe, elle est officielle, gratuite et t&eacute;l&eacute;chargeable. Elle est simplement <em>invisible pour Google</em>, par choix du l&eacute;gislateur, pour prot&eacute;ger la vie priv&eacute;e des personnes naturalis&eacute;es.</p>
+</div>
+
+<h2>Trois fa&ccedil;ons de savoir si votre nom est dans un d&eacute;cret</h2>
+
+<h3>1. Votre espace personnel ANEF, le plus rapide</h3>
+
+<p>Depuis le 1<sup>er</sup> f&eacute;vrier 2023, service-public l'indique noir sur blanc&nbsp;: &laquo;&nbsp;la date de publication au JO du d&eacute;cret de naturalisation est communiqu&eacute;e sur votre compte personnel&nbsp;&raquo;. Vous recevez aussi un mail vous informant de votre inscription dans le d&eacute;cret, avec la date du d&eacute;cret et sa date de publication. Si vous avez d&eacute;pos&eacute; par courrier sans adresse &eacute;lectronique, l'information vous parvient par courrier. Pour lire les statuts qui pr&eacute;c&egrave;dent ce moment, voyez notre d&eacute;codage des <a href="/blog/statuts-anef-naturalisation.html">statuts ANEF</a>.</p>
+
+<h3>2. Notre annuaire des d&eacute;crets, pour rep&eacute;rer les dates</h3>
+
+<p>Notre <a href="/outils/decret-naturalisation.html">annuaire des d&eacute;crets de naturalisation</a> est mis &agrave; jour automatiquement &agrave; chaque parution, &agrave; partir des donn&eacute;es ouvertes du Journal officiel. Il liste les d&eacute;crets par date, avec le lien direct vers chaque page L&eacute;gifrance. Il ne contient aucun nom, la loi l'interdit&nbsp;; il vous fait gagner l'&eacute;tape la plus fastidieuse, retrouver le bon JO.</p>
+
+<h3>3. L'extrait nominatif sur L&eacute;gifrance, la preuve officielle</h3>
+
+<p>La proc&eacute;dure d&eacute;crite par service-public pour un d&eacute;cret publi&eacute; depuis 2016 tient en quatre gestes&nbsp;:</p>
+
+<ol>
+  <li>Sur L&eacute;gifrance, dans l'encart <strong>&laquo;&nbsp;Rechercher un JO&nbsp;&raquo;</strong>, indiquez la date de publication du JO recherch&eacute; (celle de votre espace ANEF, ou celle de notre annuaire).</li>
+  <li>Sur la page qui s'affiche, cliquez sur le lien <strong>&laquo;&nbsp;Extrait du Journal officiel contenant les informations nominatives (acc&egrave;s prot&eacute;g&eacute;)&nbsp;&raquo;</strong>.</li>
+  <li>R&eacute;solvez le captcha, un petit calcul.</li>
+  <li>Cliquez sur <strong>&laquo;&nbsp;T&eacute;l&eacute;charger le document&nbsp;&raquo;</strong>, puis cherchez votre nom dans le PDF (Ctrl+F ou Cmd+F). V&eacute;rifiez aussi votre date et votre lieu de naissance&nbsp;: les homonymes sont fr&eacute;quents.</li>
+</ol>
+
+<p>Ce PDF a une <strong>valeur juridique &agrave; lui seul</strong>&nbsp;: il porte une signature &eacute;lectronique authentifi&eacute;e, et service-public pr&eacute;cise qu'&laquo;&nbsp;aucune proc&eacute;dure suppl&eacute;mentaire n'est n&eacute;cessaire&nbsp;&raquo;, pas m&ecirc;me une copie certifi&eacute;e conforme. C'est ce document que vous joindrez &agrave; vos premi&egrave;res d&eacute;marches de Fran&ccedil;ais.</p>
+
+<h2>Ce que contient un d&eacute;cret de naturalisation</h2>
+
+<p>Un d&eacute;cret est collectif&nbsp;: il porte &laquo;&nbsp;naturalisation, r&eacute;int&eacute;gration, francisation de noms et pr&eacute;noms et lib&eacute;ration de l'all&eacute;geance fran&ccedil;aise&nbsp;&raquo;, et regroupe des centaines de personnes. Pour chacune, il indique le nom (le cas &eacute;ch&eacute;ant francis&eacute;), les pr&eacute;noms, la date et le lieu de naissance, et la cat&eacute;gorie&nbsp;: <strong>NAT</strong> pour une naturalisation, <strong>REI</strong> pour une r&eacute;int&eacute;gration, <strong>EFF</strong> pour un enfant mineur devenu fran&ccedil;ais par effet collectif. Notre fiche <a href="/glossaire/nat-eff-rei.html">NAT, EFF, REI</a> d&eacute;taille ces codes.</p>
+
+<p>Le d&eacute;cret <strong>prend effet &agrave; la date de sa signature</strong>&nbsp;: vous &ecirc;tes fran&ccedil;ais &agrave; cette date, avant m&ecirc;me la publication, qui rend la d&eacute;cision opposable et vous permet d'agir (carte d'identit&eacute;, passeport, inscription &eacute;lectorale).</p>
+
+<h2>Le calendrier&nbsp;: quand paraissent les d&eacute;crets</h2>
+
+<p>Il n'y a pas de date fixe. Les d&eacute;crets de naturalisation paraissent en g&eacute;n&eacute;ral <strong>une &agrave; trois fois par mois</strong>, souvent en seconde quinzaine, parfois plusieurs le m&ecirc;me jour. Entre la signature et la publication, comptez de quelques jours &agrave; quelques semaines. Et entre l'<a href="/blog/avis-favorable-naturalisation.html">avis favorable</a> de la pr&eacute;fecture et l'insertion dans un d&eacute;cret, le plus souvent de trois mois &agrave; un an, selon la file d'attente du minist&egrave;re.</p>
+
+<table class="article-table">
+  <thead><tr><th>Vous cherchez</th><th>O&ugrave; regarder</th><th>Ce que vous obtenez</th></tr></thead>
+  <tbody>
+    <tr><td>Savoir si vous &ecirc;tes naturalis&eacute;</td><td>Mail et espace ANEF</td><td>Date du d&eacute;cret et date de publication</td></tr>
+    <tr><td>La liste des d&eacute;crets parus (2024, 2025, 2026)</td><td>Notre annuaire des d&eacute;crets</td><td>Dates et liens L&eacute;gifrance, sans noms</td></tr>
+    <tr><td>La liste des noms d'un d&eacute;cret</td><td>Extrait nominatif sur L&eacute;gifrance (acc&egrave;s prot&eacute;g&eacute;)</td><td>PDF authentifi&eacute;, &agrave; conserver</td></tr>
+    <tr><td>Un d&eacute;cret ant&eacute;rieur &agrave; 2016</td><td>L&eacute;gifrance, &laquo;&nbsp;version papier num&eacute;ris&eacute;e&nbsp;&raquo; du JO</td><td>PDF, authentifi&eacute; pour les JO depuis le 2 juin 2004</td></tr>
+    <tr><td>Une naturalisation par mariage ou par d&eacute;claration</td><td>Nulle part au JO</td><td>La preuve est la d&eacute;claration enregistr&eacute;e</td></tr>
+  </tbody>
+</table>
+
+<h2>Votre nom n'y est pas&nbsp;: ce que cela veut dire</h2>
+
+<ul>
+  <li><strong>Vous n'avez pas re&ccedil;u le mail d'inscription.</strong> Alors votre dossier n'est simplement pas encore ins&eacute;r&eacute; dans un d&eacute;cret&nbsp;: les dossiers valid&eacute;s sont r&eacute;partis sur plusieurs d&eacute;crets successifs. Ce n'est pas un refus&nbsp;; un refus ou un ajournement vous serait notifi&eacute;, avec des voies de recours.</li>
+  <li><strong>Vous avez re&ccedil;u le mail mais ne trouvez pas votre nom.</strong> V&eacute;rifiez la date exacte du JO (il peut y avoir plusieurs d&eacute;crets ce jour-l&agrave;), cherchez votre nom tel qu'il figure &agrave; l'&eacute;tat civil, et pensez &agrave; la francisation si vous l'avez demand&eacute;e.</li>
+  <li><strong>Vous &ecirc;tes pass&eacute; par le mariage ou une d&eacute;claration.</strong> Ces acquisitions ne sont pas publi&eacute;es au JO&nbsp;; votre preuve est l'exemplaire enregistr&eacute; de votre d&eacute;claration.</li>
+  <li><strong>Une erreur s'est gliss&eacute;e</strong> dans votre nom, vos pr&eacute;noms ou votre date de naissance&nbsp;: elle n'annule pas la naturalisation. Un t&eacute;l&eacute;service permet de demander la rectification du d&eacute;cret&nbsp;; une erreur d'&eacute;tat civil se signale au <a href="/glossaire/scec.html">Service central d'&eacute;tat civil</a> de Nantes.</li>
+</ul>
+
+<p>Si vous avez perdu la notification d'un d&eacute;cret ancien, vous pouvez demander les dates au minist&egrave;re de l'Int&eacute;rieur (sous-direction de l'acc&egrave;s &agrave; la nationalit&eacute; fran&ccedil;aise, &agrave; Rez&eacute;), par courrier ou par mail.</p>
+
+<h2>Et apr&egrave;s la publication</h2>
+
+<p>T&eacute;l&eacute;chargez et conservez l'extrait nominatif&nbsp;: c'est votre premi&egrave;re preuve de nationalit&eacute;. Le <a href="/glossaire/scec.html">SCEC</a> &eacute;tablit ensuite votre acte de naissance fran&ccedil;ais, &agrave; partir duquel s'encha&icirc;nent la carte d'identit&eacute;, le passeport et l'inscription sur les listes &eacute;lectorales&nbsp;; nos <a href="/blog/demarches-apres-naturalisation.html">d&eacute;marches des six premiers mois</a> donnent l'ordre &agrave; respecter. La <a href="/blog/ceremonie-naturalisation-que-se-passe-t-il.html">c&eacute;r&eacute;monie d'accueil</a> vient dans les six mois, sur convocation de la pr&eacute;fecture. Enfin, sachez que le d&eacute;cret peut &ecirc;tre retir&eacute; dans les deux ans suivant sa publication si l'administration constate que les conditions n'&eacute;taient pas remplies, ou en cas de fraude&nbsp;: rien d'inqui&eacute;tant pour un dossier sinc&egrave;re.</p>
+
+<p>Beaucoup de lecteurs de cette page n'en sont pas l&agrave;&nbsp;: ils attendent, et cherchent la liste pour tromper l'attente. Le plus utile, entre-temps, est de suivre les bonnes &eacute;ch&eacute;ances et de pr&eacute;parer la suite. L'application <a href="https://apps.apple.com/fr/app/naturalisation-france-facile/id6761140087" target="_blank">Naturalisation France Facile</a> calcule vos d&eacute;lais &agrave; partir du r&eacute;c&eacute;piss&eacute;, vous indique quand une relance est justifi&eacute;e, et sa checklist pr&eacute;pare d&eacute;j&agrave; les d&eacute;marches d'apr&egrave;s-d&eacute;cret&nbsp;; pour ceux qui n'ont pas encore d&eacute;pos&eacute;, elle r&eacute;unit la pr&eacute;paration du B2, de l'examen civique et de l'entretien, ce qui d&eacute;cide de tout le reste.</p>
+""",
+    "faq": [
+        ("Où trouver la liste des noms des naturalisés au Journal officiel ?",
+         "Dans l'extrait nominatif de chaque décret, sur Légifrance : recherchez le JO par sa date de publication, cliquez sur « Extrait du Journal officiel contenant les informations nominatives (accès protégé) », résolvez le calcul anti-robot et téléchargez le PDF. Cette liste n'est pas indexée par les moteurs de recherche, en application de l'article L. 221-14 du Code des relations entre le public et l'administration."),
+        ("Pourquoi la liste des noms n'apparaît-elle pas sur Google ?",
+         "Parce que la loi impose que les actes individuels relatifs à la nationalité soient publiés dans des conditions garantissant qu'ils ne sont pas indexés par les moteurs de recherche. Les noms sont donc dans un PDF en accès protégé, invisible pour Google et impossible à republier légalement."),
+        ("Comment savoir si mon nom est dans un décret de naturalisation ?",
+         "Par votre espace personnel ANEF, qui communique depuis le 1er février 2023 la date de publication de votre décret, et par le mail d'inscription que vous recevez après la publication. Vous pouvez ensuite télécharger l'extrait nominatif sur Légifrance et y chercher votre nom, votre date et votre lieu de naissance."),
+        ("Le PDF de Légifrance a-t-il une valeur juridique ?",
+         "Oui. Pour les décrets publiés depuis 2016, l'extrait nominatif porte une signature électronique authentifiée : aucune procédure supplémentaire ni copie certifiée conforme n'est nécessaire. C'est votre première preuve de nationalité, à conserver."),
+        ("Quand sont publiés les décrets de naturalisation ?",
+         "Sans date fixe, en général une à trois fois par mois, souvent en seconde quinzaine, parfois plusieurs décrets le même jour. Entre l'avis favorable de la préfecture et l'insertion dans un décret, comptez le plus souvent de trois mois à un an."),
+        ("Mon nom n'est pas dans le décret : est-ce un refus ?",
+         "Non. Un refus ou un ajournement vous est notifié avec des voies de recours. Si vous n'avez pas reçu de mail d'inscription, votre dossier n'est pas encore inséré dans un décret : les dossiers validés sont répartis sur plusieurs décrets successifs."),
+        ("La naturalisation par mariage est-elle publiée au Journal officiel ?",
+         "Non. Seules les acquisitions par décret (naturalisation, réintégration, effet collectif) sont publiées. La nationalité acquise par déclaration (mariage, ascendant, frère ou sœur d'un Français) se prouve par l'exemplaire enregistré de la déclaration."),
+        ("Il y a une erreur dans mon nom sur le décret : que faire ?",
+         "L'erreur n'annule pas la naturalisation. Demandez la rectification du décret via le téléservice dédié (ou par courrier au ministère de l'Intérieur si vous aviez déposé un dossier papier) ; une erreur sur un acte d'état civil se signale au Service central d'état civil de Nantes."),
+    ],
+    "links": [
+        ("/outils/decret-naturalisation.html", "Annuaire des d&eacute;crets de naturalisation au JO, mis &agrave; jour &agrave; chaque parution"),
+        ("/blog/avis-favorable-naturalisation.html", "Avis favorable&nbsp;: ce qui se passe avant le d&eacute;cret"),
+        ("/blog/demarches-apres-naturalisation.html", "Vous &ecirc;tes fran&ccedil;ais&nbsp;: les d&eacute;marches des 6 premiers mois"),
+        ("/blog/ceremonie-naturalisation-que-se-passe-t-il.html", "La c&eacute;r&eacute;monie d'accueil&nbsp;: convocation et d&eacute;roulement"),
+        ("/glossaire/nat-eff-rei.html", "NAT, EFF, REI&nbsp;: lire les codes d'un d&eacute;cret"),
+    ],
+    "sources": [
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F33626", "Service-public.gouv.fr &mdash; Comment trouver son d&eacute;cret de naturalisation publi&eacute; au Journal officiel&nbsp;? (F33626)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F2213", "Service-public.gouv.fr &mdash; Naturalisation par d&eacute;cret&nbsp;: inscription dans le d&eacute;cret, effet, rectification, retrait (F2213)"),
+        ("https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031677770", "L&eacute;gifrance &mdash; Code des relations entre le public et l'administration, article L. 221-14"),
+        ("https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031677698", "L&eacute;gifrance &mdash; CRPA, article R. 221-15 (liste des actes non indexables, dont les d&eacute;crets de naturalisation)"),
+        ("https://www.legifrance.gouv.fr/jorf/jo", "L&eacute;gifrance &mdash; Journal officiel&nbsp;: derniers num&eacute;ros et navigation par date"),
+    ],
+    "cta": "Suivre mon dossier jusqu'au d&eacute;cret avec l'app",
 },
 }
 
