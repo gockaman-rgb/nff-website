@@ -1,0 +1,13 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["2BA8YKCCM2.com.NaturalisationFranceFacile"],
+        "components": [
+          { "/": "/tiktok-share", "comment": "Retour de TikTok après un partage direct (Share Kit) — l'app rouvre et crédite le bonus." },
+          { "/": "/tiktok-share/*" }
+        ]
+      }
+    ]
+  }
+}
