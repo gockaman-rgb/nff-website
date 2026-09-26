@@ -1,0 +1,1415 @@
+{
+ "source": "INSEE, Code officiel géographique 2025 ; geo.api.gouv.fr (populations INSEE)",
+ "departements": [
+  {
+   "code": "01",
+   "nom": "Ain",
+   "tncc": 5,
+   "region": "Auvergne-Rhône-Alpes",
+   "chef_lieu": "Bourg-en-Bresse",
+   "villes": [
+    "Bourg-en-Bresse",
+    "Oyonnax",
+    "Valserhône",
+    "Ambérieu-en-Bugey",
+    "Saint-Genis-Pouilly"
+   ]
+  },
+  {
+   "code": "02",
+   "nom": "Aisne",
+   "tncc": 5,
+   "region": "Hauts-de-France",
+   "chef_lieu": "Laon",
+   "villes": [
+    "Saint-Quentin",
+    "Soissons",
+    "Laon",
+    "Château-Thierry",
+    "Tergnier"
+   ]
+  },
+  {
+   "code": "03",
+   "nom": "Allier",
+   "tncc": 5,
+   "region": "Auvergne-Rhône-Alpes",
+   "chef_lieu": "Moulins",
+   "villes": [
+    "Montluçon",
+    "Vichy",
+    "Moulins",
+    "Cusset",
+    "Yzeure"
+   ]
+  },
+  {
+   "code": "04",
+   "nom": "Alpes-de-Haute-Provence",
+   "tncc": 4,
+   "region": "Provence-Alpes-Côte d'Azur",
+   "chef_lieu": "Digne-les-Bains",
+   "villes": [
+    "Manosque",
+    "Digne-les-Bains",
+    "Sisteron",
+    "Oraison",
+    "Forcalquier"
+   ]
+  },
+  {
+   "code": "05",
+   "nom": "Hautes-Alpes",
+   "tncc": 4,
+   "region": "Provence-Alpes-Côte d'Azur",
+   "chef_lieu": "Gap",
+   "villes": [
+    "Gap",
+    "Briançon",
+    "Embrun",
+    "Laragne-Montéglin",
+    "Veynes"
+   ]
+  },
+  {
+   "code": "06",
+   "nom": "Alpes-Maritimes",
+   "tncc": 4,
+   "region": "Provence-Alpes-Côte d'Azur",
+   "chef_lieu": "Nice",
+   "villes": [
+    "Nice",
+    "Antibes",
+    "Cannes",
+    "Cagnes-sur-Mer",
+    "Grasse"
+   ]
+  },
+  {
+   "code": "07",
+   "nom": "Ardèche",
+   "tncc": 5,
+   "region": "Auvergne-Rhône-Alpes",
+   "chef_lieu": "Privas",
+   "villes": [
+    "Annonay",
+    "Aubenas",
+    "Tournon-sur-Rhône",
+    "Guilherand-Granges",
+    "Le Teil"
+   ]
+  },
+  {
+   "code": "08",
+   "nom": "Ardennes",
+   "tncc": 4,
+   "region": "Grand Est",
+   "chef_lieu": "Charleville-Mézières",
+   "villes": [
+    "Charleville-Mézières",
+    "Sedan",
+    "Rethel",
+    "Givet",
+    "Revin"
+   ]
+  },
+  {
+   "code": "09",
+   "nom": "Ariège",
+   "tncc": 5,
+   "region": "Occitanie",
+   "chef_lieu": "Foix",
+   "villes": [
+    "Pamiers",
+    "Foix",
+    "Saint-Girons",
+    "Lavelanet",
+    "Saverdun"
+   ]
+  },
+  {
+   "code": "10",
+   "nom": "Aube",
+   "tncc": 5,
+   "region": "Grand Est",
+   "chef_lieu": "Troyes",
+   "villes": [
+    "Troyes",
+    "Romilly-sur-Seine",
+    "Saint-André-les-Vergers",
+    "La Chapelle-Saint-Luc",
+    "Sainte-Savine"
+   ]
+  },
+  {
+   "code": "11",
+   "nom": "Aude",
+   "tncc": 5,
+   "region": "Occitanie",
+   "chef_lieu": "Carcassonne",
+   "villes": [
+    "Narbonne",
+    "Carcassonne",
+    "Castelnaudary",
+    "Limoux",
+    "Lézignan-Corbières"
+   ]
+  },
+  {
+   "code": "12",
+   "nom": "Aveyron",
+   "tncc": 5,
+   "region": "Occitanie",
+   "chef_lieu": "Rodez",
+   "villes": [
+    "Rodez",
+    "Millau",
+    "Onet-le-Château",
+    "Villefranche-de-Rouergue",
+    "Saint-Affrique"
+   ]
+  },
+  {
+   "code": "13",
+   "nom": "Bouches-du-Rhône",
+   "tncc": 4,
+   "region": "Provence-Alpes-Côte d'Azur",
+   "chef_lieu": "Marseille",
+   "villes": [
+    "Marseille",
+    "Aix-en-Provence",
+    "Arles",
+    "Martigues",
+    "Aubagne"
+   ]
+  },
+  {
+   "code": "14",
+   "nom": "Calvados",
+   "tncc": 2,
+   "region": "Normandie",
+   "chef_lieu": "Caen",
+   "villes": [
+    "Caen",
+    "Hérouville-Saint-Clair",
+    "Lisieux",
+    "Vire Normandie",
+    "Bayeux"
+   ]
+  },
+  {
+   "code": "15",
+   "nom": "Cantal",
+   "tncc": 2,
+   "region": "Auvergne-Rhône-Alpes",
+   "chef_lieu": "Aurillac",
+   "villes": [
+    "Aurillac",
+    "Saint-Flour",
+    "Arpajon-sur-Cère",
+    "Ytrac",
+    "Mauriac"
+   ]
+  },
+  {
+   "code": "16",
+   "nom": "Charente",
+   "tncc": 3,
+   "region": "Nouvelle-Aquitaine",
+   "chef_lieu": "Angoulême",
+   "villes": [
+    "Angoulême",
+    "Cognac",
+    "Soyaux",
+    "La Couronne",
+    "Saint-Yrieix-sur-Charente"
+   ]
+  },
+  {
+   "code": "17",
+   "nom": "Charente-Maritime",
+   "tncc": 3,
+   "region": "Nouvelle-Aquitaine",
+   "chef_lieu": "La Rochelle",
+   "villes": [
+    "La Rochelle",
+    "Saintes",
+    "Rochefort",
+    "Royan",
+    "Aytré"
+   ]
+  },
+  {
+   "code": "18",
+   "nom": "Cher",
+   "tncc": 2,
+   "region": "Centre-Val de Loire",
+   "chef_lieu": "Bourges",
+   "villes": [
+    "Bourges",
+    "Vierzon",
+    "Saint-Amand-Montrond",
+    "Saint-Doulchard",
+    "Saint-Florent-sur-Cher"
+   ]
+  },
+  {
+   "code": "19",
+   "nom": "Corrèze",
+   "tncc": 3,
+   "region": "Nouvelle-Aquitaine",
+   "chef_lieu": "Tulle",
+   "villes": [
+    "Brive-la-Gaillarde",
+    "Tulle",
+    "Ussel",
+    "Malemort",
+    "Saint-Pantaléon-de-Larche"
+   ]
+  },
+  {
+   "code": "21",
+   "nom": "Côte-d'Or",
+   "tncc": 3,
+   "region": "Bourgogne-Franche-Comté",
+   "chef_lieu": "Dijon",
+   "villes": [
+    "Dijon",
+    "Beaune",
+    "Chenôve",
+    "Talant",
+    "Chevigny-Saint-Sauveur"
+   ]
+  },
+  {
+   "code": "22",
+   "nom": "Côtes-d'Armor",
+   "tncc": 4,
+   "region": "Bretagne",
+   "chef_lieu": "Saint-Brieuc",
+   "villes": [
+    "Saint-Brieuc",
+    "Lannion",
+    "Lamballe-Armor",
+    "Dinan",
+    "Plérin"
+   ]
+  },
+  {
+   "code": "23",
+   "nom": "Creuse",
+   "tncc": 3,
+   "region": "Nouvelle-Aquitaine",
+   "chef_lieu": "Guéret",
+   "villes": [
+    "Guéret",
+    "La Souterraine",
+    "Aubusson",
+    "Sainte-Feyre",
+    "Bourganeuf"
+   ]
+  },
+  {
+   "code": "24",
+   "nom": "Dordogne",
+   "tncc": 3,
+   "region": "Nouvelle-Aquitaine",
+   "chef_lieu": "Périgueux",
+   "villes": [
+    "Périgueux",
+    "Bergerac",
+    "Boulazac Isle Manoire",
+    "Sarlat-la-Canéda",
+    "Coulounieix-Chamiers"
+   ]
+  },
+  {
+   "code": "25",
+   "nom": "Doubs",
+   "tncc": 2,
+   "region": "Bourgogne-Franche-Comté",
+   "chef_lieu": "Besançon",
+   "villes": [
+    "Besançon",
+    "Montbéliard",
+    "Pontarlier",
+    "Audincourt",
+    "Valentigney"
+   ]
+  },
+  {
+   "code": "26",
+   "nom": "Drôme",
+   "tncc": 3,
+   "region": "Auvergne-Rhône-Alpes",
+   "chef_lieu": "Valence",
+   "villes": [
+    "Valence",
+    "Montélimar",
+    "Romans-sur-Isère",
+    "Bourg-lès-Valence",
+    "Pierrelatte"
+   ]
+  },
+  {
+   "code": "27",
+   "nom": "Eure",
+   "tncc": 5,
+   "region": "Normandie",
+   "chef_lieu": "Évreux",
+   "villes": [
+    "Évreux",
+    "Vernon",
+    "Louviers",
+    "Val-de-Reuil",
+    "Gisors"
+   ]
+  },
+  {
+   "code": "28",
+   "nom": "Eure-et-Loir",
+   "tncc": 1,
+   "region": "Centre-Val de Loire",
+   "chef_lieu": "Chartres",
+   "villes": [
+    "Chartres",
+    "Dreux",
+    "Lucé",
+    "Châteaudun",
+    "Vernouillet"
+   ]
+  },
+  {
+   "code": "29",
+   "nom": "Finistère",
+   "tncc": 2,
+   "region": "Bretagne",
+   "chef_lieu": "Quimper",
+   "villes": [
+    "Brest",
+    "Quimper",
+    "Concarneau",
+    "Landerneau",
+    "Guipavas"
+   ]
+  },
+  {
+   "code": "2A",
+   "nom": "Corse-du-Sud",
+   "tncc": 3,
+   "region": "Corse",
+   "chef_lieu": "Ajaccio",
+   "villes": [
+    "Ajaccio",
+    "Porto-Vecchio",
+    "Bastelicaccia",
+    "Propriano",
+    "Grosseto-Prugna"
+   ]
+  },
+  {
+   "code": "2B",
+   "nom": "Haute-Corse",
+   "tncc": 3,
+   "region": "Corse",
+   "chef_lieu": "Bastia",
+   "villes": [
+    "Bastia",
+    "Borgo",
+    "Corte",
+    "Biguglia",
+    "Lucciana"
+   ]
+  },
+  {
+   "code": "30",
+   "nom": "Gard",
+   "tncc": 2,
+   "region": "Occitanie",
+   "chef_lieu": "Nîmes",
+   "villes": [
+    "Nîmes",
+    "Alès",
+    "Bagnols-sur-Cèze",
+    "Beaucaire",
+    "Saint-Gilles"
+   ]
+  },
+  {
+   "code": "31",
+   "nom": "Haute-Garonne",
+   "tncc": 3,
+   "region": "Occitanie",
+   "chef_lieu": "Toulouse",
+   "villes": [
+    "Toulouse",
+    "Colomiers",
+    "Tournefeuille",
+    "Blagnac",
+    "Muret"
+   ]
+  },
+  {
+   "code": "32",
+   "nom": "Gers",
+   "tncc": 2,
+   "region": "Occitanie",
+   "chef_lieu": "Auch",
+   "villes": [
+    "Auch",
+    "L'Isle-Jourdain",
+    "Condom",
+    "Fleurance",
+    "Eauze"
+   ]
+  },
+  {
+   "code": "33",
+   "nom": "Gironde",
+   "tncc": 3,
+   "region": "Nouvelle-Aquitaine",
+   "chef_lieu": "Bordeaux",
+   "villes": [
+    "Bordeaux",
+    "Mérignac",
+    "Pessac",
+    "Talence",
+    "Villenave-d'Ornon"
+   ]
+  },
+  {
+   "code": "34",
+   "nom": "Hérault",
+   "tncc": 5,
+   "region": "Occitanie",
+   "chef_lieu": "Montpellier",
+   "villes": [
+    "Montpellier",
+    "Béziers",
+    "Sète",
+    "Agde",
+    "Lunel"
+   ]
+  },
+  {
+   "code": "35",
+   "nom": "Ille-et-Vilaine",
+   "tncc": 1,
+   "region": "Bretagne",
+   "chef_lieu": "Rennes",
+   "villes": [
+    "Rennes",
+    "Saint-Malo",
+    "Fougères",
+    "Bruz",
+    "Vitré"
+   ]
+  },
+  {
+   "code": "36",
+   "nom": "Indre",
+   "tncc": 5,
+   "region": "Centre-Val de Loire",
+   "chef_lieu": "Châteauroux",
+   "villes": [
+    "Châteauroux",
+    "Issoudun",
+    "Déols",
+    "Le Blanc",
+    "Le Poinçonnet"
+   ]
+  },
+  {
+   "code": "37",
+   "nom": "Indre-et-Loire",
+   "tncc": 1,
+   "region": "Centre-Val de Loire",
+   "chef_lieu": "Tours",
+   "villes": [
+    "Tours",
+    "Joué-lès-Tours",
+    "Saint-Cyr-sur-Loire",
+    "Saint-Pierre-des-Corps",
+    "Saint-Avertin"
+   ]
+  },
+  {
+   "code": "38",
+   "nom": "Isère",
+   "tncc": 5,
+   "region": "Auvergne-Rhône-Alpes",
+   "chef_lieu": "Grenoble",
+   "villes": [
+    "Grenoble",
+    "Saint-Martin-d'Hères",
+    "Échirolles",
+    "Vienne",
+    "Bourgoin-Jallieu"
+   ]
+  },
+  {
+   "code": "39",
+   "nom": "Jura",
+   "tncc": 2,
+   "region": "Bourgogne-Franche-Comté",
+   "chef_lieu": "Lons-le-Saunier",
+   "villes": [
+    "Dole",
+    "Lons-le-Saunier",
+    "Saint-Claude",
+    "Champagnole",
+    "Hauts de Bienne"
+   ]
+  },
+  {
+   "code": "40",
+   "nom": "Landes",
+   "tncc": 4,
+   "region": "Nouvelle-Aquitaine",
+   "chef_lieu": "Mont-de-Marsan",
+   "villes": [
+    "Mont-de-Marsan",
+    "Dax",
+    "Biscarrosse",
+    "Saint-Paul-lès-Dax",
+    "Tarnos"
+   ]
+  },
+  {
+   "code": "41",
+   "nom": "Loir-et-Cher",
+   "tncc": 2,
+   "region": "Centre-Val de Loire",
+   "chef_lieu": "Blois",
+   "villes": [
+    "Blois",
+    "Romorantin-Lanthenay",
+    "Vendôme",
+    "Vineuil",
+    "Le Controis-en-Sologne"
+   ]
+  },
+  {
+   "code": "42",
+   "nom": "Loire",
+   "tncc": 3,
+   "region": "Auvergne-Rhône-Alpes",
+   "chef_lieu": "Saint-Étienne",
+   "villes": [
+    "Saint-Étienne",
+    "Saint-Chamond",
+    "Roanne",
+    "Firminy",
+    "Montbrison"
+   ]
+  },
+  {
+   "code": "43",
+   "nom": "Haute-Loire",
+   "tncc": 3,
+   "region": "Auvergne-Rhône-Alpes",
+   "chef_lieu": "Le Puy-en-Velay",
+   "villes": [
+    "Le Puy-en-Velay",
+    "Monistrol-sur-Loire",
+    "Yssingeaux",
+    "Brioude",
+    "Aurec-sur-Loire"
+   ]
+  },
+  {
+   "code": "44",
+   "nom": "Loire-Atlantique",
+   "tncc": 3,
+   "region": "Pays de la Loire",
+   "chef_lieu": "Nantes",
+   "villes": [
+    "Nantes",
+    "Saint-Nazaire",
+    "Saint-Herblain",
+    "Rezé",
+    "Saint-Sébastien-sur-Loire"
+   ]
+  },
+  {
+   "code": "45",
+   "nom": "Loiret",
+   "tncc": 2,
+   "region": "Centre-Val de Loire",
+   "chef_lieu": "Orléans",
+   "villes": [
+    "Orléans",
+    "Olivet",
+    "Saint-Jean-de-Braye",
+    "Fleury-les-Aubrais",
+    "Saran"
+   ]
+  },
+  {
+   "code": "46",
+   "nom": "Lot",
+   "tncc": 2,
+   "region": "Occitanie",
+   "chef_lieu": "Cahors",
+   "villes": [
+    "Cahors",
+    "Figeac",
+    "Gourdon",
+    "Pradines",
+    "Gramat"
+   ]
+  },
+  {
+   "code": "47",
+   "nom": "Lot-et-Garonne",
+   "tncc": 2,
+   "region": "Nouvelle-Aquitaine",
+   "chef_lieu": "Agen",
+   "villes": [
+    "Agen",
+    "Villeneuve-sur-Lot",
+    "Marmande",
+    "Tonneins",
+    "Le Passage"
+   ]
+  },
+  {
+   "code": "48",
+   "nom": "Lozère",
+   "tncc": 3,
+   "region": "Occitanie",
+   "chef_lieu": "Mende",
+   "villes": [
+    "Mende",
+    "Marvejols",
+    "Saint-Chély-d'Apcher",
+    "Langogne",
+    "Peyre en Aubrac"
+   ]
+  },
+  {
+   "code": "49",
+   "nom": "Maine-et-Loire",
+   "tncc": 0,
+   "region": "Pays de la Loire",
+   "chef_lieu": "Angers",
+   "villes": [
+    "Angers",
+    "Cholet",
+    "Saumur",
+    "Sèvremoine",
+    "Beaupréau-en-Mauges"
+   ]
+  },
+  {
+   "code": "50",
+   "nom": "Manche",
+   "tncc": 3,
+   "region": "Normandie",
+   "chef_lieu": "Saint-Lô",
+   "villes": [
+    "Cherbourg-en-Cotentin",
+    "Saint-Lô",
+    "Granville",
+    "La Hague",
+    "Carentan-les-Marais"
+   ]
+  },
+  {
+   "code": "51",
+   "nom": "Marne",
+   "tncc": 3,
+   "region": "Grand Est",
+   "chef_lieu": "Châlons-en-Champagne",
+   "villes": [
+    "Reims",
+    "Châlons-en-Champagne",
+    "Épernay",
+    "Vitry-le-François",
+    "Tinqueux"
+   ]
+  },
+  {
+   "code": "52",
+   "nom": "Haute-Marne",
+   "tncc": 3,
+   "region": "Grand Est",
+   "chef_lieu": "Chaumont",
+   "villes": [
+    "Saint-Dizier",
+    "Chaumont",
+    "Langres",
+    "Nogent",
+    "Joinville"
+   ]
+  },
+  {
+   "code": "53",
+   "nom": "Mayenne",
+   "tncc": 3,
+   "region": "Pays de la Loire",
+   "chef_lieu": "Laval",
+   "villes": [
+    "Laval",
+    "Château-Gontier-sur-Mayenne",
+    "Mayenne",
+    "Évron",
+    "Saint-Berthevin"
+   ]
+  },
+  {
+   "code": "54",
+   "nom": "Meurthe-et-Moselle",
+   "tncc": 0,
+   "region": "Grand Est",
+   "chef_lieu": "Nancy",
+   "villes": [
+    "Nancy",
+    "Vandœuvre-lès-Nancy",
+    "Lunéville",
+    "Toul",
+    "Longwy"
+   ]
+  },
+  {
+   "code": "55",
+   "nom": "Meuse",
+   "tncc": 3,
+   "region": "Grand Est",
+   "chef_lieu": "Bar-le-Duc",
+   "villes": [
+    "Verdun",
+    "Bar-le-Duc",
+    "Commercy",
+    "Saint-Mihiel",
+    "Ligny-en-Barrois"
+   ]
+  },
+  {
+   "code": "56",
+   "nom": "Morbihan",
+   "tncc": 2,
+   "region": "Bretagne",
+   "chef_lieu": "Vannes",
+   "villes": [
+    "Lorient",
+    "Vannes",
+    "Lanester",
+    "Ploemeur",
+    "Hennebont"
+   ]
+  },
+  {
+   "code": "57",
+   "nom": "Moselle",
+   "tncc": 3,
+   "region": "Grand Est",
+   "chef_lieu": "Metz",
+   "villes": [
+    "Metz",
+    "Thionville",
+    "Montigny-lès-Metz",
+    "Forbach",
+    "Sarreguemines"
+   ]
+  },
+  {
+   "code": "58",
+   "nom": "Nièvre",
+   "tncc": 3,
+   "region": "Bourgogne-Franche-Comté",
+   "chef_lieu": "Nevers",
+   "villes": [
+    "Nevers",
+    "Cosne-Cours-sur-Loire",
+    "Varennes-Vauzelles",
+    "Decize",
+    "La Charité-sur-Loire"
+   ]
+  },
+  {
+   "code": "59",
+   "nom": "Nord",
+   "tncc": 2,
+   "region": "Hauts-de-France",
+   "chef_lieu": "Lille",
+   "villes": [
+    "Lille",
+    "Tourcoing",
+    "Roubaix",
+    "Dunkerque",
+    "Villeneuve-d'Ascq"
+   ]
+  },
+  {
+   "code": "60",
+   "nom": "Oise",
+   "tncc": 5,
+   "region": "Hauts-de-France",
+   "chef_lieu": "Beauvais",
+   "villes": [
+    "Beauvais",
+    "Compiègne",
+    "Creil",
+    "Nogent-sur-Oise",
+    "Senlis"
+   ]
+  },
+  {
+   "code": "61",
+   "nom": "Orne",
+   "tncc": 5,
+   "region": "Normandie",
+   "chef_lieu": "Alençon",
+   "villes": [
+    "Alençon",
+    "Flers",
+    "Argentan",
+    "L'Aigle",
+    "La Ferté Macé"
+   ]
+  },
+  {
+   "code": "62",
+   "nom": "Pas-de-Calais",
+   "tncc": 2,
+   "region": "Hauts-de-France",
+   "chef_lieu": "Arras",
+   "villes": [
+    "Calais",
+    "Arras",
+    "Boulogne-sur-Mer",
+    "Lens",
+    "Liévin"
+   ]
+  },
+  {
+   "code": "63",
+   "nom": "Puy-de-Dôme",
+   "tncc": 2,
+   "region": "Auvergne-Rhône-Alpes",
+   "chef_lieu": "Clermont-Ferrand",
+   "villes": [
+    "Clermont-Ferrand",
+    "Cournon-d'Auvergne",
+    "Riom",
+    "Chamalières",
+    "Issoire"
+   ]
+  },
+  {
+   "code": "64",
+   "nom": "Pyrénées-Atlantiques",
+   "tncc": 4,
+   "region": "Nouvelle-Aquitaine",
+   "chef_lieu": "Pau",
+   "villes": [
+    "Pau",
+    "Bayonne",
+    "Anglet",
+    "Biarritz",
+    "Hendaye"
+   ]
+  },
+  {
+   "code": "65",
+   "nom": "Hautes-Pyrénées",
+   "tncc": 4,
+   "region": "Occitanie",
+   "chef_lieu": "Tarbes",
+   "villes": [
+    "Tarbes",
+    "Lourdes",
+    "Aureilhan",
+    "Bagnères-de-Bigorre",
+    "Lannemezan"
+   ]
+  },
+  {
+   "code": "66",
+   "nom": "Pyrénées-Orientales",
+   "tncc": 4,
+   "region": "Occitanie",
+   "chef_lieu": "Perpignan",
+   "villes": [
+    "Perpignan",
+    "Canet-en-Roussillon",
+    "Saint-Cyprien",
+    "Saint-Estève",
+    "Pia"
+   ]
+  },
+  {
+   "code": "67",
+   "nom": "Bas-Rhin",
+   "tncc": 2,
+   "region": "Grand Est",
+   "chef_lieu": "Strasbourg",
+   "villes": [
+    "Strasbourg",
+    "Haguenau",
+    "Schiltigheim",
+    "Illkirch-Graffenstaden",
+    "Lingolsheim"
+   ]
+  },
+  {
+   "code": "68",
+   "nom": "Haut-Rhin",
+   "tncc": 2,
+   "region": "Grand Est",
+   "chef_lieu": "Colmar",
+   "villes": [
+    "Mulhouse",
+    "Colmar",
+    "Saint-Louis",
+    "Wittenheim",
+    "Illzach"
+   ]
+  },
+  {
+   "code": "69",
+   "nom": "Rhône",
+   "tncc": 2,
+   "region": "Auvergne-Rhône-Alpes",
+   "chef_lieu": "Lyon",
+   "villes": [
+    "Lyon",
+    "Villeurbanne",
+    "Vénissieux",
+    "Vaulx-en-Velin",
+    "Saint-Priest"
+   ]
+  },
+  {
+   "code": "70",
+   "nom": "Haute-Saône",
+   "tncc": 3,
+   "region": "Bourgogne-Franche-Comté",
+   "chef_lieu": "Vesoul",
+   "villes": [
+    "Vesoul",
+    "Héricourt",
+    "Lure",
+    "Luxeuil-les-Bains",
+    "Gray"
+   ]
+  },
+  {
+   "code": "71",
+   "nom": "Saône-et-Loire",
+   "tncc": 0,
+   "region": "Bourgogne-Franche-Comté",
+   "chef_lieu": "Mâcon",
+   "villes": [
+    "Chalon-sur-Saône",
+    "Mâcon",
+    "Le Creusot",
+    "Montceau-les-Mines",
+    "Autun"
+   ]
+  },
+  {
+   "code": "72",
+   "nom": "Sarthe",
+   "tncc": 3,
+   "region": "Pays de la Loire",
+   "chef_lieu": "Le Mans",
+   "villes": [
+    "Le Mans",
+    "La Flèche",
+    "Sablé-sur-Sarthe",
+    "Allonnes",
+    "La Ferté-Bernard"
+   ]
+  },
+  {
+   "code": "73",
+   "nom": "Savoie",
+   "tncc": 3,
+   "region": "Auvergne-Rhône-Alpes",
+   "chef_lieu": "Chambéry",
+   "villes": [
+    "Chambéry",
+    "Aix-les-Bains",
+    "Albertville",
+    "La Motte-Servolex",
+    "La Ravoire"
+   ]
+  },
+  {
+   "code": "74",
+   "nom": "Haute-Savoie",
+   "tncc": 3,
+   "region": "Auvergne-Rhône-Alpes",
+   "chef_lieu": "Annecy",
+   "villes": [
+    "Annecy",
+    "Thonon-les-Bains",
+    "Annemasse",
+    "Cluses",
+    "Sallanches"
+   ]
+  },
+  {
+   "code": "75",
+   "nom": "Paris",
+   "tncc": 0,
+   "region": "Île-de-France",
+   "chef_lieu": "Paris",
+   "villes": [
+    "Paris"
+   ]
+  },
+  {
+   "code": "76",
+   "nom": "Seine-Maritime",
+   "tncc": 3,
+   "region": "Normandie",
+   "chef_lieu": "Rouen",
+   "villes": [
+    "Le Havre",
+    "Rouen",
+    "Saint-Étienne-du-Rouvray",
+    "Sotteville-lès-Rouen",
+    "Dieppe"
+   ]
+  },
+  {
+   "code": "77",
+   "nom": "Seine-et-Marne",
+   "tncc": 0,
+   "region": "Île-de-France",
+   "chef_lieu": "Melun",
+   "villes": [
+    "Meaux",
+    "Chelles",
+    "Melun",
+    "Pontault-Combault",
+    "Savigny-le-Temple"
+   ]
+  },
+  {
+   "code": "78",
+   "nom": "Yvelines",
+   "tncc": 4,
+   "region": "Île-de-France",
+   "chef_lieu": "Versailles",
+   "villes": [
+    "Versailles",
+    "Sartrouville",
+    "Saint-Germain-en-Laye",
+    "Mantes-la-Jolie",
+    "Poissy"
+   ]
+  },
+  {
+   "code": "79",
+   "nom": "Deux-Sèvres",
+   "tncc": 4,
+   "region": "Nouvelle-Aquitaine",
+   "chef_lieu": "Niort",
+   "villes": [
+    "Niort",
+    "Bressuire",
+    "Thouars",
+    "Parthenay",
+    "Mauléon"
+   ]
+  },
+  {
+   "code": "80",
+   "nom": "Somme",
+   "tncc": 3,
+   "region": "Hauts-de-France",
+   "chef_lieu": "Amiens",
+   "villes": [
+    "Amiens",
+    "Abbeville",
+    "Albert",
+    "Péronne",
+    "Corbie"
+   ]
+  },
+  {
+   "code": "81",
+   "nom": "Tarn",
+   "tncc": 2,
+   "region": "Occitanie",
+   "chef_lieu": "Albi",
+   "villes": [
+    "Albi",
+    "Castres",
+    "Gaillac",
+    "Graulhet",
+    "Lavaur"
+   ]
+  },
+  {
+   "code": "82",
+   "nom": "Tarn-et-Garonne",
+   "tncc": 2,
+   "region": "Occitanie",
+   "chef_lieu": "Montauban",
+   "villes": [
+    "Montauban",
+    "Castelsarrasin",
+    "Moissac",
+    "Caussade",
+    "Montech"
+   ]
+  },
+  {
+   "code": "83",
+   "nom": "Var",
+   "tncc": 2,
+   "region": "Provence-Alpes-Côte d'Azur",
+   "chef_lieu": "Toulon",
+   "villes": [
+    "Toulon",
+    "La Seyne-sur-Mer",
+    "Fréjus",
+    "Hyères",
+    "Draguignan"
+   ]
+  },
+  {
+   "code": "84",
+   "nom": "Vaucluse",
+   "tncc": 2,
+   "region": "Provence-Alpes-Côte d'Azur",
+   "chef_lieu": "Avignon",
+   "villes": [
+    "Avignon",
+    "Carpentras",
+    "Orange",
+    "Cavaillon",
+    "L'Isle-sur-la-Sorgue"
+   ]
+  },
+  {
+   "code": "85",
+   "nom": "Vendée",
+   "tncc": 3,
+   "region": "Pays de la Loire",
+   "chef_lieu": "La Roche-sur-Yon",
+   "villes": [
+    "La Roche-sur-Yon",
+    "Les Sables-d'Olonne",
+    "Challans",
+    "Montaigu-Vendée",
+    "Les Herbiers"
+   ]
+  },
+  {
+   "code": "86",
+   "nom": "Vienne",
+   "tncc": 3,
+   "region": "Nouvelle-Aquitaine",
+   "chef_lieu": "Poitiers",
+   "villes": [
+    "Poitiers",
+    "Châtellerault",
+    "Buxerolles",
+    "Jaunay-Marigny",
+    "Saint-Benoît"
+   ]
+  },
+  {
+   "code": "87",
+   "nom": "Haute-Vienne",
+   "tncc": 3,
+   "region": "Nouvelle-Aquitaine",
+   "chef_lieu": "Limoges",
+   "villes": [
+    "Limoges",
+    "Saint-Junien",
+    "Panazol",
+    "Couzeix",
+    "Isle"
+   ]
+  },
+  {
+   "code": "88",
+   "nom": "Vosges",
+   "tncc": 4,
+   "region": "Grand Est",
+   "chef_lieu": "Épinal",
+   "villes": [
+    "Épinal",
+    "Saint-Dié-des-Vosges",
+    "Golbey",
+    "Thaon-les-Vosges",
+    "Gérardmer"
+   ]
+  },
+  {
+   "code": "89",
+   "nom": "Yonne",
+   "tncc": 5,
+   "region": "Bourgogne-Franche-Comté",
+   "chef_lieu": "Auxerre",
+   "villes": [
+    "Auxerre",
+    "Sens",
+    "Joigny",
+    "Migennes",
+    "Avallon"
+   ]
+  },
+  {
+   "code": "90",
+   "nom": "Territoire de Belfort",
+   "tncc": 2,
+   "region": "Bourgogne-Franche-Comté",
+   "chef_lieu": "Belfort",
+   "villes": [
+    "Belfort",
+    "Delle",
+    "Valdoie",
+    "Beaucourt",
+    "Bavilliers"
+   ]
+  },
+  {
+   "code": "91",
+   "nom": "Essonne",
+   "tncc": 5,
+   "region": "Île-de-France",
+   "chef_lieu": "Évry-Courcouronnes",
+   "villes": [
+    "Évry-Courcouronnes",
+    "Corbeil-Essonnes",
+    "Massy",
+    "Savigny-sur-Orge",
+    "Palaiseau"
+   ]
+  },
+  {
+   "code": "92",
+   "nom": "Hauts-de-Seine",
+   "tncc": 4,
+   "region": "Île-de-France",
+   "chef_lieu": "Nanterre",
+   "villes": [
+    "Boulogne-Billancourt",
+    "Nanterre",
+    "Asnières-sur-Seine",
+    "Colombes",
+    "Courbevoie"
+   ]
+  },
+  {
+   "code": "93",
+   "nom": "Seine-Saint-Denis",
+   "tncc": 3,
+   "region": "Île-de-France",
+   "chef_lieu": "Bobigny",
+   "villes": [
+    "Saint-Denis",
+    "Montreuil",
+    "Aubervilliers",
+    "Aulnay-sous-Bois",
+    "Noisy-le-Grand"
+   ]
+  },
+  {
+   "code": "94",
+   "nom": "Val-de-Marne",
+   "tncc": 2,
+   "region": "Île-de-France",
+   "chef_lieu": "Créteil",
+   "villes": [
+    "Vitry-sur-Seine",
+    "Créteil",
+    "Champigny-sur-Marne",
+    "Saint-Maur-des-Fossés",
+    "Ivry-sur-Seine"
+   ]
+  },
+  {
+   "code": "95",
+   "nom": "Val-d'Oise",
+   "tncc": 2,
+   "region": "Île-de-France",
+   "chef_lieu": "Pontoise",
+   "villes": [
+    "Argenteuil",
+    "Cergy",
+    "Sarcelles",
+    "Garges-lès-Gonesse",
+    "Franconville"
+   ]
+  },
+  {
+   "code": "971",
+   "nom": "Guadeloupe",
+   "tncc": 3,
+   "region": "Guadeloupe",
+   "chef_lieu": "Basse-Terre",
+   "villes": [
+    "Les Abymes",
+    "Baie-Mahault",
+    "Le Gosier",
+    "Petit-Bourg",
+    "Sainte-Anne"
+   ]
+  },
+  {
+   "code": "972",
+   "nom": "Martinique",
+   "tncc": 3,
+   "region": "Martinique",
+   "chef_lieu": "Fort-de-France",
+   "villes": [
+    "Fort-de-France",
+    "Le Lamentin",
+    "Le Robert",
+    "Schœlcher",
+    "Ducos"
+   ]
+  },
+  {
+   "code": "973",
+   "nom": "Guyane",
+   "tncc": 3,
+   "region": "Guyane",
+   "chef_lieu": "Cayenne",
+   "villes": [
+    "Cayenne",
+    "Saint-Laurent-du-Maroni",
+    "Matoury",
+    "Remire-Montjoly",
+    "Kourou"
+   ]
+  },
+  {
+   "code": "974",
+   "nom": "La Réunion",
+   "tncc": 0,
+   "region": "La Réunion",
+   "chef_lieu": "Saint-Denis",
+   "villes": [
+    "Saint-Denis",
+    "Saint-Paul",
+    "Saint-Pierre",
+    "Le Tampon",
+    "Saint-André"
+   ]
+  },
+  {
+   "code": "976",
+   "nom": "Mayotte",
+   "tncc": 0,
+   "region": "Mayotte",
+   "chef_lieu": "Mamoudzou",
+   "villes": [
+    "Mamoudzou",
+    "Koungou",
+    "Dzaoudzi",
+    "Dembeni",
+    "Bandraboua"
+   ]
+  }
+ ]
+}

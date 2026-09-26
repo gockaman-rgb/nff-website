@@ -15,6 +15,7 @@ Chaque article expose ces informations en donnees structurees schema.org
 
 ## Donnees originales
 
+- [Ou deposer son dossier de naturalisation : la plateforme de chaque departement](https://naturalisationfrancefacile.fr/prefectures/): annuaire des 36 plateformes de naturalisation de metropole et d'outre-mer, une page par departement (101) : plateforme competente, adresse et courriel verifies sur les sources officielles (21/09/2026), modalite de depot des declarations par mariage, centres d'examen civique et TCF du departement. Source primaire produite par ce site.
 - [Annuaire des decrets de naturalisation au Journal officiel](https://naturalisationfrancefacile.fr/outils/decret-naturalisation.html): base des decrets publies au JORF, actualisee automatiquement. Source primaire produite par ce site.
 
 ## Sources officielles utilisees

@@ -1,0 +1,369 @@
+{
+ "source": "https://macarte.ign.fr/carte/e33e5b949d3c8ff991adc1c67aa0b28c/Plateformes-Naturalisation",
+ "api": "https://macarte.ign.fr/api/maps/e6de13433eaeb9e66ef4cf7d2fe9d108/file",
+ "note": "Carte interactive publiée par le Webmestre DGEF (ministère de l'Intérieur), liée depuis immigration.interieur.gouv.fr ; données de la carte mises à jour le 3 octobre 2025.",
+ "donnees_du": "2025-10-03",
+ "plateformes": {
+  "meurthe-et-moselle": {
+   "titres": [
+    "Lorraine"
+   ],
+   "accueil": "6 rue Sainte-Catherine CS n°60031 - 54038 Nancy Cedex",
+   "adresse_postale": "Plate-forme Interdépartementale de Naturalisation - Préfecture de Meurthe-et-Moselle - 1 rue du Préfet Erignac CS n°60031 - 54038 Nancy Cedex",
+   "telephone": "03.83.34.22.13",
+   "permanence": "les lundi, mardi et jeudi de 8h30 à 11h30",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez en *Meurthe-et-Moselle*, en *Meuse*, en *Moselle* ou dans les *Vosges*, vous devez déposer votre demande auprès de la **préfecture de Meurthe-et-Moselle**, à Nancy.\n----|\n\n> Adresse physique: 6 rue Sainte-Catherine CS n°60031 - 54038 Nancy Cedex\n\n> Adresse postale: Plate-forme Interdépartementale de Naturalisation - Préfecture de Meurthe-et-Moselle - 1 rue du Préfet Erignac CS n°60031 - 54038 Nancy Cedex \nTél: 03.83.34.22.13 (permanence téléphonique: les lundi, mardi et jeudi de 8h30 à 11h30)\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n----|\nCourriel:\n[pref-naturalisations@meurthe-et-moselle.gouv.fr](mailto:pref-naturalisations@meurthe-et-moselle.gouv.fr)\n\nSite internet:\nhttp://www.meurthe-et-moselle.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|\n"
+  },
+  "bouches-du-rhone": {
+   "titres": [
+    "Provence-Alpes-Côte d’Azur I",
+    "Provence-Alpes-Côte d’Azur II"
+   ],
+   "accueil": "Préfecture des Bouches du Rhône - 66B rue St Sébastien - 13006 Marseille",
+   "adresse_postale": "Préfecture des Bouches du Rhône - Direction des étrangers et de la nationalité - Service interdépartemental des naturalisations - Place Félix Baret CS 80001 - 13282 Marseille Cedex 06",
+   "telephone": "04.84.35.40.00",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez dans les *Alpes-de-Haute-Provence*, dans les *Hautes-Alpes*, dans les *Bouches-du-Rhône*, ou dans le *Vaucluse*, vous devez déposer votre demande auprès de la **préfecture des Bouches-du-Rhône**, à Marseille.\n----|\n\n>Adresse physique: Préfecture des Bouches du Rhône - 66B rue St Sébastien - 13006 Marseille\n\n>Adresse postale: Préfecture des Bouches du Rhône - Direction des étrangers et de la nationalité - Service interdépartemental des naturalisations - Place Félix Baret CS 80001 - 13282 Marseille Cedex 06\nTél: 04.84.35.40.00 \n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n----|\nCourriel:\n[pref-naturalisations@bouches-du-rhone.gouv.fr](mailto:pref-naturalisations@bouches-du-rhone.gouv.fr)\n\nSite internet:\nhttp://www.bouches-du-rhone.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|\n"
+  },
+  "isere": {
+   "titres": [
+    "Rhône-Alpes II"
+   ],
+   "accueil": "Préfecture de l'Isère - 12 Place de Verdun - 38000 Grenoble",
+   "adresse_postale": "Préfecture de l'Isère - Direction de la citoyenneté, de l'immigration et de l'intégration - Service de l'immigration et de l'intégration - Section naturalisation - 38000 Grenoble",
+   "declaration": "https://www.isere.gouv.fr/Demarches-administratives/Immigration-Naturalisation/Naturalisation-francaise",
+   "texte": "Vous résidez dans la *Drôme*, l’*Isère*, la *Savoie*, ou dans la *Haute-Savoie*, vous devez déposer votre demande auprès de la **préfecture de l’Isère**, à Grenoble.\n----|\n\n>Adresse physique: Préfecture de l'Isère - 12 Place de Verdun - 38000 Grenoble\n\n>Adresse postale: Préfecture de l'Isère - Direction de la citoyenneté, de l'immigration et de l'intégration - Service de l'immigration et de l'intégration - Section naturalisation - 38000 Grenoble\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : https://www.isere.gouv.fr/Demarches-administratives/Immigration-Naturalisation/Naturalisation-francaise\n\nCette modalité remplace l'envoi des dossiers papiers par voie postale.\n----|\nSite internet:\nhttp://www.isere.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|",
+   "declaration_url": "https://www.isere.gouv.fr/Demarches-administratives/Immigration-Naturalisation/Naturalisation-francaise"
+  },
+  "alpes-maritimes": {
+   "titres": [
+    "Provence-Alpes-Côte d’Azur II"
+   ],
+   "accueil": "Préfecture des Alpes-Maritimes CADAM - 147, boulevard du Mercantour - 06286 Nice Cedex 3",
+   "adresse_postale": "Préfecture des Alpes-Maritimes - Direction de la réglementation et des libertés publiques - Plateforme interdépartementale des naturalisations CADAM - 147, boulevard du Mercantour - 06286 Nice Cedex 3",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez dans les *Alpes-Maritimes*, ou dans le *Var*, vous devez déposer votre demande auprès de la **préfecture des Alpes-Maritimes**, à Nice.\n----|\n\n>Adresse physique: Préfecture des Alpes-Maritimes CADAM - 147, boulevard du Mercantour - 06286 Nice Cedex 3\n\n>Adresse postale: Préfecture des Alpes-Maritimes - Direction de la réglementation et des libertés publiques - Plateforme interdépartementale des naturalisations CADAM - 147, boulevard du Mercantour - 06286 Nice Cedex 3\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n----|\nCourriel:\n[pref-naturalisations@alpes-maritimes.gouv.fr](mailto:pref-naturalisations@alpes-maritimes.gouv.fr)\n\nSite internet:\nhttp://www.alpes-maritimes.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|\n"
+  },
+  "doubs": {
+   "titres": [
+    "Franche-Comté",
+    "Besançon"
+   ],
+   "accueil": "3, avenue de la gare d'eau - 25000 Besançon",
+   "adresse_postale": "Préfecture du Doubs - Direction de la citoyenneté et des libertés - Plate-forme interdépartementale de la naturalisation - 8 bis rue Charles Nodier - 25035 Besançon cedex",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez dans le *Doubs*, le *Jura*, la *Haute-Saône* ou le *Territoire de Belfort*, vous devez déposer votre demande auprès de la **préfecture du Doubs**, à Besançon.\n----|\n\n>Adresse physique: 3, avenue de la gare d'eau - 25000 Besançon\n\n>Adresse postale: Préfecture du Doubs - Direction de la citoyenneté et des libertés - Plate-forme interdépartementale de la naturalisation - 8 bis rue Charles Nodier - 25035 Besançon cedex\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n----|\nCourriel:\n[pref-naturalisations@doubs.gouv.fr](mailto:pref-naturalisations@doubs.gouv.fr)\n\nSite internet:\nhttp://www.doubs.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "bas-rhin": {
+   "titres": [
+    "Alsace"
+   ],
+   "accueil": "Préfecture du Bas-Rhin - 5 place de la République - 67073 Strasbourg",
+   "adresse_postale": "Préfecture du Bas-Rhin - Plateforme régionale de la naturalisation - 5 place de la république 67073 Strasbourg",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez dans le *Bas-Rhin*, ou dans le *Haut-Rhin*, vous devez déposer votre demande auprès de la **préfecture du Bas-Rhin**, à Strasbourg.\n----|\n\n>Adresse physique: Préfecture du Bas-Rhin - 5 place de la République - 67073 Strasbourg\n\n>Adresse postale: Préfecture du Bas-Rhin - Plateforme régionale de la naturalisation - 5 place de la république 67073 Strasbourg\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n----|\nCourriel:\n[pref-naturalisation@bas-rhin.gouv.fr](mailto:pref-naturalisation@bas-rhin.gouv.fr)\n\nSite internet:\nhttp://www.bas-rhin.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "cote-dor": {
+   "titres": [
+    "Bourgogne"
+   ],
+   "accueil": "Préfecture de la Côte d'Or - Cité Dampierre - 6, rue Chancelier de l'Hospital - 21000 Dijon",
+   "adresse_postale": "Préfecture de la Côte-d'Or - Direction de la citoyenneté et de la légalité - Plateforme de la naturalisation - 21041 DIJON Cedex",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez dans la *Côte-d’Or*, la *Nièvre*, la *Saône-et-Loire* ou l’*Yonne*, vous devez déposer votre demande auprès de la **préfecture de la Côte d’Or**, à Dijon.\n----|\n\n>Adresse physique: Préfecture de la Côte d'Or - Cité Dampierre - 6, rue Chancelier de l'Hospital - 21000 Dijon\n\n>Adresse postale:  Préfecture de la Côte-d'Or - Direction de la citoyenneté et de la légalité - Plateforme de la naturalisation - 21041 DIJON Cedex\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n----|\nCourriel:\n[pref-naturalisations@cote-dor.gouv.fr](mailto:pref-naturalisations@cote-dor.gouv.fr)\n\nSite internet:\nhttp://www.cote-dor.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "haute-corse": {
+   "titres": [
+    "Corse"
+   ],
+   "accueil": "rond point du Maréchal Leclerc de Hautecloque 20401 Bastia",
+   "adresse_postale": "rond point du Maréchal Leclerc de Hautecloque CS 60007 20401 Bastia",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez en *Corse-du-Sud* ou en *Haute-Corse*, vous devez déposer votre demande auprès de la **préfecture de Haute-Corse**, à Bastia.\n----|\n\n>Adresse physique: rond point du Maréchal Leclerc de Hautecloque 20401 Bastia\n\n>Adresse postale: rond point du Maréchal Leclerc de Hautecloque CS 60007 20401 Bastia\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n----|\nCourriel:\n[pref-naturalisations@haute-corse.gouv.fr](mailto:pref-naturalisations@haute-corse.gouv.fr)\n\nSite internet:\nhttp://www.haute-corse.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "mayotte": {
+   "titres": [
+    "Mamoudzou",
+    "Mayotte"
+   ],
+   "accueil": "Préfecture de Mayotte - Avenue de la Préfecture - 97600 Mamoudzou",
+   "adresse_postale": "Préfecture de Mayotte - BP 676 Kawéni - 97600 Mamoudzou",
+   "telephone": "02 69 63 50 00",
+   "horaires": "tous les jours sur rendez-vous",
+   "texte": "Vous résidez à *Mayotte*, vous devez déposer votre demande auprès de la **Préfecture à Mamoudzou**\n----|\n\n>Adresse physique: Préfecture de Mayotte - Avenue de la Préfecture - 97600 Mamoudzou\n\n>Adresse postale: Préfecture de Mayotte - BP 676 Kawéni - 97600 Mamoudzou\nTél: 02 69 63 50 00\n\nModalités de dépôts des dossier: par voie postale - en recommandé avec AR\n----|\nCourriel:\n[naturalisations@mayotte.pref.gouv.fr](mailto:naturalisations@mayotte.pref.gouv.fr).\n\nHoraire ouverture usagers: tous les jours sur rendez-vous\n\nSite internet:\nhttp://www.mayotte.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|",
+   "declaration": "par voie postale en recommandé avec AR"
+  },
+  "reunion": {
+   "titres": [
+    "La Réunion",
+    "Saint-Denis"
+   ],
+   "accueil": "Préfecture de la Réunion - 6 rue des Messageries - 97400 Saint-Denis",
+   "adresse_postale": "Préfecture de la Réunion - 6 rue des Messageries CS 51079 - 97405 Saint-Denis Cedex",
+   "telephone": "02 62 40 77 77",
+   "permanence": "tous les jours sauf les jeudis de 13h45 à 15h15",
+   "horaires": "tous les jours sauf les jeudi de 13h45 à 15h15",
+   "declaration": "prise de rendez-vous par téléphone",
+   "texte": "Vous résidez à *la Réunion*, vous devez déposer votre demande auprès de la **Préfecture à Saint-Denis**\n----|\n\n>Adresse physique: Préfecture de la Réunion - 6 rue des Messageries - 97400 Saint-Denis\n\n>Adresse postale: Préfecture de la Réunion - 6 rue des Messageries CS 51079 - 97405 Saint-Denis Cedex\nTél: 02 62 40 77 77 (permanence téléphonique: tous les jours sauf les jeudis de 13h45 à 15h15)\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : prise de rendez-vous par téléphone\n----|\nCourriel:\n[naturalisation@reunion.pref.gouv.fr](mailto:naturalisation@reunion.pref.gouv.fr).\n\nHoraire ouverture usagers: tous les jours sauf les jeudi de 13h45 à 15h15.\n\nSite internet:\nhttp://www.reunion.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "hauts-de-seine": {
+   "titres": [
+    "Hauts-de-Seine"
+   ],
+   "accueil": "Préfecture des Hauts-de-Sein 167 avenue Joliot-Curie 92000 Nanterre",
+   "adresse_postale": "Préfecture des Hauts-de-Seine - 167 avenue Joliot-Curie 92000 Nanterre",
+   "declaration": "au guichet sur rendez-vous pris sur le site https://www.hauts-de-seine.gouv.fr/Demarches-administratives/Etrangers-en-France/NATURALISATION",
+   "texte": "Vous résidez dans les *Hauts-de-Seine*, vous devez déposer votre demande auprès de la **préfecture des Hauts-de-Seine**, à Nanterre.\n----|\n\n>Adresse physique: Préfecture des Hauts-de-Sein 167 avenue Joliot-Curie 92000 Nanterre\n\n> Adresse postale: Préfecture des Hauts-de-Seine - 167 avenue Joliot-Curie 92000 Nanterre\n\nModalité de dépôts des dossiers: \n* Par **décret** via le site https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n* Par **déclaration** au guichet sur rendez-vous pris sur le site https://www.hauts-de-seine.gouv.fr/Demarches-administratives/Etrangers-en-France/NATURALISATION\n\nCourriel:\n[pref-naturalisations@hauts-de-seine.gouv.fr](mailto:pref-naturalisations@hauts-de-seine.gouv.fr)\n\n\nSite internet:\nhttp://www.hauts-de-seine.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|",
+   "declaration_url": "https://www.hauts-de-seine.gouv.fr/Demarches-administratives/Etrangers-en-France/NATURALISATION"
+  },
+  "yvelines": {
+   "titres": [
+    "Yvelines"
+   ],
+   "accueil": "Sous-Préfecture de Saint-Germain-en-Laye - Plateforme de naturalisation - 1 rue du Panorama - 78100 Saint-Germain-en-Laye",
+   "adresse_postale": "Sous-Préfecture de Saint-Germain-en-Laye - Plateforme de naturalisation - aile St Léger - 1 rue du Panorama - 78100 Saint-Germain-en-Laye",
+   "permanence": "de 14h à 16h du lundi au vendredi au 01 30 61 34 00",
+   "declaration": "sur rendez-vous pris sur le site http://www.yvelines.gouv.fr/",
+   "texte": "Vous résidez dans les *Yvelines*, vous devez déposer votre demande auprès de la **sous-préfecture de Saint-Germain-en-Laye**.\n----|\n\n>Adresse physique: Sous-Préfecture de Saint-Germain-en-Laye - Plateforme de naturalisation - 1 rue du Panorama - 78100 Saint-Germain-en-Laye.\n\n>Adresse postale: Sous-Préfecture de Saint-Germain-en-Laye - Plateforme de naturalisation - aile St Léger - 1 rue du Panorama - 78100 Saint-Germain-en-Laye.\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : sur rendez-vous pris sur le site http://www.yvelines.gouv.fr/\n\n----| \n\nCourriel:\n[pref-spsgl-naturalisation@yvelines.gouv.fr ](mailto:pref-spsgl-naturalisation@yvelines.gouv.fr)\n\nPermanence téléphonique de 14h à 16h du lundi au vendredi au 01 30 61 34 00\n\n\nSite internet:\nhttp://www.yvelines.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|",
+   "declaration_url": "http://www.yvelines.gouv.fr/"
+  },
+  "seine-saint-denis": {
+   "titres": [
+    "Seine-Saint-Denis : Bobigny"
+   ],
+   "accueil": "Préfecture de Seine-Saint-Denis - 1 esplanade Jean Moulin 93007 Bobigny Cedex",
+   "telephone": "01 84 21 27 60",
+   "declaration": "s’effectue exclusivement par la prise d’un rendez-vous par internet sur le module dédié à l’adresse suivante : https://www.seine-saint-denis.gouv.fr/Prendre-un-rendez-vous",
+   "texte": "Vous résidez en *Seine-Saint-Denis*, vous devez déposer votre demande auprès de la **préfecture de Seine-Saint-Denis**.\n----|\n\n>Adresse physique de réception des usagers naturalisation : Préfecture de Seine-Saint-Denis - 1 esplanade Jean Moulin 93007 Bobigny Cedex\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : s’effectue exclusivement par la prise d’un rendez-vous par internet sur le module dédié à l’adresse suivante :\nhttps://www.seine-saint-denis.gouv.fr/Prendre-un-rendez-vous\n\n----|\n\nPour tout renseignement, vous pouvez adresser un courriel aux deux adresses suivantes :\n* Pour une demande de naturalisation par décret :\n  * [pref-naturalisations-decret@seine-saint-denis.gouv.fr](mailto:pref-naturalisations-decret@seine-saint-denis.gouv.fr)\n* Pour une demande de naturalisation par déclaration :\n  * [pref-naturalisations-declaration@seine-saint-denis.gouv.fr](mailto:pref-naturalisations-declaration@seine-saint-denis.gouv.fr)\n\nTél: 01 84 21 27 60\n\nSite internet:\nhttps://www.seine-saint-denis.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|",
+   "declaration_url": "https://www.seine-saint-denis.gouv.fr/Prendre-un-rendez-vous"
+  },
+  "marne": {
+   "titres": [
+    "Champagne-Ardennes"
+   ],
+   "accueil": "Sous-préfecture de Reims - Place Royale -51100 Reims",
+   "adresse_postale": "Plateforme interdépartementale d'instruction des demandes de naturalisation - Place Royale - 51096 Reims Cedex",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez dans les *Ardennes*, l’*Aube*, la *Marne* ou la *Haute-Marne*, ous devez déposer votre demande auprès de la **sous-préfecture de Reims (Marne)**.\n----|\n\n>Adresse physique: Sous-préfecture de Reims - Place Royale -51100 Reims\n\n>Adresse postale: Plateforme interdépartementale d'instruction des demandes de naturalisation - Place Royale - 51096 Reims Cedex\n\nModalité de dépôts des dossier: \n\n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n----|\nCourriel:\n[pref-naturalisations@marne.gouv.fr](mailto:pref-naturalisations@marne.gouv.fr)\n\n\nSite internet:\nhttp://www.marne.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "val-doise": {
+   "titres": [
+    "Val d'Oise"
+   ],
+   "accueil": "Préfecture du Val d'Oise - 5, avenue Bernard Hirsch 95010 Cergy-Pontoise",
+   "adresse_postale": "Préfecture du Val d'Oise - 5, avenue Bernard Hirsch CS 20105 95010 Cergy-Pontoise Cedex",
+   "telephone": "01.34.20.95.95",
+   "horaires": "de 9h à 12h et de 13h15 à 16h",
+   "texte": "Vous résidez dans le *Val-d’Oise*, vous devez déposer votre demande auprès de la **préfecture du Val d’Oise**, à Cergy.\n----|\n\n>Adresse physique: Préfecture du Val d'Oise - 5, avenue Bernard Hirsch 95010 Cergy-Pontoise\n\n>Adresse postale: Préfecture du Val d'Oise - 5, avenue Bernard Hirsch CS 20105 95010 Cergy-Pontoise Cedex\nTél: 01.34.20.95.95\n\nModalité de dépôts des dossiers:\n----| \n* décret:\n  * prise de rendez-vous par internet sur module dédié via le site https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n* déclaration:\n  * par voie postale - en recommandé avec AR\n\nCourriel: [pref-naturalisations@val-doise.pref.gouv.fr](mailto:pref-naturalisations@val-doise.pref.gouv.fr)\n\nHoraires d'ouverture du service des naturalisations (accueil au public) : de 9h à 12h et de 13h15 à 16h\n\nSite internet:\nhttp://www.val-doise.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "oise": {
+   "titres": [
+    "Picardie"
+   ],
+   "accueil": "Préfecture de l'Oise - Espace Europe - 2 Avenue de l'Europe - 60022 Beauvais",
+   "adresse_postale": "Préfecture de l'Oise - Direction de la citoyenneté, des étrangers en France - Plateforme de naturalisation - 1 place de la Préfecture - 60022 Beauvais",
+   "telephone": "03.44.06.10.84",
+   "permanence": "lundi et jeudi de 14h00 à 16h00",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez dans la *Somme*, dans l’*Aisne* ou dans l’*Oise*, vous devez déposer votre demande auprès de la **préfecture de l’Oise**, à Beauvais\n----|\n\n>Adresse physique: Préfecture de l'Oise - Espace Europe - 2 Avenue de l'Europe - 60022 Beauvais\n\n>Adresse postale: Préfecture de l'Oise - Direction de la citoyenneté, des étrangers en France - Plateforme de naturalisation - 1 place de la Préfecture - 60022 Beauvais\nTél: 03.44.06.10.84 (permanence téléphonique : lundi et jeudi de 14h00 à 16h00)\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n----|\nCourriel:\n[naturalisations@oise.gouv.fr](mailto:naturalisations@oise.gouv.fr)\n\nSite internet:\nhttp://www.oise.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|\n"
+  },
+  "seine-maritime": {
+   "titres": [
+    "Haute-Normandie"
+   ],
+   "accueil": "Préfecture de la Seine-Maritime - 7 Place de la Madeleine - 76036 Rouen",
+   "adresse_postale": "Préfecture de la Seine-Maritime - Direction des migrations et de l'intégration - Plateforme interdépartementale de naturalisation - CS 16036 - 76036 Rouen Cedex",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez dans l’*Eure* ou dans la *Seine-Maritime*, vous devez déposer votre demande auprès de la **préfecture de la Seine-Maritime**, à Rouen.\n----|\n\n>Adresse physique: Préfecture de la Seine-Maritime - 7 Place de la Madeleine - 76036 Rouen\n\n>Adresse postale: Préfecture de la Seine-Maritime - Direction des migrations et de l'intégration - Plateforme interdépartementale de naturalisation - CS 16036 - 76036 Rouen Cedex\n\nModalité de dépôts des dossier: \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR  \n----|\nCourriel:\n[pref-naturalisations@seine-maritime.gouv.fr](mailto:pref-naturalisations@seine-maritime.gouv.fr)\n\nSite internet:\nhttp://www.seine-maritime.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "nord": {
+   "titres": [
+    "Nord-Pas-de-Calais"
+   ],
+   "accueil": "Préfecture du Nord - 12, rue Jean Sans Peur 59039 Lille",
+   "adresse_postale": "Préfecture du Nord - Plateforme interdépartementale de naturalisation - 12, rue Jean Sans Peur CS 20003 - 59039 Lille Cedex",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez dans le *Nord* ou dans le *Pas-de-Calais*, vous devez déposer votre demande auprès de la **préfecture du Nord**, à Lille.\n----|\n\n> Adresse physique: Préfecture du Nord - 12, rue Jean Sans Peur 59039 Lille\n\n> Adresse postale: Préfecture du Nord - Plateforme interdépartementale de naturalisation - 12, rue Jean Sans Peur CS 20003 - 59039 Lille Cedex\n\nModalité de dépôts des dossier:\n\n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n----|\n\nCourriel: [pref-naturalisations@nord.gouv.fr](mailto:pref-naturalisations@nord.gouv.fr)\n\nSite internet:\nhttp://www.nord.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "puy-de-dome": {
+   "titres": [
+    "Auvergne"
+   ],
+   "accueil": "Préfecture du Puy de Dôme - 1, rue d'Assas 63033 Clermont-Ferrand",
+   "adresse_postale": "Préfecture du Puy-de-Dôme - Plate-forme de la naturalisation - 18 boulevard Desaix 63033 Clermont-Ferrand Cedex 01",
+   "telephone": "04.73.98.61.61",
+   "permanence": "mardi de 14h00 à 16h00, jeudi de 9h00 à 12h00",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez dans l’*Allier*, dans le *Cantal*, dans la *Haute-Loire*, ou dans le *Puy-de-Dôme*, vous devez déposer votre demande auprès de la **préfecture du Puy-de-Dôme**, à Clermont-Ferrand.\n----|\n\n>Adresse physique: Préfecture du Puy de Dôme - 1, rue d'Assas 63033 Clermont-Ferrand\n\n>Adresse postale: Préfecture du Puy-de-Dôme - Plate-forme de la naturalisation - 18 boulevard Desaix 63033 Clermont-Ferrand Cedex 01\nTél: 04.73.98.61.61 (permanence téléphonique: mardi de 14h00 à 16h00, jeudi de 9h00 à 12h00)\n\nModalité de dépôts des dossier: \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n\n----|\nCourriel:\n[pref-naturalisations@puy-de-dome.gouv.fr](mailto:pref-naturalisations@puy-de-dome.gouv.fr)\n\nSite internet:\nhttp://www.puy-de-dome.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "haute-vienne": {
+   "titres": [
+    "Limousin"
+   ],
+   "accueil": "Préfecture de la Haute-Vienne - 12, rue des Combes 87000 Limoges",
+   "adresse_postale": "Préfecture de la Haute-Vienne - Plateforme de naturalisation - BP 87031 - 87031 Limoges Cedex 1",
+   "telephone": "05.55.44.18.00",
+   "permanence": "mardi et vendredi de 9h00 à 12h00",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez dans la *Corrèze*, la *Creuse* ou la *Haute-Vienne*, vous devez déposer votre demande auprès de la **préfecture de la Haute-Vienne**, à Limoges.\n----|\n\n>Adresse physique: Préfecture de la Haute-Vienne - 12, rue des Combes 87000 Limoges\n\n>Adresse postale: Préfecture de la Haute-Vienne - Plateforme de naturalisation - BP 87031 - 87031 Limoges Cedex 1\nTél: 05.55.44.18.00 (permanence téléphonique: mardi et vendredi de 9h00 à 12h00)\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n----|\nCourriel:\n[pref-naturalisations@haute-vienne.gouv.fr](mailto:pref-naturalisations@haute-vienne.gouv.fr)\n\naccueil général de la préfecture : lundi – mardi – jeudi – vendredi de 8h30 à 12h00 et de 13h30 à 16h00\n\nSite internet:\nhttp://www.haute-vienne.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "essonne": {
+   "titres": [
+    "Essonne"
+   ],
+   "accueil": "Préfecture de l'Essonne - Boulevard de France 91010 Evry",
+   "adresse_postale": "Préfecture de l'Essonne - Cité administrative - Boulevard de France CS10701 - 91010 Evry Cedex",
+   "declaration": "sur rendez-vous pris sur le site https://www.essonne.gouv.fr/booking/create/23014/",
+   "texte": "Vous résidez dans l’*Essonne*, vous devez déposer votre demande auprès de la préfecture de l’Essonne, à Évry.\n----|\n\n>Adresse physique: Préfecture de l'Essonne - Boulevard de France 91010 Evry\n\n>Adresse postale: Préfecture de l'Essonne - Cité administrative - Boulevard de France CS10701 - 91010 Evry Cedex\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : sur rendez-vous pris sur le site https://www.essonne.gouv.fr/booking/create/23014/\n----|\nCourriel:\n[pref-naturalisations@essonne.gouv.fr](mailto:pref-naturalisations@essonne.gouv.fr)\n\nSite internet:\nhttp://www.essonne.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|\n",
+   "declaration_url": "https://www.essonne.gouv.fr/booking/create/23014/"
+  },
+  "val-de-marne": {
+   "titres": [
+    "Val-de-Marne"
+   ],
+   "accueil": "Préfecture du Val-de-Marne - 21-29 avenue du Général de Gaulle 94000 Créteil",
+   "adresse_postale": "Préfecture du Val-de-Marne - 21-29 avenue du Général de Gaulle 94038 Créteil Cedex",
+   "declaration": "prise de rendez-vous par internet sur le module dédié https://www.val-de-marne.gouv.fr/booking/create/4963",
+   "texte": "Vous résidez dans le *Val-de-Marne*, vous devez déposer votre demande auprès de la **préfecture du Val-de-Marne**, à Créteil.\n----|\n\n>Adresse physique: Préfecture du Val-de-Marne - 21-29 avenue du Général de Gaulle 94000 Créteil\n\n>Adresse postale: Préfecture du Val-de-Marne - 21-29 avenue du Général de Gaulle 94038 Créteil Cedex\n\nModalité de dépôts des dossier: \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **par déclaration** : prise de rendez-vous par internet sur le module dédié https://www.val-de-marne.gouv.fr/booking/create/4963\n\n----|\n\nCourriel:\n[pref-naturalisations@val-de-marne.gouv.fr](mailto:pref-naturalisations@val-de-marne.gouv.fr)\n\nSite internet:\nhttp://www.val-de-marne.gouv.fr\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|",
+   "declaration_url": "https://www.val-de-marne.gouv.fr/booking/create/4963"
+  },
+  "prefecture-de-police": {
+   "titres": [
+    "Paris"
+   ],
+   "adresse_postale": "Préfecture de Police - Direction de la police générale - 1er Bureau - Naturalisations - 1 bis rue de Lutèce - 75195 PARIS CEDEX 04",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez à *Paris*, vous devez déposer votre demande auprès de la **préfecture de Police de Paris**, à Paris\n----|\n\n> Adresse postale: Préfecture de Police - Direction de la police générale - 1er Bureau - Naturalisations - 1 bis rue de Lutèce - 75195 PARIS CEDEX 04\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n----|\nCourriel:\n[pp-dpg-naturalisation@interieur.gouv.fr](mailto:pp-dpg-naturalisation@interieur.gouv.fr)\n\nSite internet:\nhttps://www.prefecturedepolice.interieur.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|\n"
+  },
+  "seine-et-marne": {
+   "titres": [
+    "Seine-et-Marne"
+   ],
+   "accueil": "Sous-préfecture de Torcy - Service de naturalisation - 7, rue Gérard Philipe - 77204 Torcy MLV",
+   "adresse_postale": "Sous-préfecture de Torcy - Service de naturalisation - 7, rue Gérard Philipe - 77204 TORCY MLV Cedex 1",
+   "declaration": "sur rendez-vous pris sur le site https://www.seine-et-marne.gouv.fr/booking/create/48803",
+   "texte": "Vous résidez en *Seine-et-Marne*, vous devez déposer votre demande auprès de la **sous-préfecture de Torcy**, à Torcy.\n----|\n\n>Adresse physique: Sous-préfecture de Torcy - Service de naturalisation - 7, rue Gérard Philipe - 77204 Torcy MLV\n\n>Adresse postale: Sous-préfecture de Torcy - Service de naturalisation - 7, rue Gérard Philipe - 77204 TORCY MLV Cedex 1\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : sur rendez-vous pris sur le site https://www.seine-et-marne.gouv.fr/booking/create/48803\n----|\nCourriel:\n[sp-naturalisation-torcy@seine-et-marne.gouv.fr](mailto:sp-naturalisation-torcy@seine-et-marne.gouv.fr)\n\n\nSite internet:\nhttp://www.seine-et-marne.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|",
+   "declaration_url": "https://www.seine-et-marne.gouv.fr/booking/create/48803"
+  },
+  "herault": {
+   "titres": [
+    "Languedoc-Roussillon"
+   ],
+   "accueil": "Préfecture de l'Hérault - Place des Martyrs de la Résistance - 34062 Montpellier Cedex 2",
+   "adresse_postale": "Préfecture de l'Hérault - 34 Place des Martyrs de la Résistance",
+   "declaration": "exclusivement par dépôt au guichet de la préfecture de l'Hérault. Les rendez-vous sont accessibles via le site internet des services de l’État : https://www.herault.gouv.fr/ , rubrique « prendre rendez-vous »",
+   "texte": "Vous résidez dans l’*Aude*, le *Gard*, l’*Hérault*, la *Lozère* ou les *Pyrénées-Orientales*, vous devez déposer votre demande auprès de la **préfecture de l’Hérault**, à Montpellier.\n----|\n\n>Adresse physique: Préfecture de l'Hérault - Place des Martyrs de la Résistance - 34062 Montpellier Cedex 2\n\n>Adresse postale: Préfecture de l'Hérault - 34 Place des Martyrs de la Résistance \n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : exclusivement par dépôt au guichet de la préfecture de l'Hérault. Les rendez-vous sont accessibles via le site internet des services de l’État : https://www.herault.gouv.fr/ , rubrique « prendre rendez-vous ».\"\n----|\nCourriel:\n[pref-naturalisations@herault.gouv.fr](mailto:pref-naturalisations@herault.gouv.fr)\n\nSite internet:\nhttp://www.herault.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|",
+   "declaration_url": "https://www.herault.gouv.fr/"
+  },
+  "haute-garonne": {
+   "titres": [
+    "Midi-Pyrénées"
+   ],
+   "accueil": "Préfecture de la Haute-Garonne - 1 rue Sainte Anne 31038 Toulouse",
+   "adresse_postale": "Préfecture de la Haute-Garonne - Direction des migrations et de l'intégration - Bureau de la naturalisation - 1 rue Saint Anne - 31038 TOULOUSE CEDEX 09",
+   "declaration": "par envoi postal à l'adresse suivante : \"préfecture de Haute-Garonne, DMI-NATURALISATIONS, 1 place Saint-Etienne, 31 038 TOULOUSE CEDEX 9",
+   "texte": "Vous résidez dans l’*Ariège*, dans l’*Aveyron*, en *Haute-Garonne*, dans le *Gers*, dans le *Lot*, en *Hautes-Pyrénées*, dans le *Tarn* ou dans le *Tarn-et-Garonne*, vous devez déposer votre demande auprès de la **préfecture de Haute-Garonne**, à Toulouse.\n----|\n\n>Adresse physique: Préfecture de la Haute-Garonne - 1 rue Sainte Anne 31038 Toulouse\n\n>Adresse postale: Préfecture de la Haute-Garonne - Direction des migrations et de l'intégration - Bureau de la naturalisation - 1 rue Saint Anne - 31038 TOULOUSE CEDEX 09\n\nModalité de dépôts des dossiers:\n* Par décret : \"via le site https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n* Par déclaration : par envoi postal à l'adresse suivante : \"préfecture de Haute-Garonne, DMI-NATURALISATIONS, 1 place Saint-Etienne, 31 038 TOULOUSE CEDEX 9\"\n\nCourriel:\n[pref-naturalisations@haute-garonne.gouv.fr](mailto:pref-naturalisations@haute-garonne.gouv.fr)\n\nSite internet:\nhttp://www.haute-garonne.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "rhone": {
+   "titres": [
+    "Rhône-Alpes I"
+   ],
+   "accueil": "Préfecture du Rhône - 97, rue Molière - 69003 Lyon",
+   "adresse_postale": "Préfecture du Rhône - Plateforme de naturalisation - 69419 Lyon Cedex 03",
+   "telephone": "04.72.61.61.61",
+   "declaration": "pour toutes informations sur les modalités de dépôt de votre demande, vous devez consulter le site internet de la préfecture du Rhône. http://www.rhone.gouv.fr/Demarches-administratives/Nationalite-francaise#!/Particuliers/page/N111",
+   "texte": "Vous résidez dans l’*Ain*, l’*Ardèche*, la *Loire*, ou dans le *Rhône*, vous devez déposer votre demande auprès de la **préfecture du Rhône**, à Lyon.\n----|\n\n>Adresse physique: Préfecture du Rhône - 97, rue Molière - 69003 Lyon\n\n>Adresse postale: Préfecture du Rhône - Plateforme de naturalisation - 69419 Lyon Cedex 03\nTél : 04.72.61.61.61\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : pour toutes informations sur les modalités de dépôt de votre demande, vous devez consulter le site internet de la préfecture du Rhône.\nhttp://www.rhone.gouv.fr/Demarches-administratives/Nationalite-francaise#!/Particuliers/page/N111                                              \n\nCourriel:\n[pref-naturalisation@rhone.gouv.fr](mailto:pref-naturalisation@rhone.gouv.fr)\n\nSite internet:\nhttp://www.rhone.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|",
+   "declaration_url": "http://www.rhone.gouv.fr/Demarches-administratives/Nationalite-francaise#!/Particuliers/page/N111"
+  },
+  "loire-atlantique": {
+   "titres": [
+    "Pays-de-Loire",
+    "Pays de Loire"
+   ],
+   "accueil": "Préfecture de Loire-Atlantique - 6 quai Ceineray - 44000 Nantes",
+   "adresse_postale": "Préfecture de Loire-Atlantique - Plateforme de naturalisation - dépôt de dossier - 6 quai Ceineray - BP 33515 44035 Nantes",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez dans la *Loire-Atlantique*, dans le *Maine-et-Loire*, la *Mayenne*, la *Sarthe* ou dans la *Vendée*, vous devez déposer votre demande auprès de la **préfecture de la Loire-Atlantique**, à Nantes.\n----|\n\n>Adresse physique: Préfecture de Loire-Atlantique - 6 quai Ceineray - 44000 Nantes\n\n>Adresse postale: Préfecture de Loire-Atlantique - Plateforme de naturalisation - dépôt de dossier - 6 quai Ceineray - BP 33515 44035 Nantes\n\nModalité de dépôts des dossier :\n\n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n\n----|\nCourriel:\n[pref-naturalisations@loire-atlantique.gouv.fr](mailto:pref-naturalisations@loire-atlantique.gouv.fr)\n\nSite internet:\nhttp://www.loire-atlantique.gouv.fr\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "indre-et-loire": {
+   "titres": [
+    "Centre"
+   ],
+   "accueil": "Préfecture d'Indre-et-Loire - 15 rue Bernard Palissy 37000 Tours",
+   "adresse_postale": "Préfecture d'Indre-et-Loire - Plateforme de la naturalisation Région Centre-Val de Loire - 37925 Tours Cedex 9",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez dans le *Cher*, l’*Eure-et-Loir*, le *Loir-et-Cher*, le *Loiret*, l'*Indre* ou l'*Indre-et-Loire* vous devez déposer votre demande auprès de la **préfecture de l’Indre-et-Loire**, à Tours.\n----|\n\n>Adresse physique: Préfecture d'Indre-et-Loire - 15 rue Bernard Palissy 37000 Tours\n\n>Adresse postale: Préfecture d'Indre-et-Loire - Plateforme de la naturalisation Région Centre-Val de Loire - 37925 Tours Cedex 9\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n----|\nCourriel: \n[pref-naturalisations@indre-et-loire.gouv.fr](mailto:pref-naturalisations@indre-et-loire.gouv.fr)\n\nSite internet:\nhttp://www.indre-et-loire.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "ille-et-vilaine": {
+   "titres": [
+    "Bretagne"
+   ],
+   "accueil": "Préfecture de l'Ille-et-Vilaine - 3 avenue de la Préfecture - 35000 Rennes",
+   "adresse_postale": "Préfecture d'Ille-et-Vilaine - Plateforme régionale de naturalisation de Bretagne - 3 avenue de la Préfecture - 35026 Rennes Cedex 9",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez dans les *Côtes-d’Armor*, le *Finistère*, l’*Ille-et-Vilaine* ou le *Morbihan*, vous devez déposer votre demande auprès de la **préfecture de l’Ille-et-Vilaine**, à Rennes.\n----|\n\n>Adresse physique: Préfecture de l'Ille-et-Vilaine - 3 avenue de la Préfecture - 35000 Rennes\n\n>Adresse postale: Préfecture d'Ille-et-Vilaine - Plateforme régionale de naturalisation de Bretagne - 3 avenue de la Préfecture - 35026 Rennes Cedex 9\n\nModalité de dépôts des dossiers\n* Par décret via le site https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n* Par déclaration : par voie postale en recommandé avec AR  \n\nCourriel:\n[pref-naturalisations@ille-et-vilaine.gouv.fr](mailto:pref-naturalisations@ille-et-vilaine.gouv.fr)\n\nSite internet:\nhttp://www.ille-et-vilaine.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "calvados": {
+   "titres": [
+    "Basse-Normandie"
+   ],
+   "accueil": "Préfecture du Calvados - Centre administratif - rue Daniel Huet - 14000 Caen",
+   "adresse_postale": "Préfecture du Calvados - Service de l'immigration et de l'intégration - rue Daniel Huet - 14038 Caen Cedex 9",
+   "telephone": "02.31.30.64.00",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez dans le *Calvados*, la *Manche* ou l’*Orne*, vous devez déposer votre demande auprès de la **préfecture du Calvados**, à Caen.\n----|\n\n>Adresse physique: Préfecture du Calvados - Centre administratif - rue Daniel Huet - 14000 Caen\n\n>Adresse postale: Préfecture du Calvados - Service de l'immigration et de l'intégration - rue Daniel Huet - 14038 Caen Cedex 9\nTél: 02.31.30.64.00\n\nModalité de dépôts des dossier: \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n----|\nCourriel:\n[pref-naturalisations@calvados.gouv.fr](mailto:pref-naturalisations@calvados.gouv.fr)\n\nSite internet:\nhttp://www.calvados.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "gironde": {
+   "titres": [
+    "Aquitaine"
+   ],
+   "accueil": "Préfecture de la Gironde - rue Claude Bonnier - 33000 Bordeaux",
+   "adresse_postale": "Préfecture de la Gironde - Direction des migrations et de l'intégration - Plateforme interdépartementale de la naturalisation - 2, esplanade Charles de Gaulle CS41397 - 33077 Bordeaux Cedex",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez en *Dordogne*, en *Gironde*, dans les *Landes*, dans le *Lot-et-Garonne* ou en *Pyrénées-Atlantiques*, vous devez déposer votre demande auprès de la **préfecture de Gironde**, à Bordeaux.\n----|\n\n> Adresse physique: Préfecture de la Gironde - rue Claude Bonnier - 33000 Bordeaux\n\n>Adresse postale: Préfecture de la Gironde - Direction des migrations et de l'intégration - Plateforme interdépartementale de la naturalisation - 2, esplanade Charles de Gaulle CS41397 - 33077 Bordeaux Cedex\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n----|\nCourriel:\n[pref-naturalisations@gironde.gouv.fr](mailto:pref-naturalisations@gironde.gouv.fr)\n\nSite internet:\nhttp://www.gironde.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "deux-sevres": {
+   "titres": [
+    "Poitou-Charentes"
+   ],
+   "accueil": "Préfecture des Deux-Sèvres - 4 rue Duguesclin - 79000 Niort",
+   "adresse_postale": "Préfecture des Deux-Sèvres - Direction des élections, de l'immigration et de l'intégration - Plateforme interdépartementale d'instruction des demandes de naturalisation - BP 70000 79099 Niort Cedex 9",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez en *Charente*, en *Charente-Maritime*, dans les *Deux-Sèvres*, ou dans la *Vienne*, vous devez déposer votre demande auprès de la **préfecture des Deux-Sèvres**, à Niort.\n----| \n\n>Adresse physique: Préfecture des Deux-Sèvres - 4 rue Duguesclin - 79000 Niort\n\n>Adresse postale: Préfecture des Deux-Sèvres - Direction des élections, de l'immigration et de l'intégration - Plateforme interdépartementale d'instruction des demandes de naturalisation - BP 70000 79099 Niort Cedex 9 \n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n----|\nCourriel:\n[pref-naturalisations@deux-sevres.gouv.fr](mailto:pref-naturalisations@deux-sevres.gouv.fr)\n\nSite internet:\nhttp://www.deux-sevres.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "guyane": {
+   "titres": [
+    "Cayenne",
+    "Guyane"
+   ],
+   "accueil": "Préfecture de la Guyane - rue Fiedmond - 97300 Cayenne",
+   "adresse_postale": "Préfecture de la Guyane - DI - Naturalisation CS 57008 9307 Cayenne Cedex",
+   "texte": "Vous résidez en *Guyane*, vous devez déposer votre demande auprès de la **Préfecture de la Guyane**\n----|\n\n>Adresse physique: Préfecture de la Guyane - rue Fiedmond - 97300 Cayenne\n\n>Adresse postale: Préfecture de la Guyane - DI - Naturalisation CS 57008 9307 Cayenne Cedex\n\nModalité de dépôts des dossier: au guichet sur rendez-vous pris sur le site https://www.guyane.gouv.fr/booking/create/18974\n----|\nCourriel:\n[pref973-naturalisation@guyane.pref.gouv.fr](mailto:pref973-naturalisation@guyane.pref.gouv.fr)\n\n\nSite internet:\nhttp://www.guyane.gouv.fr\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  },
+  "martinique": {
+   "titres": [
+    "Martinique",
+    "Fort-de-France"
+   ],
+   "accueil": "Préfecture de la Martinique - rue Louis Blanc - 97200 Fort-de-France",
+   "adresse_postale": "Préfecture de la Martinique - Direction de la règlementation, de la citoyenneté et de l'immigration - Bureau des migrations et de l'intégration - Section de la naturalisation - 82 rue Victor Sévère BP 647/648 97200 Fort-de-France",
+   "telephone": "05 96 39 36 00",
+   "permanence": "lundi, mardi et jeudi de 14h30 à 16h00",
+   "horaires": "du lundi au vendredi de 8h à 12h",
+   "declaration": "par voie postale en recommandé avec AR",
+   "texte": "Vous résidez à la *Martinique*, vous devez déposer votre demande auprès de la **Préfecture à Fort de France**\n----|\n\n>Adresse physique: Préfecture de la Martinique - rue Louis Blanc - 97200 Fort-de-France\n\n>Adresse postale: Préfecture de la Martinique - Direction de la règlementation, de la citoyenneté et de l'immigration - Bureau des migrations et de l'intégration - Section de la naturalisation - 82 rue Victor Sévère BP 647/648 97200 Fort-de-France\nTél: 05 96 39 36 00 (permanence téléphonique: lundi, mardi et jeudi de 14h30 à 16h00)\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : par voie postale en recommandé avec AR\n----|\nHoraire ouverture usagers: du lundi au vendredi de 8h à 12h\n\nCourriel:\n[naturalisations-depotdedossiers@martinique.gouv.fr](mailto:naturalisations-depotdedossiers@martinique.gouv.fr)\n\nSite internet:\nhttp://www.martinique.gouv.fr\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|\n"
+  },
+  "guadeloupe": {
+   "titres": [
+    "Guadeloupe"
+   ],
+   "accueil": "Sous-préfecture de Pointe-à-Pitre - Place de la Victoire - 97110 Pointe-à-Pitre",
+   "adresse_postale": "Sous-préfecture de Pointe-à-Pitre - Pôle départemental de l'immigration et de l'intégration - Section Intégration Plateforme de naturalisation - Place de la Victoire - 97110 Pointe-à-Pitre",
+   "telephone": "05 90 82 68 68",
+   "horaires": "lundi, mardi et jeudi, de 08h30 à 11h30",
+   "declaration": "sur rendez-vous les lundi, mardi et jeudi de 8h30 à 11h30",
+   "texte": "Vous résidez en *Guadeloupe*, *Saint-Barthélemy* ou *Saint-Martin*, vous devez déposer votre demande auprès de la **Sous-préfecture de Pointe-à-Pitre**.\n----|\n\n>Adresse physique: Sous-préfecture de Pointe-à-Pitre - Place de la Victoire - 97110 Pointe-à-Pitre\n\n>Adresse postale: Sous-préfecture de Pointe-à-Pitre - Pôle départemental de l'immigration et de l'intégration - Section Intégration Plateforme de naturalisation - Place de la Victoire - 97110 Pointe-à-Pitre\nTél: 05 90 82 68 68\n\nModalité de dépôts des dossier:\n \n> **Par décret** via le site : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/\n\n> **Par déclaration** : sur rendez-vous les lundi, mardi et jeudi de 8h30 à 11h30\n----|\n\nCourriel:\n[naturalisations@guadeloupe.pref.gouv.fr](mailto:naturalisations@guadeloupe.pref.gouv.fr)\n\nHoraire ouverture usagers: lundi, mardi et jeudi, de 08h30 à 11h30\n\nSite internet:\nhttp://www.guadeloupe.gouv.fr/\n\nhttps://www.service-public.fr/particuliers/vosdroits/N111\n----|"
+  }
+ }
+}

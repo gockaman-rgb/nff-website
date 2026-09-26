@@ -1,0 +1,742 @@
+{
+ "version": 1,
+ "checkedOn": "2026-09-21",
+ "listSource": "https://macarte.ign.fr/carte/e33e5b949d3c8ff991adc1c67aa0b28c/Plateformes-Naturalisation",
+ "listSourceNote": "Carte interactive officielle des plateformes d'accès à la nationalité française, publiée par le Webmestre DGEF (ministère de l'Intérieur) et liée depuis https://www.immigration.interieur.gouv.fr/devenir-francais/procedures-dacces-a-nationalite-francaise (« Pour aider les usagers, une carte interactive est disponible pour connaître les coordonnées des plateformes et les modalités de dépôt du dossier »). Données de la carte mises à jour le 2025-10-03. Recoupées entreprise par entreprise avec l'annuaire officiel lannuaire.service-public.gouv.fr (API api-lannuaire-administration) et, pour les cas douteux, avec le site de la préfecture concernée. Aucun arrêté publiant la liste n'a été trouvé sur Légifrance : l'arrêté du 30 juillet 2021 modifié ne fixe que le calendrier de déploiement des téléprocédures, pas la liste des plateformes.",
+ "ministry": {
+  "name": "Ministère de l'Intérieur — Sous-direction de l'accès à la nationalité française",
+  "postalAddress": "Ministère de l'Intérieur\nSous-direction de l'accès à la nationalité française (SDANF)\n12 rue Francis Le Carval\n44404 Rezé Cedex",
+  "email": "sdanf-accueil@interieur.gouv.fr",
+  "contactChannel": "post",
+  "contactURL": "https://contacts-demarches.interieur.gouv.fr",
+  "sourceURL": "https://lannuaire.service-public.gouv.fr/gouvernement/09d60885-eab2-49df-b4ef-8b841734452d",
+  "note": "Adresse postale confirmée par l'annuaire officiel de l'administration (fiche SDANF, mise à jour le 09/09/2026) : « 12 rue Francis-le-Carval, 44404 Rezé Cedex ». L'adresse physique des bureaux est Immeuble Le Garance, 18-20 rue des Pyrénées, 75020 Paris, mais la fiche précise « Ce service ne reçoit pas de public ». Téléphone 02 40 84 46 00, télécopie 02 40 32 32 75. L'adresse sdanf-accueil@interieur.gouv.fr est la boîte générique publiée pour la sous-direction ; AUCUNE page officielle ne la désigne comme la voie de dépôt d'un RAPO. La page officielle du contentieux (https://www.immigration.interieur.gouv.fr/devenir-francais/contentieux-de-lacces-a-nationalite-francaise) indique seulement que le RAPO doit être formé « auprès du ministère de l'Intérieur » et ne publie ni adresse postale ni courriel. Pour un RAPO, privilégier le courrier recommandé avec AR à l'adresse de Rezé (délai 2 mois) ; le tribunal administratif de Nantes est ensuite seul compétent. La saisine par voie électronique (SVE) déclarée pour ce service est https://contacts-demarches.interieur.gouv.fr."
+ },
+ "platforms": [
+  {
+   "id": "prefecture-de-police",
+   "name": "Préfecture de police",
+   "platformLabel": "Plateforme de naturalisation - Paris",
+   "departements": [
+    "75"
+   ],
+   "postalAddress": "Préfecture de police\nDirection de la police générale - 1er bureau - Naturalisations\n1 bis rue de Lutèce\n75195 Paris Cedex 04",
+   "email": "pp-dpg-naturalisation@interieur.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/ile-de-france/paris/fe03148c-ac19-4ee3-ae43-51f391bf980c",
+   "confidence": "high",
+   "note": "Même courriel et même adresse dans les deux sources officielles (annuaire service-public, maj 24/10/2024 ; carte DGEF). Dépôt par décret sur l'ANEF ; par déclaration, envoi postal en recommandé avec AR."
+  },
+  {
+   "id": "hauts-de-seine",
+   "name": "Préfecture des Hauts-de-Seine",
+   "platformLabel": "Plateforme de naturalisation - Hauts-de-Seine",
+   "departements": [
+    "92"
+   ],
+   "postalAddress": "Préfecture des Hauts-de-Seine\n167 avenue Joliot-Curie\n92000 Nanterre",
+   "email": "pref-naturalisations@hauts-de-seine.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": "https://www.hauts-de-seine.gouv.fr/Demarches-administratives/Etrangers-en-France/NATURALISATION",
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/ile-de-france/hauts-de-seine/aa9eac31-ddd9-4602-9f63-2339bbf86147",
+   "confidence": "high",
+   "note": "Courriel concordant entre l'annuaire officiel et la carte DGEF. Aucune adresse postale distincte (pas de cedex) n'est publiée : les deux sources donnent la même adresse pour l'accueil et le courrier. Déclaration : dépôt au guichet sur rendez-vous."
+  },
+  {
+   "id": "seine-saint-denis",
+   "name": "Préfecture de la Seine-Saint-Denis",
+   "platformLabel": "Plateforme de naturalisation - Seine-Saint-Denis",
+   "departements": [
+    "93"
+   ],
+   "postalAddress": "Préfecture de la Seine-Saint-Denis\nDirection des étrangers et des naturalisations\n1 esplanade Jean-Moulin\n93007 Bobigny Cedex",
+   "email": "pref-naturalisations-decret@seine-saint-denis.gouv.fr",
+   "genericEmail": "prefecture@seine-saint-denis.gouv.fr",
+   "contactChannel": "email",
+   "contactURL": "https://www.seine-saint-denis.gouv.fr/Nous-contacter",
+   "sourceURL": "https://www.seine-saint-denis.gouv.fr/Demarches/Etrangers/Naturalisation/Naturalisation-par-decret",
+   "confidence": "high",
+   "note": "Courriel vérifié directement sur la page « Naturalisation par décret » du site de la préfecture (lien mailto présent dans la page, consulté le 21/09/2026) : c'est bien la boîte DÉCRET. Pour les déclarations, la préfecture publie une boîte distincte pref-naturalisations-declaration@seine-saint-denis.gouv.fr — ne pas l'utiliser pour un dossier par décret. genericEmail = boîte générique de la préfecture (annuaire officiel, maj 16/07/2026)."
+  },
+  {
+   "id": "val-de-marne",
+   "name": "Préfecture du Val-de-Marne",
+   "platformLabel": "Plateforme de naturalisation - Val-de-Marne",
+   "departements": [
+    "94"
+   ],
+   "postalAddress": "Préfecture du Val-de-Marne\n21-29 avenue du Général-de-Gaulle\n94038 Créteil Cedex",
+   "email": "pref-naturalisations@val-de-marne.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/ile-de-france/val-de-marne/a0b2a272-f38d-42c7-8135-a3ea2d915e12",
+   "confidence": "high",
+   "note": "Courriel et adresse concordants entre l'annuaire officiel et la carte DGEF."
+  },
+  {
+   "id": "val-doise",
+   "name": "Préfecture du Val-d'Oise",
+   "platformLabel": "Plateforme de naturalisation - Val-d'Oise",
+   "departements": [
+    "95"
+   ],
+   "postalAddress": "Préfecture du Val-d'Oise\n5 avenue Bernard-Hirsch\nCS 20105\n95010 Cergy-Pontoise Cedex",
+   "email": "pref-naturalisations@val-doise.pref.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/ile-de-france/val-d-oise/afe1412d-b2aa-4bb1-85d9-3e257cb16e98",
+   "confidence": "medium",
+   "note": "Courriel identique dans les deux sources officielles, MAIS il utilise le domaine historique « val-doise.pref.gouv.fr » alors que le site de la préfecture est val-doise.gouv.fr. Fiche annuaire mise à jour le 28/08/2024. À retester avant tout envoi automatisé : les domaines .pref.gouv.fr ont été massivement migrés."
+  },
+  {
+   "id": "essonne",
+   "name": "Préfecture de l'Essonne",
+   "platformLabel": "Plateforme de naturalisation - Essonne",
+   "departements": [
+    "91"
+   ],
+   "postalAddress": "Préfecture de l'Essonne\nCité administrative\nBoulevard de France\nCS 10701\n91010 Évry Cedex",
+   "email": "pref-naturalisations@essonne.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/ile-de-france/essonne/ce4fa6fa-d9d4-45e0-876a-02f30eae25ab",
+   "confidence": "high",
+   "note": "Courriel concordant. Divergence mineure sur la boîte postale : la carte DGEF écrit « CS 10701 », l'annuaire écrit « CS 107701 » (6 chiffres, probable coquille). CS 10701 retenu."
+  },
+  {
+   "id": "yvelines",
+   "name": "Sous-préfecture de Saint-Germain-en-Laye (préfecture des Yvelines)",
+   "platformLabel": "Plateforme de naturalisation - Yvelines",
+   "departements": [
+    "78"
+   ],
+   "postalAddress": "Sous-préfecture de Saint-Germain-en-Laye\nPlateforme de naturalisation - aile Saint-Léger\n1 rue du Panorama\n78100 Saint-Germain-en-Laye",
+   "email": "pref-spsgl-naturalisation@yvelines.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/ile-de-france/yvelines/0e4c365e-ac04-4e94-bff9-0ac41cf65d64",
+   "confidence": "high",
+   "note": "La plateforme des Yvelines est hébergée par la SOUS-préfecture de Saint-Germain-en-Laye, pas par la préfecture de Versailles. Courriel concordant entre les deux sources. Aucun cedex publié. Permanence téléphonique 01 30 61 34 00, 14h-16h du lundi au vendredi."
+  },
+  {
+   "id": "seine-et-marne",
+   "name": "Sous-préfecture de Torcy (préfecture de Seine-et-Marne)",
+   "platformLabel": "Plateforme de naturalisation - Seine-et-Marne",
+   "departements": [
+    "77"
+   ],
+   "postalAddress": "Sous-préfecture de Torcy\nService de la naturalisation\n7 rue Gérard-Philipe\n77204 Torcy Cedex 1",
+   "email": "sp-naturalisation-torcy@seine-et-marne.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/ile-de-france/seine-et-marne/76c40278-6908-4065-b7ec-033768cba957",
+   "confidence": "high",
+   "note": "Plateforme hébergée par la sous-préfecture de Torcy. Courriel concordant ; fiche annuaire mise à jour le 26/09/2025."
+  },
+  {
+   "id": "meurthe-et-moselle",
+   "name": "Préfecture de Meurthe-et-Moselle",
+   "platformLabel": "Plateforme interdépartementale de naturalisation - Nancy",
+   "departements": [
+    "54",
+    "55",
+    "57",
+    "88"
+   ],
+   "postalAddress": "Préfecture de Meurthe-et-Moselle\nPlateforme interdépartementale de naturalisation\n1 rue du Préfet-Claude-Érignac\nCS 60031\n54038 Nancy Cedex",
+   "email": "pref-naturalisations@meurthe-et-moselle.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": "https://www.meurthe-et-moselle.gouv.fr/Nous-contacter",
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/grand-est/meurthe-et-moselle/e6a06cc8-f1d0-42c1-ad5a-09858b55e10f",
+   "confidence": "high",
+   "note": "Couvre la Lorraine (54, 55, 57, 88). Courriel concordant ; fiche annuaire mise à jour le 21/10/2025. Accueil physique au 6 rue Sainte-Catherine à Nancy. Permanence téléphonique 03 83 34 22 13 (lundi, mardi, jeudi 8h30-11h30)."
+  },
+  {
+   "id": "marne",
+   "name": "Sous-préfecture de Reims (préfecture de la Marne)",
+   "platformLabel": "Plateforme interdépartementale d'instruction des demandes de naturalisation",
+   "departements": [
+    "08",
+    "10",
+    "51",
+    "52"
+   ],
+   "postalAddress": "Plateforme interdépartementale d'instruction des demandes de naturalisation\nSous-préfecture de Reims\nPlace Royale\n51096 Reims Cedex",
+   "email": "pref-naturalisations@marne.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/grand-est/marne/48b82839-d389-4066-8045-d2d3a78a73f6",
+   "confidence": "high",
+   "note": "Couvre la Champagne-Ardenne (08, 10, 51, 52). Plateforme hébergée par la SOUS-préfecture de Reims, pas par la préfecture de Châlons-en-Champagne. Courriel concordant ; fiche annuaire mise à jour le 16/02/2026."
+  },
+  {
+   "id": "bas-rhin",
+   "name": "Préfecture du Bas-Rhin",
+   "platformLabel": "Plateforme régionale de naturalisation (Alsace)",
+   "departements": [
+    "67",
+    "68"
+   ],
+   "postalAddress": "Préfecture du Bas-Rhin\nPlateforme régionale de naturalisation\n5 place de la République\n67073 Strasbourg Cedex",
+   "email": "pref-naturalisation@bas-rhin.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/grand-est/bas-rhin/18815ac5-b0c0-48e5-b975-281e62f8f8b6",
+   "confidence": "high",
+   "note": "Attention : courriel au SINGULIER (pref-naturalisation@, sans « s »), confirmé à l'identique par l'annuaire officiel (maj 23/04/2026) et par la carte DGEF."
+  },
+  {
+   "id": "doubs",
+   "name": "Préfecture du Doubs",
+   "platformLabel": "Plateforme interdépartementale de la naturalisation (Franche-Comté)",
+   "departements": [
+    "25",
+    "39",
+    "70",
+    "90"
+   ],
+   "postalAddress": "Préfecture du Doubs\nDirection de la citoyenneté et de la légalité\nPlateforme interdépartementale de la naturalisation\n8 bis rue Charles-Nodier\n25035 Besançon Cedex",
+   "email": "pref-naturalisations@doubs.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/doubs/c9c12cd3-b62a-47f3-90bb-0265d366a297",
+   "confidence": "high",
+   "note": "Couvre la Franche-Comté (25, 39, 70, 90). Courriel et adresse concordants. Accueil physique : 3 avenue de la Gare d'Eau, 25000 Besançon."
+  },
+  {
+   "id": "cote-dor",
+   "name": "Préfecture de la Côte-d'Or",
+   "platformLabel": "Plateforme interdépartementale de naturalisation - Dijon",
+   "departements": [
+    "21",
+    "58",
+    "71",
+    "89"
+   ],
+   "postalAddress": "Préfecture de la Côte-d'Or\nDirection de l'immigration et de la nationalité\nPlateforme de la naturalisation\n53 rue de la Préfecture\n21041 Dijon Cedex",
+   "email": "pref-naturalisations@cote-dor.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": "https://www.cote-dor.gouv.fr/Nous-contacter",
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/cote-d-or/86d950f6-e860-460c-a54a-a0df9c70a251",
+   "confidence": "high",
+   "note": "Couvre la Bourgogne (21, 58, 71, 89). ADRESSE MISE À JOUR : l'annuaire officiel (maj 09/06/2026) donne 53 rue de la Préfecture, 21041 Dijon Cedex, tandis que la carte DGEF donne encore l'ancienne Cité Dampierre, 6 rue Chancelier-de-l'Hospital. L'adresse récente a été retenue."
+  },
+  {
+   "id": "nord",
+   "name": "Préfecture du Nord",
+   "platformLabel": "Plateforme interdépartementale de naturalisation (Nord - Pas-de-Calais)",
+   "departements": [
+    "59",
+    "62"
+   ],
+   "postalAddress": "Préfecture du Nord\nPlateforme interdépartementale de naturalisation\n12 rue Jean-sans-Peur\nCS 20003\n59039 Lille Cedex",
+   "email": null,
+   "genericEmail": "pref-naturalisation@nord.gouv.fr",
+   "contactChannel": "anef",
+   "contactURL": "https://www.nord.gouv.fr/Demarches/Naturalisation-dans-le-Nord",
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/hauts-de-france/nord/f876ff05-9625-4cba-9dd6-bd7a72168ce5",
+   "confidence": "low",
+   "note": "DIVERGENCE NON TRANCHÉE : l'annuaire officiel (maj 20/02/2025) publie pref-naturalisation@nord.gouv.fr (singulier), la carte DGEF publie pref-naturalisations@nord.gouv.fr (pluriel). La forme au singulier de l'annuaire a été retenue. Les pages naturalisation du site nord.gouv.fr consultées le 21/09/2026 ne publient AUCUN courriel de plateforme (seul pref-rdv-pan@nord.gouv.fr, qui est le point d'accueil numérique, sans rapport avec l'instruction). La page officielle précise : « les procédures de naturalisation durent entre 3 et 4 ans […] il n'est donc pas nécessaire de solliciter la plateforme durant ce délai » et que les compléments passent par l'espace personnel ANEF. Canal recommandé : ANEF. À vérifier avant tout envoi. [Adresse déplacée dans genericEmail le 2026-09-21 : non recoupée sur une page officielle, l'app ne la propose pas.]"
+  },
+  {
+   "id": "oise",
+   "name": "Préfecture de l'Oise",
+   "platformLabel": "Plateforme de naturalisation - Picardie",
+   "departements": [
+    "02",
+    "60",
+    "80"
+   ],
+   "postalAddress": "Préfecture de l'Oise\nDirection de la citoyenneté, des étrangers en France\nPlateforme de naturalisation\n1 place de la Préfecture\n60022 Beauvais Cedex",
+   "email": "naturalisations@oise.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/hauts-de-france/oise/0417c71d-2c8f-4626-955f-52df3c6e77ef",
+   "confidence": "high",
+   "note": "Couvre la Picardie (02, 60, 80). Attention : le courriel n'a PAS le préfixe « pref- » usuel. Concordant entre les deux sources. Accueil physique : Espace Europe, 2 avenue de l'Europe, Beauvais. Permanence téléphonique 03 44 06 10 84 (lundi et jeudi 14h-16h)."
+  },
+  {
+   "id": "seine-maritime",
+   "name": "Préfecture de la Seine-Maritime",
+   "platformLabel": "Plateforme interdépartementale de naturalisation (Haute-Normandie)",
+   "departements": [
+    "27",
+    "76"
+   ],
+   "postalAddress": "Préfecture de la Seine-Maritime\nDirection des migrations et de l'intégration\nPlateforme interdépartementale de naturalisation\nCS 16036\n76036 Rouen Cedex",
+   "email": "pref-naturalisations@seine-maritime.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/normandie/seine-maritime/de0dae01-2580-42b5-9cc3-776a245fa1dd",
+   "confidence": "high",
+   "note": "Couvre l'Eure et la Seine-Maritime. Courriel et adresse concordants."
+  },
+  {
+   "id": "calvados",
+   "name": "Préfecture du Calvados",
+   "platformLabel": "Plateforme de naturalisation - Basse-Normandie",
+   "departements": [
+    "14",
+    "50",
+    "61"
+   ],
+   "postalAddress": "Préfecture du Calvados\nService de l'immigration et de l'intégration\nRue Daniel-Huet\n14038 Caen Cedex 9",
+   "email": "pref-naturalisations@calvados.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/normandie/calvados/1cf86b35-5e9c-4045-a925-8ab52995d2a6",
+   "confidence": "high",
+   "note": "Couvre la Basse-Normandie (14, 50, 61). Courriel concordant ; fiche annuaire mise à jour le 16/02/2026. Téléphone 02 31 30 64 00."
+  },
+  {
+   "id": "ille-et-vilaine",
+   "name": "Préfecture d'Ille-et-Vilaine",
+   "platformLabel": "Plateforme régionale de naturalisation de Bretagne",
+   "departements": [
+    "22",
+    "29",
+    "35",
+    "56"
+   ],
+   "postalAddress": "Préfecture d'Ille-et-Vilaine\nPlateforme régionale de naturalisation de Bretagne\n3 avenue de la Préfecture\n35026 Rennes Cedex 9",
+   "email": "pref-naturalisations@ille-et-vilaine.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/bretagne/ille-et-vilaine/38913581-f093-4189-978b-6de825a9b917",
+   "confidence": "high",
+   "note": "Couvre les quatre départements bretons (22, 29, 35, 56). La Loire-Atlantique relève de la plateforme de Nantes. Courriel et adresse concordants."
+  },
+  {
+   "id": "loire-atlantique",
+   "name": "Préfecture de la Loire-Atlantique",
+   "platformLabel": "Plateforme de naturalisation - Pays de la Loire",
+   "departements": [
+    "44",
+    "49",
+    "53",
+    "72",
+    "85"
+   ],
+   "postalAddress": "Préfecture de la Loire-Atlantique\nPlateforme de naturalisation - dépôt de dossier\n6 quai Ceineray\nBP 33515\n44035 Nantes Cedex 1",
+   "email": "pref-naturalisations@loire-atlantique.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/pays-de-la-loire/loire-atlantique/eb6e58d3-d5f2-4e23-917b-11cbe0b33a3a",
+   "confidence": "high",
+   "note": "Couvre les Pays de la Loire (44, 49, 53, 72, 85). Courriel concordant. Ne pas confondre avec la SDANF, également implantée en Loire-Atlantique (Rezé) mais qui est l'échelon ministériel."
+  },
+  {
+   "id": "indre-et-loire",
+   "name": "Préfecture d'Indre-et-Loire",
+   "platformLabel": "Plateforme de la naturalisation Région Centre-Val de Loire",
+   "departements": [
+    "18",
+    "28",
+    "36",
+    "37",
+    "41",
+    "45"
+   ],
+   "postalAddress": "Préfecture d'Indre-et-Loire\nPlateforme de la naturalisation Région Centre-Val de Loire\n37925 Tours Cedex 9",
+   "email": "pref-naturalisations@indre-et-loire.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/indre-et-loire/c3f436c0-19d1-4710-8404-c5b0691bd22d",
+   "confidence": "high",
+   "note": "Couvre les six départements du Centre-Val de Loire (18, 28, 36, 37, 41, 45). Courriel et adresse concordants. Accueil physique : 15 rue Bernard-Palissy, 37000 Tours. L'adresse postale ne comporte volontairement pas de voie (cedex entreprise)."
+  },
+  {
+   "id": "deux-sevres",
+   "name": "Préfecture des Deux-Sèvres",
+   "platformLabel": "Plateforme interdépartementale d'instruction des demandes de naturalisation (Poitou-Charentes)",
+   "departements": [
+    "16",
+    "17",
+    "79",
+    "86"
+   ],
+   "postalAddress": "Préfecture des Deux-Sèvres\nDirection des élections, de l'immigration et de l'intégration\nPlateforme interdépartementale d'instruction des demandes de naturalisation\nBP 70000\n79099 Niort Cedex 9",
+   "email": "pref-naturalisations@deux-sevres.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/deux-sevres/57a7d272-8a6c-4b6f-8c75-aa28cff411b0",
+   "confidence": "high",
+   "note": "Couvre le Poitou-Charentes (16, 17, 79, 86). Courriel et adresse concordants. Accueil physique : 4 rue Duguesclin, 79000 Niort."
+  },
+  {
+   "id": "gironde",
+   "name": "Préfecture de la Gironde",
+   "platformLabel": "Plateforme interdépartementale de la naturalisation (Aquitaine)",
+   "departements": [
+    "24",
+    "33",
+    "40",
+    "47",
+    "64"
+   ],
+   "postalAddress": "Préfecture de la Gironde\nDirection des migrations et de l'intégration\nPlateforme interdépartementale de la naturalisation\n2 esplanade Charles-de-Gaulle\nCS 41397\n33077 Bordeaux Cedex",
+   "email": "pref-naturalisations@gironde.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/gironde/6616571e-2b1b-4909-b6d2-aa9c25310c76",
+   "confidence": "high",
+   "note": "Couvre l'Aquitaine (24, 33, 40, 47, 64). Courriel et adresse concordants. Accueil physique : rue Claude-Bonnier, 33000 Bordeaux."
+  },
+  {
+   "id": "haute-vienne",
+   "name": "Préfecture de la Haute-Vienne",
+   "platformLabel": "Plateforme de naturalisation - Limousin",
+   "departements": [
+    "19",
+    "23",
+    "87"
+   ],
+   "postalAddress": "Préfecture de la Haute-Vienne\nPlateforme de la naturalisation\nBP 87031\n87031 Limoges Cedex 1",
+   "email": "pref-naturalisations@haute-vienne.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/haute-vienne/8429dd99-6f69-4dc8-b0e1-8f071ef8ed37",
+   "confidence": "high",
+   "note": "Couvre le Limousin (19, 23, 87). Courriel et adresse concordants. Accueil physique : 12 rue des Combes, 87000 Limoges. Permanence téléphonique 05 55 44 18 00 (mardi et vendredi 9h-12h)."
+  },
+  {
+   "id": "haute-garonne",
+   "name": "Préfecture de la Haute-Garonne",
+   "platformLabel": "Plateforme de naturalisation - Midi-Pyrénées",
+   "departements": [
+    "09",
+    "12",
+    "31",
+    "32",
+    "46",
+    "65",
+    "81",
+    "82"
+   ],
+   "postalAddress": "Préfecture de la Haute-Garonne\nDirection des migrations et de l'intégration\nBureau de la naturalisation\n1 rue Sainte-Anne\n31038 Toulouse Cedex 9",
+   "email": "pref-naturalisations@haute-garonne.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/occitanie/haute-garonne/357d3083-7fb3-4580-af42-d6f58a3abab5",
+   "confidence": "high",
+   "note": "Plus grande plateforme en nombre de départements : tout l'ex-Midi-Pyrénées (09, 12, 31, 32, 46, 65, 81, 82). Courriel et adresse concordants. Pour les DÉCLARATIONS uniquement, la carte DGEF donne une autre adresse postale : « DMI-NATURALISATIONS, 1 place Saint-Étienne, 31038 Toulouse Cedex 9 »."
+  },
+  {
+   "id": "herault",
+   "name": "Préfecture de l'Hérault",
+   "platformLabel": "Plateforme de naturalisation - Languedoc-Roussillon",
+   "departements": [
+    "11",
+    "30",
+    "34",
+    "48",
+    "66"
+   ],
+   "postalAddress": "Préfecture de l'Hérault\nDirection des migrations et de l'intégration\nPlateforme de la naturalisation\n34 place des Martyrs-de-la-Résistance\n34062 Montpellier Cedex 2",
+   "email": "pref-naturalisations@herault.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": "https://www.herault.gouv.fr/Nous-contacter",
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/occitanie/herault/fee1ccba-6e27-4d9f-ab9f-5ab106a660da",
+   "confidence": "medium",
+   "note": "Couvre l'ex-Languedoc-Roussillon (11, 30, 34, 48, 66). Le courriel figure sur la fiche annuaire « Plateforme de naturalisation - Languedoc-Roussilon » (maj 28/08/2024) et sur la carte DGEF. MAIS la fiche plus récente « Direction des étrangers et de la naturalisation - Hérault » (maj 10/07/2026) ne publie AUCUN courriel, seulement un formulaire de contact, et la page « Demande de naturalisation par décret » du site herault.gouv.fr consultée le 21/09/2026 ne renvoie que vers l'ANEF et contacts-demarches.interieur.gouv.fr. Possible bascule vers le formulaire : à revérifier."
+  },
+  {
+   "id": "puy-de-dome",
+   "name": "Préfecture du Puy-de-Dôme",
+   "platformLabel": "Plateforme de la naturalisation (Auvergne)",
+   "departements": [
+    "03",
+    "15",
+    "43",
+    "63"
+   ],
+   "postalAddress": "Préfecture du Puy-de-Dôme\nPlateforme de la naturalisation\n18 boulevard Desaix\n63033 Clermont-Ferrand Cedex 03",
+   "email": "pref-naturalisations@puy-de-dome.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://www.puy-de-dome.gouv.fr/Demarches/Etrangers-vos-demarches/Naturalisations",
+   "confidence": "high",
+   "note": "VÉRIFIÉ DIRECTEMENT le 21/09/2026 sur le site de la préfecture, qui publie pref-naturalisations@puy-de-dome.gouv.fr (PLURIEL) et l'adresse « Plateforme de la naturalisation, 18 boulevard Desaix, 63033 CLERMONT-FERRAND Cedex 03 ». Cette vérification tranche une divergence : l'annuaire service-public donnait pref-naturalisation@ (singulier, maj 28/08/2024) et la carte DGEF un cedex 01. La page confirme aussi le ressort : Allier, Cantal, Haute-Loire, Puy-de-Dôme."
+  },
+  {
+   "id": "rhone",
+   "name": "Préfecture du Rhône",
+   "platformLabel": "Plateforme de naturalisation - Rhône-Alpes 1",
+   "departements": [
+    "01",
+    "07",
+    "42",
+    "69"
+   ],
+   "postalAddress": "Préfecture du Rhône\nPlateforme de naturalisation\n69419 Lyon Cedex 03",
+   "email": "pref-naturalisation@rhone.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/rhone/85683d5e-967d-475d-9949-9a01da687428",
+   "confidence": "high",
+   "note": "Couvre Ain, Ardèche, Loire, Rhône. Attention : courriel au SINGULIER (pref-naturalisation@), concordant entre l'annuaire (maj 13/02/2026) et la carte DGEF. Accueil physique : 97 rue Molière, 69003 Lyon. Adresse postale sans voie (cedex entreprise)."
+  },
+  {
+   "id": "isere",
+   "name": "Préfecture de l'Isère",
+   "platformLabel": "Plateforme de naturalisation - Rhône-Alpes 2",
+   "departements": [
+    "26",
+    "38",
+    "73",
+    "74"
+   ],
+   "postalAddress": "Préfecture de l'Isère\nDirection de la citoyenneté, de l'immigration et de l'intégration\nService de l'immigration et de l'intégration - Section naturalisation\n12 place de Verdun\nCS 71046\n38021 Grenoble Cedex 1",
+   "email": null,
+   "genericEmail": null,
+   "contactChannel": "anef",
+   "contactURL": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/contact",
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/isere/2a03beed-f834-474a-811c-0647f8d29d4c",
+   "confidence": "high",
+   "note": "AUCUN courriel publié, et c'est vérifié sur trois sources : la fiche annuaire (maj 09/02/2026) a un champ courriel vide, la carte DGEF ne donne pas de courriel pour cette plateforme (contrairement à toutes les autres de métropole), et la page isere.gouv.fr consultée le 21/09/2026 ne renvoie que vers l'ANEF, le Centre de Contact Citoyen (0806 001 620) et contacts-demarches.interieur.gouv.fr. Couvre Drôme, Isère, Savoie, Haute-Savoie. Adresse postale complétée par l'annuaire (CS 71046, cedex 1), plus précise que la carte."
+  },
+  {
+   "id": "bouches-du-rhone",
+   "name": "Préfecture des Bouches-du-Rhône",
+   "platformLabel": "Service interdépartemental des naturalisations (Provence-Alpes-Côte d'Azur)",
+   "departements": [
+    "04",
+    "05",
+    "13",
+    "84"
+   ],
+   "postalAddress": "Préfecture des Bouches-du-Rhône\nDirection des étrangers et de la nationalité\nService interdépartemental des naturalisations\nPlace Félix-Baret\nCS 80001\n13282 Marseille Cedex 06",
+   "email": "pref-naturalisations@bouches-du-rhone.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": "https://www.bouches-du-rhone.gouv.fr/Nous-contacter",
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/bouches-du-rhone/1e91363b-8bb8-4b46-bb4f-739fea725a29",
+   "confidence": "high",
+   "note": "Couvre Alpes-de-Haute-Provence, Hautes-Alpes, Bouches-du-Rhône, Vaucluse. Courriel et adresse concordants. Accueil physique : 66 B rue Saint-Sébastien, 13006 Marseille. Téléphone 04 84 35 40 00."
+  },
+  {
+   "id": "alpes-maritimes",
+   "name": "Préfecture des Alpes-Maritimes",
+   "platformLabel": "Plateforme interdépartementale des naturalisations (CADAM)",
+   "departements": [
+    "06",
+    "83"
+   ],
+   "postalAddress": "Préfecture des Alpes-Maritimes\nDirection de la réglementation et des libertés publiques\nPlateforme interdépartementale des naturalisations\nCADAM - 147 boulevard du Mercantour\n06286 Nice Cedex 3",
+   "email": "pref-naturalisations@alpes-maritimes.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/alpes-maritimes/4a31a06a-0a45-4638-8a20-a2273f7faf9d",
+   "confidence": "high",
+   "note": "Couvre les Alpes-Maritimes et le Var. Courriel concordant ; fiche annuaire mise à jour le 16/02/2026. Les deux sources officielles nomment différemment cette plateforme (« PACA 1 » pour l'annuaire, « PACA II » pour la carte) : le libellé régional n'est pas fiable, se fier au ressort départemental."
+  },
+  {
+   "id": "haute-corse",
+   "name": "Préfecture de la Haute-Corse",
+   "platformLabel": "Plateforme de naturalisation - Haute-Corse",
+   "departements": [
+    "2A",
+    "2B"
+   ],
+   "postalAddress": "Préfecture de la Haute-Corse\nPlateforme de naturalisation\nRond-point du Maréchal-Leclerc-de-Hautecloque\nCS 60007\n20401 Bastia Cedex 9",
+   "email": "pref-naturalisations@haute-corse.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://lannuaire.service-public.gouv.fr/corse/haute-corse/5f2301f6-a91c-4d3d-a170-5fc748df39db",
+   "confidence": "high",
+   "note": "Une seule plateforme pour toute la Corse, hébergée à Bastia : les résidents de Corse-du-Sud (2A) relèvent aussi de la Haute-Corse. Courriel concordant. L'annuaire précise « Cedex 9 » et le bureau des libertés publiques, la carte DGEF donne 20401 Bastia sans cedex : la version annuaire a été retenue."
+  },
+  {
+   "id": "guadeloupe",
+   "name": "Sous-préfecture de Pointe-à-Pitre (préfecture de la Guadeloupe)",
+   "platformLabel": "Plateforme départementale de naturalisation de la Guadeloupe",
+   "departements": [
+    "971"
+   ],
+   "postalAddress": "Sous-préfecture de Pointe-à-Pitre\nPôle départemental de l'immigration et de l'intégration\nSection Intégration - Plateforme de naturalisation\nPlace de la Victoire\n97110 Pointe-à-Pitre",
+   "email": null,
+   "genericEmail": null,
+   "contactChannel": "anef",
+   "contactURL": "https://www.guadeloupe.gouv.fr/Demarches/Immigration-Titre-de-sejour-Naturalisation/Immigration/Dematerialisation-de-la-demande-d-acces-a-la-nationalite-francaise-par-decret",
+   "sourceURL": "https://www.guadeloupe.gouv.fr/Demarches/Immigration-Titre-de-sejour-Naturalisation/Immigration/Dematerialisation-de-la-demande-d-acces-a-la-nationalite-francaise-par-decret",
+   "confidence": "low",
+   "note": "COURRIEL VOLONTAIREMENT LAISSÉ À NULL. Deux adresses concurrentes circulent et aucune n'a pu être vérifiée sur une page réellement consultée : la carte DGEF donne naturalisations@guadeloupe.pref.gouv.fr (domaine historique), des résultats de recherche donnent naturalisations@guadeloupe.gouv.fr. Les pages « Plateforme départementale de naturalisation de la Guadeloupe » renvoient une erreur 401 (zone protégée) sur guadeloupe.gouv.fr. La seule page accessible ne publie que l'ANEF et le Centre de Contact Citoyen (0806 001 620). Ne pas envoyer de courrier électronique sans vérification manuelle. L'adresse postale vient de la carte DGEF ; un résultat de recherche mentionne une adresse différente (35 rue de la Ville-d'Orly) — à confirmer. La carte DGEF rattache aussi Saint-Barthélemy et Saint-Martin à cette plateforme (voir l'entrée saint-barthelemy-saint-martin)."
+  },
+  {
+   "id": "martinique",
+   "name": "Préfecture de la Martinique",
+   "platformLabel": "Section de la naturalisation - Bureau des migrations et de l'intégration",
+   "departements": [
+    "972"
+   ],
+   "postalAddress": "Préfecture de la Martinique\nDirection de la réglementation, de la citoyenneté et de l'immigration\nBureau des migrations et de l'intégration - Section de la naturalisation\nRue Louis-Blanc - BP 647/648\n97200 Fort-de-France",
+   "email": "naturalisations@martinique.pref.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": null,
+   "sourceURL": "https://www.martinique.gouv.fr/Demarches/Naturalisation",
+   "confidence": "high",
+   "note": "VÉRIFIÉ le 21/09/2026 sur martinique.gouv.fr, qui publie naturalisations@martinique.pref.gouv.fr — noter le domaine .pref.gouv.fr, bien que le site soit martinique.gouv.fr. Cette vérification INFIRME la carte DGEF, qui donnait naturalisations-depotdedossiers@martinique.gouv.fr : ne pas utiliser cette dernière. Téléphone 05 96 39 36 00 (lundi et jeudi 14h30-16h)."
+  },
+  {
+   "id": "guyane",
+   "name": "Préfecture de la Guyane",
+   "platformLabel": "Plateforme de naturalisation de la Guyane",
+   "departements": [
+    "973"
+   ],
+   "postalAddress": "Préfecture de la Guyane\nDirection de l'immigration - Naturalisation\nCS 57008\n97307 Cayenne Cedex",
+   "email": null,
+   "genericEmail": "pref973-naturalisation@guyane.pref.gouv.fr",
+   "contactChannel": "form",
+   "contactURL": "https://www.guyane.gouv.fr/booking/create/18974",
+   "sourceURL": "https://macarte.ign.fr/carte/e33e5b949d3c8ff991adc1c67aa0b28c/Plateformes-Naturalisation",
+   "confidence": "low",
+   "note": "Source unique : carte DGEF (données maj 2025-10-03) ; non recoupé (pas de fiche dans l'annuaire service-public, page préfecture non vérifiée). Le courriel utilise le domaine historique .pref.gouv.fr — à tester avant usage. Le code postal de la carte (« 9307 Cayenne Cedex ») est manifestement tronqué ; corrigé en 97307, à confirmer. IMPORTANT : la page officielle du ministère précise que les résidents de Guyane NE PEUVENT PAS déposer en ligne et doivent déposer un dossier papier auprès de la plateforme ; le dépôt se fait au guichet sur rendez-vous. [Adresse déplacée dans genericEmail le 2026-09-21 : non recoupée sur une page officielle, l'app ne la propose pas.]"
+  },
+  {
+   "id": "reunion",
+   "name": "Préfecture de La Réunion",
+   "platformLabel": "Service de la migration et de l'intégration (SMI)",
+   "departements": [
+    "974"
+   ],
+   "postalAddress": "Préfecture de La Réunion\nService de la migration et de l'intégration\n6 rue des Messageries - CS 51079\n97405 Saint-Denis Cedex",
+   "email": null,
+   "genericEmail": null,
+   "contactChannel": "anef",
+   "contactURL": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/",
+   "sourceURL": "https://www.reunion.gouv.fr/Demarches/Naturalisation",
+   "confidence": "medium",
+   "note": "VÉRIFIÉ le 21/09/2026 : la page naturalisation de reunion.gouv.fr ne publie AUCUN courriel ni adresse postale pour le service ; elle renvoie à l'ANEF, au Centre de Contact Citoyen (0806 001 620) et, pour les déclarations, à une prise de rendez-vous sur rdv-prefecture.interieur.gouv.fr (démarche 10101). Le courriel naturalisation@reunion.pref.gouv.fr de la carte DGEF n'est donc PAS retenu (domaine historique, non confirmé). L'adresse postale provient de la carte DGEF ; une variante 97404 Saint-Denis Cedex circule — vérifier le cedex avant un envoi recommandé."
+  },
+  {
+   "id": "mayotte",
+   "name": "Préfecture de Mayotte",
+   "platformLabel": "Plateforme Naturalisation de Mayotte",
+   "departements": [
+    "976"
+   ],
+   "postalAddress": "Préfecture de Mayotte\nDirection de l'immigration, de l'intégration et de la citoyenneté\nPlateforme Naturalisation\nBP 676 Kawéni\n97600 Mamoudzou",
+   "email": "naturalisations@mayotte.gouv.fr",
+   "genericEmail": null,
+   "contactChannel": "email",
+   "contactURL": "https://contacts-demarches.interieur.gouv.fr/",
+   "sourceURL": "https://www.mayotte.gouv.fr/Demarches/Naturalisation2/Contact",
+   "confidence": "high",
+   "note": "COURRIEL VÉRIFIÉ le 21/09/2026 sur la page « Contact » de la rubrique Naturalisation de mayotte.gouv.fr : naturalisations@mayotte.gouv.fr, avec la mention « Pour la gestion des dossiers, vous pouvez contacter la plateforme par messagerie électronique ». Cette vérification INFIRME la carte DGEF, qui donnait naturalisations@mayotte.pref.gouv.fr. L'adresse postale vient de la carte DGEF (la page Contact n'en publie pas) ; une variante mentionnant « Direction de l'Immigration, de l'Intégration et de la Citoyenneté, Plateforme Naturalisation, BP 676 » a été retenue par recoupement — le dépôt se fait par recommandé avec AR. Téléphone 02 69 63 50 00."
+  },
+  {
+   "id": "saint-pierre-et-miquelon",
+   "name": "Préfecture de Saint-Pierre-et-Miquelon",
+   "platformLabel": null,
+   "departements": [
+    "975"
+   ],
+   "postalAddress": "Préfecture de Saint-Pierre-et-Miquelon\nPlace du Colonel-Pigeaud\n97500 Saint-Pierre",
+   "email": null,
+   "genericEmail": "reglementation@spm975.gouv.fr",
+   "contactChannel": "post",
+   "contactURL": null,
+   "sourceURL": "https://macarte.ign.fr/carte/e33e5b949d3c8ff991adc1c67aa0b28c/Plateformes-Naturalisation",
+   "confidence": "low",
+   "note": "Hors périmètre demandé (975), fourni en complément. Source unique : carte DGEF ; non recoupé. Le courriel reglementation@spm975.gouv.fr n'est pas spécifique à la naturalisation (boîte du service réglementation). Dépôt : prise de rendez-vous par téléphone (05 08 41 10 10) ou par courriel. Le ministère indique que le dépôt en ligne n'est pas possible depuis Saint-Pierre-et-Miquelon. [Adresse déplacée dans genericEmail le 2026-09-21 : non recoupée sur une page officielle, l'app ne la propose pas.]"
+  },
+  {
+   "id": "saint-barthelemy-saint-martin",
+   "name": "Préfecture de Saint-Barthélemy et de Saint-Martin",
+   "platformLabel": "Service de la citoyenneté et de l'immigration",
+   "departements": [
+    "977",
+    "978"
+   ],
+   "postalAddress": "Préfecture de Saint-Barthélemy et de Saint-Martin\nService de la citoyenneté et de l'immigration\n23 rue de Spring, Concordia\n97150 Saint-Martin",
+   "email": null,
+   "genericEmail": null,
+   "contactChannel": "post",
+   "contactURL": null,
+   "sourceURL": "https://macarte.ign.fr/carte/e33e5b949d3c8ff991adc1c67aa0b28c/Plateformes-Naturalisation",
+   "confidence": "low",
+   "note": "Hors périmètre demandé (977/978), fourni en complément et AMBIGU. La carte DGEF se contredit : ses fiches « Saint-Barthélemy » et « Saint-Martin » renvoient à la préfecture de Saint-Barthélemy et Saint-Martin (adresse ci-dessus, tél. 05 90 52 30 81), tandis que ses fiches « Guadeloupe » indiquent « Vous résidez en Guadeloupe, Saint-Barthélemy ou Saint-Martin » et renvoient à la sous-préfecture de Pointe-à-Pitre. Aucun courriel publié pour ce service. Le ministère précise que le dépôt en ligne est impossible depuis Saint-Barthélemy et Saint-Martin : dossier papier, recommandé avec AR. À trancher avant toute utilisation dans l'app."
+  },
+  {
+   "id": "wallis-et-futuna",
+   "name": "Administration supérieure des îles Wallis et Futuna",
+   "platformLabel": null,
+   "departements": [
+    "986"
+   ],
+   "postalAddress": "Administration supérieure de Wallis et Futuna\nBP 16 Mata'Utu\nHavelu Hahake\n98600 Wallis-et-Futuna",
+   "email": null,
+   "genericEmail": null,
+   "contactChannel": "post",
+   "contactURL": null,
+   "sourceURL": "https://macarte.ign.fr/carte/e33e5b949d3c8ff991adc1c67aa0b28c/Plateformes-Naturalisation",
+   "confidence": "low",
+   "note": "Hors périmètre demandé (986), fourni en complément. Source unique : carte DGEF ; non recoupé. AUCUN courriel n'est publié pour ce service, même sur la carte. Dépôt par voie postale en recommandé avec AR ; le dépôt en ligne est impossible depuis Wallis-et-Futuna. Téléphone (681) 72 27 27."
+  },
+  {
+   "id": "polynesie-francaise",
+   "name": "Haut-commissariat de la République en Polynésie française",
+   "platformLabel": null,
+   "departements": [
+    "987"
+   ],
+   "postalAddress": "Haut-commissariat de la République en Polynésie française\nBP 115 - Avenue Pouvanaa a Oopa\n98713 Papeete",
+   "email": null,
+   "genericEmail": "naturalisations@polynesie-francaise.pref.gouv.fr",
+   "contactChannel": "post",
+   "contactURL": null,
+   "sourceURL": "https://macarte.ign.fr/carte/e33e5b949d3c8ff991adc1c67aa0b28c/Plateformes-Naturalisation",
+   "confidence": "low",
+   "note": "Hors périmètre demandé (987), fourni en complément. Source unique : carte DGEF ; non recoupé. Domaine historique .pref.gouv.fr — à tester avant usage. Dépôt auprès des agents instructeurs ; le dépôt en ligne est impossible depuis la Polynésie française. Téléphone (689) 40 46 86 31. [Adresse déplacée dans genericEmail le 2026-09-21 : non recoupée sur une page officielle, l'app ne la propose pas.]"
+  },
+  {
+   "id": "nouvelle-caledonie",
+   "name": "Haut-commissariat de la République en Nouvelle-Calédonie",
+   "platformLabel": "Bureau des étrangers et de la nationalité - Plateforme naturalisation",
+   "departements": [
+    "988"
+   ],
+   "postalAddress": "Haut-commissariat de la République en Nouvelle-Calédonie\nBureau des étrangers et de la nationalité - Plateforme naturalisation\nBP C5\n98844 Nouméa Cedex",
+   "email": null,
+   "genericEmail": "naturalisations@nouvelle-caledonie.gouv.fr",
+   "contactChannel": "post",
+   "contactURL": null,
+   "sourceURL": "https://macarte.ign.fr/carte/e33e5b949d3c8ff991adc1c67aa0b28c/Plateformes-Naturalisation",
+   "confidence": "low",
+   "note": "Hors périmètre demandé (988), fourni en complément. Source unique : carte DGEF ; non recoupé. Dépôt par voie postale en recommandé avec AR ; le dépôt en ligne est impossible depuis la Nouvelle-Calédonie. Téléphone (687) 23 03 23. [Adresse déplacée dans genericEmail le 2026-09-21 : non recoupée sur une page officielle, l'app ne la propose pas.]"
+  }
+ ],
+ "unassigned": [],
+ "coverageNote": "Les 96 codes de métropole (01 à 95, « 20 » remplacé par 2A et 2B) sont tous affectés à exactement une plateforme, ainsi que 971, 972, 973, 974 et 976. Aucun code non affecté. En complément et hors périmètre demandé : 975 (Saint-Pierre-et-Miquelon), 986 (Wallis-et-Futuna), 987 (Polynésie française) et 988 (Nouvelle-Calédonie) sont affectés ; 977 et 978 (Saint-Barthélemy et Saint-Martin) sont affectés à la préfecture de Saint-Barthélemy et Saint-Martin mais la source officielle se contredit (voir la note de cette entrée), c'est la seule affectation réellement douteuse.",
+ "policyNote": "email = adresse relevée sur une page officielle et recoupée ; c'est la seule que l'app propose comme destinataire. genericEmail = adresse vue mais non vérifiée, pour information. Corriger ici, puis lancer docs/verifier-annuaire-plateformes.py."
+}

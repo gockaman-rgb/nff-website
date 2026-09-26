@@ -352,6 +352,8 @@ ARTICLES = {
 
 <p>Non. La pr&eacute;fecture comp&eacute;tente est celle de votre <strong>r&eacute;sidence habituelle</strong>, et l'administration v&eacute;rifie que le centre de vos int&eacute;r&ecirc;ts s'y trouve r&eacute;ellement. D&eacute;m&eacute;nager pour acc&eacute;l&eacute;rer une demande est une mauvaise id&eacute;e&nbsp;: cela peut au contraire allonger le traitement, le temps que le dossier soit transf&eacute;r&eacute;.</p>
 
+<p>Pr&eacute;cision utile&nbsp;: le service comp&eacute;tent n'est pas toujours la pr&eacute;fecture de votre d&eacute;partement. Les dossiers sont instruits par des <strong>plateformes de naturalisation</strong>, dont beaucoup regroupent plusieurs d&eacute;partements&nbsp;: celle de Toulouse en traite huit. Notre <a href="/prefectures/">annuaire des plateformes par d&eacute;partement</a> donne la v&ocirc;tre, avec ses coordonn&eacute;es v&eacute;rifi&eacute;es.</p>
+
 <p>En revanche, si vous d&eacute;m&eacute;nagez pour de vraies raisons pendant l'instruction, <strong>signalez-le imm&eacute;diatement</strong>. Un changement d'adresse non d&eacute;clar&eacute; est la premi&egrave;re cause de convocation jamais re&ccedil;ue.</p>
 
 <h2>Comment situer votre propre d&eacute;lai</h2>
@@ -423,6 +425,7 @@ ARTICLES = {
          "Non. Les relances rapprochées ne remontent pas la file : elles ajoutent du courrier à traiter au service qui instruit votre dossier. Un courrier tous les deux à trois mois, argumenté et référencé, est plus efficace. Déposer un second dossier est également contre-productif : cela crée un doublon qui brouille l'instruction du premier."),
     ],
     "links": [
+        ("/prefectures/", "O&ugrave; d&eacute;poser son dossier&nbsp;: la plateforme de chaque d&eacute;partement"),
         ("/blog/delais-naturalisation-2026.html", "Les d&eacute;lais &eacute;tape par &eacute;tape"),
         ("/blog/suivre-dossier-naturalisation-anef.html", "Suivre son dossier sur l'ANEF"),
         ("/blog/relance-naturalisation-que-faire-sans-reponse.html", "Relancer un dossier sans r&eacute;ponse"),
@@ -2097,6 +2100,7 @@ def render(slug, a):
     <div class="nav-links">
       <a href="/#fonctionnalites">Fonctionnalit&eacute;s</a>
       <a href="/outils/examen-civique.html">Examen civique</a>
+      <a href="/prefectures/">Pr&eacute;fectures</a>
       <a href="/outils/">Outils</a>
       <a href="/faq.html">FAQ</a>
       <a href="/glossaire/">Glossaire</a>
