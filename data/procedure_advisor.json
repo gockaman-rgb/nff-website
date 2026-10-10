@@ -1,0 +1,519 @@
+{
+  "version": 1,
+  "start": "born_in_france",
+  "questions": [
+    {
+      "id": "born_in_france",
+      "question": "Êtes-vous né·e en France ?",
+      "help": null,
+      "options": [
+        {
+          "id": "yes_parent_born",
+          "title": "Oui, et l'un de mes parents y est né aussi",
+          "subtitle": "Ou en Algérie avant le 3 juillet 1962, sous conditions",
+          "icon": "person.2.fill",
+          "next": "result:cnf_double_droit_du_sol",
+          "sets": []
+        },
+        {
+          "id": "yes",
+          "title": "Oui, mes parents sont nés ailleurs",
+          "subtitle": null,
+          "icon": "mappin.and.ellipse",
+          "next": "age_bracket",
+          "sets": []
+        },
+        {
+          "id": "no",
+          "title": "Non",
+          "subtitle": null,
+          "icon": "globe.europe.africa.fill",
+          "next": "parent_french_at_birth",
+          "sets": []
+        }
+      ]
+    },
+    {
+      "id": "age_bracket",
+      "question": "Quel âge avez-vous ?",
+      "help": null,
+      "options": [
+        {
+          "id": "under_13",
+          "title": "Moins de 13 ans",
+          "subtitle": null,
+          "icon": "figure.child",
+          "next": "result:mineur_not_yet",
+          "sets": []
+        },
+        {
+          "id": "age_13_15",
+          "title": "De 13 à 15 ans",
+          "subtitle": null,
+          "icon": "figure.child",
+          "next": "result:mineur_parent",
+          "sets": []
+        },
+        {
+          "id": "age_16_17",
+          "title": "16 ou 17 ans",
+          "subtitle": null,
+          "icon": "figure.stand",
+          "next": "result:mineur_jeune",
+          "sets": []
+        },
+        {
+          "id": "adult",
+          "title": "18 ans ou plus",
+          "subtitle": null,
+          "icon": "person.fill",
+          "next": "five_years_since_11",
+          "sets": [
+            "adult"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "five_years_since_11",
+      "question": "À vos 18 ans, viviez-vous en France depuis au moins 5 ans, comptés depuis vos 11 ans ?",
+      "help": "Les 5 ans peuvent être continus ou non.",
+      "options": [
+        {
+          "id": "yes",
+          "title": "Oui",
+          "subtitle": null,
+          "icon": "checkmark",
+          "next": "result:cnf_21_7",
+          "sets": []
+        },
+        {
+          "id": "no",
+          "title": "Non",
+          "subtitle": null,
+          "icon": "xmark",
+          "next": "parent_french_at_birth",
+          "sets": []
+        }
+      ]
+    },
+    {
+      "id": "parent_french_at_birth",
+      "question": "L'un de vos parents était-il français·e le jour de votre naissance ?",
+      "help": "Ou il l'est devenu avant vos 18 ans alors que vous viviez avec lui, ou vous avez été adopté·e en adoption plénière par un·e Français·e.",
+      "options": [
+        {
+          "id": "yes",
+          "title": "Oui",
+          "subtitle": null,
+          "icon": "person.2.fill",
+          "next": "result:cnf_filiation",
+          "sets": []
+        },
+        {
+          "id": "no",
+          "title": "Non",
+          "subtitle": null,
+          "icon": "xmark",
+          "next": "was_french",
+          "sets": []
+        }
+      ]
+    },
+    {
+      "id": "was_french",
+      "question": "Avez-vous déjà eu la nationalité française ?",
+      "help": null,
+      "options": [
+        {
+          "id": "yes",
+          "title": "Oui, je l'ai perdue",
+          "subtitle": null,
+          "icon": "arrow.uturn.backward",
+          "next": "loss_reason",
+          "sets": []
+        },
+        {
+          "id": "no",
+          "title": "Non",
+          "subtitle": null,
+          "icon": "xmark",
+          "next": "family_link",
+          "sets": []
+        }
+      ]
+    },
+    {
+      "id": "loss_reason",
+      "question": "Comment l'avez-vous perdue ?",
+      "help": null,
+      "options": [
+        {
+          "id": "marriage",
+          "title": "Par mon mariage avec un·e étranger·ère",
+          "subtitle": null,
+          "icon": "heart.fill",
+          "next": "result:reint_decl_mariage",
+          "sets": []
+        },
+        {
+          "id": "acquisition",
+          "title": "En prenant une autre nationalité",
+          "subtitle": "Par une démarche volontaire",
+          "icon": "globe",
+          "next": "result:reint_decl_acquisition",
+          "sets": []
+        },
+        {
+          "id": "mandate",
+          "title": "Par une mesure générale, après un mandat public",
+          "subtitle": "Ancien parlementaire, ou son conjoint ou enfant",
+          "icon": "building.columns.fill",
+          "next": "result:reint_decl_mandat",
+          "sets": []
+        },
+        {
+          "id": "other",
+          "title": "Autrement, ou je ne sais pas",
+          "subtitle": null,
+          "icon": "questionmark",
+          "next": "result:reint_decret",
+          "sets": []
+        }
+      ]
+    },
+    {
+      "id": "family_link",
+      "question": "Lequel de ces cas est le vôtre ?",
+      "help": "Choisissez le premier qui correspond à votre situation.",
+      "options": [
+        {
+          "id": "spouse_4plus",
+          "title": "Marié·e à un·e Français·e depuis 4 ans ou plus",
+          "subtitle": "Le PACS ne compte pas",
+          "icon": "heart.fill",
+          "next": "result:mariage",
+          "sets": []
+        },
+        {
+          "id": "spouse_lt4",
+          "title": "Marié·e à un·e Français·e depuis moins de 4 ans",
+          "subtitle": null,
+          "icon": "heart",
+          "next": "years_in_france",
+          "sets": [
+            "marriage_soon"
+          ]
+        },
+        {
+          "id": "ascendant",
+          "title": "J'ai 65 ans ou plus, 25 ans de vie en France, et un enfant ou petit-enfant français",
+          "subtitle": null,
+          "icon": "figure.2.and.child.holdinghands",
+          "next": "result:ascendant",
+          "sets": []
+        },
+        {
+          "id": "sibling",
+          "title": "En France depuis mes 6 ans, j'y ai fait ma scolarité, et mon frère ou ma sœur est devenu·e français·e",
+          "subtitle": "Grâce à sa naissance en France",
+          "icon": "person.2.fill",
+          "next": "result:fratrie",
+          "sets": []
+        },
+        {
+          "id": "minor_care",
+          "title": "J'ai moins de 18 ans et j'ai été adopté·e, recueilli·e ou confié·e à l'aide sociale à l'enfance",
+          "subtitle": "Adoption simple, ou accueil par un·e Français·e",
+          "icon": "house.fill",
+          "next": "result:adoption",
+          "sets": []
+        },
+        {
+          "id": "possession",
+          "title": "J'ai été considéré·e comme français·e pendant 10 ans",
+          "subtitle": "Papiers français, carte d'électeur…",
+          "icon": "person.text.rectangle.fill",
+          "next": "result:possession",
+          "sets": []
+        },
+        {
+          "id": "none",
+          "title": "Aucun de ces cas",
+          "subtitle": null,
+          "icon": "xmark",
+          "next": "years_in_france",
+          "sets": []
+        }
+      ]
+    },
+    {
+      "id": "years_in_france",
+      "question": "Depuis combien de temps vivez-vous en France ?",
+      "help": "Avec un titre de séjour.",
+      "options": [
+        {
+          "id": "5plus",
+          "title": "5 ans ou plus",
+          "subtitle": null,
+          "icon": "calendar.badge.checkmark",
+          "next": "result:decret",
+          "sets": []
+        },
+        {
+          "id": "2to5",
+          "title": "De 2 à 5 ans",
+          "subtitle": null,
+          "icon": "calendar",
+          "next": "stage_reduction",
+          "sets": []
+        },
+        {
+          "id": "lt2",
+          "title": "Moins de 2 ans",
+          "subtitle": null,
+          "icon": "calendar",
+          "next": "stage_reduction",
+          "sets": []
+        }
+      ]
+    },
+    {
+      "id": "stage_reduction",
+      "question": "Êtes-vous dans l'un de ces cas ?",
+      "help": "Réfugié·e ; service dans l'armée française ; francophone (langue maternelle, ou 5 ans d'école en français) ; 2 ans d'études supérieures réussies en France.",
+      "options": [
+        {
+          "id": "yes",
+          "title": "Oui",
+          "subtitle": null,
+          "icon": "checkmark",
+          "next": "result:decret_reduction",
+          "sets": []
+        },
+        {
+          "id": "no",
+          "title": "Non",
+          "subtitle": null,
+          "icon": "xmark",
+          "next": "result:decret_not_yet",
+          "sets": []
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "cnf_double_droit_du_sol",
+      "kind": "cnf",
+      "procedure": "attribution_cnf",
+      "variant": null,
+      "reason": "Né·e en France d'un parent lui-même né en France, vous êtes sans doute français·e de naissance : c'est le double droit du sol.",
+      "alternatives": [],
+      "flag_alternatives": {},
+      "flag_reasons": {}
+    },
+    {
+      "id": "cnf_21_7",
+      "kind": "cnf",
+      "procedure": "attribution_cnf",
+      "variant": null,
+      "reason": "Né·e en France et y vivant depuis au moins 5 ans à vos 18 ans, vous êtes sans doute devenu·e français·e à votre majorité, sans démarche.",
+      "alternatives": [],
+      "flag_alternatives": {},
+      "flag_reasons": {}
+    },
+    {
+      "id": "cnf_filiation",
+      "kind": "cnf",
+      "procedure": "attribution_cnf",
+      "variant": null,
+      "reason": "Un parent français à votre naissance vous rend sans doute français·e de naissance, où que vous soyez né·e.",
+      "alternatives": [],
+      "flag_alternatives": {},
+      "flag_reasons": {}
+    },
+    {
+      "id": "mineur_not_yet",
+      "kind": "not_yet",
+      "procedure": "declaration_mineur_ne_en_france",
+      "variant": "parent_13_15",
+      "reason": "La déclaration au tribunal devient possible à 13 ans, avec 5 ans de résidence en France depuis 8 ans.",
+      "alternatives": [],
+      "flag_alternatives": {},
+      "flag_reasons": {}
+    },
+    {
+      "id": "mineur_parent",
+      "kind": "pick",
+      "procedure": "declaration_mineur_ne_en_france",
+      "variant": "parent_13_15",
+      "reason": "De 13 à 15 ans, ce sont les parents qui font la déclaration au tribunal, avec l'accord de l'enfant.",
+      "alternatives": [],
+      "flag_alternatives": {},
+      "flag_reasons": {}
+    },
+    {
+      "id": "mineur_jeune",
+      "kind": "pick",
+      "procedure": "declaration_mineur_ne_en_france",
+      "variant": "jeune_16_17",
+      "reason": "À 16 ou 17 ans, vous faites vous-même la déclaration au tribunal, gratuitement.",
+      "alternatives": [],
+      "flag_alternatives": {},
+      "flag_reasons": {}
+    },
+    {
+      "id": "reint_decl_mariage",
+      "kind": "pick",
+      "procedure": "reintegration_declaration",
+      "variant": "perte_mariage",
+      "reason": "Une nationalité perdue par mariage se retrouve par déclaration, si vous avez gardé des liens forts avec la France.",
+      "alternatives": [
+        "reintegration_decret"
+      ],
+      "flag_alternatives": {},
+      "flag_reasons": {}
+    },
+    {
+      "id": "reint_decl_acquisition",
+      "kind": "pick",
+      "procedure": "reintegration_declaration",
+      "variant": "perte_acquisition",
+      "reason": "Une nationalité perdue en prenant une autre nationalité se retrouve par déclaration, si vous avez gardé des liens forts avec la France.",
+      "alternatives": [
+        "reintegration_decret"
+      ],
+      "flag_alternatives": {},
+      "flag_reasons": {}
+    },
+    {
+      "id": "reint_decl_mandat",
+      "kind": "pick",
+      "procedure": "reintegration_declaration",
+      "variant": "perte_mandat",
+      "reason": "Une nationalité perdue par une mesure générale après un mandat public se retrouve par déclaration, une fois votre domicile établi en France.",
+      "alternatives": [
+        "reintegration_decret"
+      ],
+      "flag_alternatives": {},
+      "flag_reasons": {}
+    },
+    {
+      "id": "reint_decret",
+      "kind": "pick",
+      "procedure": "reintegration_decret",
+      "variant": null,
+      "reason": "La réintégration par décret ressemble à une naturalisation, sans durée de résidence exigée.",
+      "alternatives": [
+        "reintegration_declaration"
+      ],
+      "flag_alternatives": {},
+      "flag_reasons": {}
+    },
+    {
+      "id": "mariage",
+      "kind": "pick",
+      "procedure": "declaration_mariage",
+      "variant": null,
+      "reason": "Marié·e depuis 4 ans avec un·e Français·e, vous pouvez faire une déclaration : sans examen civique, avec le niveau B2.",
+      "alternatives": [
+        "naturalisation_decret"
+      ],
+      "flag_alternatives": {},
+      "flag_reasons": {}
+    },
+    {
+      "id": "ascendant",
+      "kind": "pick",
+      "procedure": "declaration_ascendant",
+      "variant": null,
+      "reason": "À 65 ans, après 25 ans en France, avec un descendant français : la déclaration se fait sans test de langue ni examen civique.",
+      "alternatives": [
+        "naturalisation_decret"
+      ],
+      "flag_alternatives": {},
+      "flag_reasons": {}
+    },
+    {
+      "id": "fratrie",
+      "kind": "pick",
+      "procedure": "declaration_fratrie",
+      "variant": null,
+      "reason": "En France depuis vos 6 ans, scolarisé·e ici, avec un frère ou une sœur français·e : la déclaration se fait sans test de langue.",
+      "alternatives": [
+        "naturalisation_decret"
+      ],
+      "flag_alternatives": {},
+      "flag_reasons": {}
+    },
+    {
+      "id": "adoption",
+      "kind": "pick",
+      "procedure": "declaration_adoption_recueil",
+      "variant": null,
+      "reason": "Adopté·e, recueilli·e ou confié·e à l'aide sociale à l'enfance : la déclaration se fait au tribunal, avant vos 18 ans.",
+      "alternatives": [],
+      "flag_alternatives": {},
+      "flag_reasons": {}
+    },
+    {
+      "id": "possession",
+      "kind": "pick",
+      "procedure": "declaration_possession_etat",
+      "variant": null,
+      "reason": "Considéré·e comme français·e pendant 10 ans : cette « possession d'état » se fait reconnaître par déclaration au tribunal.",
+      "alternatives": [],
+      "flag_alternatives": {},
+      "flag_reasons": {}
+    },
+    {
+      "id": "decret",
+      "kind": "pick",
+      "procedure": "naturalisation_decret",
+      "variant": null,
+      "reason": "Après 5 ans de résidence en France, la naturalisation par décret est la voie à suivre.",
+      "alternatives": [],
+      "flag_alternatives": {
+        "marriage_soon": [
+          "declaration_mariage"
+        ]
+      },
+      "flag_reasons": {
+        "marriage_soon": "Après 4 ans de mariage, la déclaration par mariage deviendra aussi possible."
+      }
+    },
+    {
+      "id": "decret_reduction",
+      "kind": "pick",
+      "procedure": "naturalisation_decret",
+      "variant": null,
+      "reason": "Votre situation réduit ou supprime les 5 ans de résidence exigés : la naturalisation par décret est la voie à suivre.",
+      "alternatives": [],
+      "flag_alternatives": {
+        "marriage_soon": [
+          "declaration_mariage"
+        ]
+      },
+      "flag_reasons": {
+        "marriage_soon": "Après 4 ans de mariage, la déclaration par mariage deviendra aussi possible."
+      }
+    },
+    {
+      "id": "decret_not_yet",
+      "kind": "not_yet",
+      "procedure": "naturalisation_decret",
+      "variant": null,
+      "reason": "La naturalisation demande en principe 5 ans de résidence en France : vous pouvez vous préparer dès maintenant.",
+      "alternatives": [],
+      "flag_alternatives": {
+        "marriage_soon": [
+          "declaration_mariage"
+        ]
+      },
+      "flag_reasons": {
+        "marriage_soon": "Après 4 ans de mariage, la déclaration par mariage sera possible plus tôt."
+      }
+    }
+  ]
+}

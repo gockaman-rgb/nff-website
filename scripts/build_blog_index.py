@@ -44,6 +44,7 @@ SECTIONS = [
       "naturalisation-par-mariage-2026", "reintegration-nationalite-francaise-2026",
       "naturalisation-refugie-2026", "naturalisation-apres-etudes-en-france",
       "naturalisation-sans-condition-de-stage", "naturalisation-apres-65-ans",
+      "declaration-nationalite-ascendant-frere-soeur", "declaration-nationalite-tribunal-judiciaire",
       "naturalisation-2026-nouvelles-regles", "pourquoi-devenir-francais-avantages"]),
     ("examens", "2. Les examens",
      "Le niveau B2 en fran&ccedil;ais et l'examen civique, obligatoires depuis 2026.",

@@ -756,8 +756,12 @@ def page_departement(d):
         ("Contact", contact_ess),
         ("Entretien", f"convocation par la plateforme {de_v(v)}"),
         ("Par mariage", p["decl"][0]),
+        ("Au tribunal", typo('mineur né en France, adoption, possession d\'état, réintégration : '
+                             '<a href="/blog/declaration-nationalite-tribunal-judiciaire.html">déclaration '
+                             'au tribunal judiciaire du domicile</a>')),
         ("Cérémonie", f"organisée par {ceremonie}, une fois le décret publié"),
-        ("Depuis 2026", "niveau B2 et examen civique réussi, à joindre au dossier"),
+        ("Depuis 2026", typo("par décret : niveau B2 et examen civique réussi, à joindre au dossier ; "
+                             "par mariage : niveau B2 seulement")),
     ]
     ess_html = "\n".join(f"<dt>{k}</dt><dd>{x}</dd>" for k, x in ess)
 

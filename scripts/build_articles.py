@@ -20,6 +20,13 @@ recommandee", "timbre fiscal 55 EUR naturalisation" 187 impressions sans
 clic, "journal officiel naturalisation liste des noms"). Chaque article
 porte sa date ("date" / "date_fr"), a defaut TODAY.
 
+Deux articles du 10 octobre 2026 couvrent les declarations qui ne passent
+pas par l'ANEF : celles du tribunal judiciaire (enfant ne en France,
+adoption simple et recueil, possession d'etat, reintegration) et celles de
+l'ascendant, du frere ou de la soeur d'un Francais (plateforme). Leur bouton
+de fin ("cta_href") mene a l'orienteur du site, pas a l'App Store : l'app
+en vente ne couvre encore que les demandes par decret.
+
 Faits verifies (septembre 2026) : l'examen civique ne concerne que les
 procedures par decret (service-public F39426) ; les attestations de
 comparabilite ENIC-NARIC ne prouvent plus le B2 depuis le 1er janvier
@@ -838,6 +845,7 @@ ARTICLES = {
         ("/blog/examen-civique-naturalisation-2026.html", "L'examen civique&nbsp;: format, seuil et m&eacute;thode"),
         ("/blog/naturalisation-apres-65-ans.html", "Naturalisation apr&egrave;s 65&nbsp;ans&nbsp;: la d&eacute;claration sans test"),
         ("/outils/decret-naturalisation.html", "V&eacute;rifier la publication de votre d&eacute;cret (code REI)"),
+        ("/blog/declaration-nationalite-tribunal-judiciaire.html", "Les quatre d&eacute;clarations qui se font au tribunal judiciaire"),
     ],
     "sources": [
         ("https://www.service-public.gouv.fr/particuliers/vosdroits/F2214", "Service-public.gouv.fr &mdash; R&eacute;int&eacute;gration dans la nationalit&eacute; fran&ccedil;aise par d&eacute;cret (F2214)"),
@@ -1311,6 +1319,7 @@ ARTICLES = {
         ("/blog/ressources-revenus-naturalisation.html", "Ressources et naturalisation&nbsp;: ce que la pr&eacute;fecture regarde"),
         ("/blog/reintegration-nationalite-francaise-2026.html", "R&eacute;int&eacute;gration dans la nationalit&eacute; fran&ccedil;aise&nbsp;: d&eacute;cret ou d&eacute;claration"),
         ("/blog/documents-naturalisation.html", "La liste compl&egrave;te des pi&egrave;ces du dossier"),
+        ("/blog/declaration-nationalite-ascendant-frere-soeur.html", "Ascendant, fr&egrave;re ou s&oelig;ur d'un Fran&ccedil;ais&nbsp;: la d&eacute;claration pas &agrave; pas"),
     ],
     "sources": [
         ("https://www.service-public.gouv.fr/particuliers/vosdroits/F33430", "Service-public.gouv.fr &mdash; D&eacute;claration de nationalit&eacute; de l'ascendant d'un Fran&ccedil;ais (F33430)"),
@@ -1998,6 +2007,237 @@ ARTICLES = {
     ],
     "cta": "Suivre mon dossier jusqu'au d&eacute;cret avec l'app",
 },
+# ═══════════════════════════════════════════════════════════════════════
+"declaration-nationalite-tribunal-judiciaire": {
+    "title": "Déclaration de nationalité au tribunal : les 4 cas",
+    "h1": "D&eacute;claration de nationalit&eacute; au tribunal judiciaire&nbsp;: les quatre cas, et comment faire",
+    "desc": "Enfant né en France, adoption simple, possession d'état, réintégration : quatre déclarations se font au tribunal, sans B2 ni examen civique, en six mois.",
+    "og": "D&eacute;claration de nationalit&eacute; au tribunal&nbsp;: les quatre cas",
+    "tag": "Conditions",
+    "og_img": "default.png",
+    "date": "2026-10-10",
+    "date_fr": "10 octobre 2026",
+    "cta": "Trouver ma voie vers la nationalit&eacute;",
+    "cta_href": "/outils/quelle-voie-nationalite.html",
+    "lede": "Toutes les demandes de nationalit&eacute; ne passent pas par la pr&eacute;fecture et l'ANEF. Quatre d&eacute;clarations se souscrivent au <strong>greffe du tribunal judiciaire</strong>&nbsp;: elles ne demandent ni test de langue ni examen civique, et l'administration a six mois pour r&eacute;pondre. Encore faut-il reconna&icirc;tre son cas &mdash; et ne pas confondre d&eacute;claration et certificat de nationalit&eacute;.",
+    "body": """
+<h2>Trois d&eacute;marches qu'on confond souvent</h2>
+
+<p>La <strong>naturalisation par d&eacute;cret</strong> est une faveur de l'&Eacute;tat&nbsp;: le dossier se d&eacute;pose en ligne sur l'ANEF, il exige le niveau B2 et l'examen civique depuis le 1<sup>er</sup>&nbsp;janvier 2026, et l'administration a 18&nbsp;mois pour r&eacute;pondre. M&ecirc;me si toutes les conditions sont remplies, elle peut refuser.</p>
+
+<p>La <strong>d&eacute;claration de nationalit&eacute;</strong> est un droit&nbsp;: si les conditions sont remplies, la d&eacute;claration est enregistr&eacute;e. Trois d&eacute;clarations se font &agrave; la plateforme de naturalisation (par mariage, comme ascendant, fr&egrave;re ou s&oelig;ur d'un Fran&ccedil;ais)&nbsp;; les quatre de cet article se font au tribunal.</p>
+
+<p>Le <strong>certificat de nationalit&eacute; fran&ccedil;aise</strong>, enfin, ne fait de personne un Fran&ccedil;ais&nbsp;: il prouve que vous l'&ecirc;tes d&eacute;j&agrave;, par un parent fran&ccedil;ais &agrave; votre naissance, par le double droit du sol (n&eacute;&middot;e en France d'un parent lui-m&ecirc;me n&eacute; en France) ou par l'acquisition automatique &agrave; 18&nbsp;ans. Il se demande lui aussi au tribunal&nbsp;: <a href="/glossaire/cnf.html">le certificat de nationalit&eacute; en d&eacute;tail</a>.</p>
+
+<div class="callout">
+  <p><strong>&Agrave; retenir&nbsp;:</strong> ces quatre d&eacute;clarations se d&eacute;posent sur papier libre, en main propre ou par courrier, au tribunal judiciaire ou au tribunal de proximit&eacute; de votre domicile (au consulat si vous vivez &agrave; l'&eacute;tranger, pour l'adoption, le recueil et la r&eacute;int&eacute;gration). Sans r&eacute;ponse six mois apr&egrave;s le r&eacute;c&eacute;piss&eacute;, la d&eacute;claration est enregistr&eacute;e.</p>
+</div>
+
+<table class="article-table">
+  <thead><tr><th>Cas</th><th>Qui signe</th><th>La condition qui d&eacute;cide</th></tr></thead>
+  <tbody>
+    <tr><td>Enfant n&eacute; en France, 13 &agrave; 15&nbsp;ans</td><td>Les parents, avec l'accord de l'enfant</td><td>5&nbsp;ans de r&eacute;sidence habituelle en France depuis ses 8&nbsp;ans</td></tr>
+    <tr><td>Enfant n&eacute; en France, 16 ou 17&nbsp;ans</td><td>Le jeune lui-m&ecirc;me</td><td>5&nbsp;ans de r&eacute;sidence habituelle en France depuis ses 11&nbsp;ans</td></tr>
+    <tr><td>Adoption simple, enfant recueilli ou confi&eacute; &agrave; l'ASE</td><td>Le repr&eacute;sentant l&eacute;gal avant 16&nbsp;ans, le mineur ensuite</td><td>&Ecirc;tre mineur le jour de la convocation au tribunal</td></tr>
+    <tr><td>Possession d'&eacute;tat de Fran&ccedil;ais</td><td>Vous</td><td>Avoir &eacute;t&eacute; trait&eacute;&middot;e comme Fran&ccedil;ais&middot;e pendant les 10&nbsp;ann&eacute;es pr&eacute;c&eacute;dant la d&eacute;claration</td></tr>
+    <tr><td>R&eacute;int&eacute;gration</td><td>Vous</td><td>Avoir perdu la nationalit&eacute; dans l'un des trois cas pr&eacute;vus, et garder des liens manifestes avec la France</td></tr>
+  </tbody>
+</table>
+
+<h2>Cas n&deg;&nbsp;1&nbsp;: l'enfant n&eacute; en France de parents &eacute;trangers</h2>
+
+<p>C'est de loin le cas le plus fr&eacute;quent&nbsp;: plus de 32&nbsp;000 d&eacute;clarations de mineurs en 2025, selon le minist&egrave;re de l'Int&eacute;rieur. L'enfant doit &ecirc;tre <strong>n&eacute; en France</strong> et y <strong>r&eacute;sider le jour de la d&eacute;claration</strong>. Le reste d&eacute;pend de son &acirc;ge.</p>
+
+<h3>De 13 &agrave; 15&nbsp;ans&nbsp;: la d&eacute;claration des parents</h3>
+
+<p>Les parents (ou le repr&eacute;sentant l&eacute;gal) font la demande sur papier libre. L'enfant doit avoir r&eacute;sid&eacute; habituellement en France <strong>au moins 5&nbsp;ans, continus ou non, depuis l'&acirc;ge de 8&nbsp;ans</strong>. Il doit aussi &ecirc;tre d'accord&nbsp;: il est convoqu&eacute; &agrave; un entretien pour le dire, sauf si un handicap l'emp&ecirc;che d'exprimer sa volont&eacute;, ce qu'un m&eacute;decin agr&eacute;&eacute; atteste. Le greffe &eacute;tablit ensuite la d&eacute;claration en deux exemplaires, dat&eacute;s et sign&eacute;s par le repr&eacute;sentant l&eacute;gal.</p>
+
+<h3>&Agrave; 16 ou 17&nbsp;ans&nbsp;: le jeune d&eacute;clare lui-m&ecirc;me</h3>
+
+<p>&Agrave; partir de 16&nbsp;ans, c'est le mineur qui souscrit la d&eacute;claration, sans ses parents (sauf tutelle ou handicap). La condition de r&eacute;sidence change de point de d&eacute;part&nbsp;: <strong>5&nbsp;ans depuis l'&acirc;ge de 11&nbsp;ans</strong>. Service-public ne mentionne pas d'entretien &agrave; cet &acirc;ge.</p>
+
+<h3>&Agrave; 18&nbsp;ans&nbsp;: plus rien &agrave; d&eacute;clarer</h3>
+
+<p>Un jeune n&eacute; en France de parents &eacute;trangers, qui y r&eacute;side &agrave; sa majorit&eacute; et y a v&eacute;cu au moins 5&nbsp;ans depuis ses 11&nbsp;ans, devient fran&ccedil;ais <strong>automatiquement</strong> &agrave; 18&nbsp;ans. Il n'y a pas de d&eacute;claration &agrave; faire&nbsp;: pour sa premi&egrave;re carte d'identit&eacute;, il demandera un certificat de nationalit&eacute; fran&ccedil;aise. La d&eacute;claration avant 18&nbsp;ans permet simplement de ne pas attendre la majorit&eacute;.</p>
+
+<p>&Agrave; Mayotte, des r&egrave;gles sp&eacute;cifiques s'appliquent&nbsp;: renseignez-vous aupr&egrave;s du greffe avant de d&eacute;poser.</p>
+
+<h2>Cas n&deg;&nbsp;2&nbsp;: l'enfant adopt&eacute; en adoption simple, recueilli ou confi&eacute; &agrave; l'ASE</h2>
+
+<p>Premier tri&nbsp;: l'<strong>adoption pl&eacute;ni&egrave;re</strong> par un Fran&ccedil;ais rend l'enfant fran&ccedil;ais d&egrave;s sa naissance. Il n'a aucune d&eacute;claration &agrave; faire, seulement un certificat de nationalit&eacute; &agrave; demander. L'<strong>adoption simple</strong>, elle, ne change pas la nationalit&eacute;&nbsp;: l'enfant peut r&eacute;clamer la nationalit&eacute; fran&ccedil;aise par d&eacute;claration si l'adoptant &eacute;tait fran&ccedil;ais &agrave; la date de l'adoption et si l'enfant vit avec lui, en France ou &agrave; l'&eacute;tranger.</p>
+
+<p>La m&ecirc;me d&eacute;claration est ouverte &agrave; l'enfant <strong>recueilli sur d&eacute;cision de justice et &eacute;lev&eacute; par un Fran&ccedil;ais depuis au moins 3&nbsp;ans</strong>, et &agrave; l'enfant <strong>confi&eacute; &agrave; l'aide sociale &agrave; l'enfance depuis au moins 3&nbsp;ans</strong>.</p>
+
+<p>Le pi&egrave;ge est le calendrier&nbsp;: l'enfant doit &ecirc;tre mineur <strong>le jour de la convocation</strong> au tribunal, pas le jour de l'envoi du dossier. D&eacute;poser quelques semaines avant les 18&nbsp;ans, c'est prendre le risque d'&ecirc;tre convoqu&eacute; trop tard. Avant 16&nbsp;ans, le repr&eacute;sentant l&eacute;gal signe&nbsp;; &agrave; partir de 16&nbsp;ans, le mineur signe lui-m&ecirc;me.</p>
+
+<h2>Cas n&deg;&nbsp;3&nbsp;: la possession d'&eacute;tat de Fran&ccedil;ais</h2>
+
+<p>Certaines personnes ont v&eacute;cu toute leur vie comme des Fran&ccedil;ais &mdash; carte d'identit&eacute;, passeport, carte d'&eacute;lecteur &mdash; avant d'apprendre, souvent lors d'une demande de certificat de nationalit&eacute; refus&eacute;e, qu'elles ne l'&eacute;taient pas. L'article 21-13 du Code civil leur ouvre une d&eacute;claration&nbsp;: elles peuvent r&eacute;clamer la nationalit&eacute; fran&ccedil;aise si elles ont joui, de fa&ccedil;on constante, de la <strong>possession d'&eacute;tat de Fran&ccedil;ais pendant les 10&nbsp;ann&eacute;es pr&eacute;c&eacute;dant la d&eacute;claration</strong>.</p>
+
+<p>Les tribunaux exigent une possession continue et sans &eacute;quivoque, et une d&eacute;claration faite dans un d&eacute;lai raisonnable apr&egrave;s avoir appris que vous n'&eacute;tiez pas fran&ccedil;ais&middot;e. N'attendez donc pas&nbsp;: rassemblez tout ce qui montre que l'administration vous a trait&eacute;&middot;e en Fran&ccedil;ais&middot;e (papiers d'identit&eacute;, inscription sur les listes &eacute;lectorales, recensement), ann&eacute;e par ann&eacute;e.</p>
+
+<h2>Cas n&deg;&nbsp;4&nbsp;: la r&eacute;int&eacute;gration par d&eacute;claration</h2>
+
+<p>Une personne qui a perdu la nationalit&eacute; fran&ccedil;aise peut la retrouver par d&eacute;claration dans trois cas&nbsp;: la perte par <strong>mariage avec un &eacute;tranger</strong>, par <strong>acquisition volontaire d'une nationalit&eacute; &eacute;trang&egrave;re</strong>, ou par une mesure g&eacute;n&eacute;rale apr&egrave;s un <strong>mandat public</strong>. Il faut avoir gard&eacute; ou acquis des <strong>liens manifestes</strong> avec la France (familiaux, culturels, professionnels, &eacute;conomiques), un titre de s&eacute;jour si vous vivez en France, et un casier compatible. Dans les autres situations, c'est la r&eacute;int&eacute;gration par d&eacute;cret, sur le mod&egrave;le de la naturalisation&nbsp;: les deux voies sont compar&eacute;es dans notre <a href="/blog/reintegration-nationalite-francaise-2026.html">guide de la r&eacute;int&eacute;gration</a>.</p>
+
+<h2>D&eacute;poser&nbsp;: papier libre, greffe, r&eacute;c&eacute;piss&eacute;</h2>
+
+<p>La demande se d&eacute;pose au <strong>service de la nationalit&eacute; du tribunal judiciaire ou du tribunal de proximit&eacute;</strong> de votre domicile, en main propre ou par courrier. Beaucoup de tribunaux publient leur liste de pi&egrave;ces et leurs horaires&nbsp;; l'<a href="https://lannuaire.service-public.gouv.fr/" rel="noopener">annuaire de l'administration</a> donne l'adresse du v&ocirc;tre. Depuis l'&eacute;tranger, l'adoption, le recueil et la r&eacute;int&eacute;gration passent par le consulat g&eacute;n&eacute;ral de France.</p>
+
+<ul>
+  <li><strong>Les pi&egrave;ces</strong> varient selon le cas&nbsp;: acte de naissance, pi&egrave;ce d'identit&eacute; et photo, justificatifs de r&eacute;sidence ann&eacute;e par ann&eacute;e, jugement d'adoption ou d&eacute;cision de recueil, preuve de l'ancienne nationalit&eacute; pour une r&eacute;int&eacute;gration. Un document en langue &eacute;trang&egrave;re se joint avec sa traduction par un traducteur agr&eacute;&eacute;, l&eacute;galis&eacute; ou apostill&eacute; selon le pays.</li>
+  <li><strong>Pas de timbre fiscal</strong> pour l'enfant n&eacute; en France, l'enfant adopt&eacute; ou recueilli, ni pour la possession d'&eacute;tat&nbsp;: le timbre de 255&nbsp;&euro; vise la naturalisation, la r&eacute;int&eacute;gration et les d&eacute;clarations faites &agrave; la plateforme (mariage, ascendant, fr&egrave;re ou s&oelig;ur). Pour une r&eacute;int&eacute;gration par d&eacute;claration, demandez au greffe ou au consulat si un timbre est exig&eacute;.</li>
+  <li><strong>Le r&eacute;c&eacute;piss&eacute;</strong> vous est remis quand le dossier est complet. Le greffe peut vous demander une pi&egrave;ce manquante et fixer un d&eacute;lai pour la fournir&nbsp;: c'est le r&eacute;c&eacute;piss&eacute;, pas le d&eacute;p&ocirc;t, qui fait courir les six mois.</li>
+</ul>
+
+<h2>Apr&egrave;s le d&eacute;p&ocirc;t&nbsp;: six mois, et le silence vaut enregistrement</h2>
+
+<p>L'administration a <strong>six mois &agrave; compter du r&eacute;c&eacute;piss&eacute;</strong> pour enregistrer la d&eacute;claration ou la refuser. Sans r&eacute;ponse dans ce d&eacute;lai, la d&eacute;claration est enregistr&eacute;e&nbsp;: vous recevez un exemplaire portant la mention &laquo;&nbsp;enregistr&eacute;e&nbsp;&raquo;. La nationalit&eacute; prend effet &agrave; la date de la d&eacute;claration, pas &agrave; celle de l'enregistrement.</p>
+
+<p>Gardez pr&eacute;cieusement cet exemplaire&nbsp;: il sert pour la carte d'identit&eacute; et pour le certificat de nationalit&eacute;. S'il n'arrive pas une fois les six mois pass&eacute;s, &eacute;crivez au greffe&nbsp;: le silence ne vaut enregistrement que si aucun refus n'a &eacute;t&eacute; notifi&eacute;, et un courrier perdu change tout.</p>
+
+<p>L'enregistrement n'est pas tout &agrave; fait d&eacute;finitif tout de suite&nbsp;: le minist&egrave;re public peut le contester pendant 2&nbsp;ans si les conditions l&eacute;gales n'&eacute;taient pas remplies, et pendant 2&nbsp;ans &agrave; compter de leur d&eacute;couverte en cas de mensonge ou de fraude.</p>
+
+<h2>En cas de refus&nbsp;: six mois, avec un avocat</h2>
+
+<p>Un refus doit &ecirc;tre <strong>motiv&eacute;</strong> et vous &ecirc;tre notifi&eacute;. Vous pouvez le contester devant le tribunal judiciaire dans les <strong>six mois suivant la notification</strong>, et l'avocat est obligatoire. Notez la date exacte &agrave; laquelle vous avez re&ccedil;u la d&eacute;cision&nbsp;: c'est elle qui fait courir le d&eacute;lai. Pr&eacute;parez pour l'avocat une chronologie dat&eacute;e (d&eacute;p&ocirc;t, r&eacute;c&eacute;piss&eacute;, demandes de pi&egrave;ces, notification) et la copie de la d&eacute;cision&nbsp;: c'est ce qui lui fait gagner le plus de temps.</p>
+""",
+    "faq": [
+        ("Où faire la déclaration de nationalité française d'un enfant né en France ?",
+         "Au service de la nationalité du tribunal judiciaire ou du tribunal de proximité du domicile de l'enfant, en main propre ou par courrier. La demande se fait sur papier libre, avec les pièces ; le greffe établit ensuite la déclaration en deux exemplaires."),
+        ("À quel âge un enfant né en France peut-il devenir français ?",
+         "Dès 13 ans, par une déclaration de ses parents, avec son accord, s'il a résidé 5 ans en France depuis ses 8 ans. À 16 ou 17 ans, il la fait lui-même s'il y a résidé 5 ans depuis ses 11 ans. À 18 ans, il devient français automatiquement s'il réside en France et y a vécu 5 ans depuis ses 11 ans."),
+        ("La déclaration de nationalité au tribunal est-elle payante ?",
+         "Pour un enfant né en France, un enfant adopté ou recueilli, et pour la possession d'état : non, aucun timbre fiscal n'est demandé. Le timbre de 255 € vise la naturalisation, la réintégration et les déclarations faites à la plateforme de naturalisation (mariage, ascendant, frère ou sœur) ; pour une réintégration par déclaration, demandez au greffe ou au consulat."),
+        ("Combien de temps dure une déclaration de nationalité au tribunal ?",
+         "L'administration a six mois à compter du récépissé, remis quand le dossier est complet. Sans réponse dans ce délai, la déclaration est enregistrée et prend effet à la date à laquelle elle a été souscrite."),
+        ("Faut-il le niveau B2 ou l'examen civique pour une déclaration au tribunal ?",
+         "Non. Le niveau B2 n'est exigé que pour la naturalisation, la réintégration par décret et la déclaration par mariage ; l'examen civique, seulement pour les demandes par décret."),
+        ("Un enfant adopté par un Français est-il automatiquement français ?",
+         "En adoption plénière, oui : il est considéré comme français dès sa naissance et n'a qu'un certificat de nationalité à demander. En adoption simple, non : il doit faire une déclaration au tribunal avant ses 18 ans, en vivant avec l'adoptant."),
+        ("Que faire si la déclaration est refusée ?",
+         "Le refus doit être motivé. Vous pouvez le contester devant le tribunal judiciaire dans les six mois suivant sa notification, avec un avocat, obligatoire dans cette procédure."),
+    ],
+    "links": [
+        ("/outils/quelle-voie-nationalite.html", "Quelle voie pour devenir fran&ccedil;ais&nbsp;? Le test d'orientation"),
+        ("/blog/reintegration-nationalite-francaise-2026.html", "R&eacute;int&eacute;gration&nbsp;: par d&eacute;cret ou par d&eacute;claration"),
+        ("/blog/declaration-nationalite-ascendant-frere-soeur.html", "Ascendant, fr&egrave;re ou s&oelig;ur d'un Fran&ccedil;ais&nbsp;: la d&eacute;claration &agrave; la plateforme"),
+        ("/glossaire/cnf.html", "Le certificat de nationalit&eacute; fran&ccedil;aise"),
+    ],
+    "sources": [
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F295", "Service-public.gouv.fr &mdash; Nationalit&eacute; fran&ccedil;aise d'un enfant n&eacute; en France de parents &eacute;trangers (F295)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F3070", "Service-public.gouv.fr &mdash; Nationalit&eacute; fran&ccedil;aise d'un enfant adopt&eacute; (F3070)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F31919", "Service-public.gouv.fr &mdash; Enfant recueilli ou confi&eacute; &agrave; l'Aide sociale &agrave; l'enfance (F31919)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F3071", "Service-public.gouv.fr &mdash; R&eacute;int&eacute;gration dans la nationalit&eacute; fran&ccedil;aise par d&eacute;claration (F3071)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F1051", "Service-public.gouv.fr &mdash; Certificat de nationalit&eacute; fran&ccedil;aise (F1051)"),
+    ],
+},
+# ═══════════════════════════════════════════════════════════════════════
+"declaration-nationalite-ascendant-frere-soeur": {
+    "title": "Ascendant, frère ou sœur d'un Français : la déclaration",
+    "h1": "Ascendant, fr&egrave;re ou s&oelig;ur d'un Fran&ccedil;ais&nbsp;: la d&eacute;claration de nationalit&eacute;, sans test de langue",
+    "desc": "À 65 ans avec un descendant français, ou frère ou sœur d'un Français né en France : deux déclarations sans test de langue ni examen civique. Conditions et délais.",
+    "og": "Ascendant, fr&egrave;re ou s&oelig;ur d'un Fran&ccedil;ais&nbsp;: la d&eacute;claration de nationalit&eacute;",
+    "tag": "Conditions",
+    "og_img": "default.png",
+    "date": "2026-10-10",
+    "date_fr": "10 octobre 2026",
+    "cta": "Trouver ma voie vers la nationalit&eacute;",
+    "cta_href": "/outils/quelle-voie-nationalite.html",
+    "lede": "Deux d&eacute;clarations de nationalit&eacute; restent m&eacute;connues&nbsp;: celle de l'<strong>ascendant</strong> d'un Fran&ccedil;ais, &agrave; partir de 65&nbsp;ans, et celle du <strong>fr&egrave;re ou de la s&oelig;ur</strong> d'un Fran&ccedil;ais n&eacute; en France. Aucune ne demande de test de langue ni d'examen civique. Chacune a en revanche des conditions pr&eacute;cises, qu'il faut toutes remplir le jour de la d&eacute;claration.",
+    "body": """
+<h2>Deux d&eacute;clarations, un m&ecirc;me parcours</h2>
+
+<p>Ces deux voies ne sont pas des naturalisations&nbsp;: ce sont des d&eacute;clarations, pr&eacute;vues aux articles 21-13-1 (ascendant) et 21-13-2 (fr&egrave;re ou s&oelig;ur) du Code civil. Si les conditions sont remplies, la d&eacute;claration est enregistr&eacute;e. Elles suivent le m&ecirc;me chemin que la d&eacute;claration par mariage&nbsp;: un formulaire Cerfa, un d&eacute;p&ocirc;t sur papier &agrave; la plateforme de naturalisation, un entretien, puis un d&eacute;lai d'un an pour un &eacute;ventuel refus.</p>
+
+<table class="article-table">
+  <thead><tr><th>Crit&egrave;re</th><th>Ascendant d'un Fran&ccedil;ais</th><th>Fr&egrave;re ou s&oelig;ur d'un Fran&ccedil;ais</th></tr></thead>
+  <tbody>
+    <tr><td>&Acirc;ge</td><td>65&nbsp;ans ou plus</td><td>18&nbsp;ans ou plus</td></tr>
+    <tr><td>Lien familial</td><td>Parent, grand-parent ou arri&egrave;re-grand-parent d'un Fran&ccedil;ais</td><td>Fr&egrave;re ou s&oelig;ur d'un Fran&ccedil;ais n&eacute; en France de parents &eacute;trangers et devenu fran&ccedil;ais par sa r&eacute;sidence</td></tr>
+    <tr><td>R&eacute;sidence en France</td><td>25&nbsp;ans, habituelle et r&eacute;guli&egrave;re</td><td>Depuis l'&acirc;ge de 6&nbsp;ans, habituelle et r&eacute;guli&egrave;re</td></tr>
+    <tr><td>Scolarit&eacute;</td><td>&mdash;</td><td>Scolarit&eacute; obligatoire suivie en France</td></tr>
+    <tr><td>Langue, examen civique</td><td>Ni l'un ni l'autre</td><td>Ni l'un ni l'autre</td></tr>
+    <tr><td>Formulaire</td><td>Cerfa n&deg;&nbsp;15561</td><td>Cerfa n&deg;&nbsp;15562</td></tr>
+    <tr><td>Timbre fiscal</td><td>255&nbsp;&euro; (127,50&nbsp;&euro; en Guyane)</td><td>255&nbsp;&euro; (127,50&nbsp;&euro; en Guyane)</td></tr>
+  </tbody>
+</table>
+
+<p>S'y ajoutent, pour les deux&nbsp;: un titre de s&eacute;jour en cours de validit&eacute; (sauf pour les citoyens de l'Union europ&eacute;enne, de l'Espace &eacute;conomique europ&eacute;en et de la Suisse), aucun arr&ecirc;t&eacute; d'expulsion ni interdiction du territoire en vigueur, et aucune condamnation &agrave; 6&nbsp;mois de prison ferme ou plus, ni pour une atteinte aux int&eacute;r&ecirc;ts fondamentaux de la Nation ou un acte de terrorisme (sauf r&eacute;habilitation ou exclusion du bulletin n&deg;&nbsp;2).</p>
+
+<h2>La d&eacute;claration de l'ascendant d'un Fran&ccedil;ais</h2>
+
+<p>Elle s'adresse &agrave; la personne de <strong>65&nbsp;ans ou plus</strong> qui r&eacute;side en France <strong>depuis au moins 25&nbsp;ans</strong>, de mani&egrave;re habituelle et r&eacute;guli&egrave;re, et qui est l'<strong>ascendant direct</strong> d'un Fran&ccedil;ais&nbsp;: un enfant, un petit-enfant ou un arri&egrave;re-petit-enfant. C'est souvent la voie la plus simple pour un parent install&eacute; en France de longue date, dont les enfants sont fran&ccedil;ais, et que le test de langue de la naturalisation d&eacute;courage&nbsp;: par d&eacute;cret, il n'existe aucune dispense li&eacute;e &agrave; l'&acirc;ge.</p>
+
+<p>Le dossier doit &eacute;tablir trois choses&nbsp;:</p>
+<ul>
+  <li><strong>la filiation</strong> avec le descendant fran&ccedil;ais, acte par acte&nbsp;: pour un petit-enfant, il faut aussi l'acte de naissance de son parent, votre enfant&nbsp;;</li>
+  <li><strong>la nationalit&eacute; du descendant</strong>&nbsp;: acte de naissance portant la mention de la nationalit&eacute;, certificat de nationalit&eacute; fran&ccedil;aise, d&eacute;cision de justice ou document officiel, ou son acte de naissance s'il est n&eacute; en France de deux parents n&eacute;s en France&nbsp;;</li>
+  <li><strong>les 25&nbsp;ans de r&eacute;sidence r&eacute;guli&egrave;re</strong>&nbsp;: relev&eacute; de carri&egrave;re, avis d'imposition, titres de s&eacute;jour successifs. C'est souvent la partie la plus longue &agrave; r&eacute;unir.</li>
+</ul>
+
+<p>Pour comparer avec la naturalisation par d&eacute;cret apr&egrave;s 65&nbsp;ans, voyez notre article <a href="/blog/naturalisation-apres-65-ans.html">naturalisation apr&egrave;s 65&nbsp;ans</a>.</p>
+
+<h2>La d&eacute;claration du fr&egrave;re ou de la s&oelig;ur d'un Fran&ccedil;ais</h2>
+
+<p>Cette voie vise typiquement une fratrie n&eacute;e de parents &eacute;trangers, dont l'un des enfants, <strong>n&eacute; en France</strong>, est devenu fran&ccedil;ais par sa r&eacute;sidence (automatiquement &agrave; 18&nbsp;ans, ou par d&eacute;claration d&egrave;s 13 ou 16&nbsp;ans), tandis qu'un autre, n&eacute; &agrave; l'&eacute;tranger, ne l'est pas. Ce fr&egrave;re ou cette s&oelig;ur peut d&eacute;clarer la nationalit&eacute; fran&ccedil;aise s'il remplit, le jour de la d&eacute;claration, quatre conditions&nbsp;:</p>
+<ul>
+  <li>avoir <strong>18&nbsp;ans ou plus</strong>&nbsp;;</li>
+  <li>r&eacute;sider en France de mani&egrave;re habituelle et r&eacute;guli&egrave;re <strong>depuis l'&acirc;ge de 6&nbsp;ans</strong>&nbsp;;</li>
+  <li>avoir suivi sa <strong>scolarit&eacute; obligatoire en France</strong>, dans un &eacute;tablissement soumis au contr&ocirc;le de l'&Eacute;tat&nbsp;: les certificats de scolarit&eacute; de 6 &agrave; 16&nbsp;ans, sans interruption, en sont la preuve&nbsp;;</li>
+  <li>&ecirc;tre le fr&egrave;re ou la s&oelig;ur d'un Fran&ccedil;ais devenu fran&ccedil;ais de cette fa&ccedil;on.</li>
+</ul>
+
+<p>Un fr&egrave;re ou une s&oelig;ur naturalis&eacute;&middot;e par d&eacute;cret, ou devenu&middot;e fran&ccedil;ais&middot;e par mariage, n'ouvre donc pas cette voie. Le dossier comprend l'acte de naissance du fr&egrave;re ou de la s&oelig;ur, la preuve du lien (livret de famille ou acte de naissance du parent commun) et la preuve de sa nationalit&eacute; (certificat de nationalit&eacute;, acte portant la mention, d&eacute;claration enregistr&eacute;e).</p>
+
+<h2>D&eacute;poser&nbsp;: &agrave; la plateforme, au guichet ou par recommand&eacute;</h2>
+
+<p>Pas d'ANEF pour ces d&eacute;clarations&nbsp;: le dossier, avec le formulaire Cerfa en deux exemplaires, dat&eacute;s, sign&eacute;s et portant chacun une photo, se d&eacute;pose &agrave; la <strong>plateforme de naturalisation</strong> de votre lieu de r&eacute;sidence, au guichet ou par lettre recommand&eacute;e avec avis de r&eacute;ception selon la plateforme. Notre <a href="/prefectures/">rubrique Pr&eacute;fectures</a> indique la plateforme de chaque d&eacute;partement. Par courrier, service-public demande de joindre une enveloppe timbr&eacute;e &agrave; votre adresse et une lettre suivie vierge de 500&nbsp;g&nbsp;: v&eacute;rifiez les consignes de votre plateforme.</p>
+
+<p>Le timbre fiscal de 255&nbsp;&euro; (127,50&nbsp;&euro; en Guyane), achet&eacute; sur timbres.impots.gouv.fr ou chez un buraliste, se joint au dossier. Un r&eacute;c&eacute;piss&eacute; vous est remis une fois le dossier complet.</p>
+
+<h2>L'entretien&nbsp;: pas de test de langue</h2>
+
+<p>Vous &ecirc;tes ensuite convoqu&eacute;&middot;e &agrave; un entretien, avec les originaux de vos pi&egrave;ces d'identit&eacute;. Il v&eacute;rifie l'absence d'indignit&eacute; ou de d&eacute;faut d'assimilation, mais, pr&eacute;cise service-public, il &laquo;&nbsp;ne porte pas sur le niveau de connaissance de la langue fran&ccedil;aise&nbsp;&raquo;. Un r&eacute;c&eacute;piss&eacute; vous est remis &agrave; la fin&nbsp;: gardez-le, c'est lui qui fait courir le d&eacute;lai de d&eacute;cision.</p>
+
+<h2>Apr&egrave;s l'entretien&nbsp;: un an, deux en cas d'opposition</h2>
+
+<p>Si les conditions sont remplies, la plateforme enregistre la d&eacute;claration. Sinon, elle transmet le dossier au minist&egrave;re avec un avis motiv&eacute;, dans les six mois suivant la d&eacute;claration. Le minist&egrave;re a <strong>un an</strong> &agrave; compter du r&eacute;c&eacute;piss&eacute; de fin d'entretien pour refuser l'enregistrement, et <strong>deux ans</strong> si une proc&eacute;dure d'opposition est engag&eacute;e. &Agrave; d&eacute;faut de refus dans ce d&eacute;lai, la d&eacute;claration doit &ecirc;tre enregistr&eacute;e (article 26-4 du Code civil)&nbsp;: si l'exemplaire enregistr&eacute; ne vous parvient pas, r&eacute;clamez-le par &eacute;crit.</p>
+
+<h2>Refus ou opposition&nbsp;: les recours</h2>
+
+<ul>
+  <li><strong>Un refus d'enregistrement</strong> se conteste devant le tribunal judiciaire de votre lieu de r&eacute;sidence, dans les <strong>six mois</strong> suivant sa notification. L'avocat est obligatoire.</li>
+  <li><strong>Une opposition du Gouvernement</strong>, pour indignit&eacute; ou d&eacute;faut d'assimilation autre que linguistique, prend la forme d'un d&eacute;cret&nbsp;: il s'attaque devant le Conseil d'&Eacute;tat dans les <strong>deux mois</strong>, avec un avocat.</li>
+</ul>
+""",
+    "faq": [
+        ("Un grand-parent peut-il devenir français grâce à son petit-enfant ?",
+         "Oui. La déclaration de l'article 21-13-1 vise l'ascendant direct d'un Français : parent, grand-parent ou arrière-grand-parent. Il faut avoir 65 ans ou plus, résider régulièrement en France depuis 25 ans, et prouver la filiation acte par acte."),
+        ("Faut-il passer un test de français pour la déclaration d'ascendant ou de frère et sœur ?",
+         "Non. Aucun niveau de langue n'est exigé et il n'y a pas d'examen civique. L'entretien vérifie l'absence d'indignité ou de défaut d'assimilation, sans porter sur le niveau de français."),
+        ("Mon frère a été naturalisé par décret : puis-je faire la déclaration de frère ou sœur ?",
+         "Non. La déclaration de l'article 21-13-2 suppose un frère ou une sœur né en France de parents étrangers et devenu français par sa résidence en France (à 13, 16 ou 18 ans). Un frère naturalisé par décret n'ouvre pas cette voie."),
+        ("Combien coûte la déclaration de l'ascendant ou du frère et de la sœur d'un Français ?",
+         "Un timbre fiscal de 255 € (127,50 € en Guyane) depuis le 1er mai 2026, joint au dossier. La démarche est gratuite par ailleurs : aucun intermédiaire payant n'est nécessaire."),
+        ("Combien de temps faut-il attendre la décision ?",
+         "Le ministère a un an à compter du récépissé remis à la fin de l'entretien pour refuser l'enregistrement, deux ans si une procédure d'opposition est engagée. À défaut de refus dans ce délai, la déclaration doit être enregistrée."),
+        ("Peut-on déposer cette déclaration en ligne sur l'ANEF ?",
+         "Non. Le téléservice de l'ANEF sert à la naturalisation et à la réintégration par décret. Ces déclarations se déposent sur papier à la plateforme de naturalisation, au guichet ou par lettre recommandée selon la plateforme."),
+    ],
+    "links": [
+        ("/outils/quelle-voie-nationalite.html", "Quelle voie pour devenir fran&ccedil;ais&nbsp;? Le test d'orientation"),
+        ("/blog/naturalisation-apres-65-ans.html", "Naturalisation apr&egrave;s 65&nbsp;ans&nbsp;: d&eacute;cret ou d&eacute;claration"),
+        ("/blog/naturalisation-par-mariage-2026.html", "La d&eacute;claration de nationalit&eacute; par mariage"),
+        ("/blog/declaration-nationalite-tribunal-judiciaire.html", "Les d&eacute;clarations qui se font au tribunal"),
+        ("/prefectures/", "La plateforme de naturalisation de chaque d&eacute;partement"),
+    ],
+    "sources": [
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F33430", "Service-public.gouv.fr &mdash; D&eacute;claration de nationalit&eacute; de l'ascendant d'un Fran&ccedil;ais (F33430)"),
+        ("https://www.service-public.gouv.fr/particuliers/vosdroits/F33800", "Service-public.gouv.fr &mdash; D&eacute;claration de nationalit&eacute; du fr&egrave;re ou de la s&oelig;ur d'un Fran&ccedil;ais (F33800)"),
+        ("https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031713003", "Code civil &mdash; Article 21-13-1"),
+    ],
+},
 }
 
 
@@ -2055,6 +2295,11 @@ def render(slug, a):
         for q, ans in a["faq"]
     )
     links_html = "\n".join(f'        <li><a href="{h}">{t}</a></li>' for h, t in a["links"])
+    if a.get("cta_href"):
+        cta_html = f'<a class="cta-btn" href="{a["cta_href"]}">{a["cta"]} &rarr;</a>'
+    else:
+        cta_html = f'<a class="cta-btn" href="{APP}" target="_blank">{APP_SVG} {a["cta"]}</a>'
+
     sources_html = "\n".join(
         f'        <li><a href="{h}" target="_blank" rel="noopener">{t}</a></li>' for h, t in a["sources"]
     )
@@ -2133,7 +2378,7 @@ def render(slug, a):
   </div>
 
   <div style="max-width:680px;margin:36px auto 0;text-align:center">
-    <a class="cta-btn" href="{APP}" target="_blank">{APP_SVG} {a["cta"]}</a>
+    {cta_html}
   </div>
 </article>
 
