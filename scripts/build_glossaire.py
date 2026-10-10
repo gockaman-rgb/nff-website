@@ -412,7 +412,7 @@ TERMS = {
     "examen-civique": {
         "long": "Examen civique de naturalisation",
         "def": [
-            "L'examen civique est l'&eacute;preuve &eacute;crite, sous forme de QCM, qui v&eacute;rifie votre connaissance de l'histoire, de la culture, des institutions et des valeurs de la France. Il est <strong>obligatoire depuis le 1<sup>er</sup>&nbsp;janvier 2026</strong> pour la plupart des candidats &agrave; la naturalisation.",
+            "L'examen civique est l'&eacute;preuve &eacute;crite, sous forme de QCM, qui v&eacute;rifie votre connaissance de l'histoire, de la culture, des institutions et des valeurs de la France. Il est <strong>obligatoire depuis le 1<sup>er</sup>&nbsp;janvier 2026</strong> pour toute naturalisation ou r&eacute;int&eacute;gration par d&eacute;cret&nbsp;; les d&eacute;clarations de nationalit&eacute; (par mariage, notamment) n'y sont pas soumises.",
             "Le format&nbsp;: <strong>40 questions en 45 minutes</strong>, avec <strong>32 bonnes r&eacute;ponses sur 40</strong> requises, soit 80&nbsp;%.",
         ],
         "where": [
@@ -432,7 +432,7 @@ TERMS = {
             ("Combien de questions comporte l'examen civique ?",
              "40 questions &agrave; traiter en 45 minutes, avec 32 bonnes r&eacute;ponses sur 40 requises (80 %)."),
             ("L'examen civique est-il obligatoire pour tout le monde ?",
-             "Il est obligatoire depuis le 1er janvier 2026 pour la plupart des candidats &agrave; la naturalisation. Certaines situations particuli&egrave;res peuvent ouvrir droit &agrave; une dispense."),
+             "Non. Depuis le 1er janvier 2026, il est obligatoire pour la naturalisation et la r&eacute;int&eacute;gration par d&eacute;cret. Les d&eacute;clarations de nationalit&eacute; (par mariage, comme ascendant, fr&egrave;re ou s&oelig;ur d'un Fran&ccedil;ais, ou au tribunal) n'y sont pas soumises. Une dispense est possible si un handicap ou l'&eacute;tat de sant&eacute; rend l'&eacute;valuation impossible, sur certificat m&eacute;dical."),
         ],
         "links": [("/outils/examen-civique.html", "Faire le test blanc gratuit"),
                   ("/blog/examen-civique-naturalisation-2026.html", "Le guide de l'examen civique 2026"),
