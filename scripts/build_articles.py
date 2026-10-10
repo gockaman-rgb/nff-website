@@ -2086,7 +2086,7 @@ ARTICLES = {
 
 <ul>
   <li><strong>Les pi&egrave;ces</strong> varient selon le cas&nbsp;: acte de naissance, pi&egrave;ce d'identit&eacute; et photo, justificatifs de r&eacute;sidence ann&eacute;e par ann&eacute;e, jugement d'adoption ou d&eacute;cision de recueil, preuve de l'ancienne nationalit&eacute; pour une r&eacute;int&eacute;gration. Un document en langue &eacute;trang&egrave;re se joint avec sa traduction par un traducteur agr&eacute;&eacute;, l&eacute;galis&eacute; ou apostill&eacute; selon le pays.</li>
-  <li><strong>Pas de timbre fiscal</strong> pour l'enfant n&eacute; en France, l'enfant adopt&eacute; ou recueilli, ni pour la possession d'&eacute;tat&nbsp;: le timbre de 255&nbsp;&euro; vise la naturalisation, la r&eacute;int&eacute;gration et les d&eacute;clarations faites &agrave; la plateforme (mariage, ascendant, fr&egrave;re ou s&oelig;ur). Pour une r&eacute;int&eacute;gration par d&eacute;claration, demandez au greffe ou au consulat si un timbre est exig&eacute;.</li>
+  <li><strong>Pas de timbre fiscal</strong>&nbsp;: aucune de ces quatre d&eacute;clarations n'y est soumise. Le timbre de 255&nbsp;&euro; (article 958 du code g&eacute;n&eacute;ral des imp&ocirc;ts) vise les demandes de naturalisation et de r&eacute;int&eacute;gration par d&eacute;cret, et les seules d&eacute;clarations faites &agrave; la plateforme (mariage, ascendant, fr&egrave;re ou s&oelig;ur).</li>
   <li><strong>Le r&eacute;c&eacute;piss&eacute;</strong> vous est remis quand le dossier est complet. Le greffe peut vous demander une pi&egrave;ce manquante et fixer un d&eacute;lai pour la fournir&nbsp;: c'est le r&eacute;c&eacute;piss&eacute;, pas le d&eacute;p&ocirc;t, qui fait courir les six mois.</li>
 </ul>
 
@@ -2100,7 +2100,7 @@ ARTICLES = {
 
 <h2>En cas de refus&nbsp;: six mois, avec un avocat</h2>
 
-<p>Un refus doit &ecirc;tre <strong>motiv&eacute;</strong> et vous &ecirc;tre notifi&eacute;. Vous pouvez le contester devant le tribunal judiciaire dans les <strong>six mois suivant la notification</strong>, et l'avocat est obligatoire. Notez la date exacte &agrave; laquelle vous avez re&ccedil;u la d&eacute;cision&nbsp;: c'est elle qui fait courir le d&eacute;lai. Pr&eacute;parez pour l'avocat une chronologie dat&eacute;e (d&eacute;p&ocirc;t, r&eacute;c&eacute;piss&eacute;, demandes de pi&egrave;ces, notification) et la copie de la d&eacute;cision&nbsp;: c'est ce qui lui fait gagner le plus de temps.</p>
+<p>Un refus doit &ecirc;tre <strong>motiv&eacute;</strong> et vous &ecirc;tre notifi&eacute;. Vous pouvez le contester devant le tribunal judiciaire dans les <strong>six mois suivant la notification</strong>&nbsp;: l'action est dirig&eacute;e contre le procureur de la R&eacute;publique, et l'avocat est obligatoire. Une demande d'aide juridictionnelle d&eacute;pos&eacute;e avant la fin des six mois pr&eacute;serve le d&eacute;lai (d&eacute;cret n&deg;&nbsp;2020-1717, article 43). Notez la date exacte &agrave; laquelle vous avez re&ccedil;u la d&eacute;cision&nbsp;: c'est elle qui fait courir le d&eacute;lai. Pr&eacute;parez pour l'avocat une chronologie dat&eacute;e (d&eacute;p&ocirc;t, r&eacute;c&eacute;piss&eacute;, demandes de pi&egrave;ces, notification) et la copie de la d&eacute;cision&nbsp;: c'est ce qui lui fait gagner le plus de temps.</p>
 """,
     "faq": [
         ("Où faire la déclaration de nationalité française d'un enfant né en France ?",
@@ -2108,7 +2108,7 @@ ARTICLES = {
         ("À quel âge un enfant né en France peut-il devenir français ?",
          "Dès 13 ans, par une déclaration de ses parents, avec son accord, s'il a résidé 5 ans en France depuis ses 8 ans. À 16 ou 17 ans, il la fait lui-même s'il y a résidé 5 ans depuis ses 11 ans. À 18 ans, il devient français automatiquement s'il réside en France et y a vécu 5 ans depuis ses 11 ans."),
         ("La déclaration de nationalité au tribunal est-elle payante ?",
-         "Pour un enfant né en France, un enfant adopté ou recueilli, et pour la possession d'état : non, aucun timbre fiscal n'est demandé. Le timbre de 255 € vise la naturalisation, la réintégration et les déclarations faites à la plateforme de naturalisation (mariage, ascendant, frère ou sœur) ; pour une réintégration par déclaration, demandez au greffe ou au consulat."),
+         "Non. Aucune des quatre déclarations au tribunal (enfant né en France, enfant adopté ou recueilli, possession d'état, réintégration) n'est soumise au timbre fiscal : l'article 958 du code général des impôts ne vise que les demandes de naturalisation et de réintégration par décret, et les déclarations par mariage, comme ascendant, frère ou sœur d'un Français."),
         ("Combien de temps dure une déclaration de nationalité au tribunal ?",
          "L'administration a six mois à compter du récépissé, remis quand le dossier est complet. Sans réponse dans ce délai, la déclaration est enregistrée et prend effet à la date à laquelle elle a été souscrite."),
         ("Faut-il le niveau B2 ou l'examen civique pour une déclaration au tribunal ?",
@@ -2198,7 +2198,7 @@ ARTICLES = {
 
 <h2>L'entretien&nbsp;: pas de test de langue</h2>
 
-<p>Vous &ecirc;tes ensuite convoqu&eacute;&middot;e &agrave; un entretien, avec les originaux de vos pi&egrave;ces d'identit&eacute;. Il v&eacute;rifie l'absence d'indignit&eacute; ou de d&eacute;faut d'assimilation, mais, pr&eacute;cise service-public, il &laquo;&nbsp;ne porte pas sur le niveau de connaissance de la langue fran&ccedil;aise&nbsp;&raquo;. Un r&eacute;c&eacute;piss&eacute; vous est remis &agrave; la fin&nbsp;: gardez-le, c'est lui qui fait courir le d&eacute;lai de d&eacute;cision.</p>
+<p>Vous &ecirc;tes ensuite convoqu&eacute;&middot;e &agrave; un entretien, avec les originaux de vos pi&egrave;ces d'identit&eacute;. Il v&eacute;rifie l'absence d'indignit&eacute; ou de d&eacute;faut d'assimilation, mais, pr&eacute;cise service-public, il &laquo;&nbsp;ne porte pas sur le niveau de connaissance de la langue fran&ccedil;aise&nbsp;&raquo;. Un r&eacute;c&eacute;piss&eacute; vous est remis, en pratique &agrave; la fin de l'entretien (le d&eacute;cret le pr&eacute;voit d&egrave;s que toutes les pi&egrave;ces sont re&ccedil;ues)&nbsp;: gardez-le, c'est lui qui fait courir le d&eacute;lai de d&eacute;cision.</p>
 
 <h2>Apr&egrave;s l'entretien&nbsp;: un an, deux en cas d'opposition</h2>
 
@@ -2208,7 +2208,7 @@ ARTICLES = {
 
 <ul>
   <li><strong>Un refus d'enregistrement</strong> se conteste devant le tribunal judiciaire de votre lieu de r&eacute;sidence, dans les <strong>six mois</strong> suivant sa notification. L'avocat est obligatoire.</li>
-  <li><strong>Une opposition du Gouvernement</strong>, pour indignit&eacute; ou d&eacute;faut d'assimilation autre que linguistique, prend la forme d'un d&eacute;cret&nbsp;: il s'attaque devant le Conseil d'&Eacute;tat dans les <strong>deux mois</strong>, avec un avocat.</li>
+  <li><strong>Une opposition du Gouvernement</strong>, pour indignit&eacute; ou d&eacute;faut d'assimilation autre que linguistique, prend la forme d'un d&eacute;cret&nbsp;: il s'attaque devant le Conseil d'&Eacute;tat dans les <strong>deux mois</strong>. Pour ce recours pour exc&egrave;s de pouvoir, l'avocat aux Conseils est conseill&eacute; sans &ecirc;tre obligatoire (article R.&nbsp;432-2 du code de justice administrative).</li>
 </ul>
 """,
     "faq": [
