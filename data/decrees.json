@@ -1,6 +1,14 @@
 {
-  "last_archive": "JORF_20261116-104909.tar.gz",
+  "last_archive": "JORF_20261117-014236.tar.gz",
   "decrees": [
+    {
+      "jorftext_id": "JORFTEXT000055095214",
+      "jo_date": "17 novembre 2026",
+      "decret_date": "16 novembre 2026",
+      "jo_date_iso": "2026-11-17",
+      "decret_date_iso": "2026-11-16",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055095214"
+    },
     {
       "jorftext_id": "JORFTEXT000055081711",
       "jo_date": "13 novembre 2026",
@@ -746,5 +754,5 @@
       "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048815602"
     }
   ],
-  "content_date": "2026-11-13"
+  "content_date": "2026-11-17"
 }
